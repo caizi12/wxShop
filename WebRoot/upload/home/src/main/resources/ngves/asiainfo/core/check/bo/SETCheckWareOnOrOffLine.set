@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETCheckWareOnOrOffLine" BOName="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" MainField="WARE_CODE" Title="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" ActBOName="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Package="ngves.asiainfo.core.check.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ALLEGE_COUNT</Name>
+        <BOAttrName>ALLEGE_COUNT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ALLEGE_COUNT</ID>
+        <Title>投诉量</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="ALLEGE_COUNT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ALLEGE_COUNT_RATE</Name>
+        <BOAttrName>ALLEGE_COUNT_RATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ALLEGE_COUNT_RATE</ID>
+        <Title>投诉率</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="ALLEGE_COUNT_RATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>COUNT_VALUE</Name>
+        <BOAttrName>COUNT_VALUE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>COUNT_VALUE</ID>
+        <Title>结算价</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="COUNT_VALUE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>F_NAME</Name>
+        <BOAttrName>F_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>F_NAME</ID>
+        <Title>业务类别</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="F_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>KP_BIG_KIND_NAME</Name>
+        <BOAttrName>KP_BIG_KIND_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>KP_BIG_KIND_NAME</ID>
+        <Title>礼品中类</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1000" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="KP_BIG_KIND_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MARKET_PRICE</Name>
+        <BOAttrName>MARKET_PRICE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MARKET_PRICE</ID>
+        <Title>市场价</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="MARKET_PRICE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARTNER_CODE</Name>
+        <BOAttrName>PARTNER_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARTNER_CODE</ID>
+        <Title>合作商编码</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="40" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="PARTNER_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARTNER_NAME</Name>
+        <BOAttrName>PARTNER_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARTNER_NAME</ID>
+        <Title>合作商名称</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="PARTNER_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>STATUS_CAUSE</Name>
+        <BOAttrName>STATUS_CAUSE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>STATUS_CAUSE</ID>
+        <Title>礼品下线原因</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="STATUS_CAUSE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WAMOUNT</Name>
+        <BOAttrName>WAMOUNT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WAMOUNT</ID>
+        <Title>兑换量</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="WAMOUNT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WAMOUNT_COUNT_VALUE</Name>
+        <BOAttrName>WAMOUNT_COUNT_VALUE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WAMOUNT_COUNT_VALUE</ID>
+        <Title>兑换总价值</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="WAMOUNT_COUNT_VALUE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_CODE</Name>
+        <BOAttrName>WARE_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_CODE</ID>
+        <Title>礼品编码</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="WARE_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_NAME</Name>
+        <BOAttrName>WARE_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_NAME</ID>
+        <Title>礼品名称</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="WARE_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_STATUS</Name>
+        <BOAttrName>WARE_STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_STATUS</ID>
+        <Title>状态</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="WARE_STATUS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WKI_KIND_NAME</Name>
+        <BOAttrName>WKI_KIND_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WKI_KIND_NAME</ID>
+        <Title>礼品大类</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="400" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="WKI_KIND_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WK_KIND_NAME</Name>
+        <BOAttrName>WK_KIND_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WK_KIND_NAME</ID>
+        <Title>礼品小类</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOCheckWareOnOrOffLine" Attr="WK_KIND_NAME" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

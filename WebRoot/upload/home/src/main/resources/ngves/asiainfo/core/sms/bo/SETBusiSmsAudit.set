@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETBusiSmsAudit" BOName="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" MainField="BUSI_SMS_TEMPLATE_ID" Title="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" ActBOName="ngves.asiainfo.core.sms.bo.BusiSmsAudit" Package="ngves.asiainfo.core.sms.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AUDIT_CONTENT</Name>
+        <BOAttrName>AUDIT_CONTENT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AUDIT_CONTENT</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsAudit" Attr="AUDIT_CONTENT" />
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="AUDIT_CONTENT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AUDIT_TIME</Name>
+        <BOAttrName>AUDIT_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AUDIT_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsAudit" Attr="AUDIT_TIME" />
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="AUDIT_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL1</Name>
+        <BOAttrName>BAK_COL1</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL1</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsAudit" Attr="BAK_COL1" />
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="BAK_COL1" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsAudit" Attr="BAK_COL2" />
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="BAK_COL2" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL3</Name>
+        <BOAttrName>BAK_COL3</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL3</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsAudit" Attr="BAK_COL3" />
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="BAK_COL3" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BUSI_SMS_ID</Name>
+        <BOAttrName>BUSI_SMS_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BUSI_SMS_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsAudit" Attr="BUSI_SMS_ID" />
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="BUSI_SMS_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPT_ID</Name>
+        <BOAttrName>OPT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPT_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsAudit" Attr="OPT_ID" />
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="OPT_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SMS_ID</Name>
+        <BOAttrName>SMS_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SMS_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsAudit" Attr="SMS_ID" />
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="SMS_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>STATUS</Name>
+        <BOAttrName>STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>STATUS</ID>
+        <Title>STATUS</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.core.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="2012111602" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="Sting" LSPType="Const" />
+        </ListDataSource>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsAudit" Attr="STATUS" />
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="STATUS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BRAND</Name>
+        <BOAttrName>BRAND</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BRAND</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="8" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="BRAND" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BUSI_SMS_TEMPLATE_ID</Name>
+        <BOAttrName>BUSI_SMS_TEMPLATE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BUSI_SMS_TEMPLATE_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="BUSI_SMS_TEMPLATE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CONTENT</Name>
+        <BOAttrName>CONTENT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CONTENT</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="CONTENT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CREATE_TIME</Name>
+        <BOAttrName>CREATE_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CREATE_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="CREATE_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_FILEUPDATE</Name>
+        <BOAttrName>IS_FILEUPDATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_FILEUPDATE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="IS_FILEUPDATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>QUARTZ_TIME</Name>
+        <BOAttrName>QUARTZ_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>QUARTZ_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="QUARTZ_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SCORE_DOWN</Name>
+        <BOAttrName>SCORE_DOWN</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SCORE_DOWN</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="6" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="SCORE_DOWN" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SCORE_UP</Name>
+        <BOAttrName>SCORE_UP</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SCORE_UP</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="6" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="SCORE_UP" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SEND_TYPE</Name>
+        <BOAttrName>SEND_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SEND_TYPE</ID>
+        <Title>发送类型--0:按已订阅用户发送; 1:按营销号源文件发送</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="SEND_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>TITLE</Name>
+        <BOAttrName>TITLE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>TITLE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.BusiSmsTemplate" Attr="TITLE" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

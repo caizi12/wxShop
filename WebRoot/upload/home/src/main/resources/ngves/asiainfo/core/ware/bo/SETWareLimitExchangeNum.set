@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETWareLimitExchangeNum" BOName="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" MainField="WARE_LIMIT_ID" Title="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" ActBOName="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" Package="ngves.asiainfo.core.ware.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL</Name>
+        <BOAttrName>BAK_COL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" Attr="BAK_COL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" Attr="BAK_COL2" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_LIMITNUM</Name>
+        <BOAttrName>IS_LIMITNUM</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_EFFECT</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" Attr="IS_LIMITNUM" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>LAST_DAY</Name>
+        <BOAttrName>LAST_DAY</BOAttrName>
+        <BODisplayAttrName />
+        <ID>LAST_DAY</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" Attr="LAST_DAY" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>LIMITNUM_DAY</Name>
+        <BOAttrName>LIMITNUM_DAY</BOAttrName>
+        <BODisplayAttrName />
+        <ID>LIMITNUM_DAY</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" Attr="LIMITNUM_DAY" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>LIMITNUM_MONTH</Name>
+        <BOAttrName>LIMITNUM_MONTH</BOAttrName>
+        <BODisplayAttrName />
+        <ID>LIMITNUM_MONTH</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" Attr="LIMITNUM_MONTH" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>LIMITNUM_YEAR</Name>
+        <BOAttrName>LIMITNUM_YEAR</BOAttrName>
+        <BODisplayAttrName />
+        <ID>LIMITNUM_YEAR</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" Attr="LIMITNUM_YEAR" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>LIMIT_EXCHANGE_CYCLE</Name>
+        <BOAttrName>LIMIT_EXCHANGE_CYCLE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>LIMIT_EXCHANGE_CYCLE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" Attr="LIMIT_EXCHANGE_CYCLE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>LIMIT_EXCHANGE_CHANNEL</Name>
+        <BOAttrName>LIMIT_EXCHANGE_CHANNEL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>LIMIT_EXCHANGE_WAY</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" Attr="LIMIT_EXCHANGE_CHANNEL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>LIMIT_NAME</Name>
+        <BOAttrName>LIMIT_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>LIMIT_NAME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" Attr="LIMIT_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>LIMIT_NUM</Name>
+        <BOAttrName>LIMIT_NUM</BOAttrName>
+        <BODisplayAttrName />
+        <ID>LIMIT_NUM</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" Attr="LIMIT_NUM" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PROVICE_CODE</Name>
+        <BOAttrName>PROVICE_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PROVICE_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" Attr="PROVICE_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_LIMIT_ID</Name>
+        <BOAttrName>WARE_LIMIT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_LIMIT_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareLimitExchangeNum" Attr="WARE_LIMIT_ID" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

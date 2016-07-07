@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETPartnerCheckFile" BOName="ngves.asiainfo.core.check.bo.PartnerCheckFile" MainField="FILE_ID" Title="ngves.asiainfo.core.check.bo.PartnerCheckFile" ActBOName="ngves.asiainfo.core.check.bo.PartnerCheckFile" Package="ngves.asiainfo.core.check.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.PartnerCheckFile" Attr="BAK_COL2" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL3</Name>
+        <BOAttrName>BAK_COL3</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL3</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.PartnerCheckFile" Attr="BAK_COL3" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CHECK_FILE_TYPE_ID</Name>
+        <BOAttrName>CHECK_FILE_TYPE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CHECK_FILE_TYPE_ID</ID>
+        <Title>0 合作商考核  1 礼品下线考核</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.PartnerCheckFile" Attr="CHECK_FILE_TYPE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>DISK_FILE_NAME</Name>
+        <BOAttrName>DISK_FILE_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>DISK_FILE_NAME</ID>
+        <Title>磁盘文件名称</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.PartnerCheckFile" Attr="DISK_FILE_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FILE_DATE</Name>
+        <BOAttrName>FILE_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FILE_DATE</ID>
+        <Title>当前下载日期</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.PartnerCheckFile" Attr="FILE_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FILE_ID</Name>
+        <BOAttrName>FILE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FILE_ID</ID>
+        <Title>文件Id</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.PartnerCheckFile" Attr="FILE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FILE_NAME</Name>
+        <BOAttrName>FILE_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FILE_NAME</ID>
+        <Title>文件名称</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.PartnerCheckFile" Attr="FILE_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FILE_STATUS</Name>
+        <BOAttrName>FILE_STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FILE_STATUS</ID>
+        <Title>0 成功下载 1 失败下载</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.PartnerCheckFile" Attr="FILE_STATUS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PROVINCE_CODE</Name>
+        <BOAttrName>PROVINCE_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PROVINCE_CODE</ID>
+        <Title>省份ID</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.PartnerCheckFile" Attr="PROVINCE_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>UPDATE_STAFF_ID</Name>
+        <BOAttrName>UPDATE_STAFF_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>UPDATE_STAFF_ID</ID>
+        <Title>更新员工ID</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.PartnerCheckFile" Attr="UPDATE_STAFF_ID" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

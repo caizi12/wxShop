@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}
+html{overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+body,ul,dl,dd,dt,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,img,td,div,input{margin:0;padding:0;}
+ul,ol,li{list-style-type:none}
+li{vertical-align:0}
+h1,h2,h3,h4,h5,h6{ font-weight:normal}
+a{outline-style:none;color:#999;text-decoration:none}
+a:hover{color:999; text-decoration:none}
+body{ background-color:#FFFFFF;}
+body,input,select,textarea{ font-size:14px; font-family: "Microsoft Yahei";outline:none;}
+object,embed,video{	max-width:100%; border:none;margin-top:3px;}
+img{max-width:100%; border:none;margin-top:0px;}
+/* initial */
+.clearfix:after { visibility:hidden; display:block; font-size:0; content:""; clear:both; height:0;}
+.clearfix{ *zoom:1;}
+.clear{ clear:both;}
+.fl{ float:left; display:inline;}
+.fr{ float:right; display:inline;}
+
+
+
+
+/*价格*/
+.price{font-size:12px;color:#5f5f5f;}
+.price i{color:#f21111;font-style:normal;font-family:Arial;}
+
+/* check/radio */
+.radio{margin-right:10px;}
+.radio input,.check input{ display:none;}
+.radio font{display:inline-block;cursor:pointer;width:13px;height:13px;background:url(images/colicon8.png) no-repeat;background-size:13px 13px;}
+.radio font.active{background:url(images/colicon7.png) no-repeat;background-size:13px 13px;}
+
+/*我的账户*/
+.myAccount{min-width:320px;max-width:640px;margin:0 auto;background:#efefed;padding-bottom:60px;}
+.user{background:#fff;min-width:320px;max-width:640px;margin:0 auto;border-bottom:1px #e5e5e5 solid;border-top:1px #cccccc solid;background:#159deb;}
+.user .person{width:278px;margin:0 auto;margin-top:18px;margin-bottom:18px;}
+.user .person .Img{width:65px;height:65px;position:relative;overflow:hidden;margin-right:12px;}
+.user .person .Img img{width:65px;height:65px;}
+.user .person .Img .die{width:65px;height:65px;position:absolute;top:0;left:0;}
+.user .person div{line-height:25px;color:#fff;}
+.user .person div.name{font-size:12px;font-family:Arial;display:block;width:80px;}
+.user .person div.tel i{font-size:14px;font-family:Arial;font-style:normal;}
+.user .person div.tel cite{font-size:12px;font-style:normal;padding:0 5px;}
+.star1{width:15px;height:14px;background:url(images/star1.png) no-repeat;background-size:15px 14px;display:inline-block;margin-top:5px;margin-left:4px;}
+.star2{width:30px;height:14px;background:url(images/star2.png) no-repeat;background-size:30px 14px;display:inline-block;margin-top:5px;margin-left:4px;}
+.star3{width:46px;height:14px;background:url(images/star3.png) no-repeat;background-size:46px 14px;display:inline-block;margin-top:5px;margin-left:4px;}
+.star4{width:61px;height:14px;background:url(images/star4.png) no-repeat;background-size:61px 14px;display:inline-block;margin-top:5px;margin-left:4px;}
+.star5{width:76px;height:14px;background:url(images/star5.png) no-repeat;background-size:76px 14px;display:inline-block;margin-top:5px;margin-left:4px;}
+.star06{width:76px;height:14px;background:url(images/star6.png) no-repeat;background-size:76px 14px;display:inline-block;margin-top:5px;margin-left:4px;}
+.star05{width:76px;height:14px;background:url(images/star7.png) no-repeat;background-size:76px 14px;display:inline-block;margin-top:5px;margin-left:4px;}
+.user .person div.price i{font-size:15px;font-family:Arial;color:#fff;font-weight:900;}
+
+.user .nologin{width:260px;margin:0 auto;margin-top:18px;margin-bottom:18px;}
+.user .nologin .Img{width:253px;height:52px;position:relative;overflow:hidden;margin:0 auto;}
+.user .nologin .Img img{width:123px;height:45px;margin-left:63px;cursor: pointer;}
+.user .nologin .msg{width:186px;margin:0 auto;line-height:25px;font-size:15px;font-family:Arial;color:#fff;}
+
+.user .attr{height:50px;background:#138dd3;}
+.user .attr li{float:left;font-size:12px;color:#fff;width:33%;border-right:1px #159deb solid;text-align: center;margin-top:3px;vertical-align:middle;padding:5px 0;}
+.user .attr li a{color:#fff;}
+.user .attr li:last-child{border-right:0px;}
+.user .attr li .wait img{width:21px;height:16px;}
+.user .attr li .goods img{width:22px;height:17px;}
+.user .attr li .end img{width:15px;height:17px;}
+
+.column-list ul{padding-left:5px;padding-top:5px;}
+.column-list ul li{float:left;width:31%;height:90px;background:#fff;margin:7px 1% 0 1%;}
+.column-list ul li span{display:block;text-align:center;}
+.column-list ul li.order div{width:22px;height:25px;margin:0 auto;margin-top:15px;margin-bottom:12px;}
+.column-list ul li.order div img{width:21px;height:23px;}
+.column-list ul li.shop div{width:28px;height:25px;margin:0 auto;margin-top:15px;margin-bottom:12px;}
+.column-list ul li.shop div img{width:28px;height:21px;}
+.column-list ul li.collect div{width:24px;height:25px;margin:0 auto;margin-top:15px;margin-bottom:12px;}
+.column-list ul li.collect div img{width:24px;height:20px;}
+.column-list ul li.addr div{width:18px;height:25px;margin:0 auto;margin-top:15px;margin-bottom:12px;}
+.column-list ul li.addr div img{width:17px;height:25px;}
+.column-list ul li.record div{width:24px;height:25px;margin:0 auto;margin-top:15px;margin-bottom:12px;}
+.column-list ul li.record div img{width:22px;height:22px;}
+.column-list ul li.native div{width:27px;height:24px;margin:0 auto;margin-top:15px;margin-bottom:12px;}
+.column-list ul li.native div img{width:27px;height:24px;}

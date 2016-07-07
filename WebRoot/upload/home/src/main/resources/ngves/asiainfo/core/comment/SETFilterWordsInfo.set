@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETFilterWordsInfo" BOName="ngves.asiainfo.core.comment.FilterWordsInfo" MainField="FILTER_WORD_ID" Title="ngves.asiainfo.core.comment.FilterWordsInfo" ActBOName="ngves.asiainfo.core.comment.FilterWordsInfo" Package="ngves.asiainfo.core.comment">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_01</Name>
+        <BOAttrName>BAK_01</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_01</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.comment.FilterWordsInfo" Attr="BAK_01" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_02</Name>
+        <BOAttrName>BAK_02</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_02</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.comment.FilterWordsInfo" Attr="BAK_02" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FILTER_WORD</Name>
+        <BOAttrName>FILTER_WORD</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FILTER_WORD</ID>
+        <Title>评论过滤词内容</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.comment.FilterWordsInfo" Attr="FILTER_WORD" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FILTER_WORD_ID</Name>
+        <BOAttrName>FILTER_WORD_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FILTER_WORD_ID</ID>
+        <Title>过滤词id</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.comment.FilterWordsInfo" Attr="FILTER_WORD_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FILTER_WORD_STATUS</Name>
+        <BOAttrName>FILTER_WORD_STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FILTER_WORD_STATUS</ID>
+        <Title>0无效 1有效(默认)</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="114" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+        <ActBO Name="ngves.asiainfo.core.comment.FilterWordsInfo" Attr="FILTER_WORD_STATUS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>REPLACE_WORD</Name>
+        <BOAttrName>REPLACE_WORD</BOAttrName>
+        <BODisplayAttrName />
+        <ID>REPLACE_WORD</ID>
+        <Title>替换词  暂时只有***</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.comment.FilterWordsInfo" Attr="REPLACE_WORD" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>UPDATE_TIME</Name>
+        <BOAttrName>UPDATE_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>UPDATE_TIME</ID>
+        <Title>更新时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.comment.FilterWordsInfo" Attr="UPDATE_TIME" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

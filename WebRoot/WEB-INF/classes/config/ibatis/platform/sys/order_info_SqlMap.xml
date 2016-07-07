@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap namespace="order_info" >
+  <resultMap id="orderInfoResult" class="cn.frame.platform.entitys.OrderInfo" >
+    <result column="ORDER_ID" property="orderId" jdbcType="VARCHAR" />
+    <result column="MEMBER_ID" property="memberId" jdbcType="VARCHAR" />
+    <result column="ORDER_STATUS" property="orderStatus" jdbcType="VARCHAR" />
+    <result column="PAY_TYPE" property="payType" jdbcType="VARCHAR" />
+    <result column="PAY_STATUS" property="payStatus" jdbcType="VARCHAR" />
+    <result column="ORDER_CASH" property="orderCash" jdbcType="double" />
+    <result column="SEND_PRICE" property="sendPrice" jdbcType="VARCHAR" />
+    <result column="GIVE_POINT" property="givePoint" jdbcType="VARCHAR" />
+    <result column="LINKMAN" property="linkman" jdbcType="VARCHAR" />
+    <result column="PHONE" property="phone" jdbcType="VARCHAR" />
+    <result column="ADDRESS" property="address" jdbcType="VARCHAR" />
+    <result column="POST_CODE" property="postCode" jdbcType="VARCHAR" />
+    <result column="SEND_TIME" property="sendTime" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="VARCHAR" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="VARCHAR" />
+    <result column="REMARK" property="remark" jdbcType="VARCHAR" />
+    
+    <result column="ORDER_CASH_CHANGE_REMARK" property="orderCashChangeRemark" jdbcType="VARCHAR" />
+    <result column="EXPRESS_COMPANY" property="expressCompany" jdbcType="VARCHAR" />
+    <result column="EXPRESS_ID" property="expressId" jdbcType="VARCHAR" />
+    <result column="PAY_TRADE_ID" property="payTradeId" jdbcType="VARCHAR" />
+    <result column="PAY_OUT_REFUND_NO" property="payOutRefundNo" jdbcType="VARCHAR" />
+    <result column="PAY_CASH" property="payCash" jdbcType="double" />
+    <result column="PAY_TIME" property="payTime" jdbcType="VARCHAR" />
+  </resultMap>
+  <select id="getOrderInfo" resultMap="orderInfoResult" parameterClass="java.util.Map" >
+    select ORDER_ID, MEMBER_ID,  ORDER_STATUS,  PAY_TYPE, PAY_STATUS,GIVE_POINT,
+      ORDER_CASH_CHANGE_REMARK,EXPRESS_COMPANY,EXPRESS_ID,PAY_TRADE_ID,PAY_OUT_REFUND_NO,PAY_CASH,PAY_TIME,
+      ORDER_CASH, SEND_PRICE, LINKMAN, PHONE, ADDRESS, POST_CODE, SEND_TIME,
+      CREATE_TIME, UPDATE_TIME, REMARK
+    from order_info
+    where  1=1 
+    <isNotEmpty prepend="and" property="orderId">
+		  ORDER_ID=#orderId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="memberId">
+		  MEMBER_ID=#memberId#
+	</isNotEmpty>
+  </select>
+ 
+   <select id="queryOrderInfo" resultMap="orderInfoResult" parameterClass="java.util.Map" >
+    select ORDER_ID, MEMBER_ID,  ORDER_STATUS,  PAY_TYPE, PAY_STATUS,GIVE_POINT, ORDER_CASH_CHANGE_REMARK,
+     EXPRESS_COMPANY,EXPRESS_ID,PAY_TRADE_ID,PAY_OUT_REFUND_NO,PAY_TIME,
+     PAY_CASH, ORDER_CASH, SEND_PRICE, LINKMAN, PHONE, ADDRESS, POST_CODE, SEND_TIME,
+      CREATE_TIME, UPDATE_TIME, REMARK
+    from order_info
+    where  1=1 
+   <isNotEmpty prepend="and" property="orderId">
+		  ORDER_ID=#orderId#
+	</isNotEmpty>
+    <isNotEmpty prepend="and" property="memberId">
+		  MEMBER_ID=#memberId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="linkman">
+		  LINKMAN like '%$linkman$%' 
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="PHONE">
+		  PHONE like '%$phone$%' 
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="orderStatus">
+		  ORDER_STATUS=#orderStatus#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="payStatus">
+		  PAY_STATUS=#payStatus#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="payType">
+		  PAY_TYPE=#payType#
+	</isNotEmpty>
+	order by UPDATE_TIME ,ORDER_ID desc
+  </select>
+ 
+  <delete id="deleteOrderInfo" parameterClass="java.lang.String" >
+    delete from order_info
+    where ORDER_ID = #orderId#
+  </delete>
+   
+  <insert id="insertOrderInfo" parameterClass="cn.frame.platform.entitys.OrderInfo" >
+    insert into order_info (ORDER_ID, MEMBER_ID,  ORDER_STATUS,  PAY_TYPE,
+      PAY_STATUS, ORDER_CASH,GIVE_POINT, SEND_PRICE, LINKMAN, PHONE, ADDRESS, POST_CODE,
+      SEND_TIME, CREATE_TIME, REMARK)
+    values (#orderId:VARCHAR#, #memberId:VARCHAR#,  #orderStatus:VARCHAR#,
+      #payType:VARCHAR#, #payStatus:VARCHAR#, #orderCash#, #givePoint#,
+       #sendPrice:VARCHAR#, #linkman:VARCHAR#, #phone:VARCHAR#,
+      #address:VARCHAR#, #postCode:VARCHAR#, #sendTime:VARCHAR#, #createTime#,
+      #remark:VARCHAR#)
+  </insert>
+  
+  <update id="updateOrderInfo" parameterClass="cn.frame.platform.entitys.OrderInfo" >
+    update order_info
+    set
+      ORDER_STATUS = #orderStatus:VARCHAR#,
+      PAY_TYPE = #payType:VARCHAR#,
+      PAY_STATUS = #payStatus:VARCHAR#,
+      ORDER_CASH = #orderCash#,
+      SEND_PRICE = #sendPrice:VARCHAR#,
+      LINKMAN = #linkman:VARCHAR#,
+      PHONE = #phone:VARCHAR#,
+      ADDRESS = #address:VARCHAR#,
+      POST_CODE = #postCode:VARCHAR#,
+      SEND_TIME = #sendTime:VARCHAR#,
+      CREATE_TIME = #createTime:VARCHAR#,
+      UPDATE_TIME = #updateTime:VARCHAR#,
+      REMARK = #remark:VARCHAR#
+    where ORDER_ID = #orderId:VARCHAR#
+       and  MEMBER_ID = #memberId:VARCHAR#
+  </update>
+  
+  
+    <update id="updateOrderInfoStatus" parameterClass="cn.frame.platform.entitys.OrderInfo" >
+    update order_info
+    set
+     <isNotEmpty prepend="" property="orderStatus">
+		  ORDER_STATUS=#orderStatus#,
+	 </isNotEmpty>
+      <isNotEmpty prepend="" property="payType">
+		  PAY_TYPE = #payType#,
+	 </isNotEmpty>
+     <isNotEmpty prepend="" property="payStatus">
+		  PAY_STATUS = #payStatus#,
+	 </isNotEmpty>
+	 <isNotEmpty prepend="" property="orderCash">
+		  ORDER_CASH = #orderCash#,
+	 </isNotEmpty>
+	 <isNotEmpty prepend="" property="payCash">
+		  PAY_CASH = #payCash#,
+	 </isNotEmpty>
+	<isNotEmpty prepend="" property="orderCashChangeRemark">
+		  ORDER_CASH_CHANGE_REMARK = #orderCashChangeRemark#,
+	 </isNotEmpty>
+	 <isNotEmpty prepend="" property="payTime">
+		  PAY_TIME = #payTime#,
+	 </isNotEmpty>
+	 <isNotEmpty prepend="" property="payTradeId">
+		  PAY_TRADE_ID = #payTradeId#,
+	 </isNotEmpty>
+     <isNotEmpty prepend="" property="remark">
+		  REMARK = #remark#,
+	 </isNotEmpty>
+      UPDATE_TIME = #updateTime:VARCHAR#
+      where ORDER_ID = #orderId:VARCHAR#
+  
+  </update>
+  
+</sqlMap>

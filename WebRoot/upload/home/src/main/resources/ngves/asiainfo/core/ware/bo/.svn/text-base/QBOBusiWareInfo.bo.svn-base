@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOBusiWareInfo" mainattr="BUSI_WARE_ID">
+        <mapingenty type="query">select wi.* , wkr.ware_kind_id, wbi.ware_brand_name from busi_ware_info wi, busi_ware_kind_rlt wkr, ware_brand_info wbi where wi.busi_id = :busi_id  and wi.ware_brand_id = wbi.ware_brand_id and wkr.is_default_kind = 1 and wkr.busi_id = wi.busi_id</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="BUSI_WARE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">BUSI_WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_STATE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BUSI_STATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">BUSI_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_BRAND_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_BRAND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NOTE" maxlength="1024" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NOTE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SHOP_PRICE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SHOP_PRICE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MARKET_PRICE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">MARKET_PRICE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COUNT_VALUE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">COUNT_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DELIVER_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DELIVER_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_STORAGE_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_STORAGE_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROVINCE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROVINCE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LAST_UPDATE_STAFF_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">LAST_UPDATE_STAFF_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COUNT_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">COUNT_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LAST_UPDATE_DATE" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">LAST_UPDATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">PARTNER</mapingcol>
+            </attr>
+            <attr floatlength="0" name="AMENDS_FEE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">AMENDS_FEE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FUNC_DESC" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FUNC_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WAREHOUSE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WAREHOUSE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_WARE_BRAND_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">PARTNER_WARE_BRAND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="KEYWORDS" maxlength="800" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">KEYWORDS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALIAS" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALIAS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RICH_FUNC_DESC" maxlength="5" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RICH_FUNC_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_TYPE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_KIND_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_KIND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_BRAND_NAME" maxlength="40" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_BRAND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PACKING_LIST" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PACKING_LIST</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SAFE_GUARD" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SAFE_GUARD</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

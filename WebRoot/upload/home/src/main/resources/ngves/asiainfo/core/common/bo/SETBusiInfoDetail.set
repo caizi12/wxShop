@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETBusiInfoDetail" BOName="ngves.asiainfo.core.common.bo.BusiInfoDetail" MainField="DETAIL_ID" Title="ngves.asiainfo.core.common.bo.BusiInfoDetail" ActBOName="ngves.asiainfo.core.common.bo.BusiInfoDetail" Package="ngves.asiainfo.core.common.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AFTER_VALUE</Name>
+        <BOAttrName>AFTER_VALUE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AFTER_VALUE</ID>
+        <Title>修改后值</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiInfoDetail" Attr="AFTER_VALUE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BEFORE_VALUE</Name>
+        <BOAttrName>BEFORE_VALUE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BEFORE_VALUE</ID>
+        <Title>修改前值</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiInfoDetail" Attr="BEFORE_VALUE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BUSI_ID</Name>
+        <BOAttrName>BUSI_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BUSI_ID</ID>
+        <Title>流水ID</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiInfoDetail" Attr="BUSI_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BUSI_TABLE</Name>
+        <BOAttrName>BUSI_TABLE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BUSI_TABLE</ID>
+        <Title>记录表名</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiInfoDetail" Attr="BUSI_TABLE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>DETAIL_ID</Name>
+        <BOAttrName>DETAIL_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>DETAIL_ID</ID>
+        <Title>业务ID</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>Y</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiInfoDetail" Attr="DETAIL_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FIELD_NAME</Name>
+        <BOAttrName>FIELD_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FIELD_NAME</ID>
+        <Title>表字段名</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiInfoDetail" Attr="FIELD_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MAIN_FLD_NAME</Name>
+        <BOAttrName>MAIN_FLD_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MAIN_FLD_NAME</ID>
+        <Title>表主键字段</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiInfoDetail" Attr="MAIN_FLD_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MAIN_FLD_VALUE</Name>
+        <BOAttrName>MAIN_FLD_VALUE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MAIN_FLD_VALUE</ID>
+        <Title>表主键字段值</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiInfoDetail" Attr="MAIN_FLD_VALUE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>NOTE</Name>
+        <BOAttrName>NOTE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>NOTE</ID>
+        <Title>备注</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1024" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiInfoDetail" Attr="NOTE" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

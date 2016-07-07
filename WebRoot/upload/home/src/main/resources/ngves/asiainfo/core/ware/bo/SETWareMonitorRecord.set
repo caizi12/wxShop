@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETWareMonitorRecord" BOName="ngves.asiainfo.core.ware.bo.WareMonitorRecord" MainField="WARE_MONITOR_RECORD_ID" Title="ngves.asiainfo.core.ware.bo.WareMonitorRecord" ActBOName="ngves.asiainfo.core.ware.bo.WareMonitorRecord" Package="ngves.asiainfo.core.ware.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL1</Name>
+        <BOAttrName>BAK_COL1</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL1</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareMonitorRecord" Attr="BAK_COL1" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPERATE_DESC</Name>
+        <BOAttrName>OPERATE_DESC</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPERATE_DESC</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareMonitorRecord" Attr="OPERATE_DESC" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPERATE_TIME</Name>
+        <BOAttrName>OPERATE_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPERATE_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareMonitorRecord" Attr="OPERATE_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPERATE_TYPE</Name>
+        <BOAttrName>OPERATE_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPERATE_TYPE</ID>
+        <Title>01：任务状态变更（启用、停用） 02：绑定状态变更（绑定、解除绑定）</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareMonitorRecord" Attr="OPERATE_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPERATOR_ID</Name>
+        <BOAttrName>OPERATOR_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPERATOR_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareMonitorRecord" Attr="OPERATOR_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_MONITOR_RECORD_ID</Name>
+        <BOAttrName>WARE_MONITOR_RECORD_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_MONITOR_RECORD_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareMonitorRecord" Attr="WARE_MONITOR_RECORD_ID" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

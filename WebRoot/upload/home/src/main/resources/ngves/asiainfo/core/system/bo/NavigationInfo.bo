@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="NavigationInfo" mainattr="NAV_ID">
+        <mapingenty type="table">NAVIGATION_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="NAV_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">NAV_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NAV_DESC" maxlength="30" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NAV_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NAV_URI" maxlength="300" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NAV_URI</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SORT_ID" maxlength="3" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SORT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

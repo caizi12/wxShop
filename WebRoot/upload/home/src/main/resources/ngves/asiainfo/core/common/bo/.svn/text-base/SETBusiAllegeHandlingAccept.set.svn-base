@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETBusiAllegeHandlingAccept" BOName="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" MainField="BUSI_ID" Title="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" ActBOName="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Package="ngves.asiainfo.core.common.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>APP_VERSION</Name>
+        <BOAttrName>APP_VERSION</BOAttrName>
+        <BODisplayAttrName />
+        <ID>APP_VERSION</ID>
+        <Title>更新标记</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="8" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="APP_VERSION" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL</Name>
+        <BOAttrName>BAK_COL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="BAK_COL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="BAK_COL2" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL3</Name>
+        <BOAttrName>BAK_COL3</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL3</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="BAK_COL3" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BUSI_ID</Name>
+        <BOAttrName>BUSI_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BUSI_ID</ID>
+        <Title>业务流水标识</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>Y</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="BUSI_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CREATE_DATE</Name>
+        <BOAttrName>CREATE_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CREATE_DATE</ID>
+        <Title>创建时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="CREATE_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>DOCUMENTSSATISFACTION</Name>
+        <BOAttrName>DOCUMENTSSATISFACTION</BOAttrName>
+        <BODisplayAttrName />
+        <ID>DOCUMENTSSATISFACTION</ID>
+        <Title>工单满意度</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="DOCUMENTSSATISFACTION" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>DUTYREASON</Name>
+        <BOAttrName>DUTYREASON</BOAttrName>
+        <BODisplayAttrName />
+        <ID>DUTYREASON</ID>
+        <Title>责任原因</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="DUTYREASON" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ENDTIME</Name>
+        <BOAttrName>ENDTIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ENDTIME</ID>
+        <Title>归档时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="ENDTIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>HANDLINGCOMMENT</Name>
+        <BOAttrName>HANDLINGCOMMENT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>HANDLINGCOMMENT</ID>
+        <Title>归档意见</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2000" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="HANDLINGCOMMENT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>HANDLINGDEPT</Name>
+        <BOAttrName>HANDLINGDEPT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>HANDLINGDEPT</ID>
+        <Title>归档部门</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="HANDLINGDEPT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>HANDLINGSTAFF</Name>
+        <BOAttrName>HANDLINGSTAFF</BOAttrName>
+        <BODisplayAttrName />
+        <ID>HANDLINGSTAFF</ID>
+        <Title>归档人</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="HANDLINGSTAFF" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>INDICTSEQ</Name>
+        <BOAttrName>INDICTSEQ</BOAttrName>
+        <BODisplayAttrName />
+        <ID>INDICTSEQ</ID>
+        <Title>投诉工单编号</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="23" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="INDICTSEQ" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ISELIGIBLE</Name>
+        <BOAttrName>ISELIGIBLE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ISELIGIBLE</ID>
+        <Title>回单质量是否合格（01 代表合格，02代表不合格）</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="ISELIGIBLE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SATISFACTION</Name>
+        <BOAttrName>SATISFACTION</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SATISFACTION</ID>
+        <Title>用户满意度</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="SATISFACTION" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>STAFFCONTACTPHONE</Name>
+        <BOAttrName>STAFFCONTACTPHONE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>STAFFCONTACTPHONE</ID>
+        <Title>归档人联系方式</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.BusiAllegeHandlingAccept" Attr="STAFFCONTACTPHONE" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

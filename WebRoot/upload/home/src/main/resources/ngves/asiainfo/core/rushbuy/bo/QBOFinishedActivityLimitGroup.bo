@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOFinishedActivityLimitGroup" mainattr="AL_GROUP_ID" remark="往期限时抢兑活动分组">
+        <mapingenty type="query">select
+  max(a.al_group_id) as al_group_id,
+  max(a.activity_id) as activity_id,
+  decode(max(AG.AL_GROUP_TITLE), null,
+  max(A.ACTIVITY_NAME),
+  max(AG.AL_GROUP_TITLE)) as title,
+  min(A.ACTIVITY_START_TIME) as start_time,
+  max(a.ACTIVITY_END_TIME) as end_time,
+  decode(max(AG.AL_GROUP_ID), null, max(A.ACTIVITY_URL), null)  as url
+from activity_limit a
+left outer join activity_limit_group ag on A.AL_GROUP_ID = AG.AL_GROUP_ID
+where A.ACTIVITY_END_TIME &lt; SYSDATE
+  and (A.IS_VIEW IS NULL OR A.IS_VIEW != '0')
+  and (A.ACTIVITY_STATE = '1' or A.ACTIVITY_STATE = '3')
+group by  decode(AG.AL_GROUP_ID,null, concat('a', a.ACTIVITY_ID), concat('g', AG.AL_GROUP_ID))
+order by end_time DESC</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="AL_GROUP_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">AL_GROUP_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACTIVITY_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ACTIVITY_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TITLE" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">TITLE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="START_TIME" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">START_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="END_TIME" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">END_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="URL" maxlength="255" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">URL</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

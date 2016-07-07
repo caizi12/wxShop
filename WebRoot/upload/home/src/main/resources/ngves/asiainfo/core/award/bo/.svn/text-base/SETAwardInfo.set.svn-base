@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETAwardInfo" BOName="ngves.asiainfo.core.award.bo.AwardInfo" MainField="AWARD_ID" Title="ngves.asiainfo.core.award.bo.AwardInfo" ActBOName="ngves.asiainfo.core.award.bo.AwardInfo" Package="ngves.asiainfo.core.award.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AWARD_DESC</Name>
+        <BOAttrName>AWARD_DESC</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AWARD_DESC</ID>
+        <Title>活动描述</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="500" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="AWARD_DESC" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AWARD_ID</Name>
+        <BOAttrName>AWARD_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AWARD_ID</ID>
+        <Title>活动ID</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="AWARD_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AWARD_NAME</Name>
+        <BOAttrName>AWARD_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AWARD_NAME</ID>
+        <Title>活动名称</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="AWARD_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL</Name>
+        <BOAttrName>BAK_COL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="BAK_COL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="BAK_COL2" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MAIN_PIC</Name>
+        <BOAttrName>MAIN_PIC</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MAIN_PIC</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="255" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="MAIN_PIC" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BASE_INTEGRAL</Name>
+        <BOAttrName>BASE_INTEGRAL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BASE_INTEGRAL</ID>
+        <Title>参与分值</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="8" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="BASE_INTEGRAL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BASE_WARE_ID</Name>
+        <BOAttrName>BASE_WARE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BASE_WARE_ID</ID>
+        <Title>基础礼品id</Title>
+        <Authority>U</Authority>
+        <EditType>DBListBox</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0">String</IDDataType>
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.core.award.bo.WareAwardInfo" hasNull="false" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="BASE_WARE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CONTAIN_NOT_WIN</Name>
+        <BOAttrName>CONTAIN_NOT_WIN</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CONTAIN_NOT_WIN</ID>
+        <Title>是否包含未中奖档次</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="CONTAIN_NOT_WIN" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CREATE_DATE</Name>
+        <BOAttrName>CREATE_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CREATE_DATE</ID>
+        <Title>创建时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="CREATE_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>END_TIME</Name>
+        <BOAttrName>END_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>END_TIME</ID>
+        <Title>结束时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="END_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>EXCHANGE_CHANNEL</Name>
+        <BOAttrName>EXCHANGE_CHANNEL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>EXCHANGE_CHANNEL</ID>
+        <Title>兑换渠道</Title>
+        <Authority>U</Authority>
+        <EditType>DBListBox</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ListDataSource isDynamic="Y" type="0" LSName="ngves.asiainfo.core.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="201407021818" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+       
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="EXCHANGE_CHANNEL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MAX_COUNT</Name>
+        <BOAttrName>MAX_COUNT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MAX_COUNT</ID>
+        <Title>参与总数限制</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="8" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="MAX_COUNT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>NOW_COUNT</Name>
+        <BOAttrName>NOW_COUNT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MAX_COUNT</ID>
+        <Title>当前可参与次数</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="8" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="NOW_COUNT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ONE_MAX_COUNT</Name>
+        <BOAttrName>ONE_MAX_COUNT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ONE_MAX_COUNT</ID>
+        <Title>每人参与次数</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="8" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="ONE_MAX_COUNT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PUBLISH_DATE</Name>
+        <BOAttrName>PUBLISH_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PUBLISH_DATE</ID>
+        <Title>发布时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="PUBLISH_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PULISH_STAFF</Name>
+        <BOAttrName>PULISH_STAFF</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PULISH_STAFF</ID>
+        <Title>活动发布人</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="40" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="PULISH_STAFF" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>RECORD_STAFF</Name>
+        <BOAttrName>RECORD_STAFF</BOAttrName>
+        <BODisplayAttrName />
+        <ID>RECORD_STAFF</ID>
+        <Title>活动录入人</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="40" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="RECORD_STAFF" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SHOW_NOT_WIN</Name>
+        <BOAttrName>SHOW_NOT_WIN</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SHOW_NOT_WIN</ID>
+        <Title>是否展示未中奖记录</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="SHOW_NOT_WIN" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>START_TIME</Name>
+        <BOAttrName>START_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>START_TIME</ID>
+        <Title>开始时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="START_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>STATUS</Name>
+        <BOAttrName>STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>STATUS</ID>
+        <Title>活动状态ֹͣ</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="STATUS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="12" IsEnabled="Y">
+        <Name>STOP_GET_TIME</Name>
+        <BOAttrName>STOP_GET_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>STOP_GET_TIME</ID>
+        <Title>领取截止时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="STOP_GET_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>URL</Name>
+        <BOAttrName>URL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>URL</ID>
+        <Title>活动地址url</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="300" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardInfo" Attr="URL" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

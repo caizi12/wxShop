@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOAwardLevelRLTWare" mainattr="AWARD_LEVEL_ID">
+        <mapingenty type="query">SELECT ALI.AWARD_LEVEL_ID   AWARD_LEVEL_ID,
+       ALI.AWARD_ID         AWARD_ID,
+       ALI.WARE_NICKNAME    WARE_NICKNAME,
+       ALI.AWARD_ODDS       AWARD_ODDS,
+       ALI.MAX_COUNT        MAX_COUNT,
+       ALI.IS_SHOW_WARE     IS_SHOW_WARE,
+       ALI.BG_COLOUR_CODE   BG_COLOUR_CODE,
+       ALI.IS_DEFAULT_LEVEL IS_DEFAULT_LEVEL,
+       ALI.LEVEL_SORT       LEVEL_SORT,
+       ALI.LEVEL_ANGLE      LEVEL_ANGLE,
+       ALI.WARE_ID          WARE_ID,
+       ALI.BAK_COL          BAK_COL,
+       ALI.BAK_COL2         BAK_COL_TWO,
+       ALI.BAK_COL3         BAK_COL_THREE,
+       WI.WARE_CODE         WARE_CODE,
+       WI.WARE_NAME         WARE_NAME,
+       WI.WARE_STATUS       WARE_STATUS
+  FROM AWARD_LEVEL_INFO ALI, WARE_INFO WI
+ WHERE ALI.WARE_ID = WI.WARE_ID(+)</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="AWARD_LEVEL_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">AWARD_LEVEL_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="AWARD_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">AWARD_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NICKNAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_NICKNAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="AWARD_ODDS" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">AWARD_ODDS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MAX_COUNT" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">MAX_COUNT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_SHOW_WARE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">IS_SHOW_WARE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BG_COLOUR_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BG_COLOUR_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_DEFAULT_LEVEL" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">IS_DEFAULT_LEVEL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LEVEL_SORT" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">LEVEL_SORT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LEVEL_ANGLE" maxlength="5" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">LEVEL_ANGLE</mapingcol>
+            </attr>            
+            <attr floatlength="0" name="WARE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL_TWO" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL_TWO</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_STATUS" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_STATUS</mapingcol>
+            </attr>
+             <attr floatlength="0" name="BAK_COL_THREE" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL_THREE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

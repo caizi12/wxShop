@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOStaffOrgRelatName" mainattr="ORGANIZE_ID">
+        <mapingenty type="query">SELECT M.ORGANIZE_ID,
+       F0.ORGANIZE_NAME AS FK_ORG_NAME
+  FROM SYS_STAFF_ORG_RELAT M, SYS_ORGANIZE F0
+ WHERE (F0.ORGANIZE_ID = M.ORGANIZE_ID)    AND M.STATE = 1 AND M.STAFF_ID=:STAFF_ID
+   </mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="ORGANIZE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ORGANIZE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FK_ORG_NAME" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FK_ORG_NAME</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

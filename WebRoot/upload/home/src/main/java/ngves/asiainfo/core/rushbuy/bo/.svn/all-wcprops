@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/jf/app/!svn/ver/38176/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo
+END
+QBOWareDescInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/QBOWareDescInfoBean.java
+END
+QBOWareDescInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/QBOWareDescInfoEngine.java
+END
+QBOFinishedActivityLimitGroupEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/QBOFinishedActivityLimitGroupEngine.java
+END
+QBOFinishedActivityLimitGroupBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/QBOFinishedActivityLimitGroupBean.java
+END
+ActivityBindRelationEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/ActivityBindRelationEngine.java
+END
+ActivityBindRelationBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/37942/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/ActivityBindRelationBean.java
+END
+WareKindBrandInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/WareKindBrandInfoBean.java
+END
+WareKindBrandInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/WareKindBrandInfoEngine.java
+END
+QBOActivityWareInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/QBOActivityWareInfoEngine.java
+END
+QBOActivityWareInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/37897/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/QBOActivityWareInfoBean.java
+END
+QBOActivityBindRelationEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/37921/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/QBOActivityBindRelationEngine.java
+END
+QBOActivityBindRelationBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/38176/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/QBOActivityBindRelationBean.java
+END
+ActivityLimitEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/ActivityLimitEngine.java
+END
+ActivityLimitBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/ActivityLimitBean.java
+END
+ActivityUserLogEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/ActivityUserLogEngine.java
+END
+ActivityUserLogBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/ActivityUserLogBean.java
+END
+QBOMainImageInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/QBOMainImageInfoEngine.java
+END
+QBOMainImageInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/QBOMainImageInfoBean.java
+END
+ActivityLimitGroupEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/ActivityLimitGroupEngine.java
+END
+ActivityLimitGroupBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rushbuy/bo/ActivityLimitGroupBean.java
+END

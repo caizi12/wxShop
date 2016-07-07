@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOAllWareKindInfo" mainattr="WARE_ID">
+        <mapingenty type="query">select wi.ware_id,wi.ware_code,
+       '' f_kind_id ,
+       '' f_kind_name,
+       wki.kind_id b_kind_id,
+       wki.kind_name b_kind_name,
+       wkp.ware_kind_parent_id m_kind_id,
+       wkp.big_kind_name m_kind_name,
+       wk.ware_kind_id s_kind_id,
+       wk.kind_name s_kind_name
+  from ware_info_portal    wi,
+       ware_kind_rlt       wkr,
+       ware_kind           wk,
+       ware_kind_parent    wkp,
+       ware_first_kind_rlt wfkr,
+       ware_kind_info      wki
+ where wi.ware_id = wkr.ware_id(+)
+   and wkr.ware_kind_id = wk.ware_kind_id(+)
+   and wk.ware_kind_parent_id = wkp.ware_kind_parent_id(+)
+   and wkp.ware_kind_parent_id = wfkr.ware_kind_parent_id(+)
+   and wfkr.ware_first_kind_id = wki.kind_id(+)
+   and wkr.is_default_kind = 1</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="F_KIND_ID" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">F_KIND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="F_KIND_NAME" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">F_KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="B_KIND_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">B_KIND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="B_KIND_NAME" maxlength="400" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">B_KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="M_KIND_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">M_KIND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="M_KIND_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">M_KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="S_KIND_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">S_KIND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="S_KIND_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">S_KIND_NAME</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap namespace="sys_menu" >
+  <resultMap id="SysMenuDetail" class="cn.frame.platform.entitys.SysMenu" >
+    <result column="MENU_ID" property="menuId" jdbcType="VARCHAR" />
+    <result column="MENU_NAME" property="menuName" jdbcType="VARCHAR" />
+    <result column="MENU_URL" property="menuUrl" jdbcType="VARCHAR" />
+    <result column="PARENT_MENU_ID" property="parentMenuId" jdbcType="VARCHAR" />
+    <result column="MENU_TYPE" property="menuType" jdbcType="VARCHAR" />
+    <result column="SORT" property="sort" jdbcType="VARCHAR" />
+    <result column="MENU_DESC" property="menuDesc" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+    <result column="CREATE_DATE" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_DATE" property="updateDate" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <resultMap id="SysMenuList" class="cn.frame.platform.entitys.SysMenu" >
+    <result column="MENU_ID" property="menuId" jdbcType="VARCHAR" />
+    <result column="MENU_NAME" property="menuName" jdbcType="VARCHAR" />
+    <result column="MENU_URL" property="menuUrl" jdbcType="VARCHAR" />
+    <result column="PARENT_MENU_ID" property="parentMenuId" jdbcType="VARCHAR" />
+  </resultMap>
+   
+  <select id="queryMenuList" resultMap="SysMenuList" parameterClass="java.util.Map" >
+    select MENU_ID, MENU_NAME, MENU_URL, PARENT_MENU_ID
+    from sys_menu 
+    where 1=1
+      <isNotEmpty prepend="and" property="menuId">
+			 MENU_ID =#menuId#
+	  </isNotEmpty>
+	  <isNotEmpty prepend="and" property="menuName">
+			 MENU_NAME =#menuName#
+	  </isNotEmpty>
+	  <isNotEmpty prepend="and" property="parentMenuId">
+			 PARENT_MENU_ID =$parentMenuId$
+	  </isNotEmpty>
+	  order by sort asc
+  </select>
+   
+   
+  <select id="selectSysMenuById" resultMap="SysMenuDetail" parameterClass="java.lang.String" >
+    select MENU_ID, MENU_NAME, MENU_URL, PARENT_MENU_ID, MENU_TYPE, SORT, MENU_DESC,  
+    STATUS,CREATE_DATE,UPDATE_DATE
+    from sys_menu
+    where MENU_ID = #menuId#
+  </select>
+  
+  <select id="selectByExample" resultMap="SysMenuDetail" parameterClass="java.lang.String" >
+    select MENU_ID, MENU_NAME, MENU_URL, PARENT_MENU_ID, MENU_TYPE, SORT, MENU_DESC,  STATUS
+    from sys_menu
+  </select>
+  
+  <delete id="deleteSysMenuById" parameterClass="java.lang.String" >
+    delete from sys_menu
+    where MENU_ID = #menuId#
+  </delete>
+   
+  <insert id="insertSysMenu" parameterClass="cn.frame.platform.entitys.SysMenu" >
+    insert into sys_menu (MENU_ID, MENU_NAME, MENU_URL, PARENT_MENU_ID, MENU_TYPE, SORT, MENU_DESC,
+      CREATE_DATE, STATUS)
+    values (#menuId#, #menuName#, #menuUrl#, #parentMenuId#,
+      #menuType#, #sort#, #menuDesc#,#createDate#,#status#)
+  </insert>
+  
+  <update id="updateSysMenu" parameterClass="cn.frame.platform.entitys.SysMenu" >
+    update sys_menu
+    set   MENU_NAME = #menuName#,
+	      MENU_URL = #menuUrl#,
+	      SORT = #sort#,
+	      MENU_DESC = #menuDesc#,
+	      STATUS = #status#,
+	      UPDATE_DATE=#updateDate#
+    where MENU_ID = #menuId#
+  </update>
+</sqlMap>

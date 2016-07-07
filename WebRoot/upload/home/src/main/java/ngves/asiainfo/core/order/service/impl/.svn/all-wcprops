@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/jf/app/!svn/ver/38432/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/order/service/impl
+END
+OverTimeOrderSrvImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/38432/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/order/service/impl/OverTimeOrderSrvImpl.java
+END
+BarCodeFileDownLoadSrvImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jf/app/!svn/ver/22970/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/order/service/impl/BarCodeFileDownLoadSrvImpl.java
+END
+OrderUnfinishedTaskSrvImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jf/app/!svn/ver/27491/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/order/service/impl/OrderUnfinishedTaskSrvImpl.java
+END

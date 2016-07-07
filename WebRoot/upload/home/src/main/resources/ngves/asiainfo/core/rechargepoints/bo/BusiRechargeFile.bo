@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="BusiRechargeFile" mainattr="BUSI_RECHARGE_FILE_ID">
+        <mapingenty type="table">BUSI_RECHARGE_FILE</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="BUSI_RECHARGE_FILE_ID" maxlength="20" datatype="String" type="PK" >
+                <mapingcol datatype="VARCHAR2">BUSI_RECHARGE_FILE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RECHARGE_FILE_ID" maxlength="15" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">RECHARGE_FILE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RECHARGE_FILE_NAME" maxlength="200" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">RECHARGE_FILE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RECHARGE_FILE_NICKNAME" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RECHARGE_FILE_NICKNAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RECHARGE_TASK_ID" maxlength="15" datatype="Long" type="COL" >
+                <mapingcol datatype="NUMBER">RECHARGE_TASK_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_SEND_SMS" maxlength="2" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">IS_SEND_SMS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SMS_MESSAGE" maxlength="2000" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">SMS_MESSAGE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FILE_STATUS" maxlength="4" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">FILE_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SUCC_FILE_PATH" maxlength="100" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">SUCC_FILE_PATH</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FAIL_FILE_PATH" maxlength="100" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">FAIL_FILE_PATH</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SUCC_COUNTS" maxlength="15" datatype="Long" type="COL" >
+                <mapingcol datatype="NUMBER">SUCC_COUNTS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FAIL_COUNTS" maxlength="15" datatype="Long" type="COL" >
+                <mapingcol datatype="NUMBER">FAIL_COUNTS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NOT_RECHARGE_COUNTS" maxlength="15" datatype="Long" type="COL" >
+                <mapingcol datatype="NUMBER">NOT_RECHARGE_COUNTS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_DELETED" maxlength="1" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">IS_DELETED</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FILE_MANAGE_STATUS" maxlength="2" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">FILE_MANAGE_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

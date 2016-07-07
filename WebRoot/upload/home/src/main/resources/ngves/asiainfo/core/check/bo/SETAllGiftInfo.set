@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETAllGiftInfo" BOName="ngves.asiainfo.core.check.bo.AllGiftInfo" MainField="WARE_CODE" Title="ngves.asiainfo.core.check.bo.AllGiftInfo" ActBOName="ngves.asiainfo.core.check.bo.AllGiftInfo" Package="ngves.asiainfo.core.check.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ALLWA_FEE</Name>
+        <BOAttrName>ALLWA_FEE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ALLWA_FEE</ID>
+        <Title>兑换总金额</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="ALLWA_FEE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AVG_ALL_CT</Name>
+        <BOAttrName>AVG_ALL_CT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AVG_ALL_CT</ID>
+        <Title>所有礼品平兑量</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="12" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="AVG_ALL_CT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AVG_BIG_CT</Name>
+        <BOAttrName>AVG_BIG_CT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AVG_BIG_CT</ID>
+        <Title>本大类平兑量</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="12" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="AVG_BIG_CT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AVG_DSC</Name>
+        <BOAttrName>AVG_DSC</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AVG_DSC</ID>
+        <Title>平均兑换量</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1024" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="AVG_DSC" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AVG_MID_CT</Name>
+        <BOAttrName>AVG_MID_CT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AVG_MID_CT</ID>
+        <Title>本中类平兑量</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="12" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="AVG_MID_CT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AVG_SML_CT</Name>
+        <BOAttrName>AVG_SML_CT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AVG_SML_CT</ID>
+        <Title>本小类平兑量</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="12" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="AVG_SML_CT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAL_FEE</Name>
+        <BOAttrName>BAL_FEE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAL_FEE</ID>
+        <Title>结算价格</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="12" Decimal="2">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="BAL_FEE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BIG_KIND_NAME</Name>
+        <BOAttrName>BIG_KIND_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BIG_KIND_NAME</ID>
+        <Title>礼品大类</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="256" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="BIG_KIND_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>END_TIME</Name>
+        <BOAttrName>END_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>END_TIME</ID>
+        <Title>结束时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="8" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="END_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FEE_DC</Name>
+        <BOAttrName>FEE_DC</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FEE_DC</ID>
+        <Title>价格档次</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="128" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="FEE_DC" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_DCDHL</Name>
+        <BOAttrName>IS_DCDHL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_DCDHL</ID>
+        <Title>档次兑换量原因下线</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="IS_DCDHL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_DCTSL</Name>
+        <BOAttrName>IS_DCTSL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_DCTSL</ID>
+        <Title>档次投诉率下线</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="IS_DCTSL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_LBDHJE</Name>
+        <BOAttrName>IS_LBDHJE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_LBDHJE</ID>
+        <Title>类别兑换金额原因下线</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="IS_LBDHJE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_LBDHL</Name>
+        <BOAttrName>IS_LBDHL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_LBDHL</ID>
+        <Title>类别兑换量原因下线</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="IS_LBDHL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_LBTSL</Name>
+        <BOAttrName>IS_LBTSL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_LBTSL</ID>
+        <Title>类别投诉率下线</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="IS_LBTSL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MART_FEE</Name>
+        <BOAttrName>MART_FEE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MART_FEE</ID>
+        <Title>市场价格</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="12" Decimal="2">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="MART_FEE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MID_KIND_NAME</Name>
+        <BOAttrName>MID_KIND_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MID_KIND_NAME</ID>
+        <Title>礼品中类</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="256" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="MID_KIND_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARTNER_CODE</Name>
+        <BOAttrName>PARTNER_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARTNER_CODE</ID>
+        <Title>合作商编码</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="32" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="PARTNER_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARTNER_NAME</Name>
+        <BOAttrName>PARTNER_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARTNER_NAME</ID>
+        <Title>合作商名称</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="512" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="PARTNER_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SML_KIND_NAME</Name>
+        <BOAttrName>SML_KIND_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SML_KIND_NAME</ID>
+        <Title>礼品小类</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="256" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="SML_KIND_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>START_TIME</Name>
+        <BOAttrName>START_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>START_TIME</ID>
+        <Title>开始时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="8" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="START_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>STATUS_CAUSE</Name>
+        <BOAttrName>STATUS_CAUSE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>STATUS_CAUSE</ID>
+        <Title>礼品下线原因</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="12" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="STATUS_CAUSE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>TS_COUNT</Name>
+        <BOAttrName>TS_COUNT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>TS_COUNT</ID>
+        <Title>投诉量</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="12" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="TS_COUNT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>TS_RATE</Name>
+        <BOAttrName>TS_RATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>TS_RATE</ID>
+        <Title>投诉 率</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="12" Decimal="10">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="TS_RATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WAMOUNT</Name>
+        <BOAttrName>WAMOUNT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WAMOUNT</ID>
+        <Title>兑换量</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="12" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="WAMOUNT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_CODE</Name>
+        <BOAttrName>WARE_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_CODE</ID>
+        <Title>礼品编码</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="24" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="WARE_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_NAME</Name>
+        <BOAttrName>WARE_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_NAME</ID>
+        <Title>礼品名称</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="512" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="WARE_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_STATUS</Name>
+        <BOAttrName>WARE_STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_STATUS</ID>
+        <Title>礼品状态</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="12" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.AllGiftInfo" Attr="WARE_STATUS" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

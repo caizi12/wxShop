@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}
+html{overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+body,ul,dl,dd,dt,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,img,td,div,input{margin:0;padding:0;}
+ul,ol,li{list-style-type:none}
+li{vertical-align:0}
+h1,h2,h3,h4,h5,h6{ font-weight:normal}
+a{outline-style:none;color:#999;text-decoration:none}
+a:hover{color:999; text-decoration:none}
+body{ background-color:#FFFFFF;}
+body,input,select,textarea{ font-size:14px; font-family: "Microsoft Yahei";outline:none;}
+object,embed,video{	max-width:100%; border:none;margin-top:3px;}
+img{max-width:100%; border:none;margin-top:0px;}
+/* initial */
+.clearfix:after { visibility:hidden; display:block; font-size:0; content:""; clear:both; height:0;}
+.clearfix{ *zoom:1;}
+.clear{ clear:both;}
+.fl{ float:left; display:inline;}
+.fr{ float:right; display:inline;}
+
+
+
+
+/*价格*/
+.price{font-size:12px;color:#5f5f5f;}
+.price i{color:#f21111;font-style:normal;font-family:Arial;}
+
+/* check/radio */
+.radio{margin-right:10px;}
+.radio input,.check input{ display:none;}
+.radio font{display:inline-block;cursor:pointer;width:13px;height:13px;background:url(images/colicon8.png) no-repeat;background-size:13px 13px;}
+.radio font.active{background:url(images/colicon7.png) no-repeat;background-size:13px 13px;}
+.radio font.disabled{background:url(images/select_disabled.png) no-repeat;background-size:13px 13px;}
+
+/*我的账户*/
+.shopCars{min-width:320px;max-width:640px;margin:0 auto;}
+.shopCars .shopCarslist{border-bottom:1px #e1e1e1 solid;margin:0 9px;display:-webkit-box;}
+.shopCars .shopCarslist .radio font{margin:40px 8px 0 0;}
+.shopCars .shopCarslist .Img img{width:74px;height:74px;border:1px #e8e8e8 solid;margin:10px;}
+.shopCars .shopCarslist .Txt{display:-webkit-box;-webkit-box-flex:1;-webkit-box-orient:vertical;color:#666;}
+.shopCars .shopCarslist .Txt h2{padding-top:12px;font-size:12px;padding-bottom:5px;}
+.shopCars .shopCarslist .Txt p i{color: #ff3300;font-family:Arial;font-style:normal;font-weight:900;font-size:14px;}
+.shopCars .shopCarslist .Txt p i del{color: #666;font-family:Arial;font-style:normal;font-weight:900;font-size:14px;}
+.shopCars .shopCarslist .Txt .count{margin-top:9px;}
+.shopCars .shopCarslist .Txt .count .minus{width:27px;height:24px;line-height:24px;text-align:center;font-size:14px;color:#999;border:1px #d6d6d6 solid;display:inline-block;border-right:0;}
+.shopCars .shopCarslist .Txt .count input{width:40px;line-height:24px;text-align:center;border:1px #d6d6d6 solid;outline: 0;
+    -webkit-text-size-adjust:none;
+    -webkit-tap-hightlight-color:rgba(0,0,0,0);
+    -webkit-tap-hightlight-color:transparent;}
+.shopCars .shopCarslist .Txt .count .plus{width:27px;height:24px;line-height:24px;text-align:center;font-size:14px;color:#999;border:1px #d6d6d6 solid;display:inline-block;border-left:0;}
+.shopCars .shopCarslist .Txt .count span{font-size:12px;padding-top:5px;}
+
+.totalAlls{position:fixed;bottom:0;height:42px;display:-webkit-box;width:100%;min-width:320px;max-width:640px;}
+.totalAlls .checkAll{background:#262626;display:-webkit-box;-webkit-box-flex:1;-webkit-box-orient:vertical;width:30%;color:#fff;line-height:42px;text-align:center;}
+.totalAlls .checkAll .radio{width:5px;display:inline-block;}
+.totalAlls .move{background:#ef3636;line-height:42px;width:35%;text-align:center;font-size:15px;color:#fff;}
+.totalAlls .move a{display:inline-block;line-height:42px;width:110px;color:#fff;}
+.totalAlls .del{background:#fff;border:1px #ef3636 solid;line-height:42px;width:20%;text-align:center;font-size:15px;color:#fff;}
+.totalAlls .del a{display:inline-block;line-height:42px;width:70px;color:#ef3636;}
+.totalAlls .checkAlls{background:#262626;display:-webkit-box;-webkit-box-flex:1;-webkit-box-orient:vertical;width:45%;color:#fff;text-align:left;}
+.totalAlls .checkAlls .radio{width:5px;display:inline-block;margin:5px 10px;vertical-align:top;}
+.totalAlls .checkAlls .count{display:inline-block;padding-top:3px;}
+.totalAlls .checkAlls .count span{display:block;}
+.totalAlls .checkAlls .count span i{font-family:Arial;font-style:normal;font-weight:900;font-size:14px;}
+.totalAlls .checkAlls .count span.bala{font-size:10px;}
+.totalAlls .checkAlls .count span.bala i{font-family:Arial;font-style:normal;font-weight:100;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

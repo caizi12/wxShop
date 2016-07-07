@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="FilterWordsInfo" mainattr="FILTER_WORD_ID">
+        <mapingenty type="table">FILTER_WORDS_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="FILTER_WORD_ID" maxlength="15" datatype="Long" type="PK" remark="过滤词id">
+                <mapingcol datatype="NUMBER">FILTER_WORD_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FILTER_WORD" maxlength="200" datatype="String" type="COL" remark="评论过滤词内容">
+                <mapingcol datatype="VARCHAR2">FILTER_WORD</mapingcol>
+            </attr>
+            <attr floatlength="0" name="REPLACE_WORD" maxlength="20" datatype="String" type="COL" remark="替换词  暂时只有***">
+                <mapingcol datatype="VARCHAR2">REPLACE_WORD</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UPDATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="更新时间">
+                <mapingcol datatype="DATE">UPDATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FILTER_WORD_STATUS" maxlength="1" datatype="String" type="COL" remark="0无效
+1有效(默认)">
+                <mapingcol datatype="VARCHAR2">FILTER_WORD_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_01" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_01</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_02" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_02</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

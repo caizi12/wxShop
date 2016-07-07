@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/jf/app/!svn/ver/38490/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/order
+END
+WareStockUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jf/app/!svn/ver/38490/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/order/WareStockUtil.java
+END
+WareStock.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/jf/app/!svn/ver/29848/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/order/WareStock.java
+END
+AllegeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/jf/app/!svn/ver/19987/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/order/AllegeInfo.java
+END
+OrderConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jf/app/!svn/ver/32869/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/order/OrderConstant.java
+END
+ExpOrderWareInOut.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/order/ExpOrderWareInOut.java
+END
+NoramlOrderStock.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/29848/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/order/NoramlOrderStock.java
+END
+WareProvinceStock.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/order/WareProvinceStock.java
+END
+WareInOutInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jf/app/!svn/ver/20380/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/order/WareInOutInfo.java
+END
+ExpOrderStock.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/order/ExpOrderStock.java
+END

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETTuanProvince" BOName="ngves.asiainfo.core.tuan.bo.TuanProvince" MainField="TUAN_PROVINCE_ID" Title="ngves.asiainfo.core.tuan.bo.TuanProvince" ActBOName="ngves.asiainfo.core.tuan.bo.TuanProvince" Package="ngves.asiainfo.core.tuan.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL</Name>
+        <BOAttrName>BAK_COL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.tuan.bo.TuanProvince" Attr="BAK_COL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.tuan.bo.TuanProvince" Attr="BAK_COL2" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>LIMIT_PROV</Name>
+        <BOAttrName>LIMIT_PROV</BOAttrName>
+        <BODisplayAttrName />
+        <ID>LIMIT_PROV</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="10" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.tuan.bo.TuanProvince" Attr="LIMIT_PROV" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>TUAN_ID</Name>
+        <BOAttrName>TUAN_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>TUAN_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.tuan.bo.TuanProvince" Attr="TUAN_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>TUAN_PROVINCE_ID</Name>
+        <BOAttrName>TUAN_PROVINCE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>TUAN_PROVINCE_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.tuan.bo.TuanProvince" Attr="TUAN_PROVINCE_ID" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/jf/app/!svn/ver/41966/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo
+END
+O2OInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/jf/app/!svn/ver/40027/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/O2OInfoBean.java
+END
+O2OInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/38920/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/O2OInfoEngine.java
+END
+FloorTabsRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/41293/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/FloorTabsRltBean.java
+END
+FloorTabsRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/39222/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/FloorTabsRltEngine.java
+END
+NavbarInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/39001/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/NavbarInfoBean.java
+END
+NavbarInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/38702/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/NavbarInfoEngine.java
+END
+NavbarKindInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/39001/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/NavbarKindInfoBean.java
+END
+NavbarKindInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/38702/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/NavbarKindInfoEngine.java
+END
+FloorInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/41292/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/FloorInfoBean.java
+END
+FloorInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/39222/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/FloorInfoEngine.java
+END
+TabsAreaInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/41293/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/TabsAreaInfoBean.java
+END
+TabsAreaInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/39222/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/TabsAreaInfoEngine.java
+END
+O2OWareRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/40120/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/O2OWareRltBean.java
+END
+O2OWareRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/40120/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/O2OWareRltEngine.java
+END
+FloorSubKindBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/41293/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/FloorSubKindBean.java
+END
+FloorSubKindEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/39222/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/FloorSubKindEngine.java
+END
+FineRecomonEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/38720/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/FineRecomonEngine.java
+END
+FineRecomonBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/41966/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/FineRecomonBean.java
+END
+TabsInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jf/app/!svn/ver/41293/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/TabsInfoBean.java
+END
+TabsInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/39222/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/bo/TabsInfoEngine.java
+END

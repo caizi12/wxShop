@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOExamineFile" mainattr="EXAMINE_FILE_ID" remark="考核文件ID">
+        <mapingenty type="table">EXAMINE_FILE</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="EXAMINE_FILE_ID" maxlength="15" datatype="Long" type="COL" remark="考核文件ID">
+                <mapingcol datatype="NUMBER">EXAMINE_FILE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EXAMINE_MONTH" maxlength="8" datatype="String" type="COL" remark="考核月份">
+                <mapingcol datatype="VARCHAR2">EXAMINE_MONTH</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EXAMINE_FILE_NAME" maxlength="200" datatype="String" type="COL" remark="考核文件名称">
+                <mapingcol datatype="VARCHAR2">EXAMINE_FILE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UPDATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="更新时间">
+                <mapingcol datatype="DATE">UPDATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_TYPE" maxlength="100" datatype="String" type="COL" remark="合作商类型">
+                <mapingcol datatype="VARCHAR2">PARTNER_TYPE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+.price #message{  padding-bottom:8px;}
+.impS{ color:#F00; font-weight:bold;}
+#conGift p{margin-bottom:5px;}
+
+/*影院详细页*/
+.movieMenu{display:inline-block; padding-left:150px; margin-bottom:15px; margin-top:0px; padding-top:8px; margin-left:5px; }
+.priceCon{_width:99%;min-width:710px; overflow:hidden}
+.movieMenu ul{ border-bottom:1px solid #6CF;}
+.movieMenu li{ float:left; display:inline; margin-left:20px;  color:#000; height:10px; width:99px; text-align:center; white-space:nowrap;}
+.moviePrice{display:inline-block; margin-bottom:18px; _margin-bottom:10px;  margin-left:5px;}
+.moviePrice .priceTitle{ margin-right:0px; _margin-right:-8px; width:22px; text-align:right;white-space:nowrap;}
+.moviePrice li{float:left; display:inline; height:10px; width:85px; font-weight:bold; text-align:left;}
+.moviePrice del{ font-weight:normal; margin-right:1px;}
+.moviePrice .movieNum{ margin-left:33px; color:#004077;text-align: center;}
+.moviePrice .movieNumT{margin-left:40px; color:#004077;text-align: right; width:80px; }
+.moviePrice .noIntegralValue{color:#888;}
+.moviePrice .movieSale{ color: #EA0000;}
+
+.movieLevel{display:inline-block; margin-bottom:10px; padding-bottom:5px; line-height:1.5em; }
+.movieLevel li{ float:left; display:inline; color:#000; height:10px; text-align:center; white-space:nowrap;}
+.movieLevel .chooseTypeTitle{ margin-right:35px; width:50px; white-space:nowrap; text-align:right;color:#888; margin-top:7px;}
+.movieLevel a{ text-decoration:none;}
+.movieLevel a:hover{ color:#333;}
+.movieLevel .chooseType{margin-left:10px; }
+.movieLevel .chooseType a{ white-space:nowrap; display:inline-block;  width:110px; height:25px; border:1px solid #ccc; padding-left:2px; padding-top:5px; background:#FFF; }
+.movieLevel .chooseType a:hover{border:2px solid #FF2F2F; margin:-1px;}
+.movieLevel .chooseType a.dis{color: #CCC; margin:1px; cursor: default;}
+.movieLevel .selected{}
+.movieLevel .selected a{font-weight:bold; border:2px solid #FF2F2F; margin:-1px;  position:relative;}
+.movieLevel .selected i{ background:url("images/tick.jpg"); border-bottom:0; width:10px; height:10px; display:block; overflow:hidden; position:absolute; bottom:0; right:0;}
+
+
+.price .inputNum{ position:relative; margin-bottom:0px; }
+.price .inputNum .inputTitle{ margin-right:20px; font-weight:bold;}
+.price .inputNum input{ width:30px; text-align:center; margin-left:21px; margin-right:2px;}
+.price .inputNum a{ background:#F2F2F2; border:1px solid #ccc; width:15px; height:15px; text-align:center; text-decoration:none;}
+.price .inputNum .reduce{ position:absolute; top:2px;}
+.price .inputNum .add{ position:absolute; top:2px;}
+
+#priceDetail #priceDetailT{float:left; white-space:nowrap; font-weight:bold;}
+#priceDetail #priceDetailList{ float:left; display:inline; margin-left:40px; margin-bottom:10px;}
+
+.price .moviePrice .inputTitle{ margin-right:20px; width:60px; }
+.buyPlace{ border-top:#dceaf5 1px solid;}
+.buyPlace #btnBuy{ margin-top:10px;}
+
+/*国家大剧院详细页 */
+#detailProduct #buyInfo .price{ padding:10px 0 0;}
+
+
+
+/*父子礼品详情页*/
+.jf-prop li.jf-selected i { background-position: -61px -1px; bottom: 0; display: block; height: 13px; overflow: hidden; position: absolute; right: 0; text-indent: -99em; width: 13px; }
+.jf-prop li.jf-selected i { background: url("images/select.gif") no-repeat;}
+.jf-prop li { background-color: #FFFFFF; float: left; line-height: 20px; margin: 0 4px 4px 0;  padding: 1px; position: relative; vertical-align: middle; }
+.jf-prop li a { background-color: #FFFFFF; border: 1px solid #E2E1E3; color: #000000; display: block; min-width: 10px; padding: 0 6px; text-align: center; text-decoration: none; white-space: nowrap; width: auto !important; }
+.jf-prop li a:hover, .jf-prop li.jf-selected a, .jf-prop li.jf-selected a:hover { border: 1px solid #fe012d;  }
+.jf-prop li.jf-selected li a {  border: 1px solid #E2E1E3; margin: 0; }
+.jf-prop li a:focus { outline: 0 none; }
+.jf-prop li i { display: none; }
+.jf-prop li span {  padding-left: 1px; }
+.jf-prop li.jf-out-of-stock i { display: none; }
+.jf-prop li.jf-out-of-stock a, li.jf-out-of-stock a:hover { border: 1px dashed #D6D6D8; color: #CDCDCD; cursor: not-allowed; margin: 0; }
+.jf-clear { }
+.jf-metatit { background: none repeat scroll 0 0 #FFFFFF; margin: 0; border-bottom: 1px none #999999; padding-bottom: 3px; text-decoration: none; float: left; text-align: left; width: 85px; color: #666666;}
+.jf-metatit a ,.jf-metatit{ color: #999999;}
+.jf-metatit a,.jf-metatit a:visited { color: #816957;}
+.jf-in-of-stock{}
+#detailProduct #buyInfo #ware_g_original ,#detailProduct #buyInfo #ware_m_original ,#detailProduct #buyInfo #ware_e_original { padding:0 6px 0 0; font-weight:normal;}
+
+/*详情页混合支付*/
+.price .jfItemTitle{ margin-top:5px; padding-left: 0px;}
+.price .jfItem{margin:0 8px 0 0; }
+.price .jfItem a{ border:1px solid #ccc; color:#fd002e; display:inline-block; white-space:nowrap; padding:1px 1px 1px 8px; cursor:pointer; position:relative; width:220px; min-width:200px; _width:195px}
+.price .jfItem .sel i{ background:url("images/itemTick01.gif") no-repeat; width:20px; height:15px; display:inline-block; position:absolute; right:0; bottom:0; _right:-1px; _bottom:-5px;}
+.price .jfItem a:hover{border:2px solid #fe012d; padding:0 0 0 7px;}
+.price .sel{border:2px solid #ff002c; padding:0 0 0 7px;}
+.VIPspan{background:#fe012d; color:#fff; padding:6px 8px;}
+.alogin{color:#0066CC}
+.alogin:hover{color:#0066CC; cursor:pointer}
+.price .itemM{ position:absolute}
+
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETCityAreaCodeInfo" BOName="ngves.asiainfo.core.common.bo.CityAreaCodeInfo" MainField="CITY_AREA_CODE_ID" Title="ngves.asiainfo.core.common.bo.CityAreaCodeInfo" ActBOName="ngves.asiainfo.core.common.bo.CityAreaCodeInfo" Package="ngves.asiainfo.core.common.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL</Name>
+        <BOAttrName>BAK_COL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL</ID>
+        <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.CityAreaCodeInfo" Attr="BAK_COL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.CityAreaCodeInfo" Attr="BAK_COL2" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CITY_AREA_CODE</Name>
+        <BOAttrName>CITY_AREA_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CITY_AREA_CODE</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.CityAreaCodeInfo" Attr="CITY_AREA_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CITY_AREA_CODE_ID</Name>
+        <BOAttrName>CITY_AREA_CODE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CITY_AREA_CODE_ID</ID>
+         <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.CityAreaCodeInfo" Attr="CITY_AREA_CODE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CITY_HP_NAME</Name>
+        <BOAttrName>CITY_HP_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CITY_HP_NAME</ID>
+         <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="500" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.CityAreaCodeInfo" Attr="CITY_HP_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PROVINCE_CODE</Name>
+        <BOAttrName>PROVINCE_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PROVINCE_CODE</ID>
+         <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.CityAreaCodeInfo" Attr="PROVINCE_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PROVINCE_HP_CODE</Name>
+        <BOAttrName>PROVINCE_HP_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PROVINCE_HP_CODE</ID>
+         <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.CityAreaCodeInfo" Attr="PROVINCE_HP_CODE" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

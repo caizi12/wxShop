@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="BusiParaData" mainattr="PARA_ID" remark="详细日志字段对应中文表">
+        <mapingenty type="table">BUSI_PARA_DATA</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="PARA_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">PARA_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARA_TYPE_ID" maxlength="15" datatype="Long" type="COL" remark="0:表 1:字段">
+                <mapingcol datatype="NUMBER">PARA_TYPE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARA_CODE_TYPE" maxlength="20" datatype="String" type="COL" remark="所属的表">
+                <mapingcol datatype="VARCHAR2">PARA_CODE_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARA_CODE" maxlength="20" datatype="String" type="COL" remark="表名或字段名">
+                <mapingcol datatype="VARCHAR2">PARA_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARA_NAME" maxlength="1000" datatype="String" type="COL" remark="表名或字段名对应的文字">
+                <mapingcol datatype="VARCHAR2">PARA_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="40" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="LogisticIntegralOperatePlan" mainattr="OPERATE_PLAN_ID">
+        <mapingenty type="table">LOGISTIC_INTEGRAL_OPERATE_PLAN</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="OPERATE_PLAN_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">OPERATE_PLAN_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPERATE_PLAN_TYPE" maxlength="2" datatype="String" type="COL" remark="触发计算类型:1,仓库信息包装费保存;2,仓库绑定配送省;3,仓库绑定配送商;4,仓库绑定物流费规则;5,配送价发生变化;6,物流费规则修改;7,仓库删除配送商">
+                <mapingcol datatype="VARCHAR2">OPERATE_PLAN_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPERATE_PLAN_STATE" maxlength="2" datatype="String" type="COL" remark="定时执行状态:0,待执行;1,执行中;2,执行成功;3,执行失败">
+                <mapingcol datatype="VARCHAR2">OPERATE_PLAN_STATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WAREHOUSE_ID" maxlength="15" datatype="Long" type="COL" remark="仓库id">
+                <mapingcol datatype="NUMBER">WAREHOUSE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_ID" maxlength="15" datatype="Long" type="COL" remark="合作商id">
+                <mapingcol datatype="NUMBER">PARTNER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="创建时间">
+                <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MODIFY_TIME" maxlength="20" datatype="DateTime" type="COL" remark="修改时间">
+                <mapingcol datatype="DATE">MODIFY_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STAFF_ID" maxlength="15" datatype="Long" type="COL" remark="操作人">
+                <mapingcol datatype="NUMBER">STAFF_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COM_TYPE" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">COM_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RULE_ID" maxlength="15" datatype="Long" type="COL" remark="">
+                <mapingcol datatype="NUMBER">RULE_ID</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

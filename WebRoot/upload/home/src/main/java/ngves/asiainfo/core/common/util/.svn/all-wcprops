@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/jf/app/!svn/ver/41959/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util
+END
+AiFtpUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jf/app/!svn/ver/18759/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/AiFtpUtil.java
+END
+SynUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jf/app/!svn/ver/20131/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/SynUtil.java
+END
+InterMsgBusiUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/InterMsgBusiUtil.java
+END
+BusiInfoUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/36096/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/BusiInfoUtil.java
+END
+PointQueryDescUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/39956/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/PointQueryDescUtil.java
+END
+SolrClientUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/40790/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/SolrClientUtil.java
+END
+CustomFtpManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/CustomFtpManager.java
+END
+WareTypeCodeEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/30123/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/WareTypeCodeEnum.java
+END
+AiHpInterUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/38550/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/AiHpInterUtil.java
+END
+DeliverTypeEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/19265/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/DeliverTypeEnum.java
+END
+DBCnnUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/DBCnnUtil.java
+END
+InformationFileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/InformationFileUtil.java
+END
+KeyUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/KeyUtil.java
+END
+ExcelByColUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/35680/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/ExcelByColUtil.java
+END
+TripleDESUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/20084/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/TripleDESUtil.java
+END
+DeliverTypeUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/20062/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/DeliverTypeUtil.java
+END
+AiMailUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/AiMailUtil.java
+END
+SolrServerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/41959/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/SolrServerInstance.java
+END
+LogInfoUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/38370/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/LogInfoUtil.java
+END
+WareDescUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/38224/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/util/WareDescUtil.java
+END

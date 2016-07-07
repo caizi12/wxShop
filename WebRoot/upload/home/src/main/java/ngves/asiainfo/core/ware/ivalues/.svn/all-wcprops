@@ -1,0 +1,389 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/jf/app/!svn/ver/41632/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues
+END
+IJobDateRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/22713/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IJobDateRltValue.java
+END
+IBusiWareInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/27673/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IBusiWareInfoValue.java
+END
+ILogisticIntegralOperatePlanValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jf/app/!svn/ver/29005/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/ILogisticIntegralOperatePlanValue.java
+END
+IQBOWareWeekTopValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/33893/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOWareWeekTopValue.java
+END
+ILogisticRulePriceRangeValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/28941/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/ILogisticRulePriceRangeValue.java
+END
+IQBOJobDateValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/22744/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOJobDateValue.java
+END
+IStaffJobRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/22744/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IStaffJobRltValue.java
+END
+IWareLimitExchangeNumValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/36024/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IWareLimitExchangeNumValue.java
+END
+IQBOLogisticIntegralInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jf/app/!svn/ver/28451/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOLogisticIntegralInfoValue.java
+END
+IwareWeekRankValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33889/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IwareWeekRankValue.java
+END
+IWareInfoPortalValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/41632/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IWareInfoPortalValue.java
+END
+IWareUpDownHisValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/28058/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IWareUpDownHisValue.java
+END
+IBrandCategoryInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/33342/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IBrandCategoryInfoValue.java
+END
+IWareIntegralInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/37658/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IWareIntegralInfoValue.java
+END
+IWareUpDownVersionValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/20027/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IWareUpDownVersionValue.java
+END
+IWareExchangePermissionRuleValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jf/app/!svn/ver/17404/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IWareExchangePermissionRuleValue.java
+END
+IQBOPermissionInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/33874/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOPermissionInfoValue.java
+END
+IWareDescInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/15558/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IWareDescInfoValue.java
+END
+IQBOHouseWareInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/36731/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOHouseWareInfoValue.java
+END
+IActivityIntegralValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/37816/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IActivityIntegralValue.java
+END
+IQBOWareParentInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/36694/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOWareParentInfoValue.java
+END
+IQBOLogisticRuleHouseInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jf/app/!svn/ver/28451/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOLogisticRuleHouseInfoValue.java
+END
+IQBOWareIdFirstKindValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/38250/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOWareIdFirstKindValue.java
+END
+IQBOPermissionWareRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/36694/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOPermissionWareRltValue.java
+END
+IJobTaskValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/22713/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IJobTaskValue.java
+END
+IQBOPreferentialInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/26181/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOPreferentialInfoValue.java
+END
+IQBOBusiWareInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/27713/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOBusiWareInfoValue.java
+END
+IPermissionRuleRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/20703/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IPermissionRuleRltValue.java
+END
+IWarePCRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/20762/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IWarePCRltValue.java
+END
+IQBOWareImageValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOWareImageValue.java
+END
+IQBOPermissionRuleRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/21134/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOPermissionRuleRltValue.java
+END
+IPermissionTypeInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/20764/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IPermissionTypeInfoValue.java
+END
+IQBOMonitorWareValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/22764/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOMonitorWareValue.java
+END
+IwareDayRankValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33857/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IwareDayRankValue.java
+END
+IQBOAllWareInfoChildValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/37813/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOAllWareInfoChildValue.java
+END
+IWareInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/32448/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IWareInfoValue.java
+END
+ILogisticIntegralInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/28602/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/ILogisticIntegralInfoValue.java
+END
+IQBOLimitExchangeNumWareValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jf/app/!svn/ver/36694/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOLimitExchangeNumWareValue.java
+END
+IQBOMergeAllWareInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/36694/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOMergeAllWareInfoValue.java
+END
+IPartnerInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/25333/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IPartnerInfoValue.java
+END
+IQBOMergeWareInfoCheckValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/36694/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOMergeWareInfoCheckValue.java
+END
+IQBOMergeBusiLeastWareCheckValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jf/app/!svn/ver/36694/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOMergeBusiLeastWareCheckValue.java
+END
+ILogisticRuleHouseRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/28451/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/ILogisticRuleHouseRltValue.java
+END
+IQBOWareProvDeliverFeeValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/31105/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOWareProvDeliverFeeValue.java
+END
+IQBOWareUsableBrandValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/36088/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOWareUsableBrandValue.java
+END
+IPermissionInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/33874/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IPermissionInfoValue.java
+END
+IBusiActivityIntegralValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/37816/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IBusiActivityIntegralValue.java
+END
+ILogisticRuleValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/28451/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/ILogisticRuleValue.java
+END
+IWareMonitorRecordValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/22764/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IWareMonitorRecordValue.java
+END
+IWareUpDownPlanValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/20027/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IWareUpDownPlanValue.java
+END
+IBusiWareInfoParentValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/34938/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IBusiWareInfoParentValue.java
+END
+IQBOPermissionWareValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/20689/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOPermissionWareValue.java
+END
+IQBOAllWareKindInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/29916/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOAllWareKindInfoValue.java
+END
+IWareExchangeRuleRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/36024/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IWareExchangeRuleRltValue.java
+END
+IQBOQueryMonitorValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/22943/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOQueryMonitorValue.java
+END
+IQBOWareChildInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/32439/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOWareChildInfoValue.java
+END
+IQBOBusiWareDescValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/34204/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOBusiWareDescValue.java
+END
+IQBOAllMonitorValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/22707/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOAllMonitorValue.java
+END
+IWareInfoPortalIntegralValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/37657/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IWareInfoPortalIntegralValue.java
+END
+IJobObjectRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/22835/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IJobObjectRltValue.java
+END
+IRuleInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/17404/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IRuleInfoValue.java
+END
+IWareInfoParentValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/34938/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IWareInfoParentValue.java
+END
+IWarePicSynValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/36752/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IWarePicSynValue.java
+END
+IQBOAllWareDescValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/37847/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/ivalues/IQBOAllWareDescValue.java
+END

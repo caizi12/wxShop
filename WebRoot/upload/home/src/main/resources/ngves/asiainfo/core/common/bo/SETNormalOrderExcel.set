@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETNormalOrderExcel" BOName="ngves.asiainfo.core.common.bo.NormalOrderExcel" MainField="NOR_ORDER_EXCEL_ID" Title="ngves.asiainfo.mgt.remind.bo.NormalOrderExcel" ActBOName="ngves.asiainfo.mgt.remind.bo.NormalOrderExcel" Package="ngves.asiainfo.core.common.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ADAPT_TYPE</Name>
+        <BOAttrName>ADAPT_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ADAPT_TYPE</ID>
+        <Title>适配的类型-模糊匹配;抢兑下单导出：01；订单查询省导出：02；订单查询礼品商导出：03；订单查询运营中心导出：04；以逗号分割</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NormalOrderExcel" Attr="ADAPT_TYPE" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NormalOrderExcel" Attr="ADAPT_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL</Name>
+        <BOAttrName>BAK_COL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL</ID>
+        <Title>beiyong</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NormalOrderExcel" Attr="BAK_COL" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NormalOrderExcel" Attr="BAK_COL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title>beiyong</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NormalOrderExcel" Attr="BAK_COL2" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NormalOrderExcel" Attr="BAK_COL2" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>COLUMN_DESC</Name>
+        <BOAttrName>COLUMN_DESC</BOAttrName>
+        <BODisplayAttrName />
+        <ID>COLUMN_DESC</ID>
+        <Title>名称</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NormalOrderExcel" Attr="COLUMN_DESC" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NormalOrderExcel" Attr="COLUMN_DESC" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FONT_COLOR</Name>
+        <BOAttrName>FONT_COLOR</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FONT_COLOR</ID>
+        <Title>颜色</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="8" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NormalOrderExcel" Attr="FONT_COLOR" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NormalOrderExcel" Attr="FONT_COLOR" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>NOR_COLUMN_GET</Name>
+        <BOAttrName>NOR_COLUMN_GET</BOAttrName>
+        <BODisplayAttrName />
+        <ID>NOR_COLUMN_GET</ID>
+        <Title>方法get</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NormalOrderExcel" Attr="NOR_COLUMN_GET" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NormalOrderExcel" Attr="NOR_COLUMN_GET" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>NOR_LIST_GET</Name>
+        <BOAttrName>NOR_LIST_GET</BOAttrName>
+        <BODisplayAttrName />
+        <ID>NOR_LIST_GET</ID>
+        <Title>list方法</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NormalOrderExcel" Attr="NOR_LIST_GET" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NormalOrderExcel" Attr="NOR_LIST_GET" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>NOR_MAP_GET</Name>
+        <BOAttrName>NOR_MAP_GET</BOAttrName>
+        <BODisplayAttrName />
+        <ID>NOR_MAP_GET</ID>
+        <Title>map方法</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NormalOrderExcel" Attr="NOR_MAP_GET" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NormalOrderExcel" Attr="NOR_MAP_GET" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>NOR_ORDER_EXCEL_ID</Name>
+        <BOAttrName>NOR_ORDER_EXCEL_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>NOR_ORDER_EXCEL_ID</ID>
+        <Title>主键</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NormalOrderExcel" Attr="NOR_ORDER_EXCEL_ID" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NormalOrderExcel" Attr="NOR_ORDER_EXCEL_ID" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

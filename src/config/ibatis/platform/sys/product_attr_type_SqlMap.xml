@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap namespace="product_attr_type" >
+  <resultMap id="productAttrTypeResult" class="cn.frame.platform.entitys.ProductAttrType" >
+    <result column="ATTR_ID" property="attrId" jdbcType="INTEGER" />
+    <result column="ATTR_KIND" property="attrKind" jdbcType="VARCHAR" />
+    <result column="ATTR_NAME" property="attrName" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+    <result column="SORT_ID" property="sortId" jdbcType="INTEGER" />
+    <result column="ATTR_TYPE" property="attrType" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+     
+  </resultMap>
+ 
+  
+  <select id="getProductAttrType" resultMap="productAttrTypeResult" parameterClass="cn.frame.platform.entitys.ProductAttrType" >
+    select ATTR_ID, ATTR_KIND, ATTR_NAME, STATUS, SORT_ID, ATTR_TYPE, CREATE_TIME
+    from product_attr_type
+    where ATTR_ID = #attrId:INTEGER#
+  </select>
+  
+   <select id="queryProductAttrType" resultMap="productAttrTypeResult" parameterClass="java.util.Map" >
+    select ATTR_ID, ATTR_KIND, ATTR_NAME, STATUS, SORT_ID, ATTR_TYPE, CREATE_TIME
+    from product_attr_type
+    where 1=1
+    <isNotEmpty prepend="and" property="attrId">
+		  ATTR_ID=#attrId#
+	</isNotEmpty>
+	 <isNotEmpty prepend="and" property="attrKind">
+		  ATTR_KIND=#attrKind#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="status">
+		STATUS like #status#
+	</isNotEmpty>
+	order by SORT_ID
+  </select>
+  <delete id="batchDelProductAttrType" parameterClass="cn.frame.platform.entitys.ProductAttrType" >
+    delete from product_attr_type
+    where ATTR_ID = #attrId:INTEGER#
+  </delete>
+ 
+  <insert id="insertProductAttrType" parameterClass="cn.frame.platform.entitys.ProductAttrType" >
+    insert into product_attr_type (ATTR_KIND, ATTR_NAME, STATUS, SORT_ID, ATTR_TYPE,
+      CREATE_TIME)
+    values ( #attrKind:VARCHAR#, #attrName:VARCHAR#, #status:VARCHAR#,
+      #sortId:INTEGER#, #attrType:VARCHAR#, #createTime:TIME#)
+  </insert>
+  <update id="updateProductAttrType" parameterClass="cn.frame.platform.entitys.ProductAttrType" >
+    update product_attr_type
+    set ATTR_KIND = #attrKind:VARCHAR#,
+      ATTR_NAME = #attrName:VARCHAR#,
+      STATUS = #status:VARCHAR#,
+      SORT_ID = #sortId:INTEGER#,
+      ATTR_TYPE = #attrType:VARCHAR#,
+      CREATE_TIME = #createTime:TIME#
+    where ATTR_ID = #attrId:INTEGER#
+  </update>
+  
+</sqlMap>

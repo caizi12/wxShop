@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETQBOMergeBusiLeastWareCheck" BOName="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" MainField="BUSI_ID" Title="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" ActBOName="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Package="ngves.asiainfo.core.ware.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BUSI_ID</Name>
+        <BOAttrName>BUSI_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BUSI_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="BUSI_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BUSI_STATE</Name>
+        <BOAttrName>BUSI_STATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BUSI_STATE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBListBox</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="4" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+        <ActBO Name="ngves.asiainfo.mgt.ware.bo.QBOMergeBusiLeastWareCheck" Attr="BUSI_STATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>COUNT_VALUE</Name>
+        <BOAttrName>COUNT_VALUE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>COUNT_VALUE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="COUNT_VALUE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>DELIVER_TYPE</Name>
+        <BOAttrName>DELIVER_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>DELIVER_TYPE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="DELIVER_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>LAST_UPDATE_DATE</Name>
+        <BOAttrName>LAST_UPDATE_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>LAST_UPDATE_DATE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="7" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="LAST_UPDATE_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MARKET_PRICE</Name>
+        <BOAttrName>MARKET_PRICE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MARKET_PRICE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="MARKET_PRICE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARTNER</Name>
+        <BOAttrName>PARTNER</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARTNER</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="PARTNER" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PROVINCE_CODE</Name>
+        <BOAttrName>PROVINCE_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PROVINCE_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="PROVINCE_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_BRAND_ID</Name>
+        <BOAttrName>WARE_BRAND_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_BRAND_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="WARE_BRAND_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_CODE</Name>
+        <BOAttrName>WARE_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="WARE_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_FIRST_KIND_ID</Name>
+        <BOAttrName>WARE_FIRST_KIND_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_FIRST_KIND_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="WARE_FIRST_KIND_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_ID</Name>
+        <BOAttrName>WARE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="WARE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_KIND_ID</Name>
+        <BOAttrName>WARE_KIND_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_KIND_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="WARE_KIND_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_KIND_PARENT_ID</Name>
+        <BOAttrName>WARE_KIND_PARENT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_KIND_PARENT_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="WARE_KIND_PARENT_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_NAME</Name>
+        <BOAttrName>WARE_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_NAME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="WARE_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_STORAGE_TYPE</Name>
+        <BOAttrName>WARE_STORAGE_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_STORAGE_TYPE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="WARE_STORAGE_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_TYPE</Name>
+        <BOAttrName>WARE_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_TYPE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="WARE_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_KIND_INFO_ID</Name>
+        <BOAttrName>WARE_KIND_INFO_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_KIND_INFO_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="WARE_KIND_INFO_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_KIND_INFO_NAME</Name>
+        <BOAttrName>WARE_KIND_INFO_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_KIND_INFO_NAME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="400" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOMergeBusiLeastWareCheck" Attr="WARE_KIND_INFO_NAME" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

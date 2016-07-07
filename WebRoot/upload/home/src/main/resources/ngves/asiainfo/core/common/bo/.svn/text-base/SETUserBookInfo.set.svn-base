@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETUserBookInfo" BOName="ngves.asiainfo.core.common.bo.UserBookInfo" MainField="USER_BOOK_ID" Title="ngves.asiainfo.core.common.bo.UserBookInfo" ActBOName="ngves.asiainfo.core.common.bo.UserBookInfo" Package="ngves.asiainfo.core.common.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL1</Name>
+        <BOAttrName>BAK_COL1</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL1</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserBookInfo" Attr="BAK_COL1" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserBookInfo" Attr="BAK_COL2" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BOOK_STATUS</Name>
+        <BOAttrName>BOOK_STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BOOK_STATUS</ID>
+        <Title>00-未订阅  01-已订阅</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserBookInfo" Attr="BOOK_STATUS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BOOK_TIME</Name>
+        <BOAttrName>BOOK_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BOOK_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserBookInfo" Attr="BOOK_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>INFO_CODE</Name>
+        <BOAttrName>INFO_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>INFO_CODE</ID>
+        <Title>INFORMATION_KIND_INFO 表的流水，目前可以订阅的信息只有4种：邮件类型的兑换成功提醒、营销活动；短信类型的新品到货、到货提醒。</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserBookInfo" Attr="INFO_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MOBILE_PHONE_NO</Name>
+        <BOAttrName>MOBILE_PHONE_NO</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MOBILE_PHONE_NO</ID>
+        <Title>邮件类型：01   短信类型：02</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserBookInfo" Attr="MOBILE_PHONE_NO" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>REBOOK_TIME</Name>
+        <BOAttrName>REBOOK_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>REBOOK_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserBookInfo" Attr="REBOOK_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SEND_DATE</Name>
+        <BOAttrName>SEND_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SEND_DATE</ID>
+        <Title>订阅短信类型的信息时，该字段值生效；周一至周五，周六日及公休日，不限制。</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserBookInfo" Attr="SEND_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>USER_BOOK_ID</Name>
+        <BOAttrName>USER_BOOK_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>USER_BOOK_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserBookInfo" Attr="USER_BOOK_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPER</Name>
+        <BOAttrName>OPER</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPER</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserBookInfo" Attr="OPER" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>USER_ID</Name>
+        <BOAttrName>USER_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>USER_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserBookInfo" Attr="USER_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>USER_ROLE</Name>
+        <BOAttrName>USER_ROLE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>USER_ROLE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserBookInfo" Attr="USER_ROLE" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

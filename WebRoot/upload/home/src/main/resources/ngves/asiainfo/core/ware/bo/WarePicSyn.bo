@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="WarePicSyn" mainattr="WARE_PIC_SYN_ID">
+        <mapingenty type="table">WARE_PIC_SYN</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_PIC_SYN_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">WARE_PIC_SYN_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">BUSI_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PIC_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PIC_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STATUS" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UPDATE_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">UPDATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FAIL_REASON" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FAIL_REASON</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

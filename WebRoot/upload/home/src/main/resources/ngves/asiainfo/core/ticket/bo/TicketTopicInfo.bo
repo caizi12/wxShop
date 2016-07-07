@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="TicketTopicInfo" mainattr="TOPIC_ID" remark="影票专题页">
+        <mapingenty type="table">TICKET_TOPIC_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="TOPIC_ID" maxlength="15" datatype="Long" type="PK" remark="专题页标识">
+                <mapingcol datatype="NUMBER">TOPIC_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TOPIC_NAME" maxlength="200" datatype="String" type="COL" remark="">
+                <mapingcol datatype="VARCHAR2">TOPIC_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TOPIC_TITLE" maxlength="200" datatype="String" type="COL" remark="">
+                <mapingcol datatype="VARCHAR2">TOPIC_TITLE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TOPIC_URL" maxlength="100" datatype="String" type="COL" remark="专题页URL">
+                <mapingcol datatype="VARCHAR2">TOPIC_URL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TOPIC_PIC" maxlength="50" datatype="String" type="COL" remark="固定宽度950，高度不限">
+                <mapingcol datatype="VARCHAR2">TOPIC_PIC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DESC_BG_IMAGE" maxlength="50" datatype="String" type="COL" remark="说明区背景图">
+                <mapingcol datatype="VARCHAR2">DESC_BG_IMAGE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TOPIC_BG_IMAGE" maxlength="50" datatype="String" type="COL" remark="专题背景图">
+                <mapingcol datatype="VARCHAR2">TOPIC_BG_IMAGE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TOPIC_COLOR" maxlength="50" datatype="String" type="COL" remark="专题背景色">
+                <mapingcol datatype="VARCHAR2">TOPIC_COLOR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TOPIC_INFO" maxlength="4000" datatype="String" type="COL" remark="专题页文字介绍">
+                <mapingcol datatype="VARCHAR2">TOPIC_INFO</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TOPIC_TEMPLET" maxlength="2" datatype="String" type="COL" remark="01:普通模板02:带所属地过滤条件模板(带省、市、县]信息标识)">
+                <mapingcol datatype="CHAR">TOPIC_TEMPLET</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RECORD_TIME" maxlength="20" datatype="DateTime" type="COL" remark="录入时间">
+                <mapingcol datatype="DATE">RECORD_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RECORD_PARTNER" maxlength="40" datatype="String" type="COL" remark="录入人员">
+                <mapingcol datatype="VARCHAR2">RECORD_PARTNER</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_KIND_IDS" maxlength="1000" datatype="String" type="COL" remark="关联WARE_KIND表绑定的礼品小类标识、多个礼品小类用逗号隔开">
+                <mapingcol datatype="VARCHAR2">WARE_KIND_IDS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

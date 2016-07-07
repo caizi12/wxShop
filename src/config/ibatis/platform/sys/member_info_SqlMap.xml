@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap namespace="member_info" >
+   
+  <select id="getMemberInfo" parameterClass="cn.frame.platform.entitys.MemberInfo" resultClass="cn.frame.platform.entitys.MemberInfo" >
+    select  MEMBER_ID memberId,
+          USER_NAME userName,
+          MOBILE_NO mobileNo,birthday, PASSWORD, REAL_NAME realName, STATUS, SEX, RECOMEND_ID recomendId, PHONE_NO phoneNo,TOTAL_POINT totalPoint ,CAN_POINT canPoint,
+          EMAIL, LAST_LOGIN lastLogin, UNLOCK_TIME unlockTime, LAST_IP lastIp, REMARK, CREATE_TIME createTime, UPDATE_TIME updateTime,MEMBER_TYPE memberType,
+          ADDRESS,POST_CODE postCode,QR_CODE_IMG qrCodeImg
+    from member_info
+     where 1=1 
+	    <isNotEmpty prepend="and" property="memberId">
+			  MEMBER_ID=#memberId#
+		</isNotEmpty>
+		<isNotEmpty prepend="and" property="mobileNo">
+			  MOBILE_NO=#mobileNo#
+		</isNotEmpty>
+		<isNotEmpty prepend="and" property="userName">
+			USER_NAME like '%$userName$%' 
+		</isNotEmpty>
+		<isNotEmpty prepend="and" property="realName">
+			REAL_NAME like '%$realName$%'
+		</isNotEmpty>
+		<isNotEmpty prepend="and" property="status">
+			STATUS=#status#
+		</isNotEmpty>
+		
+  </select> 
+   
+  <select id="queryMemberInfo" parameterClass="java.util.Map" resultClass="cn.frame.platform.entitys.MemberInfo" >
+    select MEMBER_ID memberId,
+          USER_NAME userName,birthday,
+          MOBILE_NO mobileNo, PASSWORD, REAL_NAME realName, STATUS, SEX, RECOMEND_ID recomendId, PHONE_NO phoneNo,TOTAL_POINT totalPoint ,CAN_POINT canPoint,
+      EMAIL, LAST_LOGIN lastLogin, UNLOCK_TIME unlockTime, LAST_IP lastIp, REMARK, CREATE_TIME createTime, UPDATE_TIME updateTime,MEMBER_TYPE memberType,
+          ADDRESS,POST_CODE postCode,QR_CODE_IMG qrCodeImg
+    from member_info
+     where 1=1 and status!='3'
+	    <isNotEmpty prepend="and" property="memberId">
+			  MEMBER_ID=#memberId#
+		</isNotEmpty> 
+		<isNotEmpty prepend="and" property="mobileNo">
+			  MOBILE_NO=#mobileNo#
+		</isNotEmpty>
+		<isNotEmpty prepend="and" property="userName">
+			USER_NAME like '%$userName$%' 
+		</isNotEmpty>
+		<isNotEmpty prepend="and" property="realName">
+			REAL_NAME like '%$realName$%'
+		</isNotEmpty>
+		<isNotEmpty prepend="and" property="status">
+			STATUS=#status#
+		</isNotEmpty>
+		<isNotEmpty prepend="and" property="recomendId">
+			RECOMEND_ID=#recomendId#
+		</isNotEmpty>
+  </select>
+  
+  <delete id="batchDelMemberInfo" parameterClass="java.lang.String" >
+    delete from member_info
+    where MEMBER_ID = #memberId:INTEGER#
+  </delete>
+  
+   <update id="updateMemberToDelStatus" parameterClass="java.lang.String" >
+     update member_info
+     set STATUS='3'
+     where MEMBER_ID = #memberId:INTEGER#
+   </update>
+  
+  <insert id="addMemberInfo" parameterClass="cn.frame.platform.entitys.MemberInfo" >
+    insert into member_info ( USER_NAME, MOBILE_NO, PASSWORD, REAL_NAME, STATUS,TOTAL_POINT,CAN_POINT, SEX,birthday,
+      RECOMEND_ID, PHONE_NO, EMAIL, LAST_LOGIN, UNLOCK_TIME, LAST_IP, REMARK, CREATE_TIME,
+      UPDATE_TIME)
+    values ( #userName#, #mobileNo#, #password#,
+      #realName#, #status#, #totalPoint#, #canPoint#,#sex#,#birthday#,  #recomendId#, #phoneNo#,
+      #email#, #lastLogin#, #unlockTime#, #lastIp#,
+      #remark#, #createTime#, #updateTime#)
+      <selectKey resultClass="int" keyProperty="memberId" > 
+      SELECT LAST_INSERT_ID() AS memberId 
+      </selectKey> 
+  </insert>
+  
+  <update id="updateMemberInfo" parameterClass="cn.frame.platform.entitys.MemberInfo" >
+    update member_info
+    set 
+      REAL_NAME = #realName#,
+      STATUS = #status:CHAR#,
+      SEX = #sex:CHAR#,
+      RECOMEND_ID = #recomendId#,
+      PHONE_NO = #phoneNo#,
+      EMAIL = #email#,
+      LAST_LOGIN = #lastLogin#,
+      UNLOCK_TIME = #unlockTime#,
+      LAST_IP = #lastIp#,
+      REMARK = #remark#,
+      UPDATE_TIME = #updateTime#,
+      ADDRESS=#address#,
+      POST_CODE=#postCode#,
+      MEMBER_TYPE=#memberType#, 
+      birthday=#birthday#
+    where MEMBER_ID = #memberId:INTEGER#
+          and mobile_no=#mobileNo#
+  </update>
+  
+  <update id="updateMemberInfoPass" parameterClass="cn.frame.platform.entitys.MemberInfo" >
+    update member_info
+    set PASSWORD=#password#,  UPDATE_TIME = #updateTime#
+    where MEMBER_ID = #memberId:INTEGER#
+      and MOBILE_NO = #mobileNo#
+  </update>
+   
+ <update id="resetMemberPassword" parameterClass="cn.frame.platform.entitys.MemberInfo" >
+    update member_info
+    set PASSWORD=#password#,  UPDATE_TIME = #updateTime#
+    where MEMBER_ID = #memberId#
+  </update>
+  
+ <update id="updateMemberQrImg" parameterClass="cn.frame.platform.entitys.MemberInfo" >
+    update member_info  
+    set QR_CODE_IMG=#qrCodeImg#,  UPDATE_TIME = #updateTime#
+    where MEMBER_ID = #memberId#
+  </update>
+</sqlMap>

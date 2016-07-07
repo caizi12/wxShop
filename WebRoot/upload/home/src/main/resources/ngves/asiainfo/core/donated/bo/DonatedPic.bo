@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="DonatedPic" mainattr="ACTIVITY_PIC_ID">
+        <mapingenty type="table">DONATED_PIC</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="ACTIVITY_PIC_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">ACTIVITY_PIC_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MAIN_PIC" maxlength="128" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">MAIN_PIC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DESC_PIC" maxlength="128" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DESC_PIC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BG_PIC" maxlength="128" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BG_PIC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TOP_PX" maxlength="5" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">TOP_PX</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BOTTOM_PX" maxlength="5" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">BOTTOM_PX</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LEFT_PX" maxlength="5" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">LEFT_PX</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RIGHT_PX" maxlength="5" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RIGHT_PX</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BGCOLOR" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BGCOLOR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

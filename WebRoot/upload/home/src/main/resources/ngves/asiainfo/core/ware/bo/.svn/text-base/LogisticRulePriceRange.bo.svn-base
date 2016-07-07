@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="LogisticRulePriceRange" mainattr="RANGE_ID">
+        <mapingenty type="table">LOGISTIC_RULE_PRICE_RANGE</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="RANGE_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">RANGE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RULE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RULE_ID</mapingcol>
+            </attr>
+            <attr floatlength="2" name="BEGIN_AMOUNT" maxlength="10" datatype="Double" type="COL" remark="阶梯价格开始值">
+                <mapingcol datatype="NUMBER">BEGIN_AMOUNT</mapingcol>
+            </attr>
+            <attr floatlength="2" name="END_AMOUNT" maxlength="10" datatype="Double" type="COL" remark="阶梯价格结束值">
+                <mapingcol datatype="NUMBER">END_AMOUNT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RULE_VALUE" maxlength="8" datatype="Long" type="COL" remark="折算积分值">
+                <mapingcol datatype="NUMBER">RULE_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UPDATE_STAFF_ID" maxlength="15" datatype="Long" type="COL" remark="操作人">
+                <mapingcol datatype="NUMBER">UPDATE_STAFF_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UPDATE_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">UPDATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/jf/app/!svn/ver/36731/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/comment
+END
+FilterWordsInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/comment/FilterWordsInfo.bo
+END
+QBOCommentInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/36731/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/comment/QBOCommentInfo.bo
+END
+comment.service
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/20602/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/comment/comment.service
+END
+SETCommentInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/comment/SETCommentInfo.set
+END
+SETFilterWordsInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/comment/SETFilterWordsInfo.set
+END
+SETQBOCommentInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/36694/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/comment/SETQBOCommentInfo.set
+END
+CommentInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/comment/CommentInfo.bo
+END

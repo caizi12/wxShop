@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="WareLimitExchangeNum" mainattr="WARE_LIMIT_ID">
+        <mapingenty type="table">WARE_LIMIT_EXCHANGE_NUM</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_LIMIT_ID" maxlength="20" datatype="String" type="PK">
+                <mapingcol datatype="VARCHAR2">WARE_LIMIT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LIMIT_NAME" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">LIMIT_NAME</mapingcol>
+            </attr>
+             <attr floatlength="0" name="IS_LIMITNUM" maxlength="1" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">IS_LIMITNUM</mapingcol>
+            </attr> 
+            <attr floatlength="0" name="LIMIT_EXCHANGE_CYCLE" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">LIMIT_EXCHANGE_CYCLE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LIMITNUM_DAY" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">LIMITNUM_DAY</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LIMITNUM_MONTH" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">LIMITNUM_MONTH</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LIMITNUM_YEAR" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">LIMITNUM_YEAR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LIMIT_NUM" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">LIMIT_NUM</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LIMIT_EXCHANGE_CHANNEL" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">LIMIT_EXCHANGE_CHANNEL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LAST_DAY" maxlength="1" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">LAST_DAY</mapingcol>
+            </attr>               
+            <attr floatlength="0" name="PROVICE_CODE" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROVICE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

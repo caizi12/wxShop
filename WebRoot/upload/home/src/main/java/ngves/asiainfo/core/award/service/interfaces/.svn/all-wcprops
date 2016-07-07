@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jf/app/!svn/ver/41758/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/award/service/interfaces
+END
+IBusiProcessSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/34528/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/award/service/interfaces/IBusiProcessSrv.java
+END
+IAwardLevelInfoSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jf/app/!svn/ver/34596/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/award/service/interfaces/IAwardLevelInfoSrv.java
+END
+IAwardInfoSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/41758/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/award/service/interfaces/IAwardInfoSrv.java
+END

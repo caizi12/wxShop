@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/jf/app/!svn/ver/41954/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/dao/interfaces
+END
+IFineRecomonDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/39705/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/dao/interfaces/IFineRecomonDAO.java
+END
+INavbarInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/39001/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/dao/interfaces/INavbarInfoDAO.java
+END
+ITabsInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/39628/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/dao/interfaces/ITabsInfoDAO.java
+END
+INavbarKindInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/39536/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/dao/interfaces/INavbarKindInfoDAO.java
+END
+IO2OInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/39706/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/dao/interfaces/IO2OInfoDAO.java
+END
+IFloorInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/39642/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/dao/interfaces/IFloorInfoDAO.java
+END
+IFloorTabsRltDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/39978/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/dao/interfaces/IFloorTabsRltDAO.java
+END
+ITabsAreaInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/41954/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/dao/interfaces/ITabsAreaInfoDAO.java
+END
+IO2OWareRltDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/40090/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/dao/interfaces/IO2OWareRltDAO.java
+END
+IFloorSubKindDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/41603/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/dao/interfaces/IFloorSubKindDAO.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/jf/app/!svn/ver/37211/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/dao/interfaces
+END
+ISysBusiLockInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/20143/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/dao/interfaces/ISysBusiLockInfoDAO.java
+END
+ICityAreaCodeInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jf/app/!svn/ver/37211/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/dao/interfaces/ICityAreaCodeInfoDAO.java
+END
+IClobInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/dao/interfaces/IClobInfoDAO.java
+END
+IBusiInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/36058/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/dao/interfaces/IBusiInfoDAO.java
+END
+IBaseInfoSynDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/20131/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/dao/interfaces/IBaseInfoSynDAO.java
+END
+IBusiInfoDetailDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/16807/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/dao/interfaces/IBusiInfoDetailDAO.java
+END
+IRecommCategoryWareRltDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jf/app/!svn/ver/36239/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/dao/interfaces/IRecommCategoryWareRltDAO.java
+END

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap namespace="sys_dict" >
+  <resultMap id="SysDictResult" class="cn.frame.platform.entitys.SysDict" >
+    <result column="DICT_ID" property="dictId" jdbcType="INTEGER" />
+    <result column="DICT_NAME" property="dictName" jdbcType="VARCHAR" />
+    <result column="DICT_VALUE" property="dictValue" jdbcType="VARCHAR" />
+    <result column="DICT_TYPE" property="dictType" jdbcType="VARCHAR" />
+    <result column="DICT_TYPE_ID" property="dictTypeId" jdbcType="INTEGER" />
+    <result column="DICT_CATEGORY" property="dictCategory" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+    <result column="SORT" property="sort" jdbcType="VARCHAR" />
+    <result column="NOTE" property="note" jdbcType="VARCHAR" />
+    <result column="CREATE_DATE" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_DATE" property="updateDate" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <resultMap id="SysDictTypeResult" class="cn.frame.platform.entitys.SysDict" >
+    <result column="DICT_ID" property="dictId" jdbcType="INTEGER" />
+    <result column="DICT_NAME" property="dictName" jdbcType="VARCHAR" />
+    <result column="DICT_VALUE" property="dictValue" jdbcType="VARCHAR" />
+  </resultMap>
+  
+  <select id="selectSysDictById" resultMap="SysDictResult" parameterClass="cn.frame.platform.entitys.SysDict" >
+    select DICT_ID, DICT_NAME,DICT_VALUE, DICT_TYPE, DICT_TYPE_ID, STATUS, SORT, NOTE, CREATE_DATE, UPDATE_DATE
+    from sys_dict
+    where DICT_ID = #dictId#
+  </select>
+  
+  <delete id="deleteSysDict" parameterClass="java.lang.Integer" >
+    delete from sys_dict
+    where DICT_ID = $dictId$
+  </delete>
+   
+  <insert id="insertSysDict" parameterClass="cn.frame.platform.entitys.SysDict" >
+    insert into sys_dict 
+     (DICT_ID, DICT_NAME,DICT_VALUE, DICT_TYPE, DICT_TYPE_ID, STATUS, SORT, NOTE,CREATE_DATE,DICT_CATEGORY)
+    values (#dictId#, #dictName#,#dictValue#, #dictType#, #dictTypeId#,
+       #status#, #sort#, #note#, #createDate#,#dictCategory#)
+  </insert>
+  
+  <update id="updateSysDict" parameterClass="cn.frame.platform.entitys.SysDict" >
+    update sys_dict
+    set DICT_NAME = #dictName#,
+      DICT_VALUE = #dictValue#,
+      DICT_TYPE = #dictType#,
+      DICT_TYPE_ID = #dictTypeId#,
+      STATUS = #status#,
+      SORT = #sort#,
+      NOTE = #note#,
+      CREATE_DATE = #createDate#,
+      UPDATE_DATE = #updateDate#
+    where DICT_ID = #dictId#
+  </update>
+  
+  <select id="querySysDictList" parameterClass="java.util.Map" resultMap="SysDictResult" >
+    select DICT_ID, DICT_NAME,DICT_VALUE, DICT_TYPE, DICT_TYPE_ID,DICT_CATEGORY, STATUS, SORT, NOTE, CREATE_DATE, UPDATE_DATE
+    from sys_dict
+    where 1=1
+      <isNotEmpty prepend="and" property="dictId">
+			 DICT_ID =#dictId#
+	  </isNotEmpty>
+	  <isNotEmpty prepend="and" property="dictType">
+			 DICT_TYPE =#dictType#
+	  </isNotEmpty>
+	  <isNotEmpty prepend="and" property="status">
+			 STATUS =#status#
+	  </isNotEmpty>
+	  <isNotEmpty prepend="and" property="dictName">
+			 DICT_NAME like '%#dictName#%'
+	  </isNotEmpty>
+	  <isNotEmpty prepend="and" property="dictTypeId">
+			 DICT_TYPE_ID =#dictTypeId#
+	  </isNotEmpty>
+	  <isNotEmpty prepend="and" property="dictCategory">
+			 DICT_CATEGORY =#dictCategory#
+	  </isNotEmpty>
+	  <isNotEmpty prepend="and" property="dictValue">
+			 DICT_VALUE =#dictValue#
+	  </isNotEmpty>
+	 order by  dict_id,sort
+  </select>
+  
+  <select id="querySysDictType" parameterClass="java.util.Map" resultMap="SysDictTypeResult" >
+    select DICT_ID, DICT_NAME,DICT_VALUE
+    from sys_dict
+    where 1=1
+      <isNotEmpty prepend="and" property="dictId">
+			 DICT_ID =#dictId#
+	  </isNotEmpty>
+	  <isNotEmpty prepend="and" property="dictType">
+			 DICT_TYPE =#dictType#
+	  </isNotEmpty>
+	  <isNotEmpty prepend="and" property="status">
+			 STATUS =#status#
+	  </isNotEmpty>
+	  <isNotEmpty prepend="and" property="dictTypeId">
+			 DICT_TYPE_ID =#dictTypeId#
+	  </isNotEmpty>
+	  <isNotEmpty prepend="and" property="dictValue">
+			 DICT_VALUE =#dictValue#
+	  </isNotEmpty>
+	 order by  sort 
+  </select>
+   
+  <select id="querySysDictByDictValue" parameterClass="java.util.Map" resultMap="SysDictTypeResult" >
+   	 select  s2.DICT_ID,s2.DICT_NAME,s2.DICT_VALUE
+   	 from sys_dict s1,sys_dict s2
+   	 where s1.dict_id=s2.dict_type_id 
+	  <isNotEmpty prepend="and" property="dictTypeValue">
+			 s1.DICT_VALUE =#dictTypeValue#
+	  </isNotEmpty>
+	   <isNotEmpty prepend="and" property="dictType">
+			 s2.DICT_TYPE =#dictType#
+	  </isNotEmpty>
+	  <isNotEmpty prepend="and" property="status">
+			 s2.STATUS =#status#
+	  </isNotEmpty>
+	  <isNotEmpty prepend="and" property="dictValue">
+			 s2.DICT_VALUE =#dictValue#
+	  </isNotEmpty>
+	 order by  s2.sort 
+  </select>
+   
+</sqlMap>

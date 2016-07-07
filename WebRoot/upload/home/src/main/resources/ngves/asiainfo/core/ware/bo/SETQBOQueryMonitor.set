@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETQBOQueryMonitor" BOName="ngves.asiainfo.core.ware.bo.QBOQueryMonitor" MainField="OPERATE" Title="ngves.asiainfo.core.ware.bo.QBOQueryMonitor" ActBOName="ngves.asiainfo.core.ware.bo.QBOQueryMonitor" Package="ngves.asiainfo.core.ware.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CREATE_TIME</Name>
+        <BOAttrName>CREATE_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CREATE_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="7" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOQueryMonitor" Attr="CREATE_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>INITIATE_MODE</Name>
+        <BOAttrName>INITIATE_MODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>INITIATE_MODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOQueryMonitor" Attr="INITIATE_MODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>JOB_TASK_ID</Name>
+        <BOAttrName>JOB_TASK_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>JOB_TASK_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOQueryMonitor" Attr="JOB_TASK_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MONITOR_OBJECT_ID</Name>
+        <BOAttrName>MONITOR_OBJECT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MONITOR_OBJECT_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOQueryMonitor" Attr="MONITOR_OBJECT_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MONITOR_TYPE</Name>
+        <BOAttrName>MONITOR_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MONITOR_TYPE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOQueryMonitor" Attr="MONITOR_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPERATE</Name>
+        <BOAttrName>OPERATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPERATE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOQueryMonitor" Attr="OPERATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARNING_TYPE</Name>
+        <BOAttrName>WARNING_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARNING_TYPE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOQueryMonitor" Attr="WARNING_TYPE" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

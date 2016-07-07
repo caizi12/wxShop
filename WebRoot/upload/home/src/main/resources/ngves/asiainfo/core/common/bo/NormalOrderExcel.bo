@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="NormalOrderExcel" mainattr="NOR_ORDER_EXCEL_ID">
+        <mapingenty type="table">NORMAL_ORDER_EXCEL</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="NOR_ORDER_EXCEL_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">NOR_ORDER_EXCEL_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ADAPT_TYPE" maxlength="50" datatype="String" type="COL" remark="适配的类型-模糊匹配;抢兑下单导出：01；订单查询省导出：02；订单查询礼品商导出：03；订单查询运营中心导出：04；以逗号分割">
+                <mapingcol datatype="VARCHAR2">ADAPT_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NOR_COLUMN_GET" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NOR_COLUMN_GET</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COLUMN_DESC" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">COLUMN_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NOR_LIST_GET" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NOR_LIST_GET</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FONT_COLOR" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">FONT_COLOR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NOR_MAP_GET" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NOR_MAP_GET</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

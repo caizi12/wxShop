@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/jf/app/!svn/ver/38332/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/service/impl
+END
+SysBusiLockInfoSrvImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jf/app/!svn/ver/35517/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/service/impl/SysBusiLockInfoSrvImpl.java
+END
+CityAreaCodeInfoSrvImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jf/app/!svn/ver/37211/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/service/impl/CityAreaCodeInfoSrvImpl.java
+END
+BusiInfoSrvImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/36058/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/service/impl/BusiInfoSrvImpl.java
+END
+BaseInfoSynSrvImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/38332/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/service/impl/BaseInfoSynSrvImpl.java
+END
+BusiInfoDetailSrvImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/34622/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/service/impl/BusiInfoDetailSrvImpl.java
+END
+RecommCategoryWareRltSrvImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/jf/app/!svn/ver/36239/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/service/impl/RecommCategoryWareRltSrvImpl.java
+END

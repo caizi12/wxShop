@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETExamineWareOffLine" BOName="ngves.asiainfo.core.check.bo.QBOExamineWareOffLine" MainField="EXAMINE_WARE_OFFLINE_ID" Title="ngves.asiainfo.core.check.bo.QBOExamineWareOffLine" ActBOName="ngves.asiainfo.core.check.bo.QBOExamineWareOffLine" Package="ngves.asiainfo.core.check.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL1</Name>
+        <BOAttrName>BAK_COL1</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL1</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOExamineWareOffLine" Attr="BAK_COL1" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOExamineWareOffLine" Attr="BAK_COL2" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>EXAMINE_WARE_OFFLINE_ID</Name>
+        <BOAttrName>EXAMINE_WARE_OFFLINE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>EXAMINE_WARE_OFFLINE_ID</ID>
+        <Title>标识</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>Y</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOExamineWareOffLine" Attr="EXAMINE_WARE_OFFLINE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>EXAMINE_YEAR</Name>
+        <BOAttrName>EXAMINE_YEAR</BOAttrName>
+        <BODisplayAttrName />
+        <ID>EXAMINE_YEAR</ID>
+        <Title>年份</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="8" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOExamineWareOffLine" Attr="EXAMINE_YEAR" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>EXMINE_MONTHS</Name>
+        <BOAttrName>EXMINE_MONTHS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>EXMINE_MONTHS</ID>
+        <Title>季度</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOExamineWareOffLine" Attr="EXMINE_MONTHS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FILE_NAME</Name>
+        <BOAttrName>FILE_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FILE_NAME</ID>
+        <Title>文件名称</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOExamineWareOffLine" Attr="FILE_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>RULE_TYPE</Name>
+        <BOAttrName>RULE_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>RULE_TYPE</ID>
+        <Title>规则类型</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.check.bo.QBOExamineWareOffLine" Attr="RULE_TYPE" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

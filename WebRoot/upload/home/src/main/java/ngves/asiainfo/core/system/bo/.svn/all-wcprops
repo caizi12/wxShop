@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/jf/app/!svn/ver/35932/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/bo
+END
+NavigationInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/15298/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/bo/NavigationInfoBean.java
+END
+NavigationInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/13470/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/bo/NavigationInfoEngine.java
+END
+PageRefreshShowBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/bo/PageRefreshShowBean.java
+END
+PageRefreshShowEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/bo/PageRefreshShowEngine.java
+END
+BusiParaDataBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/bo/BusiParaDataBean.java
+END
+BusiParaDataEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/bo/BusiParaDataEngine.java
+END
+ShowControlBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/15298/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/bo/ShowControlBean.java
+END
+ShowControlEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/13476/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/bo/ShowControlEngine.java
+END
+MetaInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/15298/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/bo/MetaInfoBean.java
+END
+MetaInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/13470/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/bo/MetaInfoEngine.java
+END
+ParaPropBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/35932/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/bo/ParaPropBean.java
+END
+ParaPropEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/35932/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/bo/ParaPropEngine.java
+END

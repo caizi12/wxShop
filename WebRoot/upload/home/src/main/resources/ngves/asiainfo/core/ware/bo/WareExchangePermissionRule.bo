@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="WareExchangePermissionRule" mainattr="RULE_ID" remark="礼品兑换资格规则表">
+        <mapingenty type="table">WARE_EXCHANGE_PERMISSION_RULE</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="RULE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RULE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACTION_START_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">ACTION_START_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACTION_END_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">ACTION_END_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORDER_STATUS" maxlength="2" datatype="String" type="COL" remark="00-全部订单
+01-有效订单">
+                <mapingcol datatype="VARCHAR2">ORDER_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ITEM_SCOPE" maxlength="2" datatype="String" type="COL" remark="00-任意礼品
+01-部分礼品">
+                <mapingcol datatype="VARCHAR2">ITEM_SCOPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORDER_NUM" maxlength="9" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ORDER_NUM</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORDER_START_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">ORDER_START_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORDER_END_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">ORDER_END_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MAX_TIMES" maxlength="9" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">MAX_TIMES</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MAX_ITEM_NUM" maxlength="9" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">MAX_ITEM_NUM</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CRETAE_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CRETAE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RULE_STATUS" maxlength="2" datatype="String" type="COL" remark="00-无效
+01-有效">
+                <mapingcol datatype="VARCHAR2">RULE_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

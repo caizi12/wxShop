@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="UserOrderSuccess" mainattr="ORDER_SUCCESS_ID">
+        <mapingenty type="table">USER_ORDER_SUCCESS</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="ORDER_SUCCESS_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">ORDER_SUCCESS_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MOBILE_PHONE_NO" maxlength="15" datatype="String" type="COL" remark="">
+                <mapingcol datatype="VARCHAR2">MOBILE_PHONE_NO</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_SEND" maxlength="2" datatype="String" type="COL" remark="">
+                <mapingcol datatype="VARCHAR2">IS_SEND</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FAIL_REASON" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FAIL_REASON</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FLOW_ID" maxlength="20" datatype="String" type="COL" remark="">
+                <mapingcol datatype="VARCHAR2">FLOW_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CREATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">SEND_DATE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

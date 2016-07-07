@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/jf/app/!svn/ver/38307/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/impl
+END
+TuanProvinceDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/15743/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/impl/TuanProvinceDAOImpl.java
+END
+PreOrderInfoDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/22470/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/impl/PreOrderInfoDAOImpl.java
+END
+CategoryShowControlDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/21872/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/impl/CategoryShowControlDAOImpl.java
+END
+TuanGroupInfoDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/23686/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/impl/TuanGroupInfoDAOImpl.java
+END
+TuanWareDataDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/38307/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/impl/TuanWareDataDAOImpl.java
+END
+TuanCycleInfoDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/23704/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/impl/TuanCycleInfoDAOImpl.java
+END
+TuanInfoDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/38202/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/impl/TuanInfoDAOImpl.java
+END
+TuanUserLogDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/15745/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/impl/TuanUserLogDAOImpl.java
+END
+TuanWareRLTDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/38184/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/impl/TuanWareRLTDAOImpl.java
+END

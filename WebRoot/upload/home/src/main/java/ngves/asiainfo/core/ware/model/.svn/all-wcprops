@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/jf/app/!svn/ver/37948/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/model
+END
+MagAttr.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/model/MagAttr.java
+END
+PermissionInfoVOBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33874/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/model/PermissionInfoVOBean.java
+END
+PermissionWareRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/20789/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/model/PermissionWareRule.java
+END
+DeliverFeeBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/31615/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/model/DeliverFeeBean.java
+END
+WarePreviewInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/27713/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/model/WarePreviewInfoBean.java
+END
+PermissionWareRuleVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/20789/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/model/PermissionWareRuleVo.java
+END
+WareChildInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/17883/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/model/WareChildInfoBean.java
+END
+PortalPara.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jf/app/!svn/ver/31615/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/model/PortalPara.java
+END
+PermissionWare.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/32998/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/model/PermissionWare.java
+END
+ComplexPayIntegralAndCash.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/32682/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/model/ComplexPayIntegralAndCash.java
+END
+ValidateRuleValueToHP.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/37948/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/model/ValidateRuleValueToHP.java
+END
+MagBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/model/MagBean.java
+END
+ComplexIntegral.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/32519/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/model/ComplexIntegral.java
+END
+PermissionWareBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/20784/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/model/PermissionWareBean.java
+END

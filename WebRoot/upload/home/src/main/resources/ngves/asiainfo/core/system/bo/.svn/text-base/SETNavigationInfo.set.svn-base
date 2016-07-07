@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETNavigationInfo" BOName="ngves.asiainfo.core.system.bo.NavigationInfo" MainField="NAV_ID" Title="ngves.asiainfo.core.system.bo.NavigationInfo" ActBOName="ngves.asiainfo.core.system.bo.NavigationInfo" Package="ngves.asiainfo.core.system.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL</Name>
+        <BOAttrName>BAK_COL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL</ID>
+        <Title>预留字段1</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.core.system.bo.NavigationInfo" Attr="BAK_COL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title>预留字段2</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.core.system.bo.NavigationInfo" Attr="BAK_COL2" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>NAV_DESC</Name>
+        <BOAttrName>NAV_DESC</BOAttrName>
+        <BODisplayAttrName />
+        <ID>NAV_DESC</ID>
+        <Title>导航描述</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.core.system.bo.NavigationInfo" Attr="NAV_DESC" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>NAV_ID</Name>
+        <BOAttrName>NAV_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>NAV_ID</ID>
+        <Title>导航标识</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>Y</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.core.system.bo.NavigationInfo" Attr="NAV_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>NAV_URI</Name>
+        <BOAttrName>NAV_URI</BOAttrName>
+        <BODisplayAttrName />
+        <ID>NAV_URI</ID>
+        <Title>导航URI</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="300" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.core.system.bo.NavigationInfo" Attr="NAV_URI" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SORT_ID</Name>
+        <BOAttrName>SORT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SORT_ID</ID>
+        <Title>排序号</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="3" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.core.system.bo.NavigationInfo" Attr="SORT_ID" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

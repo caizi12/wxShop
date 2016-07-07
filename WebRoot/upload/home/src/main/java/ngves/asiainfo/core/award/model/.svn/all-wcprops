@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/jf/app/!svn/ver/34571/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/award/model
+END
+RollAwardViewModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/34279/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/award/model/RollAwardViewModel.java
+END
+ClientAwardInfoViewModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/34571/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/award/model/ClientAwardInfoViewModel.java
+END
+RoolAwardInfosViewModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/34279/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/award/model/RoolAwardInfosViewModel.java
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/jf/app/!svn/ver/38095/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/model
+END
+InterLogInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/36058/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/model/InterLogInfo.java
+END
+PointGrantQueryBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33631/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/model/PointGrantQueryBean.java
+END
+PointQueryInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/37934/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/model/PointQueryInfoBean.java
+END
+ItemRuleCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/model/ItemRuleCollection.java
+END
+PointUseQueryBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33631/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/model/PointUseQueryBean.java
+END
+SysPara.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/jf/app/!svn/ver/28451/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/model/SysPara.java
+END
+CsvcItemRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/model/CsvcItemRule.java
+END
+Location.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jf/app/!svn/ver/18061/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/model/Location.java
+END
+BusiInterMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/model/BusiInterMsg.java
+END
+GrantResultListBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/37719/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/model/GrantResultListBean.java
+END
+Theatre.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/jf/app/!svn/ver/32945/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/model/Theatre.java
+END
+PointTypeInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/38095/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/model/PointTypeInfoBean.java
+END
+UseResultListBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/37812/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/model/UseResultListBean.java
+END
+PriceInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/18061/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/model/PriceInfo.java
+END

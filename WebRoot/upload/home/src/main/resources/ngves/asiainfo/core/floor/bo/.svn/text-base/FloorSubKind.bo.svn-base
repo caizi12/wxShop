@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="FloorSubKind" mainattr="FLOOR_SUB_ID" remark="楼层子目录">
+        <mapingenty type="table">FLOOR_SUB_KIND</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="FLOOR_SUB_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">FLOOR_SUB_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FLOOR_ID" maxlength="15" datatype="Long" type="COL" remark="楼层标识">
+                <mapingcol datatype="NUMBER">FLOOR_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_KIND_ID" maxlength="15" datatype="Long" type="COL" remark="中类标识">
+                <mapingcol datatype="NUMBER">WARE_KIND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FLOOR_SUB_NAME" maxlength="100" datatype="String" type="COL" remark="子类目名称">
+                <mapingcol datatype="VARCHAR2">FLOOR_SUB_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_DATE" maxlength="20" datatype="DateTime" type="COL" remark="创建日期">
+                <mapingcol datatype="DATE">CREATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MODIFY_DATE" maxlength="20" datatype="DateTime" type="COL" remark="修改日期">
+                <mapingcol datatype="DATE">MODIFY_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="WapGatewayWhiteList" mainattr="PROVINCE_CODE">
+        <mapingenty type="table">WAP_GATEWAY_WHITE_LIST</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="PROVINCE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROVINCE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="GATEWAY_NAME" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">GATEWAY_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EQUIPMENT_MANUFACTURER" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">EQUIPMENT_MANUFACTURER</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IP" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">IP</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

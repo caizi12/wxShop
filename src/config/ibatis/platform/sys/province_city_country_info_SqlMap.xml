@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap namespace="provinceInfo" >
+  <resultMap id="provinceInfoResult" class="cn.frame.platform.entitys.ProvinceInfo" >
+    <result column="PROVINCE_CODE" property="provinceCode" jdbcType="VARCHAR" />
+    <result column="PROVINCE_NAME" property="provinceName" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+    <result column="DIS_ORDER" property="disOrder" jdbcType="VARCHAR" />
+    <result column="REMARK" property="remark" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  
+   <resultMap id="cityInfoResult" class="cn.frame.platform.entitys.CityInfo" >
+    <result column="CITY_CODE" property="cityCode" jdbcType="VARCHAR" />
+    <result column="CITY_NAME" property="cityName" jdbcType="VARCHAR" />
+    <result column="PROVINCE_CODE" property="provinceCode" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+    <result column="DIS_ORDER" property="disOrder" jdbcType="VARCHAR" />
+    <result column="CITY_PY" property="cityPy" jdbcType="VARCHAR" />
+    <result column="SHORT_NAME" property="shortName" jdbcType="VARCHAR" />
+    <result column="REMARK" property="remark" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  
+ <resultMap id="countryInfoResult" class="cn.frame.platform.entitys.CountryInfo" >
+    <result column="COUNTY_CODE" property="countyCode" jdbcType="VARCHAR" />
+    <result column="COUNTY_NAME" property="countyName" jdbcType="VARCHAR" />
+    <result column="CITY_CODE" property="cityCode" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+    <result column="DIS_ORDER" property="disOrder" jdbcType="VARCHAR" />
+    <result column="COUNTY_PY" property="countyPy" jdbcType="VARCHAR" />
+    <result column="SHORT_NAME" property="shortName" jdbcType="VARCHAR" />
+    <result column="COUNTY_TYPE" property="countyType" jdbcType="VARCHAR" />
+    <result column="REMARK" property="remark" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  
+  <select id="getProvinceInfo" resultMap="provinceInfoResult" parameterClass="java.util.Map" >
+    select PROVINCE_CODE, PROVINCE_NAME, STATUS, DIS_ORDER, REMARK, CREATE_TIME, UPDATE_TIME
+    from province_info
+    where PROVINCE_CODE = #provinceCode#
+  </select>
+  
+  <select id="queryProvinceInfo" resultMap="provinceInfoResult" parameterClass="java.util.Map" >
+    select PROVINCE_CODE, PROVINCE_NAME, STATUS, DIS_ORDER, REMARK, CREATE_TIME, UPDATE_TIME
+    from province_info
+    where 1=1
+     <isNotNull prepend="and" property="provinceCode" >
+       PROVINCE_CODE= #provinceCode#
+     </isNotNull>
+  </select>
+   
+    <select id="getCityInfo" resultMap="cityInfoResult" parameterClass="java.util.Map" >
+    select CITY_CODE, CITY_NAME, PROVINCE_CODE, STATUS, DIS_ORDER, CITY_PY, SHORT_NAME, REMARK,
+      CREATE_TIME, UPDATE_TIME
+    from city_info
+    where CITY_CODE = #cityCode:VARCHAR#
+  </select>
+  
+  <select id="queryCityInfo" resultMap="cityInfoResult" parameterClass="java.util.Map" >
+     select CITY_CODE, CITY_NAME, PROVINCE_CODE, STATUS, DIS_ORDER, CITY_PY, SHORT_NAME, REMARK,
+      CREATE_TIME, UPDATE_TIME
+    from city_info
+    where 1=1
+     <isNotNull prepend="and" property="cityCode" >
+       CITY_CODE= #cityCode#
+     </isNotNull>
+  </select>
+  
+   <select id="getCountryInfo" resultMap="countryInfoResult" parameterClass="java.util.Map" >
+    select COUNTY_CODE, COUNTY_NAME, CITY_CODE, STATUS, DIS_ORDER, COUNTY_PY, SHORT_NAME,
+      COUNTY_TYPE, REMARK, CREATE_TIME, UPDATE_TIME
+    from country_info
+    where COUNTY_CODE = #countyCode:VARCHAR#
+  </select>
+   
+  <select id="queryCountryInfo" resultMap="countryInfoResult" parameterClass="java.util.Map" >
+    select COUNTY_CODE, COUNTY_NAME, CITY_CODE, STATUS, DIS_ORDER, COUNTY_PY, SHORT_NAME,
+      COUNTY_TYPE, REMARK, CREATE_TIME, UPDATE_TIME
+    from country_info
+    where 1=1
+     <isNotNull prepend="and" property="countyCode" >
+       COUNTY_CODE= #countyCode#
+     </isNotNull>
+  </select>
+</sqlMap>

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/jf/app/!svn/ver/17473/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/donated/ivalues
+END
+IQBODonatedObjectRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/17320/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/donated/ivalues/IQBODonatedObjectRltValue.java
+END
+IQBOWareObjectRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/17421/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/donated/ivalues/IQBOWareObjectRltValue.java
+END
+IDonatedPicValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/17109/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/donated/ivalues/IDonatedPicValue.java
+END
+IDistributionInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/17109/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/donated/ivalues/IDistributionInfoValue.java
+END
+IDonatedActivityValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/17248/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/donated/ivalues/IDonatedActivityValue.java
+END
+IQBODonatedWareInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/17382/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/donated/ivalues/IQBODonatedWareInfoValue.java
+END
+IQBODonatedWareBindValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/17473/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/donated/ivalues/IQBODonatedWareBindValue.java
+END
+IActivityWareRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/17447/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/donated/ivalues/IActivityWareRltValue.java
+END
+IActivityObjectsRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/17248/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/donated/ivalues/IActivityObjectsRltValue.java
+END
+IDonatedObjectsValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/17248/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/donated/ivalues/IDonatedObjectsValue.java
+END

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETBusiRechargeTaskAudit" BOName="ngves.asiainfo.core.rechargepoints.bo.BusiRechargeTaskAudit" MainField="BUSI_ID" Title="ngves.asiainfo.core.rechargepoints.bo.BusiRechargeTaskAudit" ActBOName="ngves.asiainfo.core.rechargepoints.bo.BusiRechargeTaskAudit" Package="ngves.asiainfo.core.rechargepoints.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AUDIT_CONTENT</Name>
+        <BOAttrName>AUDIT_CONTENT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AUDIT_CONTENT</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rechargepoints.bo.BusiRechargeTaskAudit" Attr="AUDIT_CONTENT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AUDIT_TIME</Name>
+        <BOAttrName>AUDIT_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AUDIT_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rechargepoints.bo.BusiRechargeTaskAudit" Attr="AUDIT_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL1</Name>
+        <BOAttrName>BAK_COL1</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL1</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rechargepoints.bo.BusiRechargeTaskAudit" Attr="BAK_COL1" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BUSI_ID</Name>
+        <BOAttrName>BUSI_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BUSI_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rechargepoints.bo.BusiRechargeTaskAudit" Attr="BUSI_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPERATOR_CODE</Name>
+        <BOAttrName>OPERATOR_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPERATOR_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rechargepoints.bo.BusiRechargeTaskAudit" Attr="OPERATOR_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>RECHARGE_TASK_ID</Name>
+        <BOAttrName>RECHARGE_TASK_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>RECHARGE_TASK_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rechargepoints.bo.BusiRechargeTaskAudit" Attr="RECHARGE_TASK_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>STATUS</Name>
+        <BOAttrName>STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>STATUS</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0">String</IDDataType>
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.core.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="900000000000021" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.rechargepoints.bo.BusiRechargeTaskAudit" Attr="STATUS" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

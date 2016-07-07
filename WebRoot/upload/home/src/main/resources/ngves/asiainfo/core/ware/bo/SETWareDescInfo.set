@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETWareDescInfo" BOName="ngves.asiainfo.core.ware.bo.WareDescInfo" MainField="WARE_DESC_ID" Title="ngves.asiainfo.core.ware.bo.WareDescInfo" ActBOName="ngves.asiainfo.core.ware.bo.WareDescInfo" Package="ngves.asiainfo.core.ware.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>DESC_DEFINE_ID</Name>
+        <BOAttrName>DESC_DEFINE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>DESC_DEFINE_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareDescInfo" Attr="DESC_DEFINE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_GROUP_FLAG</Name>
+        <BOAttrName>IS_GROUP_FLAG</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_GROUP_FLAG</ID>
+        <Title>是否分组属性，分组说的是根据这个属性的值生成兑换单元。是否是分组属性，在礼品资料修改的时候不可以修改，但是可以修改分组属性的可选值，即一个礼品拥有多少个分组属性在礼品录入的时候就已经确定了，在以后不可以删除也不可以添加   1：是  0：否</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareDescInfo" Attr="IS_GROUP_FLAG" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SORT_ID</Name>
+        <BOAttrName>SORT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SORT_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="8" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareDescInfo" Attr="SORT_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_DESC_ID</Name>
+        <BOAttrName>WARE_DESC_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_DESC_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareDescInfo" Attr="WARE_DESC_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_DESC_VALUE</Name>
+        <BOAttrName>WARE_DESC_VALUE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_DESC_VALUE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareDescInfo" Attr="WARE_DESC_VALUE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_ID</Name>
+        <BOAttrName>WARE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WareDescInfo" Attr="WARE_ID" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="MobileFloorRlt" mainattr="FLOOR_RLT_ID">
+        <mapingenty type="table">MOBILE_FLOOR_RLT</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="FLOOR_RLT_ID" maxlength="15" datatype="Long" type="PK" >
+                <mapingcol datatype="NUMBER">FLOOR_RLT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FLOOR_ID" maxlength="15" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">FLOOR_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RECOMMEND_ID" maxlength="15" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">RECOMMEND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RECOMMEND_NAME" maxlength="200" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">RECOMMEND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SHOW_PIC_FILE" maxlength="500" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">SHOW_PIC_FILE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SHOW_CHANNEL" maxlength="200" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">SHOW_CHANNEL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RECOMMEND_TYPE" maxlength="3" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">RECOMMEND_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INDEX_ID" maxlength="15" datatype="Long" type="COL" >
+                <mapingcol datatype="VARCHAR2">INDEX_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_DELETE" maxlength="2" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">IS_DELETE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="1000" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

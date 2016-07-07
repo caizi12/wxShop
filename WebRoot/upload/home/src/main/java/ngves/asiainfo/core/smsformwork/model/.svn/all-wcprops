@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/jf/app/!svn/ver/31864/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/smsformwork/model
+END
+SmsOccasionModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/31736/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/smsformwork/model/SmsOccasionModel.java
+END
+ResultBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/31782/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/smsformwork/model/ResultBean.java
+END
+SmsTempContentModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/31776/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/smsformwork/model/SmsTempContentModel.java
+END
+wareFormworkRltModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/31699/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/smsformwork/model/wareFormworkRltModel.java
+END
+SmsFormworkModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/31864/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/smsformwork/model/SmsFormworkModel.java
+END
+SmsContentArgBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/31863/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/smsformwork/model/SmsContentArgBean.java
+END
+SmsFormOccRltModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/31864/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/smsformwork/model/SmsFormOccRltModel.java
+END

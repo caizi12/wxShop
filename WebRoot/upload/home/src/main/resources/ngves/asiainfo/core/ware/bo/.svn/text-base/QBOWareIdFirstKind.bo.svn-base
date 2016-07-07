@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOWareIdFirstKind" mainattr="WARE_ID">
+        <mapingenty type="query">
+        select wkr.ware_id, 
+        wfk.ware_first_kind_id 
+        from ware_kind_rlt wkr, ware_kind wk,ware_kind_parent wkp, ware_first_kind wfk
+        where wk.ware_kind_id=wkr.ware_kind_id 
+        and  wkp.WARE_KIND_PARENT_ID = wk.WARE_KIND_PARENT_ID 
+        and wfk.ware_first_kind_id=wkp.ware_first_kind_id
+        </mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_FIRST_KIND_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_FIRST_KIND_ID</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

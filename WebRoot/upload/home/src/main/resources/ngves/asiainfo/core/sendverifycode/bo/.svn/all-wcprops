@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/jf/app/!svn/ver/35260/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/sendverifycode/bo
+END
+DelayRecordByOrder.bo
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/35039/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/sendverifycode/bo/DelayRecordByOrder.bo
+END
+QBOCodeDelayByWare.bo
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/35260/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/sendverifycode/bo/QBOCodeDelayByWare.bo
+END
+ConsumerCode.bo
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/34907/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/sendverifycode/bo/ConsumerCode.bo
+END
+QBOStaffOrgRelatName.bo
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/35007/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/sendverifycode/bo/QBOStaffOrgRelatName.bo
+END
+DelayRecordByWare.bo
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/34939/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/sendverifycode/bo/DelayRecordByWare.bo
+END
+SETDelayRecordByOrder.set
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jf/app/!svn/ver/35039/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/sendverifycode/bo/SETDelayRecordByOrder.set
+END
+SETQBOCodeDelayByWare.set
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jf/app/!svn/ver/35260/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/sendverifycode/bo/SETQBOCodeDelayByWare.set
+END
+SETConsumerCode.set
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/34907/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/sendverifycode/bo/SETConsumerCode.set
+END
+SETQBOStaffOrgRelatName.set
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jf/app/!svn/ver/35007/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/sendverifycode/bo/SETQBOStaffOrgRelatName.set
+END
+SETDelayRecordByWare.set
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jf/app/!svn/ver/34939/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/sendverifycode/bo/SETDelayRecordByWare.set
+END

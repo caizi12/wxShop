@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETActivityLimitGroup" BOName="ngves.asiainfo.core.rushbuy.bo.ActivityLimitGroup" MainField="AL_GROUP_ID" Title="ngves.asiainfo.core.rushbuy.bo.ActivityLimitGroup" ActBOName="ngves.asiainfo.core.rushbuy.bo.ActivityLimitGroup" Package="ngves.asiainfo.core.rushbuy.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AL_GROUP_CREATE</Name>
+        <BOAttrName>AL_GROUP_CREATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AL_GROUP_CREATE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rushbuy.bo.ActivityLimitGroup" Attr="AL_GROUP_CREATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AL_GROUP_ID</Name>
+        <BOAttrName>AL_GROUP_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AL_GROUP_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rushbuy.bo.ActivityLimitGroup" Attr="AL_GROUP_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AL_GROUP_TITLE</Name>
+        <BOAttrName>AL_GROUP_TITLE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AL_GROUP_TITLE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="500" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rushbuy.bo.ActivityLimitGroup" Attr="AL_GROUP_TITLE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL</Name>
+        <BOAttrName>BAK_COL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rushbuy.bo.ActivityLimitGroup" Attr="BAK_COL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rushbuy.bo.ActivityLimitGroup" Attr="BAK_COL2" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

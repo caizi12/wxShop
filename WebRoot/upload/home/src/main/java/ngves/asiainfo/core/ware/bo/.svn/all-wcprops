@@ -1,0 +1,773 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/jf/app/!svn/ver/41632/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo
+END
+LogisticIntegralInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/LogisticIntegralInfoBean.java
+END
+QBOHouseWareInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/25164/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOHouseWareInfoEngine.java
+END
+WarePicSynEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/36752/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WarePicSynEngine.java
+END
+QBOMergeWareInfoCheckBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/36694/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOMergeWareInfoCheckBean.java
+END
+LogisticRuleHouseRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/LogisticRuleHouseRltEngine.java
+END
+QBOBusiWareInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/17808/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOBusiWareInfoEngine.java
+END
+QBOPermissionRuleRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/21134/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOPermissionRuleRltEngine.java
+END
+QBOMonitorWareBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOMonitorWareBean.java
+END
+WareDescInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareDescInfoEngine.java
+END
+WareDescInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareDescInfoBean.java
+END
+QBOJobDateBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOJobDateBean.java
+END
+QBOAllMonitorBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOAllMonitorBean.java
+END
+RuleInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/17404/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/RuleInfoEngine.java
+END
+JobObjectRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/JobObjectRltBean.java
+END
+QBOWareParentInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/17766/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOWareParentInfoEngine.java
+END
+wareWeekRankEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33889/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/wareWeekRankEngine.java
+END
+PartnerInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/25333/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/PartnerInfoBean.java
+END
+QBOMergeBusiLeastWareCheckEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/36078/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOMergeBusiLeastWareCheckEngine.java
+END
+QBOWareIdFirstKindBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/38250/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOWareIdFirstKindBean.java
+END
+LogisticIntegralOperatePlanEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/LogisticIntegralOperatePlanEngine.java
+END
+WareUpDownHisBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareUpDownHisBean.java
+END
+WareIntegralInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/37657/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareIntegralInfoBean.java
+END
+WareExchangePermissionRuleBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareExchangePermissionRuleBean.java
+END
+PermissionInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33874/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/PermissionInfoBean.java
+END
+LogisticRulePriceRangeBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/LogisticRulePriceRangeBean.java
+END
+LogisticRulePriceRangeEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/LogisticRulePriceRangeEngine.java
+END
+WareMonitorRecordBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareMonitorRecordBean.java
+END
+WareMonitorRecordEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareMonitorRecordEngine.java
+END
+WareUpDownPlanEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareUpDownPlanEngine.java
+END
+wareDayRankEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33857/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/wareDayRankEngine.java
+END
+QBOPermissionWareEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/20675/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOPermissionWareEngine.java
+END
+QBOPermissionWareBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOPermissionWareBean.java
+END
+WareExchangeRuleRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/36024/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareExchangeRuleRltBean.java
+END
+QBOQueryMonitorEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/22943/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOQueryMonitorEngine.java
+END
+QBOWareChildInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/17883/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOWareChildInfoEngine.java
+END
+QBOHouseWareInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/36731/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOHouseWareInfoBean.java
+END
+QBOLimitExchangeNumWareBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/36694/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOLimitExchangeNumWareBean.java
+END
+WarePicSynBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/36752/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WarePicSynBean.java
+END
+QBOMergeWareInfoCheckEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/36078/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOMergeWareInfoCheckEngine.java
+END
+JobTaskBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/JobTaskBean.java
+END
+JobTaskEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/JobTaskEngine.java
+END
+BrandCategoryInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/BrandCategoryInfoEngine.java
+END
+WarePCRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WarePCRltBean.java
+END
+QBOWareUsableBrandBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/36088/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOWareUsableBrandBean.java
+END
+QBOPermissionRuleRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOPermissionRuleRltBean.java
+END
+QBOPermissionInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33874/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOPermissionInfoBean.java
+END
+PermissionTypeInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/PermissionTypeInfoBean.java
+END
+BusiWareInfoParentBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/34938/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/BusiWareInfoParentBean.java
+END
+QBOAllWareInfoChildBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/37805/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOAllWareInfoChildBean.java
+END
+QBOAllWareInfoChildEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/22294/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOAllWareInfoChildEngine.java
+END
+QBOJobDateEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/22744/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOJobDateEngine.java
+END
+QBOAllWareKindInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOAllWareKindInfoBean.java
+END
+WareLimitExchangeNumEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/35258/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareLimitExchangeNumEngine.java
+END
+QBOAllMonitorEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/22691/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOAllMonitorEngine.java
+END
+QBOBusiWareDescBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/34213/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOBusiWareDescBean.java
+END
+QBOLogisticRuleHouseInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOLogisticRuleHouseInfoEngine.java
+END
+QBOPermissionWareRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/36694/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOPermissionWareRltBean.java
+END
+QBOWareWeekTopBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33893/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOWareWeekTopBean.java
+END
+WareExchangePermissionRuleEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/17404/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareExchangePermissionRuleEngine.java
+END
+PermissionRuleRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/PermissionRuleRltBean.java
+END
+QBOWareImageBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOWareImageBean.java
+END
+wareDayRankBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/33857/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/wareDayRankBean.java
+END
+LogisticIntegralInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/LogisticIntegralInfoEngine.java
+END
+QBOWareChildInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOWareChildInfoBean.java
+END
+StaffJobRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/StaffJobRltEngine.java
+END
+QBOLimitExchangeNumWareEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/35243/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOLimitExchangeNumWareEngine.java
+END
+ActivityIntegralBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/37816/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/ActivityIntegralBean.java
+END
+WareInfoPortalIntegralBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/37657/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareInfoPortalIntegralBean.java
+END
+WareInfoParentEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareInfoParentEngine.java
+END
+QBOAllWareDescEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/31492/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOAllWareDescEngine.java
+END
+JobDateRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/JobDateRltBean.java
+END
+LogisticRuleHouseRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/LogisticRuleHouseRltBean.java
+END
+QBOBusiWareInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOBusiWareInfoBean.java
+END
+BrandCategoryInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/BrandCategoryInfoBean.java
+END
+QBOWareProvDeliverFeeBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOWareProvDeliverFeeBean.java
+END
+PermissionTypeInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/PermissionTypeInfoEngine.java
+END
+QBOPermissionInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/20764/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOPermissionInfoEngine.java
+END
+WareInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareInfoBean.java
+END
+WareLimitExchangeNumBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/36024/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareLimitExchangeNumBean.java
+END
+QBOLogisticIntegralInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOLogisticIntegralInfoEngine.java
+END
+QBOLogisticIntegralInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOLogisticIntegralInfoBean.java
+END
+QBOBusiWareDescEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOBusiWareDescEngine.java
+END
+JobObjectRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/JobObjectRltEngine.java
+END
+RuleInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/RuleInfoBean.java
+END
+PartnerInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/25333/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/PartnerInfoEngine.java
+END
+QBOWareIdFirstKindEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/38250/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOWareIdFirstKindEngine.java
+END
+WareInfoPortalEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareInfoPortalEngine.java
+END
+QBOPreferentialInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOPreferentialInfoBean.java
+END
+WareUpDownHisEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareUpDownHisEngine.java
+END
+PermissionRuleRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/PermissionRuleRltEngine.java
+END
+WareExchangeRuleRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/36068/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareExchangeRuleRltEngine.java
+END
+QBOQueryMonitorBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOQueryMonitorBean.java
+END
+StaffJobRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/StaffJobRltBean.java
+END
+ActivityIntegralEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/37657/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/ActivityIntegralEngine.java
+END
+WareInfoPortalIntegralEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/37657/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareInfoPortalIntegralEngine.java
+END
+WareInfoParentBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/34938/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareInfoParentBean.java
+END
+QBOAllWareDescBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/37846/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOAllWareDescBean.java
+END
+JobDateRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/JobDateRltEngine.java
+END
+QBOWareProvDeliverFeeEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/30162/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOWareProvDeliverFeeEngine.java
+END
+QBOWareUsableBrandEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/36088/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOWareUsableBrandEngine.java
+END
+WarePCRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WarePCRltEngine.java
+END
+BusiActivityIntegralEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/37657/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/BusiActivityIntegralEngine.java
+END
+BusiActivityIntegralBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/37816/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/BusiActivityIntegralBean.java
+END
+LogisticRuleBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/LogisticRuleBean.java
+END
+LogisticRuleEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/LogisticRuleEngine.java
+END
+BusiWareInfoParentEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/BusiWareInfoParentEngine.java
+END
+QBOMonitorWareEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/22974/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOMonitorWareEngine.java
+END
+WareInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareInfoEngine.java
+END
+QBOAllWareKindInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/29916/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOAllWareKindInfoEngine.java
+END
+QBOMergeAllWareInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/36076/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOMergeAllWareInfoEngine.java
+END
+QBOMergeAllWareInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/36694/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOMergeAllWareInfoBean.java
+END
+QBOWareParentInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/36694/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOWareParentInfoBean.java
+END
+wareWeekRankBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33889/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/wareWeekRankBean.java
+END
+QBOLogisticRuleHouseInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOLogisticRuleHouseInfoBean.java
+END
+QBOMergeBusiLeastWareCheckBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/36694/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOMergeBusiLeastWareCheckBean.java
+END
+QBOPermissionWareRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/20836/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOPermissionWareRltEngine.java
+END
+WareInfoPortalBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/41632/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareInfoPortalBean.java
+END
+BusiWareInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/BusiWareInfoEngine.java
+END
+BusiWareInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/BusiWareInfoBean.java
+END
+LogisticIntegralOperatePlanBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/LogisticIntegralOperatePlanBean.java
+END
+QBOPreferentialInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/20852/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOPreferentialInfoEngine.java
+END
+QBOWareWeekTopEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33893/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOWareWeekTopEngine.java
+END
+WareIntegralInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/37647/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareIntegralInfoEngine.java
+END
+WareUpDownVersionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareUpDownVersionBean.java
+END
+WareUpDownVersionEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareUpDownVersionEngine.java
+END
+QBOWareImageEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/QBOWareImageEngine.java
+END
+PermissionInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/PermissionInfoEngine.java
+END
+WareUpDownPlanBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/bo/WareUpDownPlanBean.java
+END

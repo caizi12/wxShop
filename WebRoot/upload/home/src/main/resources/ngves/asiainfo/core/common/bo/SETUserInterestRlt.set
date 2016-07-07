@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETUserInterestRlt" BOName="ngves.asiainfo.core.common.bo.UserInterestRlt" MainField="INTEREST_ID" Title="ngves.asiainfo.core.common.bo.UserInterestRlt" ActBOName="ngves.asiainfo.core.common.bo.UserInterestRlt" Package="ngves.asiainfo.core.common.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL1</Name>
+        <BOAttrName>BAK_COL1</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL1</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserInterestRlt" Attr="BAK_COL1" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>INTEREST_CODE</Name>
+        <BOAttrName>INTEREST_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>INTEREST_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserInterestRlt" Attr="INTEREST_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>INTEREST_ID</Name>
+        <BOAttrName>INTEREST_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>INTEREST_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserInterestRlt" Attr="INTEREST_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MOBILE_PHONE_NO</Name>
+        <BOAttrName>MOBILE_PHONE_NO</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MOBILE_PHONE_NO</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserInterestRlt" Attr="MOBILE_PHONE_NO" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SALE_MAIL_STATUS</Name>
+        <BOAttrName>SALE_MAIL_STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SALE_MAIL_STATUS</ID>
+        <Title>冗余字段</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserInterestRlt" Attr="SALE_MAIL_STATUS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SALE_SMS_STATUS</Name>
+        <BOAttrName>SALE_SMS_STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SALE_SMS_STATUS</ID>
+        <Title>冗余用户的开关</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.UserInterestRlt" Attr="SALE_SMS_STATUS" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

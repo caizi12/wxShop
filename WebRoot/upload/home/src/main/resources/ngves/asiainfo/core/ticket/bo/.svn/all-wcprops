@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/ticket/bo
+END
+QBOTicketTopicInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/ticket/bo/QBOTicketTopicInfo.bo
+END
+SETTicketTopicInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/ticket/bo/SETTicketTopicInfo.set
+END
+QBOSETTicketTopicInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/ticket/bo/QBOSETTicketTopicInfo.set
+END
+TicketThirdInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/ticket/bo/TicketThirdInfo.bo
+END
+TicketTopicInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/ticket/bo/TicketTopicInfo.bo
+END

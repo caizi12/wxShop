@@ -1,0 +1,21 @@
+@charset "utf-8";
+.askCredits{max-width:640px;min-width:320px;font-family:微软雅黑;color:#fff;background:#fff;}
+.askTop{width:100%;position:relative;}
+.askTop img{width:100%;}
+.askMain{margin-top:10px;padding-bottom:30px;}
+.askCon{max-width:640px;min-width:320px;margin-top:15px; display:none}
+
+.askCon ul li{color:#666666;font-size:16px;line-height:30px;padding:0 15px 0 15px;position:relative;}
+.askCon ul li ul li{}
+.askCon ul li input{margin-right:5px;}
+.askCon ul li input.line{width:87px;border-bottom:1px #000 solid;border-top:1px #fff solid;border-left:1px #fff solid;border-right:1px #fff solid;text-indent:5px;outline:none;}
+.askCon ul li.produce{font-size:12px;color:#0070c0;padding-top:10px;line-height:20px;}	
+.error_msg{color:red;font-size:16px;line-height:30px;text-align:center;margin:30px;}
+.error{color:red;font-size:16px;line-height:30px;text-align:center;margin:30px;}
+.right{color:green;font-size:16px;line-height:30px;text-align:center;margin:30px;}
+.btnNext{width:100px;margin:0 auto;}
+.btnNext a{line-height:25px;color:#fff;font-size:16px;width:100px;background:#048cf2;border-radius:3px;text-align:center;display:block;margin:30px 0;}
+.btnSubmit{width:100px;margin:0 auto;}
+.btnSubmit a{line-height:25px;color:#fff;font-size:16px;width:100px;background:#048cf2;border-radius:3px;text-align:center;display:none;margin-top:30px;}
+.btnNoSubmit{width:100px;margin:0 auto;}
+.btnNoSubmit a{line-height:25px;color:#fff;font-size:16px;width:100px;background:#048cf2;border-radius:3px;text-align:center;margin-top:30px;}

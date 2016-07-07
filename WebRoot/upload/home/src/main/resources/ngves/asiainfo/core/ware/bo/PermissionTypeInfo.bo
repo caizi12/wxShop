@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="PermissionTypeInfo" mainattr="PERMISSION_TYPE_ID">
+        <mapingenty type="table">PERMISSION_TYPE_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="PERMISSION_TYPE_ID" maxlength="15" datatype="Long" type="PK" remark="主键标识">
+                <mapingcol datatype="NUMBER">PERMISSION_TYPE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PERMISSION_NAME" maxlength="2" datatype="String" type="COL" remark="规则类型
+00--礼品所属礼品小类
+01--礼品所属合作商
+02--特殊礼品设置
+03-省份">
+                <mapingcol datatype="VARCHAR2">PERMISSION_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PERMISSION_CODE" maxlength="40" datatype="String" type="COL" remark="礼品类别编码
+type_name=00填写礼品小类编码；
+type_name=01填写礼品商编码；
+type_name=02填写礼品编码，
+type_name=03,存放省编码，
+">
+                <mapingcol datatype="VARCHAR2">PERMISSION_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PERMISSION_ID" maxlength="15" datatype="Long" type="COL" remark="关联礼品资格校验规则信息表(WARE_PERMISSION_INFO)外键">
+                <mapingcol datatype="NUMBER">PERMISSION_ID</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="JobTask" mainattr="JOB_TASK_ID">
+        <mapingenty type="table">JOB_TASK</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="JOB_TASK_ID" maxlength="15" datatype="Long" type="PK" remark="用于绑定的定时任务的ID">
+                <mapingcol datatype="NUMBER">JOB_TASK_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="JOB_TASK_NAME" maxlength="200" datatype="String" type="COL" remark="用于绑定的定时任务的名称">
+                <mapingcol datatype="VARCHAR2">JOB_TASK_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="20" datatype="String" type="COL" remark="如果任务类型是礼品监控，则该字段为告警类型。01：邮件；02：短信。用;隔开">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="20" datatype="String" type="COL" remark="如果任务类型是礼品监控，则该字段为启用状态。1：启用；0：停用">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="JOB_TASK_TYPE" maxlength="2" datatype="String" type="COL" remark="00：礼品上下线动态通知
+01：礼品监控通知">
+                <mapingcol datatype="CHAR">JOB_TASK_TYPE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOReviewHZSKH" mainattr="CODE">
+        <mapingenty type="query">       select gift_code code,
+               gift_name name,
+                (case first_kind_id when 100000000000000 then  '实物类礼品商'
+                 when 100000000000002 then '合作类礼品商' end) exam_type,
+               decode(examine_state, 1, '在考核', 0, '不考核', '未知') state,
+               to_char(valid_date, 'yyyy-MM-dd hh24:mi:ss') valid_date,
+               to_char(create_date, 'yyyy-MM-dd hh24:mi:ss') create_date,
+               to_char(update_date, 'yyyy-MM-dd hh24:mi:ss') update_date
+          from gift_info_def
+        union all
+        select deliver_code code,
+               deliver_name name,
+               prov_name exam_type,
+               decode(examine_state, 1, 1, '在考核', 0, '不考核', '未知') state,
+               to_char(valid_date, 'yyyy-MM-dd hh24:mi:ss') valid_date,
+               to_char(create_date, 'yyyy-MM-dd hh24:mi:ss') create_date,
+               to_char(update_date, 'yyyy-MM-dd hh24:mi:ss') update_date
+          from deliver_info_def
+        union all
+        select storage_code code,
+               storage_name name,
+               store_name exam_type,
+               decode(examine_state, 1, '在考核', 0, '不考核', '未知') state,
+               to_char(valid_date, 'yyyy-MM-dd hh24:mi:ss') valid_date,
+               to_char(create_date, 'yyyy-MM-dd hh24:mi:ss') create_date,
+               to_char(update_date, 'yyyy-MM-dd hh24:mi:ss') update_date
+          from storage_info_def</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="CODE" maxlength="32" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NAME" maxlength="256" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EXAM_TYPE" maxlength="64" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">EXAM_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STATE" maxlength="6" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">STATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="VALID_DATE" maxlength="19" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">VALID_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_DATE" maxlength="19" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CREATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UPDATE_DATE" maxlength="19" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">UPDATE_DATE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

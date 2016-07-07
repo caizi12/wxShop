@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="DonatedActivity" mainattr="DONATED_ID">
+        <mapingenty type="table">DONATED_ACTIVITY</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="DONATED_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">DONATED_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DONATED_NAME" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DONATED_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DONATED_CODE" maxlength="10" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DONATED_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DONATED_TYPE" maxlength="4" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">DONATED_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BEGIN_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">BEGIN_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="END_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">END_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DONATED_DESC" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DONATED_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DILIVER_TYPE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DILIVER_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MIN_INTEGRAL" maxlength="5" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">MIN_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STATUS" maxlength="2" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACTIVITY_PIC_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ACTIVITY_PIC_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TRACK" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">TRACK</mapingcol>
+            </attr>
+            <attr floatlength="0" name="APP_VERSION" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">APP_VERSION</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CREATE_DATE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

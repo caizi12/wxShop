@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="RequisitionInfo" mainattr="REQUISITION_ID">
+        <mapingenty type="table">REQUISITION_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="REQUISITION_ID" maxlength="10" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">REQUISITION_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORIGINATE_STAFF_ID" maxlength="12" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ORIGINATE_STAFF_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORIGINATE_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">ORIGINATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROVINCE_CODE" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROVINCE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="REQUISITION_TITLE" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">REQUISITION_TITLE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="REQUISITION_DESC" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">REQUISITION_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NOTE" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NOTE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

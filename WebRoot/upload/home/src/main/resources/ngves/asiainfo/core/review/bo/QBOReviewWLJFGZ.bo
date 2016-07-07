@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOReviewWLJFGZ" mainattr="RULE_NAME">
+        <mapingenty type="query">select 
+  lr.rule_name,lrpr.begin_amount,lrpr.end_amount,lrpr.rule_value
+from LOGISTIC_RULE lr, 
+  LOGISTIC_RULE_PRICE_RANGE lrpr
+where 
+  lr.rule_id = lrpr.rule_id
+order by lr.rule_name, lrpr.begin_amount</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="RULE_NAME" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RULE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BEGIN_AMOUNT" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="NUMBER">BEGIN_AMOUNT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="END_AMOUNT" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="NUMBER">END_AMOUNT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RULE_VALUE" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="NUMBER">RULE_VALUE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jf/app/!svn/ver/15528/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/service/interfaces
+END
+ICheckWareOnOrOffLineSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/jf/app/!svn/ver/14913/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/service/interfaces/ICheckWareOnOrOffLineSrv.java
+END
+IAllGiftInfoSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/15528/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/service/interfaces/IAllGiftInfoSrv.java
+END
+IExamineFileSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/15249/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/service/interfaces/IExamineFileSrv.java
+END
+IExamineWareOffLineSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jf/app/!svn/ver/15134/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/service/interfaces/IExamineWareOffLineSrv.java
+END
+IPartnerCheckFileSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jf/app/!svn/ver/14992/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/service/interfaces/IPartnerCheckFileSrv.java
+END

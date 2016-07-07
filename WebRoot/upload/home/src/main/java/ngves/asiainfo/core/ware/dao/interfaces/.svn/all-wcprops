@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/jf/app/!svn/ver/40093/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces
+END
+IWareStatusDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/20139/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IWareStatusDAO.java
+END
+ILogisticRuleDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/30159/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/ILogisticRuleDAO.java
+END
+IBusiActivityIntegralDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jf/app/!svn/ver/37816/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IBusiActivityIntegralDAO.java
+END
+IWareMonitorDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/22972/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IWareMonitorDAO.java
+END
+IWareDescInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/32535/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IWareDescInfoDAO.java
+END
+IWareInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/40093/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IWareInfoDAO.java
+END
+ITestEJBInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/35574/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/ITestEJBInfoDAO.java
+END
+IHouseWareInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/36731/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IHouseWareInfoDAO.java
+END
+IWareLimitExchangeNumDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jf/app/!svn/ver/36079/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IWareLimitExchangeNumDAO.java
+END
+IWareDetailDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/38212/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IWareDetailDAO.java
+END
+IWareInfoPortalIntegralDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jf/app/!svn/ver/37687/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IWareInfoPortalIntegralDAO.java
+END
+IActivityIntegralDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/37942/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IActivityIntegralDAO.java
+END
+IWarePermissionInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jf/app/!svn/ver/32476/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IWarePermissionInfoDAO.java
+END
+IWarePicSynDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/36806/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IWarePicSynDAO.java
+END
+WareExportDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/22328/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/WareExportDAO.java
+END
+IWareIdFirstKindDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/38250/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IWareIdFirstKindDAO.java
+END
+IWarePCInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/36182/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IWarePCInfoDAO.java
+END
+IBrandCategoryInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/17468/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IBrandCategoryInfoDAO.java
+END
+IWarePreviewDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/36213/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/dao/interfaces/IWarePreviewDAO.java
+END

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="AllegeInfo" mainattr="ALLEGE_ID">
+        <mapingenty type="table">ALLEGE_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="ALLEGE_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">ALLEGE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_NAME" maxlength="32" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_PARENT_KIND" maxlength="15" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_PARENT_KIND</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_KIND_ID" maxlength="15" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_KIND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_LEVEL_ID" maxlength="15" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_LEVEL_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROCESS_TIME" maxlength="4" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">PROCESS_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="URGENT_NAME" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">URGENT_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACCEPT_DESC" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ACCEPT_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CONTENT_TP_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">CONTENT_TP_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_NOTE" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_NOTE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_STATUS" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STATUS_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">STATUS_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DEAL_DESC" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DEAL_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DEAL_TP_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">DEAL_TP_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_RESP_TYPE" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_RESP_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_RESP" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_RESP</mapingcol>
+            </attr>
+            <attr floatlength="0" name="END_OP_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">END_OP_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OLD_ORDER_ID" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">OLD_ORDER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OLD_SUBORDER_ID" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">OLD_SUBORDER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EXCHG_CHANNEL" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">EXCHG_CHANNEL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_PROVINCE" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SEND_PROVINCE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_CITY" maxlength="6" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SEND_CITY</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RELATE_POST_ADDR" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RELATE_POST_ADDR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RELATE_STORE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RELATE_STORE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RELATE_WLS_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RELATE_WLS_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RELATE_GYS_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RELATE_GYS_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RELATE_CCS_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RELATE_CCS_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EXGBACK_ORDER_ID" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">EXGBACK_ORDER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EXGBACK_WARE_FLAG" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">EXGBACK_WARE_FLAG</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EXGBACK_RESP" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">EXGBACK_RESP</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EXGBACK_OVER_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">EXGBACK_OVER_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROVINCE_CODE" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROVINCE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COM_TYPE_ID" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">COM_TYPE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACCEPT_OP_ID" maxlength="12" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ACCEPT_OP_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACCEPT_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">ACCEPT_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RESP_OP_ID" maxlength="12" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RESP_OP_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACCEPT_TYPE_ID" maxlength="2" datatype="String" type="COL" remark="0-通过10086
+1-通过网站">
+                <mapingcol datatype="VARCHAR2">ACCEPT_TYPE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MOBILE_PHONE_NO" maxlength="15" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">MOBILE_PHONE_NO</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_LX_METHOD" maxlength="32" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_LX_METHOD</mapingcol>
+            </attr>
+            <attr floatlength="0" name="USER_BRAND" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">USER_BRAND</mapingcol>
+            </attr>
+            <attr floatlength="0" name="USER_LEVEL" maxlength="64" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">USER_LEVEL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="USER_PROVINCE" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">USER_PROVINCE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EMAIL_ADDR" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">EMAIL_ADDR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RESP_PARTNER_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RESP_PARTNER_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RESP_PARTNER_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RESP_PARTNER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OVER_TIME" maxlength="2" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">OVER_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="10" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="40" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CALLING_NUM" maxlength="4" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">CALLING_NUM</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_DEAL" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_DEAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INDICTSEQ" maxlength="23" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">INDICTSEQ</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INDICT_STATUS" maxlength="2" datatype="String" type="COL" remark="01  未派发  02  已派发   03 已回复  04  已归档">
+                <mapingcol datatype="VARCHAR2">INDICT_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="APP_VERSION" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">APP_VERSION</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACCEPT_COM_TYPE" maxlength="2" datatype="String" type="COL" remark="客服基地录入时填写,与COM_TYPE_ID值相同">
+                <mapingcol datatype="VARCHAR2">ACCEPT_COM_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ASSIGN_STATUS" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ASSIGN_STATUS</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

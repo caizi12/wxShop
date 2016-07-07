@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap namespace="member_recomend_info" >
+  <resultMap id="MemberRecomendInfoResult" class="cn.frame.platform.entitys.MemberRecomendInfo" >
+    <result column="RECOMEND_RELATION_ID" property="recomendRelationId" jdbcType="INTEGER" />
+    <result column="RECOMEND_MEMBER_ID" property="recomendMemberId" jdbcType="INTEGER" />
+    <result column="MEMBER_ID" property="memberId" jdbcType="INTEGER" />
+    <result column="RECOMEND_TYPE" property="recomendType" jdbcType="VARCHAR" />
+    <result column="REMARK" property="remark" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+ 
+  <select id="getMemberRecomendInfo" resultMap="MemberRecomendInfoResult" parameterClass="cn.frame.platform.entitys.MemberRecomendInfo" >
+    select RECOMEND_RELATION_ID, RECOMEND_MEMBER_ID, MEMBER_ID, RECOMEND_TYPE, REMARK, CREATE_TIME,
+      UPDATE_TIME
+    from member_recomend_info
+    where where 1=1    
+     <isNotEmpty prepend="and" property="recomendRelationId">
+		  RECOMEND_RELATION_ID=#recomendRelationId#
+	</isNotEmpty> 
+	<isNotEmpty prepend="and" property="recomendMemberId">
+		  RECOMEND_MEMBER_ID=#recomendMemberId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="memberId">
+		  MEMBER_ID=#memberId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="recomendType">
+		  RECOMEND_TYPE=#recomendType#
+	</isNotEmpty>
+  </select>
+  <select id="queryMemberRecomendInfo" resultMap="MemberRecomendInfoResult" parameterClass="java.util.Map" >
+    select RECOMEND_RELATION_ID, RECOMEND_MEMBER_ID, MEMBER_ID, RECOMEND_TYPE, REMARK, CREATE_TIME,
+      UPDATE_TIME
+    from member_recomend_info
+    where 1=1  
+    <isNotEmpty prepend="and" property="recomendRelationId">
+		  RECOMEND_RELATION_ID=#recomendRelationId#
+	</isNotEmpty> 
+	<isNotEmpty prepend="and" property="recomendMemberId">
+		  RECOMEND_MEMBER_ID=#recomendMemberId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="memberId">
+		  MEMBER_ID=#memberId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="recomendType">
+		  RECOMEND_TYPE=#recomendType#
+	</isNotEmpty>
+  </select>
+  
+  <delete id="deleteMemberRecomendInfo" parameterClass="cn.frame.platform.entitys.MemberRecomendInfo" >
+    delete from member_recomend_info
+    where RECOMEND_RELATION_ID = #recomendRelationId:INTEGER#
+  </delete>
+ 
+  <insert id="addMemberRecomendInfo" parameterClass="cn.frame.platform.entitys.MemberRecomendInfo" >
+    insert into member_recomend_info ( RECOMEND_MEMBER_ID, MEMBER_ID,
+      RECOMEND_TYPE, REMARK, CREATE_TIME)
+    values ( #recomendMemberId:INTEGER#, #memberId:INTEGER#,
+      #recomendType:VARCHAR#, #remark:VARCHAR#, #createTime:TIMESTAMP#)
+  </insert>
+  
+  <update id="updateMemberRecomendInfo" parameterClass="cn.frame.platform.entitys.MemberRecomendInfo" >
+    update member_recomend_info
+    set RECOMEND_MEMBER_ID = #recomendMemberId:INTEGER#,
+      MEMBER_ID = #memberId:INTEGER#,
+      RECOMEND_TYPE = #recomendType:VARCHAR#,
+      REMARK = #remark:VARCHAR#,
+      CREATE_TIME = #createTime:TIMESTAMP#,
+      UPDATE_TIME = #updateTime:TIMESTAMP#
+    where RECOMEND_RELATION_ID = #recomendRelationId:INTEGER#
+  </update>
+   
+</sqlMap>

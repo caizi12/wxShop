@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="AllegeAssignDealInfo" mainattr="ALLEGE_ASSIGN_ID">
+        <mapingenty type="table">ALLEGE_ASSIGN_DEAL_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="ALLEGE_ASSIGN_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">ALLEGE_ASSIGN_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ALLEGE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_STAFF_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SEND_STAFF_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">SEND_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_NOTE" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SEND_NOTE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_TP_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SEND_TP_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COM_TYPE_ID" maxlength="2" datatype="String" type="COL" remark="0-省公司
+1-集团公司
+2-配送商
+3-供应商">
+                <mapingcol datatype="VARCHAR2">COM_TYPE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">PARTNER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TO_STAFF_ID" maxlength="12" datatype="Long" type="COL" remark="此字段预留">
+                <mapingcol datatype="NUMBER">TO_STAFF_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DEAL_OP_ID" maxlength="12" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">DEAL_OP_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DEAL_DESC" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DEAL_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DEAL_TP_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">DEAL_TP_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DEAL_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">DEAL_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ASSIGN_STATUS" maxlength="4" datatype="String" type="COL" remark="002-咨询待合作商处理
+003-咨询合作商已反馈
+021-咨询派单撤销
+022-咨询合作商派单回退
+102-投诉待合作商处理
+103-投诉合作商已反馈
+121-投诉派单撤销
+122-投诉合作商回退
+">
+                <mapingcol datatype="VARCHAR2">ASSIGN_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NOTE" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NOTE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OVER_TIME_FLAG" maxlength="2" datatype="String" type="COL" remark="0：没有超时
+1：超时">
+                <mapingcol datatype="VARCHAR2">OVER_TIME_FLAG</mapingcol>
+            </attr>
+	    <attr floatlength="0" name="DEAL_RESULT" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DEAL_RESULT</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

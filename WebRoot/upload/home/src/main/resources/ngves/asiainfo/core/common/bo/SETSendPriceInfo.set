@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETSendPriceInfo" BOName="ngves.asiainfo.mgt.partner.bo.SendPriceInfo" MainField="SEND_PRICE_INFO_ID" Title="ngves.asiainfo.mgt.partner.bo.SendPriceInfo" ActBOName="ngves.asiainfo.mgt.partner.bo.SendPriceInfo" Package="ngves.asiainfo.mgt.partner.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CITY_CODE</Name>
+        <BOAttrName>CITY_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CITY_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.CityList" hasNull="false"></ListDataSource>
+        <ActBO Name="ngves.asiainfo.mgt.partner.bo.SendPriceInfo" Attr="CITY_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>COUNTY_CODE</Name>
+        <BOAttrName>COUNTY_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>COUNTY_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.CountyList" hasNull="false"></ListDataSource>
+        <ActBO Name="ngves.asiainfo.mgt.partner.bo.SendPriceInfo" Attr="COUNTY_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARTNER_ID</Name>
+        <BOAttrName>PARTNER_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARTNER_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.mgt.partner.bo.SendPriceInfo" Attr="PARTNER_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PROVINCE_CODE</Name>
+        <BOAttrName>PROVINCE_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PROVINCE_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.ProvinceList" hasNull="false"></ListDataSource>
+        <ActBO Name="ngves.asiainfo.mgt.partner.bo.SendPriceInfo" Attr="PROVINCE_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SEND_DAYS</Name>
+        <BOAttrName>SEND_DAYS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SEND_DAYS</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="8" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.mgt.partner.bo.SendPriceInfo" Attr="SEND_DAYS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SEND_PRICE</Name>
+        <BOAttrName>SEND_PRICE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SEND_PRICE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="6" Decimal="2">Float</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.mgt.partner.bo.SendPriceInfo" Attr="SEND_PRICE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>LOSS_PRICE</Name>
+        <BOAttrName>LOSS_PRICE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>LOSS_PRICE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="6" Decimal="2">Float</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.mgt.partner.bo.SendPriceInfo" Attr="LOSS_PRICE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SEND_PRICE_INFO_ID</Name>
+        <BOAttrName>SEND_PRICE_INFO_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SEND_PRICE_INFO_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.mgt.partner.bo.SendPriceInfo" Attr="SEND_PRICE_INFO_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WAREHOUSE_ID</Name>
+        <BOAttrName>WAREHOUSE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WAREHOUSE_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.WareHouseList" hasNull="false">
+          <ListParameter LSPName="type" LSPValue="0,1,2" LSPType="String" />
+        </ListDataSource>
+        <ActBO Name="ngves.asiainfo.mgt.partner.bo.SendPriceInfo" Attr="WAREHOUSE_ID" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

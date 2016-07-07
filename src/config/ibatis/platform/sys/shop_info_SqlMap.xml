@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap namespace="shop_info" >
+  <resultMap id="shopInfoResult" class="cn.frame.platform.entitys.ShopInfo" >
+    <result column="SHOP_ID" property="shopId" jdbcType="INTEGER" />
+    <result column="MEMBER_ID" property="memberId" jdbcType="VARCHAR" />
+    <result column="PRODUCT_ID" property="productId" jdbcType="VARCHAR" />
+     <result column="PRODUCT_NUM" property="productNum" jdbcType="INTEGER" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="DATETIME" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+  </resultMap>
+ 
+  <select id="getShopInfo" resultMap="shopInfoResult" parameterClass="cn.frame.platform.entitys.ShopInfo" >
+    select SHOP_ID, MEMBER_ID, PRODUCT_ID, CREATE_TIME, STATUS
+    from shop_info
+    where 1=1
+     <isNotEmpty prepend="and" property="shopId">
+		  SHOP_ID=#shopId#
+	</isNotEmpty>
+  </select>
+  <select id="queryShopInfo" resultMap="shopInfoResult" parameterClass="java.util.Map" >
+    select SHOP_ID, MEMBER_ID, PRODUCT_ID, CREATE_TIME, STATUS
+    from shop_info
+    where 1=1
+     <isNotEmpty prepend="and" property="shopId">
+		  SHOP_ID=#shopId#
+	</isNotEmpty>
+   <isNotEmpty prepend="and" property="memberId">
+		  MEMBER_ID=#memberId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="status">
+		  STATUS=#status#
+	</isNotEmpty>
+  </select>
+ 
+  <delete id="deleteShopInfo" parameterClass="java.lang.String" >
+    delete from shop_info
+    where SHOP_ID = #shopId:INTEGER#
+  </delete>
+ 
+  <insert id="insertShopInfo" parameterClass="cn.frame.platform.entitys.ShopInfo" >
+    insert into shop_info ( MEMBER_ID, PRODUCT_ID, CREATE_TIME, STATUS)
+    values (#memberId:VARCHAR#, #productId:VARCHAR#, #createTime#,
+      #status:VARCHAR#)
+  </insert>
+  
+  <update id="updateShopInfo" parameterClass="cn.frame.platform.entitys.ShopInfo" >
+    update shop_info
+      PRODUCT_ID = #productId:VARCHAR#,
+      CREATE_TIME = #createTime#,
+      STATUS = #status:VARCHAR#
+    where SHOP_ID = #shopId:INTEGER#
+    <isNotEmpty prepend="and" property="memberId">
+		  MEMBER_ID = #memberId#,
+	</isNotEmpty>
+  </update>
+</sqlMap>

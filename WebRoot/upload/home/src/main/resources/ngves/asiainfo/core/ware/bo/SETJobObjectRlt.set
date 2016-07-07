@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETJobObjectRlt" BOName="ngves.asiainfo.core.ware.bo.JobObjectRlt" MainField="JOB_OBJECT_RLT_ID" Title="ngves.asiainfo.core.ware.bo.JobObjectRlt" ActBOName="ngves.asiainfo.core.ware.bo.JobObjectRlt" Package="ngves.asiainfo.core.ware.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>JOB_OBJECT_RLT_ID</Name>
+        <BOAttrName>JOB_OBJECT_RLT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>JOB_OBJECT_RLT_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.JobObjectRlt" Attr="JOB_OBJECT_RLT_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>JOB_TASK_ID</Name>
+        <BOAttrName>JOB_TASK_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>JOB_TASK_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.JobObjectRlt" Attr="JOB_TASK_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MONITOR_OBJECT_ID</Name>
+        <BOAttrName>MONITOR_OBJECT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MONITOR_OBJECT_ID</ID>
+        <Title>礼品类别编码（业务分类、中类、小类的编码）、礼品编码（ware_code）</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.JobObjectRlt" Attr="MONITOR_OBJECT_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MONITOR_TYPE</Name>
+        <BOAttrName>MONITOR_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MONITOR_TYPE</ID>
+        <Title>00：礼品业务分类 01：礼品中类 02：礼品小类 03：礼品</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.JobObjectRlt" Attr="MONITOR_TYPE" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

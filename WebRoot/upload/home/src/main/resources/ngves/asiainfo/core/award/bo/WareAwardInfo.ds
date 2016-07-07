@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIDataSrc DisType="SelectTable" NeedCache="N">
+    <Name>WareAwardInfo</Name>
+    <Package>ngves.asiainfo.core.award.bo</Package>
+    <DataSet SetType="SQLDATA">
+	<ValueAttr>value</ValueAttr>
+         <ValueAttr>WAREID</ValueAttr>
+        <TextAttr>WARENAME</TextAttr>
+        <SqlString> SELECT P.WARE_ID WAREID,
+       P.WARE_CODE WARECODE,
+       P.WARE_CODE || '|' || P.WARE_NAME WARENAME
+      FROM WARE_INFO P, WARE_DESC_INFO D,WARE_DESC_INFO D1, WARE_DESC_INFO  D2
+      WHERE P.WARE_ID = D.WARE_ID  AND P.WARE_ID=D2.WARE_ID
+	   AND P.DELIVER_TYPE = '12'
+	   AND P.WARE_STATUS = '1'
+	   AND D.DESC_DEFINE_ID = '999999999999988'  
+	   AND D.WARE_DESC_VALUE = '3'
+	   AND P.WARE_ID = D1.WARE_ID
+	   AND D1.DESC_DEFINE_ID = 999999999999996
+	   AND D1.WARE_DESC_VALUE LIKE '%8%'  
+     AND D2.DESC_DEFINE_ID='999999999999930'
+     AND D2.WARE_DESC_VALUE = '1'</SqlString>
+        <DataSource>UserDataSource</DataSource>
+    </DataSet>
+</UIDataSrc>

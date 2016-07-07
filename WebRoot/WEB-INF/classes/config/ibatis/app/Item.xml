@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="Item">
+
+	<select id="queryOrder" resultClass="java.util.HashMap">
+		select * from order_t
+	</select>
+	<update id="updateGood">
+		update goods_old_ta set userid='2012' where
+		cartid='201105180037'
+	</update>
+
+	<delete id="delGood">
+		delete from goods_old_t where goodsid='2012041800894'
+	</delete>
+	<insert id="insertGood">
+		insert goods_old_t(goodsid,goodsname)
+		value('2012041800895','测试5')
+	</insert>
+</sqlMap>

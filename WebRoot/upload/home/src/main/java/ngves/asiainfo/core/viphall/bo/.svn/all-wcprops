@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/viphall/bo
+END
+QBOVipHallTopicInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/viphall/bo/QBOVipHallTopicInfoBean.java
+END
+QBOVipHallTopicInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/25396/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/viphall/bo/QBOVipHallTopicInfoEngine.java
+END
+QBOVipHallWareInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/viphall/bo/QBOVipHallWareInfoBean.java
+END
+QBOVipHallWareInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/25396/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/viphall/bo/QBOVipHallWareInfoEngine.java
+END
+QBOVipWareDescBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/viphall/bo/QBOVipWareDescBean.java
+END
+QBOVipWareDescEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/26717/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/viphall/bo/QBOVipWareDescEngine.java
+END
+VipHallCountBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/viphall/bo/VipHallCountBean.java
+END
+VipHallCountEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/viphall/bo/VipHallCountEngine.java
+END

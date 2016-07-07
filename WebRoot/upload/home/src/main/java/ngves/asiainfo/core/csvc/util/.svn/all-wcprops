@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/jf/app/!svn/ver/21475/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/util
+END
+CodeMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/jf/app/!svn/ver/19265/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/util/CodeMapper.java
+END
+CustomActionTypeEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/21475/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/util/CustomActionTypeEnum.java
+END
+BeanToXmlObjUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/19987/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/util/BeanToXmlObjUtil.java
+END
+XmlObjToBeanUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/17595/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/util/XmlObjToBeanUtil.java
+END
+CsvcUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/jf/app/!svn/ver/19113/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/util/CsvcUtil.java
+END

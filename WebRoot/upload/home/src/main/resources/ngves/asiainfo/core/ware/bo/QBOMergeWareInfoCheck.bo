@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOMergeWareInfoCheck" mainattr="DBLINK1">
+        <mapingenty type="query">select 
+  DBLINK1,
+    '编辑' DBLINK,
+    BUSI_WARE_ID,
+    BUSI_STATE,
+    BUSI_ID,
+    WARE_ID,
+    WARE_BRAND_ID,
+    WARE_CODE,
+    WARE_NAME,
+    NOTE,
+    SHOP_PRICE,
+    MARKET_PRICE,
+    COUNT_VALUE,
+    DELIVER_TYPE,
+    WARE_STORAGE_TYPE,
+    PROVINCE_CODE,
+    LAST_UPDATE_STAFF_ID,
+    COUNT_TYPE,
+    LAST_UPDATE_DATE,
+    PARTNER,
+    AMENDS_FEE,
+    FUNC_DESC,
+    WAREHOUSE_ID,
+    WARE_TYPE,
+    STAFF_NAME,
+    WARE_KIND_ID,
+    KIND_NAME,
+    WARE_KIND_PARENT_ID,
+    BIG_KIND_NAME,
+    WARE_FIRST_KIND_ID,
+    F_NAME,
+    IS_DEFAULT_KIND,
+    PARTNER_CODE,
+    PARTNER_NAME,
+    VALID_WARE_NUM,
+    CHECK_COM_TYPE,
+    CHECK_DESC,
+    CHECK_TIME,
+    ware_kind_info_id,
+    ware_kind_info_name 
+from 
+
+ (select 
+      substr(bfi.file_name, 0, instr(bfi.file_name, '.') - 1) ||  '_50.jpg' as DBLINK1,
+      bwi.BUSI_WARE_ID,
+  bwi.busi_state,
+      bwi.BUSI_ID,
+      bwi.WARE_ID,
+      bwi.WARE_BRAND_ID,
+      bwi.WARE_CODE,
+      bwi.WARE_NAME,
+      bwi.NOTE,
+      bwi.SHOP_PRICE,
+      bwi.MARKET_PRICE,
+      bwi.COUNT_VALUE,
+      bwi.DELIVER_TYPE,
+      bwi.WARE_STORAGE_TYPE,
+      bwi.PROVINCE_CODE,
+      bwi.LAST_UPDATE_STAFF_ID,
+      bwi.COUNT_TYPE,
+      bwi.LAST_UPDATE_DATE,
+      bwi.PARTNER,
+      bwi.AMENDS_FEE,
+      bwi.FUNC_DESC,
+      bwi.WAREHOUSE_ID,
+      bwi.WARE_TYPE,/* BUSI_WARE_INFO ware_type=0普通礼品*/
+      ss.STAFF_NAME,
+      wk.WARE_KIND_ID,
+      wk.KIND_NAME,
+      wkp.WARE_KIND_PARENT_ID,
+      wkp.BIG_KIND_NAME,
+      wfk.WARE_FIRST_KIND_ID,
+      wfk.F_NAME,
+      bwkr.IS_DEFAULT_KIND,
+      pi.PARTNER_CODE,
+      pi.PARTNER_NAME,
+      DECODE(QB.VALID_WARE_NUM, NULL, 0, QB.VALID_WARE_NUM) VALID_WARE_NUM,
+      DECODE(bci.CHECK_COM_TYPE, NULL, '', bci.CHECK_COM_TYPE) CHECK_COM_TYPE,
+      DECODE(bci.CHECK_DESC, NULL, '', bci.CHECK_DESC) CHECK_DESC,
+      to_char(QD.check_time, 'yyyy-mm-dd hh24:mi:ss') check_time,
+      wki.kind_id ware_kind_info_id,
+      wki.kind_name ware_kind_info_name,
+      Row_number() over(PARTITION BY bwi.BUSI_ID ORDER BY bfi.file_name desc) rn
+from 
+    BUSI_WARE_INFO       bwi, 
+    partner_info         pi, 
+    ware_first_kind      wfk,
+    ware_kind_info      	wki,
+    ware_first_kind_rlt 	wfkr,
+    ware_kind_parent     wkp,
+    ware_kind            wk,
+    SYS_STAFF            ss,
+    BUSI_CHECK_INFO      bci,
+    BUSI_WARE_KIND_RLT   bwkr,
+    BUSI_file_info       bfi,
+    CM_PROVINCE_INFO     cpi,
+   (SELECT A.WARE_ID, COUNT(*) VALID_WARE_NUM
+          FROM WARE_INFO A
+         GROUP BY A.WARE_ID) QB,
+
+   (SELECT B1.Busi_Id, MAX(B1.CHECK_TIME) check_time
+          FROM BUSI_CHECK_INFO B1  group by Busi_Id) QD    
+where 1=1
+      and bwi.province_code =cpi.province_code
+      and bwi.busi_id = bci.busi_id(+)
+      and bwi.last_update_staff_id = ss.staff_id
+      and bwi.busi_id = bwkr.busi_id
+      and bwi.partner = pi.partner_id(+)
+      and bwkr.ware_id= bwi.ware_id
+      and bwkr.busi_id = bwi.busi_id
+      and bwkr.is_default_kind = '1'
+      and wk.ware_kind_id = bwkr.ware_kind_id
+      and wkp.ware_kind_parent_id = wk.ware_kind_parent_id 
+      and wfk.ware_first_kind_id = wkp.ware_first_kind_id
+      
+      and wfkr.ware_first_kind_id = wki.kind_id(+) 
+   	  and wkp.ware_kind_parent_id = wfkr.ware_kind_parent_id(+)
+      
+      and (bwi.ware_type = '0' or bwi.ware_type is null)
+      and bwi.ware_id = bfi.rlt_id
+      and bfi.is_main_pic = '1'
+      and bfi.busi_state != '40'
+      and bwi.busi_id=bfi.busi_id
+      
+      AND bwi.WARE_ID = QB.WARE_ID(+) 
+      and bwi.BUSI_ID = QD.BUSI_ID(+)
+
+  union all
+  
+ select 
+      substr(bfi.file_name, 0, instr(bfi.file_name, '.') - 1) ||  '_50.jpg' as DBLINK1,
+      bwip.BUSI_WARE_ID,
+      bwip.busi_state,
+      bwip.BUSI_ID,
+      bwip.WARE_ID,
+      bwip.WARE_BRAND_ID,
+      bwip.WARE_CODE,
+      bwip.WARE_NAME,
+      bwip.NOTE,
+      bwip.SHOP_PRICE,
+      bwip.MARKET_PRICE,
+      bwip.COUNT_VALUE,
+      bwip.DELIVER_TYPE,
+      bwip.WARE_STORAGE_TYPE,
+      bwip.PROVINCE_CODE,
+      bwip.LAST_UPDATE_STAFF_ID,
+      bwip.COUNT_TYPE,
+      bwip.LAST_UPDATE_DATE,
+      bwip.PARTNER,
+      bwip.AMENDS_FEE,
+      bwip.FUNC_DESC,
+      bwip.WAREHOUSE_ID,
+      1 WARE_TYPE,/*因BUSI_WARE_INFO_PARENT表中没有ware_type字段，则用1代表父类礼品*/
+      ss.STAFF_NAME,
+      wk.WARE_KIND_ID,
+      wk.KIND_NAME,
+      wkp.WARE_KIND_PARENT_ID,
+      wkp.BIG_KIND_NAME,
+      wfk.WARE_FIRST_KIND_ID,
+      wfk.F_NAME,
+      bwkr.IS_DEFAULT_KIND,
+      pi.PARTNER_CODE,
+      pi.PARTNER_NAME,
+      
+      DECODE(QB.VALID_WARE_NUM, NULL, 0, QB.VALID_WARE_NUM) VALID_WARE_NUM,
+      DECODE(bci.CHECK_COM_TYPE, NULL, '', bci.CHECK_COM_TYPE) CHECK_COM_TYPE,
+      DECODE(bci.CHECK_DESC, NULL, '', bci.CHECK_DESC) CHECK_DESC,
+      to_char(QD.check_time, 'yyyy-mm-dd hh24:mi:ss') check_time,
+      wki.kind_id ware_kind_info_id,
+      wki.kind_name ware_kind_info_name,
+      Row_number() over(PARTITION BY bwip.BUSI_ID ORDER BY bfi.file_name desc) rn
+from 
+    BUSI_WARE_INFO_PARENT       bwip, 
+    partner_info                pi, 
+    ware_first_kind             wfk,
+    ware_kind_info      		wki,
+    ware_first_kind_rlt 		wfkr,
+    ware_kind_parent            wkp,
+    ware_kind                   wk,
+    SYS_STAFF                   ss,
+    BUSI_CHECK_INFO             bci,
+    BUSI_WARE_KIND_RLT          bwkr,
+    BUSI_file_info              bfi,
+    CM_PROVINCE_INFO            cpi,
+   (SELECT A.WARE_ID, COUNT(*) VALID_WARE_NUM
+          FROM WARE_INFO A
+         GROUP BY A.WARE_ID) QB,
+
+   (SELECT B1.Busi_Id, MAX(B1.CHECK_TIME) check_time
+          FROM BUSI_CHECK_INFO B1  group by Busi_Id) QD  
+where 1=1
+      and bwip.province_code =cpi.province_code
+      and bwip.busi_id = bci.busi_id(+)
+      and bwip.last_update_staff_id = ss.staff_id
+      and bwip.busi_id = bwkr.busi_id
+      and bwip.partner = pi.partner_id(+)
+      and bwkr.ware_id= bwip.ware_id
+      and bwkr.busi_id = bwip.busi_id
+      and bwkr.is_default_kind = '1'
+      and wk.ware_kind_id = bwkr.ware_kind_id
+      and wkp.ware_kind_parent_id = wk.ware_kind_parent_id 
+      and wfk.ware_first_kind_id = wkp.ware_first_kind_id
+      
+   	  and wfkr.ware_first_kind_id = wki.kind_id(+)
+      and wkp.ware_kind_parent_id = wfkr.ware_kind_parent_id(+)
+
+      and bwip.busi_state !='99'
+      and bwip.ware_id = bfi.rlt_id
+      and bfi.is_main_pic = '1'
+      and bfi.busi_state != '40'
+      and bwip.busi_id=bfi.busi_id
+      
+      AND bwip.WARE_ID = QB.WARE_ID(+) 
+      and bwip.BUSI_ID = QD.BUSI_ID(+)
+
+)a where rn =1  order by last_update_date desc 
+</mapingenty>
+        <datafilter />
+        <attrlist>
+        	<attr floatlength="0" name="WARE_KIND_INFO_ID" maxlength="22" datatype="Long" type="COL">
+	    		<mapingcol datatype="NUMBER">WARE_KIND_INFO_ID</mapingcol>
+			</attr>
+			<attr floatlength="0" name="WARE_KIND_INFO_NAME" maxlength="400" datatype="String" type="COL">
+			    <mapingcol datatype="VARCHAR2">WARE_KIND_INFO_NAME</mapingcol>
+			</attr>
+            <attr floatlength="0" name="DBLINK1" maxlength="1007" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DBLINK1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DBLINK" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">DBLINK</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_WARE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">BUSI_WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_STATE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BUSI_STATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">BUSI_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_BRAND_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_BRAND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NOTE" maxlength="1024" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NOTE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SHOP_PRICE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SHOP_PRICE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MARKET_PRICE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">MARKET_PRICE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COUNT_VALUE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">COUNT_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DELIVER_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DELIVER_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_STORAGE_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_STORAGE_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROVINCE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROVINCE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LAST_UPDATE_STAFF_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">LAST_UPDATE_STAFF_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COUNT_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">COUNT_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LAST_UPDATE_DATE" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">LAST_UPDATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">PARTNER</mapingcol>
+            </attr>
+            <attr floatlength="0" name="AMENDS_FEE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">AMENDS_FEE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FUNC_DESC" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FUNC_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WAREHOUSE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WAREHOUSE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_TYPE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STAFF_NAME" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">STAFF_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_KIND_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_KIND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="KIND_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_KIND_PARENT_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_KIND_PARENT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BIG_KIND_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BIG_KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_FIRST_KIND_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_FIRST_KIND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="F_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">F_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_DEFAULT_KIND" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">IS_DEFAULT_KIND</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_CODE" maxlength="40" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="VALID_WARE_NUM" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">VALID_WARE_NUM</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CHECK_COM_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CHECK_COM_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CHECK_DESC" maxlength="1024" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CHECK_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CHECK_TIME" maxlength="19" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CHECK_TIME</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

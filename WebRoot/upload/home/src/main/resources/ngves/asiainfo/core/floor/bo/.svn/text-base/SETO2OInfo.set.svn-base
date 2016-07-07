@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETO2OInfo" BOName="ngves.asiainfo.core.floor.bo.O2OInfo" MainField="O2O_ID" Title="ngves.asiainfo.core.floor.bo.O2OInfo" ActBOName="ngves.asiainfo.core.floor.bo.O2OInfo" Package="ngves.asiainfo.core.floor.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL1</Name>
+        <BOAttrName>BAK_COL1</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL1</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.O2OInfo" Attr="BAK_COL1" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CREATE_DATE</Name>
+        <BOAttrName>CREATE_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CREATE_DATE</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.O2OInfo" Attr="CREATE_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_HOME_SHOW</Name>
+        <BOAttrName>IS_HOME_SHOW</BOAttrName>
+        <BODisplayAttrName />  
+        <ID>IS_HOME_SHOW</ID>  
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.O2OInfo" Attr="IS_HOME_SHOW" />
+        	<ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="900000000000037"  LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MODIFY_DATE</Name>
+        <BOAttrName>MODIFY_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MODIFY_DATE</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.O2OInfo" Attr="MODIFY_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>O2O_CONTENT</Name>
+        <BOAttrName>O2O_CONTENT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>O2O_CONTENT</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.O2OInfo" Attr="O2O_CONTENT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>O2O_ID</Name>
+        <BOAttrName>O2O_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>O2O_ID</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.O2OInfo" Attr="O2O_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>O2O_IMG_URL</Name>
+        <BOAttrName>O2O_IMG_URL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>O2O_IMG_URL</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.O2OInfo" Attr="O2O_IMG_URL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>O2O_NAME</Name>
+        <BOAttrName>O2O_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>O2O_NAME</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.O2OInfo" Attr="O2O_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>O2O_TYPE</Name>
+        <BOAttrName>O2O_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>O2O_TYPE</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.O2OInfo" Attr="O2O_TYPE" />
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="900000000000043"  LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SORT</Name>
+        <BOAttrName>SORT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SORT</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.O2OInfo" Attr="SORT" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

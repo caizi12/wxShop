@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOAllWareInfoChild" mainattr="WARE_CODE">
+        <mapingenty type="query">
+select a1.ware_code           ware_code,
+       a1.ware_name           ware_name,
+       b1.province_name       province_name,
+       b2.city_name           city_name,
+       b3.county_name         county_name,
+       a2.ware_name           ware_name_child, 
+       a2.ware_code           ware_code_child,
+       a2.ware_id			  ware_id_child,
+       a2.mapping_code		  mapping_code,
+       c3.f_name              f_name,
+       c3.ware_first_kind_id  ware_first_kind_id,
+       c2.big_kind_name       big_kind_name,
+       c2.ware_kind_parent_id ware_kind_parent_id,
+       c1.kind_name           kind_name,
+       c1.ware_kind_id        ware_kind_id,
+       decode(substr(a2.MARKET_PRICE / 100,'1','1'),'.','0'||(a2.MARKET_PRICE / 100),a2.MARKET_PRICE / 100) market_price,
+       decode(substr(a2.COUNT_VALUE / 100,'1','1'),'.','0'||(a2.COUNT_VALUE / 100),a2.COUNT_VALUE / 100)    count_value,
+       
+       decode(a2.ware_integral_value,'-1','',a2.ware_integral_value) ware_integral_value,
+       wii.fivestar_diamond     five_star_diamond,
+       wii.fivestar_gold     five_star_gold,
+       wii.fivestar     five_star,
+       wii.fourstar     four_star,
+       wii.threestar    three_star,
+       wii.twostar      two_star,
+       wii.onestar      one_star,
+       wii.standardstar      standard_star,
+       wii.nolevel      no_level,
+       
+       d.partner_code         partner_code,
+       d.partner_name         partner_name,
+       a1.ware_brand_id       ware_brand_id,
+       a1.ware_status         ware_status,
+       a1.province_code       province_code,
+       wki.kind_id ware_kind_info_id,
+       wki.kind_name ware_kind_info_name,
+       a1.partner_id          partner_id,
+       wii.channel              channel
+  from ware_pc_rlt      a, 
+       ware_info_parent a1, 
+       ware_info        a2,
+       ware_deliv_scope b,
+       cm_province_info b1,
+       city_info        b2,
+       county_info      b3,
+       ware_kind_rlt    c,
+       ware_first_kind  c3,
+       ware_kind_parent c2,
+       ware_kind        c1,
+       
+       (SELECT  d.ware_id wareid,d.channel channel,
+         MAX(decode(d.mobile_brand_code, 05, d.integral_value)) fivestar_diamond,
+         MAX(decode(d.mobile_brand_code, 06, d.integral_value)) fivestar_gold,
+         MAX(decode(d.mobile_brand_code, 07, d.integral_value)) fivestar,
+         MAX(decode(d.mobile_brand_code, 08, d.integral_value)) fourstar,
+         MAX(decode(d.mobile_brand_code, 09, d.integral_value)) threestar,
+         MAX(decode(d.mobile_brand_code, 10, d.integral_value)) twostar,
+         MAX(decode(d.mobile_brand_code, 11, d.integral_value)) onestar,
+         MAX(decode(d.mobile_brand_code, 12, d.integral_value)) standardstar,
+         MAX(decode(d.mobile_brand_code, 13, d.integral_value)) nolevel
+  FROM   ware_integral_info d
+  GROUP  BY d.ware_id,d.channel) wii,
+       ware_kind_info      wki,
+       ware_first_kind_rlt wfkr,
+       partner_info     d
+ where a.p_ware_id = a1.ware_id
+   and a2.ware_id = a.c_ware_id
+   and b.ware_id(+) = a1.ware_id
+   and b1.province_code(+) = b.prov_code
+   and b2.city_code(+) = b.city_code
+   and b3.county_code(+) = b.county_code
+   and c.ware_id = a1.ware_id
+   and c1.ware_kind_id = c.ware_kind_id
+   and c2.ware_kind_parent_id = c1.ware_kind_parent_id
+   and c3.ware_first_kind_id = c2.ware_first_kind_id
+
+   and wfkr.ware_first_kind_id = wki.kind_id(+)
+   and c2.ware_kind_parent_id = wfkr.ware_kind_parent_id(+)
+
+   and c.is_default_kind=1
+   and a2.ware_id = wii.wareid
+   and d.partner_id = a1.partner_id
+   order by b1.province_py,b1.province_code,b2.city_py,b2.city_code,b3.county_py,b3.county_code,a1.ware_code,a2.ware_code</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROVINCE_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROVINCE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CITY_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CITY_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COUNTY_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">COUNTY_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME_CHILD" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_NAME_CHILD</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE_CHILD" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE_CHILD</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_ID_CHILD" maxlength="15" datatype="Long" type="COL">
+            	<mapingcol datatype="NUMBER">WARE_ID_CHILD</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MAPPING_CODE" maxlength="100" datatype="String" type="COL">
+            	<mapingcol datatype="VARCHAR2">MAPPING_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="F_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">F_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BIG_KIND_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BIG_KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="KIND_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MARKET_PRICE" maxlength="43" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">MARKET_PRICE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COUNT_VALUE" maxlength="43" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">COUNT_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_CODE" maxlength="40" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_NAME</mapingcol>
+            </attr>
+            
+            <attr floatlength="0" name="WARE_INTEGRAL_VALUE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_INTEGRAL_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FIVE_STAR_DIAMOND" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">FIVE_STAR_DIAMOND</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FIVE_STAR_GOLD" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">FIVE_STAR_GOLD</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FIVE_STAR" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">FIVE_STAR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FOUR_STAR" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">FOUR_STAR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="THREE_STAR" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">THREE_STAR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TWO_STAR" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">TWO_STAR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ONE_STAR" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ONE_STAR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STANDARD_STAR" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">STANDARD_STAR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NO_LEVEL" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">NO_LEVEL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CHANNEL" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CHANNEL</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

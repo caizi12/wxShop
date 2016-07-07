@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/jf/app/!svn/ver/23503/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/model
+END
+PageBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jf/app/!svn/ver/23503/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/model/PageBean.java
+END
+TuanWareDataBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/21981/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/model/TuanWareDataBean.java
+END
+PreOrdersInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/22470/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/model/PreOrdersInfoBean.java
+END
+TuanInfoVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jf/app/!svn/ver/21953/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/model/TuanInfoVO.java
+END
+WareKindBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/21953/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/model/WareKindBean.java
+END
+TuanInfoValueToHP.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/16403/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/model/TuanInfoValueToHP.java
+END

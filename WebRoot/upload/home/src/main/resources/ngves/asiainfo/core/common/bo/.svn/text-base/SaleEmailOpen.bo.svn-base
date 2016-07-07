@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="SaleEmailOpen" mainattr="OPEN_ID">
+        <mapingenty type="table">SALE_EMAIL_OPEN</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="OPEN_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">OPEN_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SALE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SALE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="USER_EMAIL" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">USER_EMAIL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPEN_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">OPEN_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

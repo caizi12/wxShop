@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE abatorConfiguration PUBLIC "-//Apache Software Foundation//DTD Abator for iBATIS Configuration 1.0//EN" "http://ibatis.apache.org/dtd/abator-config_1_0.dtd" >
+<abatorConfiguration >
+  <abatorContext >
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/myFrame" userId="root" password="123456" >
+      <classPathEntry location="E:/workspace/wxShop/lib/mysql-connector-java-5.1.5-bin.jar" />
+    </jdbcConnection>
+    <javaModelGenerator targetPackage="cn.frame.platform.entitys" targetProject="wxShop/src" />
+    <sqlMapGenerator targetPackage="config.ibatis.platform.sys" targetProject="wxShop/src" />
+    <daoGenerator targetPackage="cn.frame.platform.sys" targetProject="wxShop/src" type="GENERIC-CI" />
+    <!--
+    <table schema="wxShop" tableName="sys_menu" >
+    </table>
+        <table schema="wxShop" tableName="sys_user" >
+    </table>
+    -->
+        <table schema="wxShop" tableName="member_recomend_info" >
+        
+    </table>
+  </abatorContext>
+</abatorConfiguration>

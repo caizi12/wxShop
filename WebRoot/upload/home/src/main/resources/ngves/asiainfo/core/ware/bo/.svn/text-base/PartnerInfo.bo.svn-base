@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="PartnerInfo" mainattr="BUSI_ID">
+        <mapingenty type="table">PARTNER_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+	    <attr floatlength="0" name="APP_VERSION" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">APP_VERSION</mapingcol>
+            </attr>	
+            <attr floatlength="0" name="PARTNER_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">PARTNER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORG_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ORG_ID</mapingcol>
+            </attr>            
+            <attr floatlength="0" name="PARTNER_TYPE_ID" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_TYPE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_CODE" maxlength="10" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_NAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_LONG_NAME" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_LONG_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COMPANY_NAME" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">COMPANY_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROVINCE_CODE" maxlength="40" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROVINCE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FRDB_NAME" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FRDB_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FRDB_LX_INFO" maxlength="30" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FRDB_LX_INFO</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COMPANY_DESC" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">COMPANY_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CALLCENTER_NO" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CALLCENTER_NO</mapingcol>
+            </attr>
+            <attr floatlength="0" name="POST_ADDR" maxlength="120" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">POST_ADDR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="POST_CODE" maxlength="6" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">POST_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CALLCENTER_FILE_NAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CALLCENTER_FILE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CUR_STATUS" maxlength="2" datatype="Long" type="COL" remark="0-?? 1-??">
+                <mapingcol datatype="NUMBER">CUR_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CREATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STATUS_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">STATUS_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ONOFFLINE_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">ONOFFLINE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_ORG" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">POST_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_STAFF" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">POST_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_AUTH" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">POST_CODE</mapingcol>
+            </attr>
+             <attr floatlength="0" name="FETION_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FETION_CODE</mapingcol>
+ 			</attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

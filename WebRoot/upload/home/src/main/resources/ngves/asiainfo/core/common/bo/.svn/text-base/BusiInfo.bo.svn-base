@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="BusiInfo" mainattr="BUSI_INFO_ID">
+        <mapingenty type="table">BUSI_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="BUSI_INFO_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">BUSI_INFO_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">BUSI_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_TYPE_ID" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BUSI_TYPE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">BUSI_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_STAFF_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">BUSI_STAFF_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_COM_TYPE" maxlength="2" datatype="String" type="COL" remark="0-运营中心
+1-省公司
+2-全网物流商
+3-全网供应商
+4-仓储商">
+                <mapingcol datatype="VARCHAR2">BUSI_COM_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_COM_ID" maxlength="15" datatype="Long" type="COL" remark="此处填写省公司代码或合作商编号,总部的代码是：00">
+                <mapingcol datatype="NUMBER">BUSI_COM_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NOTE" maxlength="1024" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NOTE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPT_TYPE" maxlength="2" datatype="String" type="COL" remark="0-增加/删除/文件下载类 1-修改/审核类 2-查询记录类">
+                <mapingcol datatype="VARCHAR2">OPT_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPT_OBJ" maxlength="1800" datatype="String" type="COL" remark="操作对象">
+                <mapingcol datatype="VARCHAR2">OPT_OBJ</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="40" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

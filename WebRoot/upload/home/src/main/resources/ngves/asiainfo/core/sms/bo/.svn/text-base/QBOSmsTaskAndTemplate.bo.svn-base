@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOSmsTaskAndTemplate" mainattr="SMS_ID">
+        <mapingenty type="query">select t2.id          task_id,
+       t1.sms_id      sms_id,
+       t1.title       title,
+       t1.content     content,
+       t1.prov_code   prov_code,
+       t1.file_path   file_path,
+       t1.send_type   send_type,
+       t1.no_count    no_count,
+       t1.quartz_time quartz_time,
+       t1.second_time second_time,
+       t2.opera       opera,
+       t2.status      status,
+       t1.status      template_status,
+       t2.bak_col1    is_download
+  from sms_template t1, sms_task t2
+ where t1.sms_id = t2.sms_id
+</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="TASK_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">TASK_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SMS_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SMS_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TITLE" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">TITLE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CONTENT" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CONTENT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROV_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROV_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FILE_PATH" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FILE_PATH</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_TYPE" maxlength="1" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SEND_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NO_COUNT" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">NO_COUNT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="QUARTZ_TIME" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">QUARTZ_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SECOND_TIME" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">SECOND_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPERA" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">OPERA</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STATUS" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TEMPLATE_STATUS" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">TEMPLATE_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_DOWNLOAD" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">IS_DOWNLOAD</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

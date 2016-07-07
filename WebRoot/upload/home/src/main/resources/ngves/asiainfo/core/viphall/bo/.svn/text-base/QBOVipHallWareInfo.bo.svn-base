@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOVipHallWareInfo" mainattr="WARE_ID">
+        <mapingenty type="query">SELECT VI.*, VPV.WARE_DIS_VALUE
+                          FROM VIPHALL_INFO VI, VIPHALL_PC_VALUE VPV
+                         WHERE VI.WARE_ID = VPV.WARE_ID</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_ONLINE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">IS_ONLINE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FILE_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FILE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROV_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROV_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CITY_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CITY_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CITY_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CITY_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_KIND_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_KIND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DESC_DEFINE_WARE_VALUE" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DESC_DEFINE_WARE_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_DIS_VALUE" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_DIS_VALUE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

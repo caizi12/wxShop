@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETQBOSmsTaskAndTemplate" BOName="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" MainField="SMS_ID" Title="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" ActBOName="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" Package="ngves.asiainfo.core.sms.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CONTENT</Name>
+        <BOAttrName>CONTENT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CONTENT</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" Attr="CONTENT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FILE_PATH</Name>
+        <BOAttrName>FILE_PATH</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FILE_PATH</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" Attr="FILE_PATH" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>NO_COUNT</Name>
+        <BOAttrName>NO_COUNT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>NO_COUNT</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" Attr="NO_COUNT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPERA</Name>
+        <BOAttrName>OPERA</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPERA</ID>
+        <Title>OPERA</Title>
+        <Authority>U</Authority>
+        <EditType>DBLink</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" Attr="OPERA" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PROV_CODE</Name>
+        <BOAttrName>PROV_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PROV_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" Attr="PROV_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>QUARTZ_TIME</Name>
+        <BOAttrName>QUARTZ_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>QUARTZ_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="7" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" Attr="QUARTZ_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SECOND_TIME</Name>
+        <BOAttrName>SECOND_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SECOND_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="7" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" Attr="SECOND_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SMS_ID</Name>
+        <BOAttrName>SMS_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SMS_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" Attr="SMS_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>STATUS</Name>
+        <BOAttrName>STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>STATUS</ID>
+        <Title>STATUS</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.core.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="2012111601" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" Attr="STATUS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>TITLE</Name>
+        <BOAttrName>TITLE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>TITLE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" Attr="TITLE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>TASK_ID</Name>
+        <BOAttrName>TASK_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>TASK_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" Attr="TASK_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>TEMPLATE_STATUS</Name>
+        <BOAttrName>TEMPLATE_STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>TEMPLATE_STATUS</ID>
+        <Title>TEMPLATE_STATUS</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.core.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="2012111602" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" Attr="TEMPLATE_STATUS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_DOWNLOAD</Name>
+        <BOAttrName>IS_DOWNLOAD</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_DOWNLOAD</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" Attr="IS_DOWNLOAD" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SEND_TYPE</Name>
+        <BOAttrName>SEND_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SEND_TYPE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+         <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.core.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="20130922" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+        <ActBO Name="ngves.asiainfo.core.sms.bo.QBOSmsTaskAndTemplate" Attr="SEND_TYPE" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

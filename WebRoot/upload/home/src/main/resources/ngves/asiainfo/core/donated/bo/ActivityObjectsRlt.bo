@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="ActivityObjectsRlt" mainattr="RLT_ID">
+        <mapingenty type="table">ACTIVITY_OBJECTS_RLT</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="RLT_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">RLT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACTIVITY_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ACTIVITY_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OBJECT_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">OBJECT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OBJECT_SORT" maxlength="4" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">OBJECT_SORT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DONATED_I" maxlength="10" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">DONATED_I</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DONATED_M" maxlength="10" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">DONATED_M</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DONATED_WARE" maxlength="10" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">DONATED_WARE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="APP_VERSION" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">APP_VERSION</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

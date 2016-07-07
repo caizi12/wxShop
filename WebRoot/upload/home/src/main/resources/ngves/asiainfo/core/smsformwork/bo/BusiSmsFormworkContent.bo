@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="BusiSmsFormworkContent" mainattr="BUSI_CONTENT_ID">
+        <mapingenty type="table">BUSI_SMS_FORMWORK_CONTENT</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="BUSI_CONTENT_ID" maxlength="20" datatype="String" type="COL" remark="短信模板内容标识">
+                <mapingcol datatype="VARCHAR2">BUSI_CONTENT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_ID" maxlength="20" datatype="String" type="COL" remark="流水标识">
+                <mapingcol datatype="VARCHAR2">BUSI_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CONTENT_NAME" maxlength="200" datatype="String" type="COL" remark="短信模板内容标题">
+                <mapingcol datatype="VARCHAR2">CONTENT_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CONTENT_INFO" maxlength="2000" datatype="String" type="COL" remark="短信模板内容">
+                <mapingcol datatype="VARCHAR2">CONTENT_INFO</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPERATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="操作时间">
+                <mapingcol datatype="DATE">OPERATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPERATOR_CODE" maxlength="100" datatype="String" type="COL" remark="操作人">
+                <mapingcol datatype="VARCHAR2">OPERATOR_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_STOPPED" maxlength="2" datatype="String" type="COL" remark="保存操作类型">
+                <mapingcol datatype="VARCHAR2">IS_STOPPED</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPER" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">OPER</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

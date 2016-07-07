@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap namespace="product_attr_info" >
+  <resultMap id="productAttrInfoResult" class="cn.frame.platform.entitys.ProductAttrInfo" >
+    <result column="PRODUCT_ATTR_ID" property="productAttrId" jdbcType="INTEGER" />
+    <result column="ATTR_ID" property="attrId" jdbcType="INTEGER" />
+    <result column="PRODUCT_ID" property="productId" jdbcType="VARCHAR" />
+    <result column="ATTR_VAL" property="attrVal" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    
+    <result column="ATTR_NAME" property="attrName" jdbcType="VARCHAR" />
+       
+  </resultMap>
+  
+  <select id="getProductAttrInfo" resultMap="productAttrInfoResult" parameterClass="cn.frame.platform.entitys.ProductAttrInfo" >
+     select  pa.PRODUCT_ATTR_ID productAttrId, pa.ATTR_ID attrId, pa.PRODUCT_ID productId,pa.ATTR_VAL attrVal, pa.CREATE_TIME createTime
+    from product_attr_info pa
+    where  1=1
+    <isNotEmpty prepend="and" property="productAttrId">
+		  pa.PRODUCT_ATTR_ID=#productAttrId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="productId">
+		 pa.PRODUCT_ID = #productId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="attrId">
+		 pa.ATTR_ID = #attrId#
+	</isNotEmpty>
+  </select> 
+  <select id="queryProductAttrInfo" resultClass="cn.frame.platform.entitys.ProductAttrInfo" parameterClass="java.util.Map" >
+    
+    select pa.PRODUCT_ATTR_ID productAttrId, pt.attr_kind attrKind, pt.ATTR_ID attrId, pa.PRODUCT_ID productId,pa.ATTR_VAL attrVal, pa.CREATE_TIME createTime,pt.ATTR_NAME attrName
+    from  product_attr_type pt
+    left join  product_attr_info pa on pa.attr_id=pt.attr_id
+    <isNotEmpty prepend="and" property="productId">
+		pa.PRODUCT_ID = #productId#
+	</isNotEmpty>
+ 
+    where  1=1
+    <isNotEmpty prepend="and" property="productAttrId">
+		pa.PRODUCT_ATTR_ID=#productAttrId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="attrId">
+		pt.ATTR_ID like #attrId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="attrKind">
+		pt.attr_kind = #attrKind#
+	</isNotEmpty>
+   order by pt.sort_id
+  </select>
+   
+   
+  <delete id="delProductAttrInfoById" parameterClass="java.lang.String" >
+    delete from product_attr_info
+    where PRODUCT_ATTR_ID = #productAttrId:INTEGER#
+  </delete>
+  <delete id="delProductAttrInfoByProductId" parameterClass="java.lang.String" >
+    delete from product_attr_info
+  where PRODUCT_ID = #productId#
+  </delete>
+  <insert id="addProductAttrInfo" parameterClass="cn.frame.platform.entitys.ProductAttrInfo" >
+    insert into product_attr_info (ATTR_ID, PRODUCT_ID, ATTR_VAL, CREATE_TIME)
+    values (#attrId:INTEGER#, #productId#, #attrVal:VARCHAR#,
+      #createTime#)
+  </insert>
+  <update id="updateProductAttrInfo" parameterClass="cn.frame.platform.entitys.ProductAttrInfo" >
+    update product_attr_info
+    set ATTR_ID = #attrId:INTEGER#,
+      PRODUCT_ID = #productId#,
+      ATTR_VAL = #attrVal:VARCHAR#
+    where PRODUCT_ATTR_ID = #productAttrId:INTEGER#
+  </update>
+ 
+</sqlMap>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOReviewJFGZBD" mainattr="WARE_CODE">
+        <mapingenty type="query">select distinct  
+wi.ware_id,
+wi.ware_code,
+wi.ware_name,
+wi.count_value,
+wi.market_price,
+wi.pay_type,
+cr.rule_name,
+cr.integral_cash_rate,
+to_char(wcr.update_date,'yyyy/MM/dd hh24:mi:ss') update_date,
+pi.partner_code,pi.partner_name,
+wfk.f_name first_kind_name,
+wkp.big_kind_name big_kind_name,
+wk.kind_name kind_name,
+0 Reference_Integral_Value,
+0 Unrated_effect_Integral,
+0 Sight_effect_Integral,
+0 One_Star_effect_Integral,
+0 Two_Star_effect_Integral,
+0 Three_Star_effect_Integral,
+0 Four_Star_effect_Integral,
+0 Five_Star_effect_Integral,
+0 Reference_cash_Integral,
+0 Unrated_effect_cash_Integral,
+0 Sigh_effect_cash_Integral,
+0 One_star_effect_cash_Integral,
+0 Two_effect_cash_Integral,
+0 Three_effect_cash_Integral,
+0 Four_star_effect_cash_Integral,
+0 Five_star_effect_cash_Integral,
+
+0 Five_star_Gold_Integral,
+0 Five_star_Drill_Integral,
+0 Five_star_cash_Gold_Integral,
+0 Five_star_cash_Drill_Integral,
+0 Single_Price
+from
+convert_rule cr,
+ware_kind wk,
+partner_info pi,
+ware_kind_rlt wkr,
+ware_info wi,
+ware_convert_rule wcr,
+ware_first_kind wfk,
+ware_kind_parent wkp
+where pi.partner_id (+)= wi.partner_id
+and wkr.ware_id(+) = wi.ware_id 
+and wkr.is_default_kind(+) = '1'
+and wk.ware_kind_id(+) = wkr.ware_kind_id
+and wkp.ware_kind_parent_id(+) = wk.ware_kind_parent_id 
+and wfk.ware_first_kind_id(+) = wkp.ware_first_kind_id 
+and wcr.ware_id(+) = wi.ware_id 
+and cr.rule_id(+) = wcr.rule_id</mapingenty>
+        <datafilter />
+        <attrlist>
+        	<attr floatlength="0" name="PAY_TYPE" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PAY_TYPE</mapingcol>
+            </attr>
+            
+        	<attr floatlength="0" name="INTEGRAL_CASH_RATE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">INTEGRAL_CASH_RATE</mapingcol>
+            </attr>
+        	<attr floatlength="0" name="COUNT_VALUE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">COUNT_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MARKET_PRICE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">MARKET_PRICE</mapingcol>
+            </attr>
+            
+        	<attr floatlength="0" name="FIVE_STAR_GOLD_INTEGRAL" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">FIVE_STAR_GOLD_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FIVE_STAR_DRILL_INTEGRAL" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">FIVE_STAR_DRILL_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FIVE_STAR_CASH_GOLD_INTEGRAL" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FIVE_STAR_CASH_GOLD_INTEGRAL</mapingcol>String
+            </attr>
+            <attr floatlength="0" name="FIVE_STAR_CASH_DRILL_INTEGRAL" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FIVE_STAR_CASH_DRILL_INTEGRAL</mapingcol>
+            </attr>
+            
+            <attr floatlength="0" name="WARE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RULE_NAME" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RULE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UPDATE_DATE" maxlength="19" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">UPDATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_CODE" maxlength="40" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_NAME" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FIRST_KIND_NAME" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FIRST_KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BIG_KIND_NAME" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BIG_KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="KIND_NAME" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="REFERENCE_INTEGRAL_VALUE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">REFERENCE_INTEGRAL_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UNRATED_EFFECT_INTEGRAL" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">UNRATED_EFFECT_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SIGHT_EFFECT_INTEGRAL" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SIGHT_EFFECT_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ONE_STAR_EFFECT_INTEGRAL" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ONE_STAR_EFFECT_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TWO_STAR_EFFECT_INTEGRAL" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">TWO_STAR_EFFECT_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="THREE_STAR_EFFECT_INTEGRAL" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">THREE_STAR_EFFECT_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FOUR_STAR_EFFECT_INTEGRAL" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">FOUR_STAR_EFFECT_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FIVE_STAR_EFFECT_INTEGRAL" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">FIVE_STAR_EFFECT_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="REFERENCE_CASH_INTEGRAL" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="NUMBER">REFERENCE_CASH_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UNRATED_EFFECT_CASH_INTEGRAL" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="NUMBER">UNRATED_EFFECT_CASH_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SIGH_EFFECT_CASH_INTEGRAL" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="NUMBER">SIGH_EFFECT_CASH_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ONE_STAR_EFFECT_CASH_INTEGRAL" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="NUMBER">ONE_STAR_EFFECT_CASH_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TWO_EFFECT_CASH_INTEGRAL" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="NUMBER">TWO_EFFECT_CASH_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="THREE_EFFECT_CASH_INTEGRAL" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="NUMBER">THREE_EFFECT_CASH_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FOUR_STAR_EFFECT_CASH_INTEGRAL" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="NUMBER">FOUR_STAR_EFFECT_CASH_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FIVE_STAR_EFFECT_CASH_INTEGRAL" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="NUMBER">FIVE_STAR_EFFECT_CASH_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SINGLE_PRICE" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="NUMBER">SINGLE_PRICE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETQBOlogisticIntegralInfo" BOName="ngves.asiainfo.core.ware.bo.QBOLogisticIntegralInfo" MainField="SEND_PRICE_INFO_ID" Title="ngves.asiainfo.core.ware.bo.QBOLogisticIntegralInfo" ActBOName="ngves.asiainfo.core.ware.bo.QBOLogisticIntegralInfo" Package="ngves.asiainfo.core.ware.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CITY_CODE</Name>
+        <BOAttrName>CITY_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CITY_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticIntegralInfo" Attr="CITY_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>COUNTY_CODE</Name>
+        <BOAttrName>COUNTY_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>COUNTY_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticIntegralInfo" Attr="COUNTY_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>INTEGRAL_FEE</Name>
+        <BOAttrName>INTEGRAL_FEE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>INTEGRAL_FEE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticIntegralInfo" Attr="INTEGRAL_FEE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARTNER_ID</Name>
+        <BOAttrName>PARTNER_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARTNER_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticIntegralInfo" Attr="PARTNER_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PROVINCE_CODE</Name>
+        <BOAttrName>PROVINCE_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PROVINCE_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticIntegralInfo" Attr="PROVINCE_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SEND_PRICE_INFO_ID</Name>
+        <BOAttrName>SEND_PRICE_INFO_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SEND_PRICE_INFO_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticIntegralInfo" Attr="SEND_PRICE_INFO_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WAREHOUSE_ID</Name>
+        <BOAttrName>WAREHOUSE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WAREHOUSE_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticIntegralInfo" Attr="WAREHOUSE_ID" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

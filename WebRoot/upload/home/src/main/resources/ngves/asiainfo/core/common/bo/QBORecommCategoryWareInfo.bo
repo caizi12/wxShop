@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBORecommCategoryWareInfo" mainattr="SORT_ID">
+        <mapingenty type="query">SELECT RCW.SORT_ID,
+       RCW.TOP_FLAG,
+		RCW.CATEGORY_ID,
+       WIP.WARE_ID,
+       WIP.WARE_CODE,
+       WIP.WARE_NAME,
+       WIP.DELIVER_TYPE,
+       WIP.FUNC_DESC,
+       WIP.G_CUR_VALUE,
+      WIP.G_ORI_VALUE,
+       WIP.M_CUR_VALUE,
+       WIP.M_ORI_VALUE,
+       WIP.WARE_INTEGRAL_VALUE,
+       WIP.E_CUR_VALUE,
+       WIP.PAY_TYPE,WIP.ORI_PAY_CASH,WIP.ORI_PAY_INTEGRAL,WIP.CUR_PAY_CASH,WIP.CUR_PAY_INTEGRAL,
+       WIP.EXCHANGE_MODE,WIP.EXCHANGE_ID,
+       WIP.MAIN_PIC_FILE FROM RECOMM_CATEGORY_WARE_RLT RCW INNER JOIN WARE_INFO_PORTAL WIP
+ON RCW.WARE_ID = WIP.WARE_ID WHERE RCW.CATEGORY_ID =:CATEGORY_ID AND WIP.WARE_STATUS = '1' AND WIP.PROVINCE_CODE = '00' AND WIP.IS_HTML_CHANNEL = '1'
+ORDER BY RCW.SORT_ID</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="SORT_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SORT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TOP_FLAG" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">TOP_FLAG</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CATEGORY_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">CATEGORY_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DELIVER_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DELIVER_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FUNC_DESC" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FUNC_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="G_CUR_VALUE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">G_CUR_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="G_ORI_VALUE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">G_ORI_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="M_CUR_VALUE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">M_CUR_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="M_ORI_VALUE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">M_ORI_VALUE</mapingcol>
+            </attr>
+            
+            <attr floatlength="0" name="E_CUR_VALUE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">E_CUR_VALUE</mapingcol>
+            </attr>
+ 
+            <attr floatlength="0" name="WARE_INTEGRAL_VALUE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_INTEGRAL_VALUE</mapingcol>
+            </attr>
+            
+            <attr floatlength="0" name="MAIN_PIC_FILE" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">MAIN_PIC_FILE</mapingcol>
+            </attr>
+	   		 <attr floatlength="0" name="ALIAS" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALIAS</mapingcol>
+            </attr>
+            
+  			<attr floatlength="0" name="EXCHANGE_MODE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">EXCHANGE_MODE</mapingcol>
+            </attr>
+  			<attr floatlength="0" name="EXCHANGE_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">EXCHANGE_ID</mapingcol>
+            </attr>
+            
+            <attr floatlength="0" name="PAY_TYPE" maxlength="8" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PAY_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORI_PAY_INTEGRAL" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ORI_PAY_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORI_PAY_CASH" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ORI_PAY_CASH</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CUR_PAY_INTEGRAL" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">CUR_PAY_INTEGRAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CUR_PAY_CASH" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">CUR_PAY_CASH</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SALE" maxlength="8" datatype="String" type="COL">
+                <mapingcol datatype="NUMBER">SALE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

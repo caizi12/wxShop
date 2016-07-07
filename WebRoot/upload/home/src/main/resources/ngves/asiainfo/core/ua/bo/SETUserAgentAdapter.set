@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETUserAgentAdapter" BOName="ngves.asiainfo.core.ua.bo.UserAgentAdapter" MainField="UA_CODE" Title="ngves.asiainfo.core.ua.bo.UserAgentAdapter" ActBOName="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Package="ngves.asiainfo.core.ua.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BRAND_NAME</Name>
+        <BOAttrName>BRAND_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BRAND_NAME</ID>
+        <Title>品牌</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="30" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="BRAND_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>COLUMNS_NUM</Name>
+        <BOAttrName>COLUMNS_NUM</BOAttrName>
+        <BODisplayAttrName />
+        <ID>COLUMNS_NUM</ID>
+        <Title>列数</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="COLUMNS_NUM" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CREATE_TIME</Name>
+        <BOAttrName>CREATE_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CREATE_TIME</ID>
+        <Title>插入时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="CREATE_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FORWARD_URL</Name>
+        <BOAttrName>FORWARD_URL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FORWARD_URL</ID>
+        <Title>跳转地址</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="FORWARD_URL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MATCH_TYPE</Name>
+        <BOAttrName>MATCH_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MATCH_TYPE</ID>
+        <Title>匹配规则:1包含2开始于3结束于</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="MATCH_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MODEL_NAME</Name>
+        <BOAttrName>MODEL_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MODEL_NAME</ID>
+        <Title>手机型号</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="30" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="MODEL_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PRIORITY</Name>
+        <BOAttrName>PRIORITY</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PRIORITY</ID>
+        <Title>排序</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="PRIORITY" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>RESOLUTION_HEIGHT</Name>
+        <BOAttrName>RESOLUTION_HEIGHT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>RESOLUTION_HEIGHT</ID>
+        <Title>分辨率高</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="RESOLUTION_HEIGHT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>RESOLUTION_WIDTH</Name>
+        <BOAttrName>RESOLUTION_WIDTH</BOAttrName>
+        <BODisplayAttrName />
+        <ID>RESOLUTION_WIDTH</ID>
+        <Title>分辨率宽</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="RESOLUTION_WIDTH" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ROWS_NUM</Name>
+        <BOAttrName>ROWS_NUM</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ROWS_NUM</ID>
+        <Title>行数</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="ROWS_NUM" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SCREEN_HEIGHT</Name>
+        <BOAttrName>SCREEN_HEIGHT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SCREEN_HEIGHT</ID>
+        <Title>屏高</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="SCREEN_HEIGHT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SCREEN_WIDTH</Name>
+        <BOAttrName>SCREEN_WIDTH</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SCREEN_WIDTH</ID>
+        <Title>屏宽</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="SCREEN_WIDTH" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>UA_CODE</Name>
+        <BOAttrName>UA_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>UA_CODE</ID>
+        <Title>UA编码，包含在请求头里的User-Agent中</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="UA_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>UPDATE_TIME</Name>
+        <BOAttrName>UPDATE_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>UPDATE_TIME</ID>
+        <Title>更新时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="UPDATE_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WAP_SUPPORT</Name>
+        <BOAttrName>WAP_SUPPORT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WAP_SUPPORT</ID>
+        <Title>支持WAP版本</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="WAP_SUPPORT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WAP_VERSION</Name>
+        <BOAttrName>WAP_VERSION</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WAP_VERSION</ID>
+        <Title>WAP版本</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ua.bo.UserAgentAdapter" Attr="WAP_VERSION" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

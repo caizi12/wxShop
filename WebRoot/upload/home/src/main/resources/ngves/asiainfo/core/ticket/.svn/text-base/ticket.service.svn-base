@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="ngves.asiainfo.core.ticket" name="服务定义" ejb-deploy="boss20" action-deploy="boss20" webservice-deploy="ws">
+ 	<!--票务类数据层-->
+	<service id="ticketTopicInfoDAO" interface="ngves.asiainfo.core.ticket.dao.interfaces.ITicketTopicInfoDAO" listen="true">
+	    <interface-define/>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ticket.dao.impl.TicketTopicInfoDAOImpl"></impl-define>
+  	</service>
+  	
+  	<!--票务类服务层-->
+	<service id="ticketTopicInfoSrv" name="ticketTopicInfoService" interface="ngves.asiainfo.core.ticket.service.interfaces.ITicketTopicInfoSrv" listen="true">
+	    <interface-define/>
+	    <property name="TicketTopicInfoDAO" value="ticketTopicInfoDAO" ref="ngves.asiainfo.core.ticket.ticketTopicInfoDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.ticket.service.impl.TicketTopicInfoSrvImpl"></impl-define>
+  	</service> 
+  	
+  	
+  	<!--门户票务类三方数据层-->
+  	<service id="ticketThirdInfoDAO" interface="ngves.asiainfo.core.ticket.dao.interfaces.ITicketThirdInfoDAO" listen="true">
+	    <interface-define/>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ticket.dao.impl.TicketThirdInfoDAOImpl"></impl-define>
+  	</service>
+  	<!--门户票务类三方业务层-->
+	<service id="ticketThirdInfoSrv" name="ticketThirdInfoSrv" interface="ngves.asiainfo.core.ticket.service.interfaces.ITicketThirdInfoSrv" listen="true">
+	    <interface-define/>
+	    <property name="ticketThirdInfoDAO" value="ticketThirdInfoDAO" ref="ngves.asiainfo.core.ticket.ticketThirdInfoDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.ticket.service.impl.TicketThirdInfoSrvImpl"></impl-define>
+  	</service> 
+</module>

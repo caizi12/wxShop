@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="BusiLogisticSendProvinceRlt" mainattr="RLT_ID">
+        <mapingenty type="table">BUSI_LOGISTIC_SENDPROVINCE_RLT</mapingenty>
+        <datafilter /> 
+        <attrlist>
+            <attr floatlength="0" name="RLT_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">RLT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WAREHOUSE_LOGISTIC_RLT_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WAREHOUSE_LOGISTIC_RLT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WAREHOUSE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WAREHOUSE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROVINCE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROVINCE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CITY_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CITY_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">PARTNER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="VALID_DATE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">VALID_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_PERCENT" maxlength="3" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SEND_PERCENT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RLT_STATUS" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RLT_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NOTE" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NOTE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

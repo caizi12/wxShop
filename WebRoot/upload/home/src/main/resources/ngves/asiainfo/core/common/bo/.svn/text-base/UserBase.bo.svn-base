@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="UserBase" mainattr="USER_MOBILE">
+        <mapingenty type="table">USER_BASE</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="USER_MOBILE" maxlength="11" datatype="Long" type="PK" remark="用户移动号">
+                <mapingcol datatype="NUMBER">USER_MOBILE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NICKNAME" maxlength="32" datatype="String" type="COL" remark="昵称">
+                <mapingcol datatype="VARCHAR2">NICKNAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SPARE_PHONE" maxlength="32" datatype="String" type="COL" remark="备用电话">
+                <mapingcol datatype="VARCHAR2">SPARE_PHONE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SPARE_PHONE2" maxlength="32" datatype="String" type="COL" remark="备用电话2">
+                <mapingcol datatype="VARCHAR2">SPARE_PHONE2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OFTEN_MAIL" maxlength="64" datatype="String" type="COL" remark="默认邮箱">
+                <mapingcol datatype="VARCHAR2">OFTEN_MAIL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SPARE_MAIL" maxlength="64" datatype="String" type="COL" remark="备用邮箱">
+                <mapingcol datatype="VARCHAR2">SPARE_MAIL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="REMARK" maxlength="128" datatype="String" type="COL" remark="备注">
+                <mapingcol datatype="VARCHAR2">REMARK</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="64" datatype="String" type="COL" remark="备用字段1">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="64" datatype="String" type="COL" remark="备用字段2">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="64" datatype="String" type="COL" remark="备用字段3">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_DATE" maxlength="20" datatype="DateTime" type="COL" remark="创建时间">
+                <mapingcol datatype="DATE">CREATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UPDATE_DATE" maxlength="20" datatype="DateTime" type="COL" remark="更新时间">
+                <mapingcol datatype="DATE">UPDATE_DATE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

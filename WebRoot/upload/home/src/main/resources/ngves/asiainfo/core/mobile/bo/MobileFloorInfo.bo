@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="MobileFloorInfo" mainattr="FLOOR_ID">
+        <mapingenty type="table">MOBILE_FLOOR_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="FLOOR_ID" maxlength="15" datatype="Long" type="PK" >
+                <mapingcol datatype="NUMBER">FLOOR_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FLOOR_NAME" maxlength="200" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">FLOOR_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SHOW_CHANNEL" maxlength="200" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">SHOW_CHANNEL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SORT_ID" maxlength="15" datatype="Long" type="COL" >
+                <mapingcol datatype="VARCHAR2">SORT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SHOW_TEMPLATE_TYPE" maxlength="3" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">SHOW_TEMPLATE_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_START_TIME" maxlength="20" datatype="DateTime" type="COL" >
+                <mapingcol datatype="DATE">CREATE_START_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_SHOW" maxlength="2" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">IS_SHOW</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_DELETED" maxlength="1" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">IS_DELETED</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="1000" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="LuckyMoneyActivityInfo" mainattr="LUCKY_ID">
+        <mapingenty type="table">LUCKY_MONEY_ACTIVITY_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="LUCKY_ID" maxlength="15" datatype="Long" type="PK" >
+                <mapingcol datatype="NUMBER">LUCKY_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MOBILE" maxlength="32" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">MOBILE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LUCKY_TYPE" maxlength="4" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">LUCKY_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LUCKY_SCORE" maxlength="9" datatype="Long" type="COL" >
+                <mapingcol datatype="NUMBER">LUCKY_SCORE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORDER_ID" maxlength="20" datatype="String" type="COL" >
+                <mapingcol datatype="VARCHAR2">ORDER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_TIME" maxlength="20" datatype="DateTime" type="COL" >
+                <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

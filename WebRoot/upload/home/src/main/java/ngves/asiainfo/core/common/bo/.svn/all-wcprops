@@ -1,0 +1,581 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/jf/app/!svn/ver/39197/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo
+END
+SaleSendInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SaleSendInfoBean.java
+END
+NorExcelClauseBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/NorExcelClauseBean.java
+END
+SaleEmailOpenEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SaleEmailOpenEngine.java
+END
+UserInterestRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/UserInterestRltEngine.java
+END
+BaseInfoSynEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BaseInfoSynEngine.java
+END
+WareKindInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/WareKindInfoBean.java
+END
+BusiAllegeRejectSendEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiAllegeRejectSendEngine.java
+END
+BusiAllegeRejectSendBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiAllegeRejectSendBean.java
+END
+BusiSettlePublishInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiSettlePublishInfoBean.java
+END
+BusiAllegeRHandleAcceptEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiAllegeRHandleAcceptEngine.java
+END
+RecommCategoryInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/39197/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/RecommCategoryInfoBean.java
+END
+WareFirstKindRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/WareFirstKindRltEngine.java
+END
+SaleInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SaleInfoBean.java
+END
+UserOrderSuccessBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/UserOrderSuccessBean.java
+END
+UserOrderSuccessEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/UserOrderSuccessEngine.java
+END
+UserBookInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/31510/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/UserBookInfoBean.java
+END
+UserBookInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/UserBookInfoEngine.java
+END
+InformationKindInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/InformationKindInfoEngine.java
+END
+InformationKindInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/InformationKindInfoBean.java
+END
+SysParaDataEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SysParaDataEngine.java
+END
+BusiInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/16807/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiInfoEngine.java
+END
+SmsLogInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SmsLogInfoEngine.java
+END
+BusiCustomCommunionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiCustomCommunionBean.java
+END
+QACAPTCHAEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/QACAPTCHAEngine.java
+END
+QACAPTCHABean.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/QACAPTCHABean.java
+END
+ExpOrderWareInOutEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/ExpOrderWareInOutEngine.java
+END
+SysBusiLockInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SysBusiLockInfoBean.java
+END
+SendPriceInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/28650/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SendPriceInfoEngine.java
+END
+UserBookDetailInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/UserBookDetailInfoBean.java
+END
+BusiInfoDetailBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiInfoDetailBean.java
+END
+BusiInfoDetailEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiInfoDetailEngine.java
+END
+BusiAllegeAssignAcceptEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiAllegeAssignAcceptEngine.java
+END
+BusiAllegeAssignAcceptBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiAllegeAssignAcceptBean.java
+END
+QBOWareKindParentRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/31866/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/QBOWareKindParentRltEngine.java
+END
+QBOAllegeAssignQueryInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/QBOAllegeAssignQueryInfoBean.java
+END
+BusiAllegeReplySendBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiAllegeReplySendBean.java
+END
+CrmAllegeInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/CrmAllegeInfoBean.java
+END
+CrmAllegeInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/CrmAllegeInfoEngine.java
+END
+CityAreaCodeInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/37280/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/CityAreaCodeInfoEngine.java
+END
+SaleObjInterestInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SaleObjInterestInfoEngine.java
+END
+SaleObjInterestInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SaleObjInterestInfoBean.java
+END
+SaleSendInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SaleSendInfoEngine.java
+END
+NorExcelClauseEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/NorExcelClauseEngine.java
+END
+QBORecommCategoryWareInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/QBORecommCategoryWareInfoEngine.java
+END
+QBORecommCategoryWareInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/37867/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/QBORecommCategoryWareInfoBean.java
+END
+SaleEmailOpenBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SaleEmailOpenBean.java
+END
+UserInterestRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/UserInterestRltBean.java
+END
+BaseInfoSynBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BaseInfoSynBean.java
+END
+WareKindInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/WareKindInfoEngine.java
+END
+BusiSettlePublishInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiSettlePublishInfoEngine.java
+END
+UpdateNotifyInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/UpdateNotifyInfoBean.java
+END
+UpdateNotifyInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/UpdateNotifyInfoEngine.java
+END
+BusiAllegeRHandleAcceptBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiAllegeRHandleAcceptBean.java
+END
+RecommCategoryInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/RecommCategoryInfoEngine.java
+END
+WareFirstKindRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/WareFirstKindRltBean.java
+END
+BusiAllegeHastenAcceptEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiAllegeHastenAcceptEngine.java
+END
+BusiAllegeHastenAcceptBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiAllegeHastenAcceptBean.java
+END
+BusiAllegeCommentEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiAllegeCommentEngine.java
+END
+BusiAllegeCommentBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiAllegeCommentBean.java
+END
+SaleInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SaleInfoEngine.java
+END
+BusiAllegeHandlingAcceptEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiAllegeHandlingAcceptEngine.java
+END
+BusiAllegeHandlingAcceptBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiAllegeHandlingAcceptBean.java
+END
+NormalOrderExcelEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/NormalOrderExcelEngine.java
+END
+NormalOrderExcelBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/NormalOrderExcelBean.java
+END
+AllegeInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/AllegeInfoEngine.java
+END
+AllegeInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/AllegeInfoBean.java
+END
+StorageWarehouseRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/StorageWarehouseRltBean.java
+END
+StorageWarehouseRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/StorageWarehouseRltEngine.java
+END
+UserBaseBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/UserBaseBean.java
+END
+UserBaseEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/UserBaseEngine.java
+END
+SysParaDataBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SysParaDataBean.java
+END
+BusiInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiInfoBean.java
+END
+PartnerOnOffLineHisEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/PartnerOnOffLineHisEngine.java
+END
+PartnerOnOffLineHisBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/PartnerOnOffLineHisBean.java
+END
+SmsLogInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SmsLogInfoBean.java
+END
+RecommCategoryWareRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/RecommCategoryWareRltEngine.java
+END
+RecommCategoryWareRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/RecommCategoryWareRltBean.java
+END
+BusiCustomCommunionEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiCustomCommunionEngine.java
+END
+ExcelTaskBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/ExcelTaskBean.java
+END
+ExcelTaskEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/ExcelTaskEngine.java
+END
+ExpOrderWareInOutBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/24475/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/ExpOrderWareInOutBean.java
+END
+SysBusiLockInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SysBusiLockInfoEngine.java
+END
+RequisitionRcvStateEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/RequisitionRcvStateEngine.java
+END
+RequisitionRcvStateBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/RequisitionRcvStateBean.java
+END
+RequisitionInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/RequisitionInfoEngine.java
+END
+RequisitionInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/RequisitionInfoBean.java
+END
+SendPriceInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/28650/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SendPriceInfoBean.java
+END
+UserBookDetailInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/UserBookDetailInfoEngine.java
+END
+SysUserInterestBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SysUserInterestBean.java
+END
+SysUserInterestEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/SysUserInterestEngine.java
+END
+TempBusiInterMsgBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/TempBusiInterMsgBean.java
+END
+TempBusiInterMsgEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/TempBusiInterMsgEngine.java
+END
+QBOWareKindParentRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/QBOWareKindParentRltBean.java
+END
+QBOAllegeAssignQueryInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/18331/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/QBOAllegeAssignQueryInfoEngine.java
+END
+BusiAllegeReplySendEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/BusiAllegeReplySendEngine.java
+END
+CityAreaCodeInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/37180/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/bo/CityAreaCodeInfoBean.java
+END

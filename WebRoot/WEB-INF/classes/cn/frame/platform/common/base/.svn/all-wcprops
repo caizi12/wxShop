@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/25/trunk/myShop/src/cn/myshop/platform/common/base
+END
+DataGridModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/25/trunk/myShop/src/cn/myshop/platform/common/base/DataGridModel.java
+END
+Dialect.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11/trunk/myShop/src/cn/myshop/platform/common/base/Dialect.java
+END
+BaseDaoiBatis.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/13/trunk/myShop/src/cn/myshop/platform/common/base/BaseDaoiBatis.java
+END
+BaseDaoTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/25/trunk/myShop/src/cn/myshop/platform/common/base/BaseDaoTemplate.java
+END
+LimitSqlExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/25/trunk/myShop/src/cn/myshop/platform/common/base/LimitSqlExecutor.java
+END

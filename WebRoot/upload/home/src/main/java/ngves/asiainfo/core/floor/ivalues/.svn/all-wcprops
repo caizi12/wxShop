@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/jf/app/!svn/ver/41295/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/ivalues
+END
+INavbarKindInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/39001/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/ivalues/INavbarKindInfoValue.java
+END
+IO2OInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/38920/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/ivalues/IO2OInfoValue.java
+END
+IFloorInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/41295/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/ivalues/IFloorInfoValue.java
+END
+IFloorTabsRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/39193/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/ivalues/IFloorTabsRltValue.java
+END
+ITabsAreaInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/39193/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/ivalues/ITabsAreaInfoValue.java
+END
+IO2OWareRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/40090/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/ivalues/IO2OWareRltValue.java
+END
+IFloorSubKindValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/39193/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/ivalues/IFloorSubKindValue.java
+END
+IFineRecomonValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/38712/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/ivalues/IFineRecomonValue.java
+END
+INavbarInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/39001/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/ivalues/INavbarInfoValue.java
+END
+ITabsInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/39193/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/floor/ivalues/ITabsInfoValue.java
+END

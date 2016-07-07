@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="BarCodeOrderFile" mainattr="BARCODE_ORDER_FILE_ID">
+        <mapingenty type="table">BARCODE_ORDER_FILE</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="BARCODE_ORDER_FILE_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">BARCODE_ORDER_FILE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORDER_FILE_YEAR" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ORDER_FILE_YEAR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORDER_FILE_SEASON" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ORDER_FILE_SEASON</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SORT_NUM" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SORT_NUM</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FILE_NAME" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FILE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CREATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="USER_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">USER_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

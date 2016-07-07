@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/jf/app/!svn/ver/25968/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/dao/interfaces
+END
+IBusiSmsDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/23231/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/dao/interfaces/IBusiSmsDAO.java
+END
+ISmsTaskDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/23231/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/dao/interfaces/ISmsTaskDAO.java
+END
+ISmsTemplateDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/23231/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/dao/interfaces/ISmsTemplateDAO.java
+END
+IBusiSmsTemplateDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/25968/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/dao/interfaces/IBusiSmsTemplateDAO.java
+END

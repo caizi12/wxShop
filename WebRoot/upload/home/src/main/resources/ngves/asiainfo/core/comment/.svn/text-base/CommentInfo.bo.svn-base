@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="CommentInfo" mainattr="COMMENT_ID">
+        <mapingenty type="table">COMMENT_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="COMMENT_ID" maxlength="15" datatype="Long" type="PK" remark="评论标识">
+                <mapingcol datatype="NUMBER">COMMENT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_ID" maxlength="15" datatype="Long" type="COL" remark="礼品标识">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME" maxlength="100" datatype="String" type="COL" remark="礼品名称">
+                <mapingcol datatype="VARCHAR2">WARE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MOBILE_PHONE_NO" maxlength="15" datatype="String" type="COL" remark="评论人">
+                <mapingcol datatype="VARCHAR2">MOBILE_PHONE_NO</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COMMENT_ORIGINAL" maxlength="1000" datatype="String" type="COL" remark="">
+                <mapingcol datatype="VARCHAR2">COMMENT_ORIGINAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COMMENT_VALUE" maxlength="1" datatype="Long" type="COL" remark="评论分值">
+                <mapingcol datatype="NUMBER">COMMENT_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COMMENT_DATE" maxlength="20" datatype="DateTime" type="COL" remark="评论日期">
+                <mapingcol datatype="DATE">COMMENT_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="AUDIT_FLAG" maxlength="1" datatype="String" type="COL" remark="是否经过审核">
+                <mapingcol datatype="VARCHAR2">AUDIT_FLAG</mapingcol>
+            </attr>
+            <attr floatlength="0" name="AUDIT_STAFF_ID" maxlength="12" datatype="Long" type="COL" remark="审核人">
+                <mapingcol datatype="NUMBER">AUDIT_STAFF_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="AUDIT_TIME" maxlength="20" datatype="DateTime" type="COL" remark="审核时间">
+                <mapingcol datatype="DATE">AUDIT_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_01" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_01</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_02" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_02</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="P_WARE_ID" maxlength="15" datatype="Long" type="COL" remark="父礼品id">
+                <mapingcol datatype="NUMBER">P_WARE_ID</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

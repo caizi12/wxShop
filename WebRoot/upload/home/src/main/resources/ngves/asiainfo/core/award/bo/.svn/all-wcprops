@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/jf/app/!svn/ver/37646/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo
+END
+SETAwardInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/34399/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo/SETAwardInfo.set
+END
+QBOAwardLevelRLTWare.bo
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/34464/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo/QBOAwardLevelRLTWare.bo
+END
+AwardLevelMessage.bo
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/34195/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo/AwardLevelMessage.bo
+END
+AwardUserRecord.bo
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/37646/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo/AwardUserRecord.bo
+END
+AwardDesc.bo
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jf/app/!svn/ver/34293/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo/AwardDesc.bo
+END
+WareAwardInfo.ds
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/34664/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo/WareAwardInfo.ds
+END
+SETQBOAwardLevelRLTWare.set
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/34464/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo/SETQBOAwardLevelRLTWare.set
+END
+SETAwardLevelMessage.set
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/34195/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo/SETAwardLevelMessage.set
+END
+QBOWareQueryInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/34522/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo/QBOWareQueryInfo.bo
+END
+AwardLevelInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/34464/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo/AwardLevelInfo.bo
+END
+SETAwardUserRecord.set
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/37646/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo/SETAwardUserRecord.set
+END
+SETAwardDesc.set
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/34293/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo/SETAwardDesc.set
+END
+SETQBOWareQueryInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/34432/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo/SETQBOWareQueryInfo.set
+END
+SETAwardLevelInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/34464/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo/SETAwardLevelInfo.set
+END
+AwardInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jf/app/!svn/ver/34399/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/award/bo/AwardInfo.bo
+END

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="ngves.asiainfo.core.floor" name="服务定义" ejb-deploy="boss20" action-deploy="boss20" webservice-deploy="ws">
+<service id="FloorInfoDAO" interface="ngves.asiainfo.core.floor.dao.interfaces.IFloorInfoDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.floor.dao.impl.FloorInfoDAOImpl"></impl-define>
+</service>
+<service id="FloorSubKindDAO" interface="ngves.asiainfo.core.floor.dao.interfaces.IFloorSubKindDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.floor.dao.impl.FloorSubKindDAOImpl"></impl-define>
+</service>
+<service id="FloorTabsRltDAO" interface="ngves.asiainfo.core.floor.dao.interfaces.IFloorTabsRltDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.floor.dao.impl.FloorTabsRltDAOImpl"></impl-define>
+</service>
+<service id="TabsAreaInfoDAO" interface="ngves.asiainfo.core.floor.dao.interfaces.ITabsAreaInfoDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.floor.dao.impl.TabsAreaInfoDAOImpl"></impl-define>
+</service>
+<service id="TabsInfoDAO" interface="ngves.asiainfo.core.floor.dao.interfaces.ITabsInfoDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.floor.dao.impl.TabsInfoDAOImpl"></impl-define>
+</service>
+<service id="FloorInfoService" name="FloorInfoService" interface="ngves.asiainfo.core.floor.service.interfaces.IFloorInfoSrv" listen="true">
+    <interface-define/>
+    <property name="floorInfoDAO" value="floorInfoDAO" ref="ngves.asiainfo.core.floor.FloorInfoDAO"></property>
+     <property name="floorTabsRltDAO" value="floorTabsRltDAO" ref="ngves.asiainfo.core.floor.FloorTabsRltDAO"></property>
+     <property name="floorSubKindDAO" value="floorSubKindDAO" ref="ngves.asiainfo.core.floor.FloorSubKindDAO"></property>
+     <property name="tabsAreaInfoDAO" value="tabsAreaInfoDAO" ref="ngves.asiainfo.core.floor.TabsAreaInfoDAO"></property>
+     <property name="tabsInfoDAO" value="tabsInfoDAO" ref="ngves.asiainfo.core.floor.TabsInfoDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.floor.service.impl.FloorInfoSrvImpl"></impl-define>
+</service> 
+
+<service id="FineRecomonService" interface="ngves.asiainfo.core.floor.service.interfaces.IFineRecomonSrv" listen="true">
+     <interface-define/>
+    <property name="fineRecomonDAO" value="fineRecomonDAO" ref="ngves.asiainfo.core.floor.FineRecomonDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.floor.service.impl.FineRecomonSrvImpl"></impl-define>
+</service>                                                          
+<service id="FineRecomonDAO" name="FineRecomonDAO" interface="ngves.asiainfo.core.floor.dao.interfaces.IFineRecomonDAO" listen="true">
+    <interface-define/>
+     <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.floor.dao.impl.FineRecomonDAOImpl"></impl-define>
+</service>
+<service id="O2OInfoService" interface="ngves.asiainfo.core.floor.service.interfaces.IO2OInfoSrv" listen="true">
+     <interface-define/>
+    <property name="o2oInfoDao" value="o2oInfoDao" ref="ngves.asiainfo.core.floor.O2OInfoDAO"></property>
+    <property name="o2oWareRltDao" value="o2oWareRltDao" ref="ngves.asiainfo.core.floor.O2OWareRltDAO"></property>    
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.floor.service.impl.O2OInfoSrvImpl"></impl-define>
+</service>  
+<service id="O2OInfoDAO" name="O2OInfoDAO" interface="ngves.asiainfo.core.floor.dao.interfaces.IO2OInfoDAO" listen="true">
+    <interface-define/>
+     <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.floor.dao.impl.O2OInfoDAOImpl"></impl-define>
+</service>
+<service id="O2OWareRltDAO" name="O2OWareRltDAO" interface="ngves.asiainfo.core.floor.dao.interfaces.IO2OWareRltDAO" listen="true">
+    <interface-define/>
+     <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.floor.dao.impl.O2OWareRltDAOImpl"></impl-define>
+</service>
+</module>

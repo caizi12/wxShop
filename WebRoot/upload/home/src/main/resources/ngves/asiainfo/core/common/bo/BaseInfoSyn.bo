@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="BaseInfoSyn" mainattr="SYN_ID">
+        <mapingenty type="table">BASE_INFO_SYN</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="SYN_ID" maxlength="15" datatype="Long" type="PK" remark="主键">
+                <mapingcol datatype="NUMBER">SYN_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SYN_INFO_TYPE" maxlength="2" datatype="String" type="COL" remark="同步类型 0:礼品资料1:物流配送价格2:物流配送关系3:仓储信息 4:仓储商申请礼品出入库 5:仓储商账号信息">
+                <mapingcol datatype="VARCHAR2">SYN_INFO_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SYN_INFO_STATE" maxlength="2" datatype="String" type="COL" remark="同步结果状态 0:待同步 1:同步中 2:同步成功 3:同步失败">
+                <mapingcol datatype="VARCHAR2">SYN_INFO_STATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INFO_ID" maxlength="15" datatype="Long" type="COL" remark="同步类型关联主键ID">
+                <mapingcol datatype="NUMBER">INFO_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SYN_STATE" maxlength="2" datatype="String" type="COL" remark="同步类型记录状态  0：新增记录 1：更改记录">
+                <mapingcol datatype="VARCHAR2">SYN_STATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SYN_CREATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="同步记录创建时间">
+                <mapingcol datatype="DATE">SYN_CREATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SYN_END_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">SYN_END_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SYN_RETRY_TIME" maxlength="8" datatype="Long" type="COL" remark="同步已尝试次数">
+                <mapingcol datatype="NUMBER">SYN_RETRY_TIME</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

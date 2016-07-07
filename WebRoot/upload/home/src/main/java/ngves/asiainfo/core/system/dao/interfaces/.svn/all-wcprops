@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/jf/app/!svn/ver/35911/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/dao/interfaces
+END
+IMetaInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/13470/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/dao/interfaces/IMetaInfoDAO.java
+END
+IParaPropDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/35911/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/dao/interfaces/IParaPropDAO.java
+END
+IRequisitionInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/dao/interfaces/IRequisitionInfoDAO.java
+END
+IRequisitionRcvStateDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/dao/interfaces/IRequisitionRcvStateDAO.java
+END
+IPageRefreshShowInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jf/app/!svn/ver/28174/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/dao/interfaces/IPageRefreshShowInfoDAO.java
+END
+INavigationInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/13470/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/dao/interfaces/INavigationInfoDAO.java
+END
+IBusiParaDataDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/16837/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/dao/interfaces/IBusiParaDataDAO.java
+END
+IShowControlDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/13476/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/system/dao/interfaces/IShowControlDAO.java
+END

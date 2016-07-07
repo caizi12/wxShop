@@ -1,0 +1,13 @@
+@charset "utf-8";
+ /*轮播*/
+.swiper-container { width:100%;max-width:640px;min-width:320;height:140px;margin:0 auto;}
+.pagination { position: absolute; left: 0; text-align: center; bottom: 0px; width: 100%; }
+.swiper-pagination-switch { display: inline-block; width: 8px; height: 8px; border-radius: 10px; background: #8a8f95; /*box-shadow: 0px 1px 2px #555 inset;*/
+margin: 0 0 0 8px; cursor: pointer; }
+.swiper-active-switch { background: #8fc31f; }
+.swiper-slide { position: relative; }
+.swiper-slide img {width:100%;max-width:640px; min-width: 320px;max-height:640px;height:140px;margin:0 auto; }
+.swiper-slide a { display: block; position: absolute;width:100%;max-width:640px;min-width:320;height:140px; }
+.swiper-slide1 a { left: 65px; top: 170px;width:100%;max-width:640px;min-width:320;height:140px;}
+.swiper-slide2 a { left: 90px; top: 195px;width:100%;max-width:640px;min-width:320;height:140px;}
+.swiper-slide3 a { left: 90px; top: 195px;width:100%;max-width:640px;min-width:320;height:140px;} 

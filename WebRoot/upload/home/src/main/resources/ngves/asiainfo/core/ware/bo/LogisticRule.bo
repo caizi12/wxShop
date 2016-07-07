@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="LogisticRule" mainattr="RULE_ID">
+        <mapingenty type="table">LOGISTIC_RULE</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="RULE_ID" maxlength="15" datatype="Long" type="PK" remark="规则ID">
+                <mapingcol datatype="NUMBER">RULE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RULE_NAME" maxlength="500" datatype="String" type="COL" remark="规则名称">
+                <mapingcol datatype="VARCHAR2">RULE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RULE_STATE" maxlength="2" datatype="String" type="COL" remark="规则状态">
+                <mapingcol datatype="VARCHAR2">RULE_STATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPER" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">OPER</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="创建时间">
+                <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MODIFY_TIME" maxlength="20" datatype="DateTime" type="COL" remark="修改时间">
+                <mapingcol datatype="DATE">MODIFY_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

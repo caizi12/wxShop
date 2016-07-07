@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETQBOWareObjectRlt" BOName="ngves.asiainfo.core.donated.bo.QBOWareObjectRlt" MainField="RLT_ID" Title="ngves.asiainfo.core.donated.bo.QBOWareObjectRlt" ActBOName="ngves.asiainfo.core.donated.bo.QBOWareObjectRlt" Package="ngves.asiainfo.core.donated.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ACTIVITY_ID</Name>
+        <BOAttrName>ACTIVITY_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ACTIVITY_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.donated.bo.QBOWareObjectRlt" Attr="ACTIVITY_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>APP_VERSION</Name>
+        <BOAttrName>APP_VERSION</BOAttrName>
+        <BODisplayAttrName />
+        <ID>APP_VERSION</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.donated.bo.QBOWareObjectRlt" Attr="APP_VERSION" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL</Name>
+        <BOAttrName>BAK_COL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.donated.bo.QBOWareObjectRlt" Attr="BAK_COL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>DONATED_ID</Name>
+        <BOAttrName>DONATED_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>DONATED_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.donated.bo.QBOWareObjectRlt" Attr="DONATED_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OBJECT_ID</Name>
+        <BOAttrName>OBJECT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OBJECT_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.donated.bo.QBOWareObjectRlt" Attr="OBJECT_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>RLT_ID</Name>
+        <BOAttrName>RLT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>RLT_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.donated.bo.QBOWareObjectRlt" Attr="RLT_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_ID</Name>
+        <BOAttrName>WARE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.donated.bo.QBOWareObjectRlt" Attr="WARE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_SORT</Name>
+        <BOAttrName>WARE_SORT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_SORT</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.donated.bo.QBOWareObjectRlt" Attr="WARE_SORT" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

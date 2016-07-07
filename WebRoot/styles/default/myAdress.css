@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}
+html{overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+body,ul,dl,dd,dt,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,img,td,div,input{margin:0;padding:0;}
+ul,ol,li{list-style-type:none}
+li{vertical-align:0}
+h1,h2,h3,h4,h5,h6{ font-weight:normal}
+a{outline-style:none;color:#999;text-decoration:none}
+a:hover{color:999; text-decoration:none}
+body{ background-color:#FFFFFF;}
+body,input,select,textarea{ font-size:14px; font-family: "Microsoft Yahei";outline:none;}
+object,embed,video{	max-width:100%; border:none;margin-top:3px;}
+img{max-width:100%; border:none;margin-top:0px;}
+/* initial */
+.clearfix:after { visibility:hidden; display:block; font-size:0; content:""; clear:both; height:0;}
+.clearfix{ *zoom:1;}
+.clear{ clear:both;}
+.fl{ float:left; display:inline;}
+.fr{ float:right; display:inline;}
+
+
+
+
+/*价格*/
+.price{font-size:12px;color:#5f5f5f;}
+.price i{color:#f21111;font-style:normal;font-family:Arial;}
+
+/* check/radio */
+.radio{margin-right:10px;}
+.radio input,.check input{ display:none;}
+.radio font{display:inline-block;cursor:pointer;width:13px;height:13px;background:url(../default/images/colicon8.png) no-repeat;background-size:13px 13px;}
+.radio font.active{background:url(../default/images/colicon7.png) no-repeat;background-size:13px 13px;}
+
+
+/*我的地址-空时*/
+.NomyAdress{min-width:320px;max-width:640px;margin:0 auto;border-top:1px #ccc solid;}
+.NomyAdress .NoMain{margin-top:60px;}
+.NomyAdress .NoMain .Img{width:104px;margin:0 auto;}
+.NomyAdress .NoMain .Img img{width:104px;height:104px;}
+.NomyAdress .NoMain .Txt{width:115px;margin:0 auto;margin-top:50px;}
+.NomyAdress .NoMain .Txt p{font-size:12px;color:#999;line-height:18px;}
+.NomyAdress .NoMain .go{padding-top:40px;width:154px;height:32px;margin:0 auto;}
+.NomyAdress .NoMain .go a{width:154px;line-height:32px;background:#ef3636;text-align:center;color:#fff;font-size:15px;display:inline-block;border-radius:3px;}
+.Addelete{background:#f2f1f1 url(../default/default/images/borBg.png) left top repeat-x;height:60px;position:fixed;bottom: 0;min-width:320px;max-width:640px;width:100%;}
+.Addelete div{width:280px;margin:0 auto;margin-top:10px;}
+.Addelete a{width:280px;line-height:43px;height:43px;color:#fff;font-size: 15px;text-align:center;border-radius:3px;display:inline-block;background:#ef3636;}
+
+#BgDiv{background-color:#e3e3e3; position:absolute; z-index:99; left:0; top:0; display:none; width:100%; height:1000px;opacity:0.5;filter: alpha(opacity=50);-moz-opacity: 0.5;}
+/*编辑收货地址*/
+.editAdress{min-width:320px;max-width:640px;margin:0 auto;border-top:1px #ccc solid;}
+.editAdress .editMain{margin:0 9px;}
+.editAdress .editMain ul li{margin-top:10px;width:100%;}
+.editAdress .editMain ul li p{width:85px;text-align:right;float:left;margin-top:10px;font-size:14px;color:#666;}
+.editAdress .editMain ul li p.chose{padding-top:3px;}
+.editAdress .editMain ul li textarea{width:69%;height:50px;border:1px #e5e3e4 solid;resize: none;outline:none;padding:5px;line-height:18px;color:#666;outline: 0;
+    -webkit-text-size-adjust:none;
+    -webkit-tap-hightlight-color:rgba(0,0,0,0);
+    -webkit-tap-hightlight-color:transparent;}
+.editAdress .editMain ul li input{line-height:37px;border:1px #e5e3e4 solid;width:69%;color:#666;font-size:12px;text-indent:10px;outline: 0;
+    -webkit-text-size-adjust:none;
+    -webkit-tap-hightlight-color:rgba(0,0,0,0);
+    -webkit-tap-hightlight-color:transparent;}
+.editAdress .editMain ul li input.check{width:30px;margin-top:4px;margin-left:80px;} 
+.editAdress .editMain ul li.right cite{font-style: normal;padding-right:50px;}
+.editAdress .editMain ul li .choose{line-height:37px;border-bottom:1px #e0dfdf solid;color:#666;text-indent:10px;width:100%;display:block;position:relative;}
+.editAdress .editMain ul li .choose i img{width:7px;height:14px;position:absolute;top:12px;right:16px;}
+.fa-sele-box{margin-right:4px;color:#686868;border:1px solid #ccc;border-radius:3px;position:relative;padding:0 22px 0 5px;height:37px;line-height:37px;margin-top:5px;margin-bottom:5px;display:inline-block;width:63%;}
+.fa-sele-box:before{background:url(../images/arrow-left-up.png) -25px 0 no-repeat;background-size:50px 50px;content:"";width:14px;height:9px;position:absolute;top:15px;right:4px;}
+.fa-sele-box i{font-style:normal;color:#666;}
+.fa-sele-box select{border-radius:3px;background:#fff;height:30px;line-height:30px;padding-right:5px;border:1px #000 solid;opacity:0;z-index:10;position:absolute;top:0;left:0;width:100%;display:inline-block;}
+
+/*我的地址*/
+.myAdress{min-width:320px;max-width:640px;margin:0 auto;}
+.myAdress .myAdressMain{border-bottom:1px #e5e5e5 solid;}
+.myAdress .myAdressMain ul{padding:10px 13px;}
+.myAdress .myAdressMain ul li{line-height:22px;color:#949494;font-size:12px;}
+.myAdress .myAdressMain ul li.name span{color:#666;font-size:14px;}
+.myAdress .myAdressMain ul li.name i{font-style:normal;color:#666;font-family:Arial;font-size:14px;}
+.myAdress .myAdressMain .default{margin:0 10px;line-height:37px;}
+.myAdress .myAdressMain .default div.fl{color:#949494;}
+.myAdress .myAdressMain .default div.fr span.edit img{width:13px;height:15px;margin-right:10px;vertical-align:middle;margin-top:-3px;}
+.myAdress .myAdressMain .default div.fr span.del img{width:11px;height:14px;margin-right:10px;vertical-align:middle;margin-top:-3px;}
+.myAdress .myAdressMain .default div.fr{color:#949494;font-size:12px;line-height:37px;}
+.myAdress .myAdressMain .default div.fr span{margin-right:12px;}
+
+/*选择收货地址*/
+.chmyAdress{min-width:320px;max-width:640px;margin:0 auto;}
+.chmyAdress .chmyAdressMain{line-height:81px;border-bottom:1px #e5e5e5 solid;display:-webkit-box;}
+.chmyAdress .chmyAdressMain .radio{margin:0 10px;}
+.chmyAdress .chmyAdressMain .info{display:-webkit-box;-webkit-box-flex:1;-webkit-box-orient:vertical;padding:10px 20px 0 10px;}
+.chmyAdress .chmyAdressMain .info ul li{line-height:22px;color:#949494;font-size:12px;}
+.chmyAdress .chmyAdressMain .info ul li.name span{color:#666;font-size:14px;}
+.chmyAdress .chmyAdressMain .info ul li.name i{font-style:normal;color:#666;font-family:Arial;font-size:14px;}
+.chmyAdress .chmyAdressMain .info ul li cite{width:32px;height:16px;line-height:16px;text-align:center;background:#ef3636;border-radius:2px;color:#fff;font-size:10px;font-style:normal;display:inline-block;}
+.chmyAdress .chmyAdressMain .edit{line-height:41px;border-left:1px #e6e6e6 solid;margin-top:12px;}
+.chmyAdress .chmyAdressMain .edit img{width:17px;height:20px;margin:0px 15px;padding-top:20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="member_address">
+  <resultMap class="cn.frame.platform.entitys.MemberAddress" id="memberAddressResult">
+    <result column="ADDRESS_ID" jdbcType="INTEGER" property="addressId" />
+    <result column="MEMBER_ID" jdbcType="INTEGER" property="memberId" />
+    <result column="LINKMAN" jdbcType="VARCHAR" property="linkman" />
+    <result column="PROVINCE_CODE" jdbcType="VARCHAR" property="provinceCode" />
+    <result column="CITY_CODE" jdbcType="VARCHAR" property="cityCode" />
+    <result column="DISTRICT_CODE" jdbcType="VARCHAR" property="districtCode" />
+    <result column="ADDRESS_NAME" jdbcType="VARCHAR" property="addressName" />
+    <result column="ADDRESS_DETAIL" jdbcType="VARCHAR" property="addressDetail" />
+    <result column="MOBILE_NO" jdbcType="VARCHAR" property="mobileNo" />
+    <result column="POST_CODE" jdbcType="VARCHAR" property="postCode" />
+    <result column="IS_DEFAULT" jdbcType="VARCHAR" property="isDefault" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="UPDATE_TIME" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+  <select id="getMemberAddress" resultMap="memberAddressResult" parameterClass="cn.frame.platform.entitys.MemberAddress" >
+    select ADDRESS_ID,MEMBER_ID, LINKMAN, PROVINCE_CODE, CITY_CODE, DISTRICT_CODE, ADDRESS_NAME,
+      ADDRESS_DETAIL, MOBILE_NO, POST_CODE, IS_DEFAULT, CREATE_TIME,UPDATE_TIME
+    from member_address
+    where  1=1 
+    and  ADDRESS_ID = #addressId#
+    <isNotEmpty prepend="and" property="memberId">
+		  MEMBER_ID=#memberId#
+	</isNotEmpty>
+     <isNotEmpty prepend="and" property="isDefault">
+		  IS_DEFAULT=#isDefault#
+	</isNotEmpty>
+  </select>
+  
+   <select id="queryMemberAddress" resultMap="memberAddressResult" parameterClass="java.util.Map" >
+    select ADDRESS_ID,MEMBER_ID, LINKMAN, PROVINCE_CODE, CITY_CODE, DISTRICT_CODE, ADDRESS_NAME,
+      ADDRESS_DETAIL, MOBILE_NO, POST_CODE, IS_DEFAULT, CREATE_TIME,UPDATE_TIME
+    from member_address
+    where  1=1 
+    <isNotEmpty prepend="and" property="addressId">
+		  ADDRESS_ID=#addressId#
+	</isNotEmpty>
+    <isNotEmpty prepend="and" property="memberId">
+		  MEMBER_ID=#memberId#
+	</isNotEmpty>
+     <isNotEmpty prepend="and" property="isDefault">
+		  IS_DEFAULT=#isDefault#
+	</isNotEmpty>
+	order by IS_DEFAULT desc,ADDRESS_ID desc
+  </select>
+  
+  <delete id="deleteByAddressId" parameterClass="java.lang.String">
+    delete from member_address
+    where ADDRESS_ID = #addressId#
+  </delete>
+  
+  <insert id="insertMemberAddress" parameterClass="cn.frame.platform.entitys.MemberAddress">
+    insert into member_address (MEMBER_ID, LINKMAN, PROVINCE_CODE, CITY_CODE,
+      DISTRICT_CODE, ADDRESS_NAME, ADDRESS_DETAIL, MOBILE_NO, POST_CODE, IS_DEFAULT, CREATE_TIME)
+    values (#memberId:INTEGER#, #linkman:VARCHAR#, #provinceCode:VARCHAR#,
+      #cityCode:VARCHAR#, #districtCode:VARCHAR#, #addressName:VARCHAR#, #addressDetail:VARCHAR#,
+      #mobileNo:VARCHAR#, #postCode:VARCHAR#, #isDefault:VARCHAR#, #createTime:VARCHAR#)
+  </insert>
+  <update id="updateMemberAddress" parameterClass="cn.frame.platform.entitys.MemberAddress">
+    update member_address
+    set 
+      LINKMAN = #linkman:VARCHAR#,
+      PROVINCE_CODE = #provinceCode:VARCHAR#,
+      CITY_CODE = #cityCode:VARCHAR#,
+      DISTRICT_CODE = #districtCode:VARCHAR#,
+      ADDRESS_NAME = #addressName:VARCHAR#,
+      ADDRESS_DETAIL = #addressDetail:VARCHAR#,
+      MOBILE_NO = #mobileNo:VARCHAR#,
+      POST_CODE = #postCode:VARCHAR#,
+      IS_DEFAULT = #isDefault:VARCHAR#,
+      update_TIME = #updateTime:VARCHAR#
+    where ADDRESS_ID = #addressId:INTEGER#
+      <isNotEmpty prepend="and" property="memberId">
+		   MEMBER_ID = #memberId#,
+	</isNotEmpty>
+  </update>
+  
+   <update id="setMemberDefaulAddress" parameterClass="cn.frame.platform.entitys.MemberAddress">
+    update member_address
+    set 
+      IS_DEFAULT = #isDefault#,
+      update_TIME = #updateTime#
+    where  1=1
+     <isNotEmpty prepend="and" property="addressId">
+		   ADDRESS_ID = #addressId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="memberId">
+		   MEMBER_ID = #memberId#
+	</isNotEmpty>
+  </update>
+  
+ <update id="updateMemberDefaulAddress" parameterClass="cn.frame.platform.entitys.MemberAddress">
+    update member_address
+    set 
+      IS_DEFAULT = '0',
+      update_TIME = #updateTime#
+    where  1=1
+ 	<isNotEmpty prepend="and" property="memberId">
+		   MEMBER_ID = #memberId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="isDefault">
+		   IS_DEFAULT = #isDefault#
+	</isNotEmpty>
+  </update>
+  
+</sqlMap>

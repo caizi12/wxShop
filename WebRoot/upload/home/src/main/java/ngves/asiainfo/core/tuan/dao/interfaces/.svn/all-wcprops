@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/jf/app/!svn/ver/38307/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/interfaces
+END
+ITuanCycleInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/23704/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/interfaces/ITuanCycleInfoDAO.java
+END
+ITuanInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/38136/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/interfaces/ITuanInfoDAO.java
+END
+ITuanUserLogDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/15745/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/interfaces/ITuanUserLogDAO.java
+END
+ITuanWareRLTDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/37902/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/interfaces/ITuanWareRLTDAO.java
+END
+ITuanProvinceDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/15743/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/interfaces/ITuanProvinceDAO.java
+END
+IPreOrderInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/22470/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/interfaces/IPreOrderInfoDAO.java
+END
+ICategoryShowControlDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jf/app/!svn/ver/21872/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/interfaces/ICategoryShowControlDAO.java
+END
+ITuanGroupInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/23686/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/interfaces/ITuanGroupInfoDAO.java
+END
+ITuanWareDataDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/38307/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/interfaces/ITuanWareDataDAO.java
+END
+IWareIntegralInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/17883/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/dao/interfaces/IWareIntegralInfoDAO.java
+END

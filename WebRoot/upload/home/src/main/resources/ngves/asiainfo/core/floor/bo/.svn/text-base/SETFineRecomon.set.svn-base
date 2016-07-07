@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETFineRecomon" BOName="ngves.asiainfo.core.floor.bo.FineRecomon" MainField="FINE_RECOMON_ID" Title="ngves.asiainfo.core.floor.bo.FineRecomon" ActBOName="ngves.asiainfo.core.floor.bo.FineRecomon" Package="ngves.asiainfo.core.floor.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL1</Name>
+        <BOAttrName>BAK_COL1</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL1</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FineRecomon" Attr="BAK_COL1" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CREATE_DATE</Name>
+        <BOAttrName>CREATE_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CREATE_DATE</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FineRecomon" Attr="CREATE_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FINE_RECOMON_ID</Name>
+        <BOAttrName>FINE_RECOMON_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FINE_RECOMON_ID</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FineRecomon" Attr="FINE_RECOMON_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_HOME_SHOW</Name>
+        <BOAttrName>IS_HOME_SHOW</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_HOME_SHOW</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FineRecomon" Attr="IS_HOME_SHOW" />
+		<ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="900000000000037"  LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MODIFY_DATE</Name>
+        <BOAttrName>MODIFY_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MODIFY_DATE</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FineRecomon" Attr="MODIFY_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>RECOMON_HREF</Name>
+        <BOAttrName>RECOMON_HREF</BOAttrName>
+        <BODisplayAttrName />
+        <ID>RECOMON_HREF</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FineRecomon" Attr="RECOMON_HREF" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>RECOMON_IMG_URL</Name>
+        <BOAttrName>RECOMON_IMG_URL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>RECOMON_IMG_URL</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FineRecomon" Attr="RECOMON_IMG_URL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>RECOMON_NAME</Name>
+        <BOAttrName>RECOMON_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>RECOMON_NAME</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FineRecomon" Attr="RECOMON_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SORT</Name>
+        <BOAttrName>SORT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SORT</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FineRecomon" Attr="SORT" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

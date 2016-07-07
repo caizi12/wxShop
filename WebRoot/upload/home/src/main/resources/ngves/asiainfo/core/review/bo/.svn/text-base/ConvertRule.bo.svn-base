@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="ConvertRule" mainattr="RULE_ID">
+        <mapingenty type="table">CONVERT_RULE</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="RULE_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">RULE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RULE_NAME" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RULE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RULE_STATE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RULE_STATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ROUND_ID" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ROUND_ID</mapingcol>
+            </attr>
+            <attr floatlength="2" name="INTEGRAL_CASH_RATE" maxlength="3" datatype="Float" type="COL">
+                <mapingcol datatype="NUMBER">INTEGRAL_CASH_RATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BANK_COL" maxlength="30" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BANK_COL</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETAwardUserRecord" BOName="ngves.asiainfo.core.award.bo.AwardUserRecord" MainField="AWARD_USER_RECORD_ID" Title="ngves.asiainfo.core.award.bo.AwardUserRecord" ActBOName="ngves.asiainfo.core.award.bo.AwardUserRecord" Package="ngves.asiainfo.core.award.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AWARD_ID</Name>
+        <BOAttrName>AWARD_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AWARD_ID</ID>
+        <Title>活动ID</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardUserRecord" Attr="AWARD_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AWARD_LEVEL_ID</Name>
+        <BOAttrName>AWARD_LEVEL_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AWARD_LEVEL_ID</ID>
+        <Title>抽奖档次ID</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardUserRecord" Attr="AWARD_LEVEL_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AWARD_USER_RECORD_ID</Name>
+        <BOAttrName>AWARD_USER_RECORD_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AWARD_USER_RECORD_ID</ID>
+        <Title>主键ID</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardUserRecord" Attr="AWARD_USER_RECORD_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL</Name>
+        <BOAttrName>BAK_COL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardUserRecord" Attr="BAK_COL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardUserRecord" Attr="BAK_COL2" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CREATE_TIME</Name>
+        <BOAttrName>CREATE_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CREATE_TIME</ID>
+        <Title>创建时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardUserRecord" Attr="CREATE_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>LEVEL_SORT</Name>
+        <BOAttrName>LEVEL_SORT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>LEVEL_SORT</ID>
+        <Title>档次</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardUserRecord" Attr="LEVEL_SORT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MOBILE_NUM</Name>
+        <BOAttrName>MOBILE_NUM</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MOBILE_NUM</ID>
+        <Title>手机号码</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardUserRecord" Attr="MOBILE_NUM" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PROVINCE_CODE</Name>
+        <BOAttrName>PROVINCE_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PROVINCE_CODE</ID>
+        <Title>用户归属省</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardUserRecord" Attr="PROVINCE_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>USER_BRAND</Name>
+        <BOAttrName>USER_BRAND</BOAttrName>
+        <BODisplayAttrName />
+        <ID>USER_BRAND</ID>
+        <Title>用户星级</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardUserRecord" Attr="USER_BRAND" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_ID</Name>
+        <BOAttrName>WARE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_ID</ID>
+        <Title>礼品ID</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardUserRecord" Attr="WARE_ID" />
+      </Field>
+    </FieldList>
+    <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AWARD_TYPE</Name>
+        <BOAttrName>AWARD_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AWARD_TYPE</ID>
+        <Title>抽奖类型</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.award.bo.AwardUserRecord" Attr="AWARD_TYPE" />
+      </Field>
+    
+    
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/ua/bo
+END
+SETUserAgent.set
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/ua/bo/SETUserAgent.set
+END
+SETUserAgentAdapter.set
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/ua/bo/SETUserAgentAdapter.set
+END
+UserAgent.bo
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/ua/bo/UserAgent.bo
+END
+UserAgentAdapter.bo
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/ua/bo/UserAgentAdapter.bo
+END

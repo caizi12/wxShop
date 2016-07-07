@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="SmsFormworkOccasionRlt" mainattr="RLT_ID">
+        <mapingenty type="table">SMS_FORMWORK_OCCASION_RLT</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="RLT_ID" maxlength="20" datatype="String" type="PK" remark="关系标识">
+                <mapingcol datatype="VARCHAR2">RLT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FORMWORK_ID" maxlength="20" datatype="String" type="COL" remark="模板标识">
+                <mapingcol datatype="VARCHAR2">FORMWORK_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OCCASION_TYPE_ID" maxlength="20" datatype="String" type="COL" remark="发送时机类型">
+                <mapingcol datatype="VARCHAR2">OCCASION_TYPE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OCCASION_ID" maxlength="20" datatype="String" type="COL" remark="发送时机标示">
+                <mapingcol datatype="VARCHAR2">OCCASION_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CONTENT_ID" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CONTENT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CONTENT_NAME" maxlength="200" datatype="String" type="COL" remark="短信模板内容标题">
+                <mapingcol datatype="VARCHAR2">CONTENT_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="START_TIME" maxlength="20" datatype="String" type="COL" remark="生效起始时间 时间格式为HH24，且只能是整数，范围只能是0-24，其值必须小于LimitEtime，系统缺省值为0">
+                <mapingcol datatype="VARCHAR2">START_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="END_TIME" maxlength="20" datatype="String" type="COL" remark="生效结束时间">
+                <mapingcol datatype="VARCHAR2">END_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_SEND" maxlength="2" datatype="String" type="COL" remark="0-发送;1-不发送">
+                <mapingcol datatype="VARCHAR2">IS_SEND</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

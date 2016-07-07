@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETNavbarKindInfo" BOName="ngves.asiainfo.core.floor.bo.NavbarKindInfo" MainField="NAVBAR_KIND_ID" Title="NavbarKindInfo_Title" Package="ngves.asiainfo.core.floor.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL1</Name>
+        <BOAttrName>BAK_COL1</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL1</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.NavbarKindInfo" Attr="BAK_COL1" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CREATE_DATE</Name>
+        <BOAttrName>CREATE_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CREATE_DATE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.NavbarKindInfo" Attr="CREATE_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_CONTAIN_SUB_KIND</Name>
+        <BOAttrName>IS_CONTAIN_SUB_KIND</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_CONTAIN_SUB_KIND</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.NavbarKindInfo" Attr="IS_CONTAIN_SUB_KIND" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>KIND_CONTENT</Name>
+        <BOAttrName>KIND_CONTENT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>KIND_CONTENT</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.NavbarKindInfo" Attr="KIND_CONTENT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>KIND_ICON</Name>
+        <BOAttrName>KIND_ICON</BOAttrName>
+        <BODisplayAttrName />
+        <ID>KIND_ICON</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.NavbarKindInfo" Attr="KIND_ICON" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>KIND_LEVEL</Name>
+        <BOAttrName>KIND_LEVEL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>KIND_LEVEL</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.NavbarKindInfo" Attr="KIND_LEVEL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>KIND_NAME</Name>
+        <BOAttrName>KIND_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>KIND_NAME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.NavbarKindInfo" Attr="KIND_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>KIND_TYPE</Name>
+        <BOAttrName>KIND_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>KIND_TYPE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.NavbarKindInfo" Attr="KIND_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MODIFY_DATE</Name>
+        <BOAttrName>MODIFY_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MODIFY_DATE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.NavbarKindInfo" Attr="MODIFY_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>NAVBAR_ID</Name>
+        <BOAttrName>NAVBAR_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>NAVBAR_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.NavbarKindInfo" Attr="NAVBAR_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>NAVBAR_KIND_ID</Name>
+        <BOAttrName>NAVBAR_KIND_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>NAVBAR_KIND_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.NavbarKindInfo" Attr="NAVBAR_KIND_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARENT_NAVBAR</Name>
+        <BOAttrName>PARENT_NAVBAR</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARENT_NAVBAR</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.NavbarKindInfo" Attr="PARENT_NAVBAR" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>STATUS</Name>
+        <BOAttrName>STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>STATUS</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.NavbarKindInfo" Attr="STATUS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+      <Name>IS_HOME_STATUS</Name>
+      <BOAttrName>IS_HOME_STATUS</BOAttrName>
+      <BODisplayAttrName />
+      <ID>IS_HOME_STATUS</ID>
+      <Title />
+      <Authority>U</Authority>
+      <EditType>DBEdit</EditType>
+      <DataType MaxLength="4" Decimal="0">String</DataType>
+      <IsNull>N</IsNull>
+      <IsPk>N</IsPk>
+      <ActBO Name="ngves.asiainfo.core.floor.bo.NavbarKindInfo" Attr="IS_HOME_STATUS" />
+    </Field>
+    <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+    <Name>SORT</Name>
+    <BOAttrName>SORT</BOAttrName>
+    <BODisplayAttrName />
+    <ID>SORT</ID>
+    <Title />
+    <Authority>U</Authority>
+    <EditType>DBEdit</EditType>
+    <DataType MaxLength="4" Decimal="0">Long</DataType>
+    <IsNull>N</IsNull>
+    <IsPk>N</IsPk>
+    <ActBO Name="ngves.asiainfo.core.floor.bo.NavbarInfo" Attr="SORT" />
+    </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

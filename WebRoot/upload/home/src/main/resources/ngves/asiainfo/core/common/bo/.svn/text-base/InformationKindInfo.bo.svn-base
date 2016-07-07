@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="InformationKindInfo" mainattr="INFO_ID">
+        <mapingenty type="table">INFORMATION_KIND_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="INFO_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">INFO_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INFO_CODE" maxlength="10" datatype="String" type="COL" remark="兑换提醒,M001,到货提醒S001,新品到货S002,营销邮件M002">
+                <mapingcol datatype="VARCHAR2">INFO_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INFO_NAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">INFO_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INFO_TYPE" maxlength="2" datatype="String" type="COL" remark="邮件类型：01   短信类型：02">
+                <mapingcol datatype="VARCHAR2">INFO_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MAIL_TITLE" maxlength="100" datatype="String" type="COL" remark="在订阅信息类型是 &quot;邮件类型&quot; 时，需增加该邮件标题名称。">
+                <mapingcol datatype="VARCHAR2">MAIL_TITLE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INFO_DISCRIPT" maxlength="400" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">INFO_DISCRIPT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INFO_FILE" maxlength="400" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">INFO_FILE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INFO_STATUS" maxlength="2" datatype="String" type="COL" remark="停用：0  启用：1
+由运营中心进行统一管理。">
+                <mapingcol datatype="VARCHAR2">INFO_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PORTAL_STATUS" maxlength="2" datatype="String" type="COL" remark="不展示：00   , 展示：01 ">
+                <mapingcol datatype="VARCHAR2">PORTAL_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

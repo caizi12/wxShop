@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="WareUpDownHis" mainattr="WARE_UPDOWN_HIS_ID">
+        <mapingenty type="table">WARE_UPDOWN_HIS</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_UPDOWN_HIS_ID" maxlength="15" datatype="Long" type="PK" remark="锟斤拷锟斤拷">
+                <mapingcol datatype="NUMBER">WARE_UPDOWN_HIS_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPERATE_TYPE" maxlength="2" datatype="String" type="COL" remark="锟斤拷锟斤拷锟斤拷锟斤拷 0:锟斤拷锟斤拷  1:锟斤拷锟斤拷">
+                <mapingcol datatype="VARCHAR2">OPERATE_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UPDOWN_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">UPDOWN_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NOTE" maxlength="1024" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NOTE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CAUSE" maxlength="1024" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CAUSE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPERATER" maxlength="22" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">OPERATER</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UPDOWN_CAUSE" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">UPDOWN_CAUSE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

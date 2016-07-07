@@ -1,0 +1,83 @@
+10
+
+dir
+42357
+http://10.12.1.215:8888/jf/app/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan
+http://10.12.1.215:8888/jf/app
+
+
+
+2015-04-22T14:19:30.857905Z
+38307
+fansr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+abdf0944-044d-4b92-9e3d-1725dda64f20
+
+bo
+dir
+
+model
+dir
+
+service
+dir
+
+TuanConstant.java
+file
+
+
+
+
+2015-06-17T03:59:52.290666Z
+1b6cf8f2386e5b8537cd85fb40186b57
+2014-02-19T06:22:32.283663Z
+32475
+xiemn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12623
+
+dao
+dir
+
+ivalues
+dir
+
+util
+dir
+
+exception
+dir
+

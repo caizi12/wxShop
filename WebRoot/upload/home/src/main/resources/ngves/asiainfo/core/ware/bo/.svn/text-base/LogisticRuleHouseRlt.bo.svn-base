@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="LogisticRuleHouseRlt" mainattr="RLT_ID">
+        <mapingenty type="table">LOGISTIC_RULE_HOUSE_RLT</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="RLT_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">RLT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RULE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RULE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WAREHOUSE_ID" maxlength="15" datatype="Long" type="COL" remark="仓库id">
+                <mapingcol datatype="NUMBER">WAREHOUSE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="VALID_FLAG" maxlength="2" datatype="String" type="COL" remark="是否生效">
+                <mapingcol datatype="VARCHAR2">VALID_FLAG</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UPDATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="更新时间">
+                <mapingcol datatype="DATE">UPDATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

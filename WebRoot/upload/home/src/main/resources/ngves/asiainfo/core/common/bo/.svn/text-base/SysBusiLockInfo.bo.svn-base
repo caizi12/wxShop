@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="SysBusiLockInfo" mainattr="BUSI_LOCK_CODE">
+        <mapingenty type="table">SYS_BUSI_LOCK_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="BUSI_LOCK_CODE" maxlength="100" datatype="String" type="PK">
+                <mapingcol datatype="VARCHAR2">BUSI_LOCK_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_LOCK_TYPE" maxlength="4" datatype="String" type="PK" remark="00-仓库商品库存加锁">
+                <mapingcol datatype="VARCHAR2">BUSI_LOCK_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_LOCK_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">BUSI_LOCK_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_LOCK_OP_NO" maxlength="20" datatype="String" type="COL" remark="对于仓库商品加锁填写手机号码">
+                <mapingcol datatype="VARCHAR2">BUSI_LOCK_OP_NO</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NOTE" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NOTE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOJobDate" mainattr="JOB_DATE_RLT_ID">
+        <mapingenty type="query">  select jdr.job_date_rlt_id,
+           jdr.start_date,
+           jdr.end_date,
+           jdr.sort_id,
+           jt.job_task_id,
+           jt.job_task_name,
+           jt.bak_col1,
+           jt.bak_col2,
+           jt.create_time,
+           jt.job_task_type
+      from job_task jt, job_date_rlt jdr
+     where jt.job_task_id = jdr.job_task_id
+       and jt.job_task_type = '01'  </mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="JOB_DATE_RLT_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">JOB_DATE_RLT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="START_DATE" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">START_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="END_DATE" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">END_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SORT_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SORT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="JOB_TASK_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">JOB_TASK_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="JOB_TASK_NAME" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">JOB_TASK_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_TIME" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="JOB_TASK_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">JOB_TASK_TYPE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

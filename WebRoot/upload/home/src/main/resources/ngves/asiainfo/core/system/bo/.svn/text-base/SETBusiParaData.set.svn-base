@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETBusiParaData" BOName="ngves.asiainfo.core.system.bo.BusiParaData" MainField="PARA_ID" Title="ngves.asiainfo.core.system.bo.BusiParaData" ActBOName="ngves.asiainfo.core.system.bo.BusiParaData" Package="ngves.asiainfo.core.system.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL</Name>
+        <BOAttrName>BAK_COL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="40" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.system.bo.BusiParaData" Attr="BAK_COL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARA_CODE</Name>
+        <BOAttrName>PARA_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARA_CODE</ID>
+        <Title>表名或字段名</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.system.bo.BusiParaData" Attr="PARA_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARA_CODE_TYPE</Name>
+        <BOAttrName>PARA_CODE_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARA_CODE_TYPE</ID>
+        <Title>所属的表</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.system.bo.BusiParaData" Attr="PARA_CODE_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARA_ID</Name>
+        <BOAttrName>PARA_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARA_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.system.bo.BusiParaData" Attr="PARA_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARA_NAME</Name>
+        <BOAttrName>PARA_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARA_NAME</ID>
+        <Title>表名或字段名对应的文字</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.system.bo.BusiParaData" Attr="PARA_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARA_TYPE_ID</Name>
+        <BOAttrName>PARA_TYPE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARA_TYPE_ID</ID>
+        <Title>0:表 1:字段</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.system.bo.BusiParaData" Attr="PARA_TYPE_ID" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

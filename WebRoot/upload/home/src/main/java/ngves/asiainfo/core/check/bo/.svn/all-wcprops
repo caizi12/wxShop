@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/bo
+END
+PartnerCheckFileBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/bo/PartnerCheckFileBean.java
+END
+PartnerCheckFileEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/14990/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/bo/PartnerCheckFileEngine.java
+END
+QBOExamineWareOffLineBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/bo/QBOExamineWareOffLineBean.java
+END
+QBOExamineWareOffLineEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/bo/QBOExamineWareOffLineEngine.java
+END
+AllGiftInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/bo/AllGiftInfoBean.java
+END
+AllGiftInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/15081/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/bo/AllGiftInfoEngine.java
+END
+QBOCheckWareOnOrOffLineBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/bo/QBOCheckWareOnOrOffLineBean.java
+END
+QBOCheckWareOnOrOffLineEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/14913/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/bo/QBOCheckWareOnOrOffLineEngine.java
+END
+QBOExamineFileBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/bo/QBOExamineFileBean.java
+END
+QBOExamineFileEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/14989/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/bo/QBOExamineFileEngine.java
+END

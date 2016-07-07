@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/jf/app/!svn/ver/30380/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/service/interfaces
+END
+ISmsTemplateSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/30380/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/service/interfaces/ISmsTemplateSrv.java
+END
+IBusiSmsTemplateSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jf/app/!svn/ver/29792/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/service/interfaces/IBusiSmsTemplateSrv.java
+END
+ISmsTaskSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/30380/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/service/interfaces/ISmsTaskSrv.java
+END

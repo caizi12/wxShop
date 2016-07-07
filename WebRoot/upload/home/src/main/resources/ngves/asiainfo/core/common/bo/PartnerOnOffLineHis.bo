@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="PartnerOnOffLineHis" mainattr="HIS_ID">
+        <mapingenty type="table">PARTNER_ONOFFLINE_HIS</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="HIS_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">HIS_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">PARTNER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_TYPE_ID" maxlength="2" datatype="String" type="COL" remark="para_type_id=6">
+                <mapingcol datatype="VARCHAR2">PARTNER_TYPE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_CODE" maxlength="40" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SETTLE_CODE" maxlength="10" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">SETTLE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ONOFF_LINE" maxlength="2" datatype="String" type="COL" remark="1 上线
+2 下线">
+                <mapingcol datatype="VARCHAR2">ONOFF_LINE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPER_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">OPER_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STAFF_ID" maxlength="12" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">STAFF_ID</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

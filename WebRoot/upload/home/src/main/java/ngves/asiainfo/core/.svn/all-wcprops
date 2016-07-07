@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/jf/app/!svn/ver/42288/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core
+END
+IbatisSQLMapConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/jf/app/!svn/ver/20557/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/IbatisSQLMapConfig.java
+END
+CoreSrvContstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/jf/app/!svn/ver/39353/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/CoreSrvContstant.java
+END
+CoreConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/jf/app/!svn/ver/42047/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/CoreConstant.java
+END
+SolrPara.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/jf/app/!svn/ver/29966/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/SolrPara.java
+END
+SolrConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/jf/app/!svn/ver/40773/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/SolrConstant.java
+END
+MphonePara.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/jf/app/!svn/ver/41935/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/MphonePara.java
+END
+SqlMapSessionTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jf/app/!svn/ver/20590/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/SqlMapSessionTemplate.java
+END

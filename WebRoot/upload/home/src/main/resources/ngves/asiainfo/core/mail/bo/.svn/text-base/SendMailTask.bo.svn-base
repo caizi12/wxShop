@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="SendMailTask" mainattr="SEND_MAIL_TASK_ID">
+        <mapingenty type="table">SEND_MAIL_TASK</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="SEND_MAIL_TASK_ID" maxlength="15" datatype="Long" type="PK" >
+                <mapingcol datatype="NUMBER">SEND_MAIL_TASK_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SEND_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_STUTAS" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SEND_STUTAS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_TITLE" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SEND_TITLE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_CONTANT" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SEND_CONTANT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STAFF_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">STAFF_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">SEND_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK1" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK1</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

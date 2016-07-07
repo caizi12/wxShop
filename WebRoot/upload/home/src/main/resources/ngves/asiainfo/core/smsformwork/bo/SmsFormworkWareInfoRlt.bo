@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="SmsFormworkWareInfoRlt" mainattr="RLT_ID">
+        <mapingenty type="table">SMS_FORMWORK_WARE_INFO_RLT</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="RLT_ID" maxlength="20" datatype="String" type="PK" remark="关系标识">
+                <mapingcol datatype="VARCHAR2">RLT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL" remark="礼品标识">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FORMWORK_ID" maxlength="20" datatype="String" type="COL" remark="模板id">
+                <mapingcol datatype="VARCHAR2">FORMWORK_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPERATOR_CODE" maxlength="100" datatype="String" type="COL" remark="操作人">
+                <mapingcol datatype="VARCHAR2">OPERATOR_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPERATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="操作时间">
+                <mapingcol datatype="DATE">OPERATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACTION_ID" maxlength="20" datatype="String" type="COL" remark="活动id">
+                <mapingcol datatype="VARCHAR2">ACTION_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACTION_TYPE" maxlength="5" datatype="String" type="COL" remark="活动类型">
+                <mapingcol datatype="VARCHAR2">ACTION_TYPE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

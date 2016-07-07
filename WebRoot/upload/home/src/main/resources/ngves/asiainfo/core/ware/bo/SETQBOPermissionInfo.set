@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETQBOPermissionInfo" BOName="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" MainField="PERMISSION_ID" Title="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" ActBOName="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Package="ngves.asiainfo.core.ware.bo">
+    <FieldList>
+       <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PAY_CASH</Name>
+        <BOAttrName>PAY_CASH</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PAY_CASH</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="8" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.PermissionInfo" Attr="PAY_CASH" />
+      </Field>
+       <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PAY_INTEGRAL</Name>
+        <BOAttrName>PAY_INTEGRAL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PAY_INTEGRAL</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="8" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.PermissionInfo" Attr="PAY_INTEGRAL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PAY_TYPE</Name>
+        <BOAttrName>PAY_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PAY_TYPE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="8" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.PermissionInfo" Attr="PAY_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL1</Name>
+        <BOAttrName>BAK_COL1</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL1</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="BAK_COL1" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="BAK_COL2" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CRETAE_TIME</Name>
+        <BOAttrName>CRETAE_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CRETAE_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="7" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="CRETAE_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>EXCHANGE_CHANNEL</Name>
+        <BOAttrName>EXCHANGE_CHANNEL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>EXCHANGE_CHANNEL</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="EXCHANGE_CHANNEL" />
+      </Field>
+        <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ORDER_SCOPE</Name>
+        <BOAttrName>ORDER_SCOPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ORDER_SCOPE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="500" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="ORDER_SCOPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ITEM_SCOPE</Name>
+        <BOAttrName>ITEM_SCOPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ITEM_SCOPE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.SysParaData" hasNull="false">
+			<ListParameter LSPName="paraTypeId" LSPValue="2001" LSPType="Const" />
+			<ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+		</ListDataSource>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="ITEM_SCOPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MAX_ITEM_NUM</Name>
+        <BOAttrName>MAX_ITEM_NUM</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MAX_ITEM_NUM</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="MAX_ITEM_NUM" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MAX_TIMES</Name>
+        <BOAttrName>MAX_TIMES</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MAX_TIMES</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="MAX_TIMES" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MOBILE_BRAND_CODE</Name>
+        <BOAttrName>MOBILE_BRAND_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MOBILE_BRAND_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="MOBILE_BRAND_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPER_FIELD</Name>
+        <BOAttrName>OPER_FIELD</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPER_FIELD</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="OPER_FIELD" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPT_TYPE</Name>
+        <BOAttrName>OPT_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPT_TYPE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="OPT_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ORDER_END_TIME</Name>
+        <BOAttrName>ORDER_END_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ORDER_END_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="7" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="ORDER_END_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ORDER_NUM</Name>
+        <BOAttrName>ORDER_NUM</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ORDER_NUM</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="ORDER_NUM" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ORDER_START_TIME</Name>
+        <BOAttrName>ORDER_START_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ORDER_START_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="7" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="ORDER_START_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ORDER_STATUS</Name>
+        <BOAttrName>ORDER_STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ORDER_STATUS</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.SysParaData" hasNull="false">
+			<ListParameter LSPName="paraTypeId" LSPValue="2000" LSPType="Const" />
+			<ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+		</ListDataSource>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="ORDER_STATUS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARTNER_CODE</Name>
+        <BOAttrName>PARTNER_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARTNER_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="PARTNER_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARTNER_VIEW</Name>
+        <BOAttrName>PARTNER_VIEW</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARTNER_VIEW</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="PARTNER_VIEW" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PERMISSION_ID</Name>
+        <BOAttrName>PERMISSION_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PERMISSION_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="PERMISSION_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PERMISSION_NAME</Name>
+        <BOAttrName>PERMISSION_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PERMISSION_NAME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="PERMISSION_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PROVICE_CODE</Name>
+        <BOAttrName>PROVICE_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PROVICE_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="PROVICE_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PROVINCE_VIEW</Name>
+        <BOAttrName>PROVINCE_VIEW</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PROVINCE_VIEW</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="PROVINCE_VIEW" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SUBKIND_CODE</Name>
+        <BOAttrName>SUBKIND_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SUBKIND_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="SUBKIND_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SUBKIND_VIEW</Name>
+        <BOAttrName>SUBKIND_VIEW</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SUBKIND_VIEW</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="SUBKIND_VIEW" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SUPPORT_TYPE</Name>
+        <BOAttrName>SUPPORT_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SUPPORT_TYPE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="SUPPORT_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_CODE</Name>
+        <BOAttrName>WARE_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="WARE_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_GME_VALUE</Name>
+        <BOAttrName>WARE_GME_VALUE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_GME_VALUE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="WARE_GME_VALUE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_VIEW</Name>
+        <BOAttrName>WARE_VIEW</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_VIEW</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOPermissionInfo" Attr="WARE_VIEW" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

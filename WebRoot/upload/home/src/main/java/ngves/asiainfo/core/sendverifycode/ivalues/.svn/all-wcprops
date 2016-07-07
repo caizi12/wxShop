@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/jf/app/!svn/ver/35257/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sendverifycode/ivalues
+END
+IDelayRecordByOrderValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jf/app/!svn/ver/35039/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sendverifycode/ivalues/IDelayRecordByOrderValue.java
+END
+IQBOCodeDelayByWareValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jf/app/!svn/ver/35257/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sendverifycode/ivalues/IQBOCodeDelayByWareValue.java
+END
+IConsumerCodeValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/34907/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sendverifycode/ivalues/IConsumerCodeValue.java
+END
+IQBOStaffOrgRelatNameValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/jf/app/!svn/ver/35007/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sendverifycode/ivalues/IQBOStaffOrgRelatNameValue.java
+END
+IDelayRecordByWareValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jf/app/!svn/ver/34939/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sendverifycode/ivalues/IDelayRecordByWareValue.java
+END

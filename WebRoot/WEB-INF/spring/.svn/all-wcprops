@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/29/trunk/myShop/WebRoot/WEB-INF/spring
+END
+dataAccessContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11/trunk/myShop/WebRoot/WEB-INF/spring/dataAccessContext.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/16/trunk/myShop/WebRoot/WEB-INF/spring/applicationContext.xml
+END
+springMVC-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/29/trunk/myShop/WebRoot/WEB-INF/spring/springMVC-servlet.xml
+END

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETSmsFormworkOccasionRlt" BOName="ngves.asiainfo.core.smsformwork.bo.SmsFormworkOccasionRlt" MainField="RLT_ID" Title="ngves.asiainfo.core.smsformwork.bo.SmsFormworkOccasionRlt" ActBOName="ngves.asiainfo.core.smsformwork.bo.SmsFormworkOccasionRlt" Package="ngves.asiainfo.core.smsformwork.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CONTENT_ID</Name>
+        <BOAttrName>CONTENT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CONTENT_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkOccasionRlt" Attr="CONTENT_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CONTENT_NAME</Name>
+        <BOAttrName>CONTENT_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CONTENT_NAME</ID>
+        <Title>短信模板内容标题</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkOccasionRlt" Attr="CONTENT_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>END_TIME</Name>
+        <BOAttrName>END_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>END_TIME</ID>
+        <Title>生效结束时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkOccasionRlt" Attr="END_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FORMWORK_ID</Name>
+        <BOAttrName>FORMWORK_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FORMWORK_ID</ID>
+        <Title>模板标识</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkOccasionRlt" Attr="FORMWORK_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OCCASION_ID</Name>
+        <BOAttrName>OCCASION_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OCCASION_ID</ID>
+        <Title>发送时机标示</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkOccasionRlt" Attr="OCCASION_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OCCASION_TYPE_ID</Name>
+        <BOAttrName>OCCASION_TYPE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OCCASION_TYPE_ID</ID>
+        <Title>发送时机类型</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkOccasionRlt" Attr="OCCASION_TYPE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>RLT_ID</Name>
+        <BOAttrName>RLT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>RLT_ID</ID>
+        <Title>关系标识</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkOccasionRlt" Attr="RLT_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>START_TIME</Name>
+        <BOAttrName>START_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>START_TIME</ID>
+        <Title>生效起始时间 时间格式为HH24，且只能是整数，范围只能是0-24，其值必须小于LimitEtime，系统缺省值为0</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkOccasionRlt" Attr="START_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_SEND</Name>
+        <BOAttrName>IS_SEND</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_SEND</ID>
+        <Title>0-发送;1-不发送</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkOccasionRlt" Attr="IS_SEND" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

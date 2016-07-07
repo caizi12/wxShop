@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOWareActionQry" mainattr="WARE_ID">
+        <mapingenty type="query">SELECT '' WARE_ID,
+       '' WARE_CODE,
+       '' WARE_NAME,
+       '' ACTION_ID,
+       '' ACTION_NAME,
+       '' ACTION_TYPE,
+       '' FORMWORK_ID,
+       '' FORMWORK_NAME
+  FROM DUAL</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_ID" maxlength="0" datatype="String" type="PK">
+                <mapingcol datatype="CHAR">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">WARE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACTION_ID" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">ACTION_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACTION_NAME" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">ACTION_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACTION_TYPE" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">ACTION_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FORMWORK_ID" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">FORMWORK_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FORMWORK_NAME" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">FORMWORK_NAME</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

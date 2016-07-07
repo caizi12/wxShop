@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOAllMonitor" mainattr="OPERATE">
+        <mapingenty type="query">SELECT '' OPERATE,
+       JT.JOB_TASK_ID,
+       JOR.MONITOR_TYPE,
+       JT.BAK_COL1 WARNING_TYPE,
+       JT.BAK_COL2 INITIATE_MODE,
+       JT.CREATE_TIME,
+       JOR.MONITOR_OBJECT_ID,
+       '' COMMON_NAME
+  FROM JOB_TASK JT, JOB_OBJECT_RLT JOR
+ WHERE JT.JOB_TASK_ID = JOR.JOB_TASK_ID
+   AND JT.JOB_TASK_TYPE = '01'</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="OPERATE" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">OPERATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="JOB_TASK_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">JOB_TASK_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MONITOR_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">MONITOR_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARNING_TYPE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARNING_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INITIATE_MODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">INITIATE_MODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_TIME" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MONITOR_OBJECT_ID" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">MONITOR_OBJECT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COMMON_NAME" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">COMMON_NAME</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="GB2312"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOWareQueryInfo" mainattr="WARE_ID">
+        <mapingenty type="query">SELECT WI.WARE_ID WARE_ID, 
+         WI.WARE_CODE WARE_CODE, 
+         WI.WARE_NAME WARE_NAME, 
+         WI.WARE_STATUS WARE_STATUS FROM WARE_FIRST_KIND WFK, 
+         WARE_KIND_INFO WKI, WARE_FIRST_KIND_RLT WFKR, 
+         WARE_KIND_PARENT WKP, WARE_KIND WK, WARE_KIND_RLT WKR, 
+         WARE_INFO WI, WARE_DESC_INFO D,
+         WARE_DESC_INFO D1 WHERE 1=1 AND WFK.WARE_FIRST_KIND_ID = WKI.KIND_PARENT_ID 
+         AND WKI.KIND_ID = WFKR.WARE_FIRST_KIND_ID 
+         AND WFKR.WARE_KIND_PARENT_ID = WKP.WARE_KIND_PARENT_ID 
+         AND WK.WARE_KIND_PARENT_ID = WKP.WARE_KIND_PARENT_ID AND 
+         WK.WARE_KIND_ID = WKR.WARE_KIND_ID AND WKR.WARE_ID = WI.WARE_ID 
+         AND WI.WARE_ID=D.WARE_ID AND WI.WARE_ID=D1.WARE_ID AND D.DESC_DEFINE_ID=999999999999988 
+         AND D1.DESC_DEFINE_ID=999999999999996 AND ((WFK.F_CODE=01 AND D.WARE_DESC_VALUE='0' ) OR 
+         (WFK.F_CODE&lt;&gt;01 AND D.WARE_DESC_VALUE='3') ) AND WI.WARE_STATUS = '1' AND WI.PROVINCE_CODE = '00' 
+         AND WI.WARE_TYPE = '0' AND D1.WARE_DESC_VALUE LIKE '%8%'  
+         AND WI.WARE_ID NOT IN(SELECT A.WARE_ID FROM AWARD_LEVEL_INFO A WHERE A.AWARD_ID =:awardId )
+         AND WI.DELIVER_TYPE&lt;&gt;'12'</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_STATUS" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_STATUS</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

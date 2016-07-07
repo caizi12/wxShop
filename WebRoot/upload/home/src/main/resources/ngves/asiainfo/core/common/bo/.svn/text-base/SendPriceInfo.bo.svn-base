@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="SendPriceInfo" mainattr="SEND_PRICE_INFO_ID">
+        <mapingenty type="table">SEND_PRICE_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="SEND_PRICE_INFO_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">SEND_PRICE_INFO_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WAREHOUSE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WAREHOUSE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROVINCE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROVINCE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CITY_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CITY_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COUNTY_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">COUNTY_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_PRICE" maxlength="8" datatype="Float" type="COL">
+                <mapingcol datatype="NUMBER">SEND_PRICE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_DAYS" maxlength="8" datatype="Long" type="COL" remark="配送天数">
+                <mapingcol datatype="NUMBER">SEND_DAYS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">PARTNER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LOSS_PRICE" maxlength="8" datatype="Float" type="COL">
+                <mapingcol datatype="NUMBER">LOSS_PRICE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

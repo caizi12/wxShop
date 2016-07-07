@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETFloorInfo" BOName="ngves.asiainfo.core.floor.bo.FloorInfo" MainField="FLOOR_ID" Title="FloorInfo_Title" Package="ngves.asiainfo.core.floor.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AD_IMG_HREF</Name>
+        <BOAttrName>AD_IMG_HREF</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AD_IMG_HREF</ID>
+        <Title>广告链接</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="AD_IMG_HREF" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AD_IMG_URL</Name>
+        <BOAttrName>AD_IMG_URL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AD_IMG_URL</ID>
+        <Title>广告图片</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="AD_IMG_URL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL1</Name>
+        <BOAttrName>BAK_COL1</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL1</ID>
+        <Title>扩展字段1</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="BAK_COL1" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title>扩展字段2</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="BAK_COL2" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CREATE_DATE</Name>
+        <BOAttrName>CREATE_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CREATE_DATE</ID>
+        <Title>创建日期</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="CREATE_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FLOOR_ID</Name>
+        <BOAttrName>FLOOR_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FLOOR_ID</ID>
+        <Title>楼层标识</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="FLOOR_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FLOOR_IMG_HREF</Name>
+        <BOAttrName>FLOOR_IMG_HREF</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FLOOR_IMG_HREF</ID>
+        <Title>楼层主图</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="FLOOR_IMG_HREF" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FLOOR_IMG_URL</Name>
+        <BOAttrName>FLOOR_IMG_URL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FLOOR_IMG_URL</ID>
+        <Title>楼层主图链接</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="FLOOR_IMG_URL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FLOOR_NAME</Name>
+        <BOAttrName>FLOOR_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FLOOR_NAME</ID>
+        <Title>楼层名称</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="FLOOR_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FLOOR_SORT</Name>
+        <BOAttrName>FLOOR_SORT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FLOOR_SORT</ID>
+        <Title>排序</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="FLOOR_SORT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_CONTAIN_AD</Name>
+        <BOAttrName>IS_CONTAIN_AD</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_CONTAIN_AD</ID>
+        <Title>是否包含广告</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="IS_CONTAIN_AD" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_HOME_SHOW</Name>
+        <BOAttrName>IS_HOME_SHOW</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_HOME_SHOW</ID>
+        <Title>是否首页展示</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="IS_HOME_SHOW" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_SHOW_SUB_KIND</Name>
+        <BOAttrName>IS_SHOW_SUB_KIND</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_SHOW_SUB_KIND</ID>
+        <Title>是否展示子类目</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="IS_SHOW_SUB_KIND" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MODIFY_DATE</Name>
+        <BOAttrName>MODIFY_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MODIFY_DATE</ID>
+        <Title>修改日期</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="MODIFY_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>TABS_NUM</Name>
+        <BOAttrName>TABS_NUM</BOAttrName>
+        <BODisplayAttrName />
+        <ID>TABS_NUM</ID>
+        <Title>页签数量</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="TABS_NUM" />
+      </Field>
+      
+        <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>AD_BACK_COLOR</Name>
+        <BOAttrName>AD_BACK_COLOR</BOAttrName>
+        <BODisplayAttrName />
+        <ID>AD_BACK_COLOR</ID>
+        <Title>广告背景色</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.floor.bo.FloorInfo" Attr="AD_BACK_COLOR" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

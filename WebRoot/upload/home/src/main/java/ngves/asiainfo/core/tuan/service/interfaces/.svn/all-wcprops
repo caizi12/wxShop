@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/jf/app/!svn/ver/38307/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/service/interfaces
+END
+IPreOrderInfoSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/22470/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/service/interfaces/IPreOrderInfoSrv.java
+END
+ICategoryShowControlSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jf/app/!svn/ver/21872/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/service/interfaces/ICategoryShowControlSrv.java
+END
+ITuanGroupInfoSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/23686/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/service/interfaces/ITuanGroupInfoSrv.java
+END
+ITuanWareDataSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/38307/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/service/interfaces/ITuanWareDataSrv.java
+END
+IWareIntegralInfoSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jf/app/!svn/ver/16359/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/service/interfaces/IWareIntegralInfoSrv.java
+END
+ITuanCycleInfoSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/23625/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/service/interfaces/ITuanCycleInfoSrv.java
+END
+ITuanInfoSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/38136/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/service/interfaces/ITuanInfoSrv.java
+END
+ITuanUserLogSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/15745/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/service/interfaces/ITuanUserLogSrv.java
+END
+ITuanWareRLTSrv.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/38307/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/service/interfaces/ITuanWareRLTSrv.java
+END

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="OverTimeOrderExaminList" mainattr="ORDER_SEQ">
+        <mapingenty type="table">OUT_TIME_ORDER</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="ORDER_SEQ" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ORDER_SEQ</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SUB_ORDER_SEQ" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SUB_ORDER_SEQ</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORDER_TYPE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ORDER_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STATUS" maxlength="10" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OUT_DAYS" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">OUT_DAYS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="USER_MOB_NUM" maxlength="32" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">USER_MOB_NUM</mapingcol>
+            </attr>
+            <attr floatlength="0" name="USER_BRAND" maxlength="1" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">USER_BRAND</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MOB_NUM" maxlength="32" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">MOB_NUM</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SENDER_NAME" maxlength="256" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SENDER_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RECE_NAME" maxlength="256" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RECE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

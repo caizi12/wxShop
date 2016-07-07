@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap namespace="product_info" >
+  <resultMap id="productInfoResult" class="cn.frame.platform.entitys.ProductInfo" >
+    <result column="PRODUCT_ID" property="productId" jdbcType="INTEGER" />
+    <result column="PRODUCT_CODE" property="productCode" jdbcType="INTEGER" />
+    <result column="PRODUCT_NAME" property="productName" jdbcType="VARCHAR" />
+    <result column="TITLE" property="title" jdbcType="CHAR" />
+    <result column="PRODUCT_IMG" property="productImg" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+    <result column="PRODUCT_BRAND" property="productBrand" jdbcType="VARCHAR" />
+    <result column="PRODUCT_KIND" property="productKind" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="DATETIME" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="DATETIME" />
+    <result column="PRODUCT_DETAIL" property="productDetail" jdbcType="VARCHAR" />
+    
+    <result column="PRICE" property="price" jdbcType="DOUBLE" />
+    <result column="DISCOUNT_PRICE" property="discountPrice" jdbcType="DOUBLE" />
+    <result column="IS_RECOMEND" property="isRecomend" jdbcType="VARCHAR" />
+    <result column="PRODUCT_NUM" property="productNum" jdbcType="INTEGER" />
+    <result column="EXCHANGE_NUM" property="exchangeNum" jdbcType="INTEGER" />
+    <result column="DELIVER_TYPE" property="deliverType" jdbcType="VARCHAR" />
+    <result column="DELIVER_PRICE" property="deliverPrice" jdbcType="VARCHAR" />
+  </resultMap>
+  
+  <select id="getProductInfo" resultMap="productInfoResult" parameterClass="cn.frame.platform.entitys.ProductInfo" >
+    select PRODUCT_ID, PRODUCT_CODE, PRODUCT_NAME, TITLE, PRODUCT_IMG, STATUS, PRODUCT_BRAND,
+      PRODUCT_KIND, CREATE_TIME, UPDATE_TIME, PRODUCT_DETAIL ,PRICE ,DISCOUNT_PRICE ,IS_RECOMEND  
+      ,PRODUCT_NUM ,EXCHANGE_NUM,DELIVER_TYPE,DELIVER_PRICE
+    from product_info
+    where PRODUCT_ID = #productId#
+  </select>
+ 
+   <select id="queryProductInfo" resultMap="productInfoResult" parameterClass="java.util.Map" >
+    select PRODUCT_ID , PRODUCT_CODE, PRODUCT_NAME, TITLE, PRODUCT_IMG, STATUS, PRODUCT_BRAND,
+      PRODUCT_KIND, CREATE_TIME, UPDATE_TIME, PRODUCT_DETAIL,PRICE ,DISCOUNT_PRICE ,IS_RECOMEND  
+      ,PRODUCT_NUM ,EXCHANGE_NUM,DELIVER_TYPE,DELIVER_PRICE
+    from product_info
+    where 1=1 
+   	<isNotEmpty prepend="and" property="productId">
+		  PRODUCT_ID=#productId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="productIds">
+		  PRODUCT_ID in ($productIds$)
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="productName">
+		PRODUCT_NAME like '%$productName$%' 
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="productCode">
+		PRODUCT_CODE like '%$productCode$%'
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="status">
+		STATUS = #status#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="isRecomend">
+		IS_RECOMEND = #isRecomend#
+	</isNotEmpty>
+	
+	  order by  UPDATE_TIME ,CREATE_TIME desc
+  	 
+  </select>
+  
+   
+   <select id="queryProductInfoForFront" resultMap="productInfoResult" parameterClass="java.util.Map" >
+    select PRODUCT_ID , PRODUCT_CODE, PRODUCT_NAME, TITLE, PRODUCT_IMG, STATUS, PRODUCT_BRAND,
+      PRODUCT_KIND, CREATE_TIME, UPDATE_TIME, PRODUCT_DETAIL,PRICE ,DISCOUNT_PRICE ,IS_RECOMEND  
+      ,PRODUCT_NUM ,EXCHANGE_NUM,DELIVER_TYPE,DELIVER_PRICE
+    from product_info
+    where 1=1 
+   	<isNotEmpty prepend="and" property="productId">
+		  PRODUCT_ID=#productId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="productIds">
+		  PRODUCT_ID in ($productIds$)
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="productName">
+		PRODUCT_NAME like '%$productName$%' 
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="productCode">
+		PRODUCT_CODE like '%$productCode$%'
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="status">
+		STATUS = #status#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="productBrand">
+		PRODUCT_BRAND = #productBrand#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="productKind">
+		PRODUCT_KIND = #productKind#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="isRecomend">
+		IS_RECOMEND = #isRecomend#
+	</isNotEmpty>
+	 
+	<isNotEmpty prepend="" property="sortField">
+	   order by  $sortField$
+	</isNotEmpty>
+   	<isNotEmpty prepend="" property="sortOrder">
+		  $sortOrder$
+	</isNotEmpty>
+	
+  </select>
+  
+  <delete id="batchDelProductInfo" parameterClass="java.lang.String" >
+    delete from product_info
+    where PRODUCT_ID = #productId#
+  </delete>
+  
+  <insert id="insertProductInfo"  parameterClass="cn.frame.platform.entitys.ProductInfo" >
+    insert into product_info ( PRODUCT_CODE, PRODUCT_NAME, TITLE, PRODUCT_IMG, STATUS,
+      PRODUCT_BRAND, PRODUCT_KIND, CREATE_TIME, UPDATE_TIME, PRODUCT_DETAIL,PRICE ,DISCOUNT_PRICE ,IS_RECOMEND  
+      ,PRODUCT_NUM ,EXCHANGE_NUM,DELIVER_TYPE,DELIVER_PRICE)
+    values (#productCode:INTEGER#, #productName:VARCHAR#, #title:CHAR#,
+      #productImg:VARCHAR#, #status:VARCHAR#, #productBrand:VARCHAR#, #productKind:VARCHAR#,
+      #createTime#, #updateTime#, #productDetail:LONGVARCHAR#,#price#,#discountPrice#,#isRecomend#,#productNum#
+      ,#exchangeNum#,#deliverType#,#deliverPrice#)
+     <selectKey resultClass="int" keyProperty="productId" > 
+      SELECT LAST_INSERT_ID() AS productId 
+      </selectKey> 
+  </insert>
+  <update id="updateProductInfo" parameterClass="cn.frame.platform.entitys.ProductInfo" >
+    update product_info
+    set PRODUCT_CODE = #productCode:INTEGER#,
+      PRODUCT_NAME = #productName:VARCHAR#,
+      TITLE = #title:CHAR#,
+      PRODUCT_IMG = #productImg:VARCHAR#,
+      STATUS = #status:VARCHAR#,
+      PRODUCT_BRAND = #productBrand:VARCHAR#,
+      PRODUCT_KIND = #productKind:VARCHAR#,
+      UPDATE_TIME = #updateTime#,
+      price=#price#,
+      DISCOUNT_PRICE=#discountPrice# ,
+      IS_RECOMEND=#isRecomend#,
+      PRODUCT_NUM=#productNum# ,
+      EXCHANGE_NUM=#exchangeNum#,
+      DELIVER_TYPE=#deliverType#,
+      DELIVER_PRICE=#deliverPrice#
+      
+    where PRODUCT_ID = #productId:INTEGER#
+  </update>
+  
+    <update id="saveProductDetail" parameterClass="cn.frame.platform.entitys.ProductInfo" >
+    update product_info
+    set    UPDATE_TIME = #updateTime#,
+      PRODUCT_DETAIL = #productDetail:LONGVARCHAR#
+    where PRODUCT_ID = #productId:INTEGER#
+  </update>
+  
+  
+  <insert id="insertProductImg"  parameterClass="cn.frame.platform.entitys.ProductImg" >
+    insert into product_img ( PRODUCT_ID, IMG_URL, CREATE_TIME)
+    values (#productId#, #imgUrl#, #createTime#)
+  </insert>
+  <update id="updateProductImg" parameterClass="cn.frame.platform.entitys.ProductImg" >
+    update product_img
+    set PRODUCT_ID = #productId#,
+        IMG_URL = #imgUrl#
+    where IMG_ID = #imgId:INTEGER#
+  </update>
+  
+    
+  <select id="getProductImg" resultClass="cn.frame.platform.entitys.ProductImg" parameterClass="cn.frame.platform.entitys.ProductImg" >
+    select PRODUCT_ID productId,  IMG_ID imgId, IMG_URL imgUrl , CREATE_TIME createTime
+    from product_img
+    where IMG_ID = #imgId#
+  </select>
+ 
+   <select id="queryProductImg" resultClass="cn.frame.platform.entitys.ProductImg" parameterClass="java.util.Map" >
+    select PRODUCT_ID productId,  IMG_ID imgId, IMG_URL imgUrl , CREATE_TIME createTime
+    from product_img
+    where 1=1 
+   	<isNotEmpty prepend="and" property="productId">
+		  PRODUCT_ID=#productId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="imgId">
+		IMG_ID like =#imgId#
+	</isNotEmpty>
+  </select>
+  
+   <delete id="batchDelProductImg" parameterClass="java.lang.String" >
+    delete from product_img
+    where IMG_ID = #imgId#
+  </delete>
+  <delete id="batchDelProductImgByProductId" parameterClass="java.lang.Integer" >
+    delete from product_img
+    where PRODUCT_ID = #productId#
+  </delete>
+  
+</sqlMap>

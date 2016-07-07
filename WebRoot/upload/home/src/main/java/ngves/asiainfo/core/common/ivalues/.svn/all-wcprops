@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/jf/app/!svn/ver/39198/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues
+END
+IRecommCategoryInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/39198/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IRecommCategoryInfoValue.java
+END
+IWareFirstKindRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/31850/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IWareFirstKindRltValue.java
+END
+IBusiAllegeCommentValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IBusiAllegeCommentValue.java
+END
+ISaleInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/ISaleInfoValue.java
+END
+IBusiAllegeAssignAcceptValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IBusiAllegeAssignAcceptValue.java
+END
+IBusiInfoDetailValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/16807/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IBusiInfoDetailValue.java
+END
+ITempBusiInterMsgValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/17023/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/ITempBusiInterMsgValue.java
+END
+IBusiAllegeReplySendValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/19987/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IBusiAllegeReplySendValue.java
+END
+IInformationKindInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IInformationKindInfoValue.java
+END
+IStorageWarehouseRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IStorageWarehouseRltValue.java
+END
+ISaleEmailOpenValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/ISaleEmailOpenValue.java
+END
+IBusiInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/16807/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IBusiInfoValue.java
+END
+IUserInterestRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IUserInterestRltValue.java
+END
+IPartnerOnOffLineHisValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IPartnerOnOffLineHisValue.java
+END
+IBaseInfoSynValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/20131/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IBaseInfoSynValue.java
+END
+ISmsLogInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/15912/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/ISmsLogInfoValue.java
+END
+IRecommCategoryWareRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IRecommCategoryWareRltValue.java
+END
+IBusiAllegeRejectSendValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IBusiAllegeRejectSendValue.java
+END
+IExcelTaskValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IExcelTaskValue.java
+END
+IQACAPTCHAValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/18687/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IQACAPTCHAValue.java
+END
+IBusiSettlePublishInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jf/app/!svn/ver/14863/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IBusiSettlePublishInfoValue.java
+END
+IRequisitionRcvStateValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IRequisitionRcvStateValue.java
+END
+IRequisitionInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IRequisitionInfoValue.java
+END
+IUpdateNotifyInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/20131/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IUpdateNotifyInfoValue.java
+END
+IUserBookDetailInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IUserBookDetailInfoValue.java
+END
+IBusiAllegeRHandleAcceptValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IBusiAllegeRHandleAcceptValue.java
+END
+ISysUserInterestValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/ISysUserInterestValue.java
+END
+IBusiAllegeHastenAcceptValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IBusiAllegeHastenAcceptValue.java
+END
+IBusiAllegeHandlingAcceptValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jf/app/!svn/ver/19987/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IBusiAllegeHandlingAcceptValue.java
+END
+IQBOWareKindParentRltValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/31885/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IQBOWareKindParentRltValue.java
+END
+IQBOAllegeAssignQueryInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jf/app/!svn/ver/18331/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IQBOAllegeAssignQueryInfoValue.java
+END
+IUserOrderSuccessValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IUserOrderSuccessValue.java
+END
+INormalOrderExcelValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/INormalOrderExcelValue.java
+END
+IAllegeInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IAllegeInfoValue.java
+END
+IUserBookInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/31510/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IUserBookInfoValue.java
+END
+ICrmAllegeInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/ICrmAllegeInfoValue.java
+END
+ICityAreaCodeInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/37180/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/ICityAreaCodeInfoValue.java
+END
+ISaleObjInterestInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/ISaleObjInterestInfoValue.java
+END
+IUserBaseValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IUserBaseValue.java
+END
+ISaleSendInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/ISaleSendInfoValue.java
+END
+INorExcelClauseValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/INorExcelClauseValue.java
+END
+ISysParaDataValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/19265/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/ISysParaDataValue.java
+END
+IQBORecommCategoryWareInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jf/app/!svn/ver/37867/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IQBORecommCategoryWareInfoValue.java
+END
+IWareKindInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/31850/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IWareKindInfoValue.java
+END
+IBusiCustomCommunionValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IBusiCustomCommunionValue.java
+END
+IExpOrderWareInOutValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/24475/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/IExpOrderWareInOutValue.java
+END
+ISysBusiLockInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/20027/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/ISysBusiLockInfoValue.java
+END
+ISendPriceInfoValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/28650/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/common/ivalues/ISendPriceInfoValue.java
+END

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="HelpCenterinfo" mainattr="HELP_CENTRE_ID" remark="帮助中心信息表">
+        <mapingenty type="table">HELP_CENTRE_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="HELP_CENTRE_ID" maxlength="15" datatype="Long" type="PK" remark="主键ID">
+                <mapingcol datatype="NUMBER">HELP_CENTRE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARENT_HELP_ID" maxlength="15" datatype="Long" type="COL" remark="父菜单ID,0表示自己为父菜单">
+                <mapingcol datatype="NUMBER">PARENT_HELP_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MENU_NAME" maxlength="60" datatype="String" type="COL" remark="菜单名称">
+                <mapingcol datatype="VARCHAR2">MENU_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="创建时间">
+                <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UPDATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="更新时间">
+                <mapingcol datatype="DATE">UPDATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SORT_ID" maxlength="3" datatype="Long" type="COL" remark="排序">
+                <mapingcol datatype="NUMBER">SORT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_SHOW" maxlength="2" datatype="String" type="COL" remark="门户是否展示 0不展示 1展示">
+                <mapingcol datatype="VARCHAR2">IS_SHOW</mapingcol>
+            </attr>
+            <attr floatlength="0" name="HELP_CONTENT" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">HELP_CONTENT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="500" datatype="String" type="COL" remark="备用字段1">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="500" datatype="String" type="COL" remark="备用字段2">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

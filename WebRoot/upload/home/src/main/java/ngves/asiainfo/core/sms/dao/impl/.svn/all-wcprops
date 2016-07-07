@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/jf/app/!svn/ver/29792/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/dao/impl
+END
+SmsTemplateDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/23369/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/dao/impl/SmsTemplateDAOImpl.java
+END
+BusiSmsTemplateDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/29792/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/dao/impl/BusiSmsTemplateDAOImpl.java
+END
+BusiSmsDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/23231/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/dao/impl/BusiSmsDAOImpl.java
+END
+SmsTaskDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/23231/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/dao/impl/SmsTaskDAOImpl.java
+END

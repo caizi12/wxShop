@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/jf/app/!svn/ver/38423/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo
+END
+QBOReviewWLJFBDCKEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/34127/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewWLJFBDCKEngine.java
+END
+QBOReviewWLJFBDCKBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/34252/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewWLJFBDCKBean.java
+END
+QBOReviewHZSKHBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/35095/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewHZSKHBean.java
+END
+QBOReviewHZSKHEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/35095/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewHZSKHEngine.java
+END
+QBOReviewJFHSGXBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/34252/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewJFHSGXBean.java
+END
+QBOReviewJFHSGXEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/34127/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewJFHSGXEngine.java
+END
+QBOReviewTGXXEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/37719/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewTGXXEngine.java
+END
+QBOReviewTGXXBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/37819/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewTGXXBean.java
+END
+QBOReviewPSXXEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/34147/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewPSXXEngine.java
+END
+QBOReviewPSXXBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/34252/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewPSXXBean.java
+END
+WareConvertRuleBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/34183/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/WareConvertRuleBean.java
+END
+WareConvertRuleEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/34183/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/WareConvertRuleEngine.java
+END
+QBOReviewJFGZBDBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/38423/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewJFGZBDBean.java
+END
+QBOReviewJFGZBDEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/37719/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewJFGZBDEngine.java
+END
+QBOReviewJSXXWLSBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/34252/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewJSXXWLSBean.java
+END
+QBOReviewJSXXWLSEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/34147/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewJSXXWLSEngine.java
+END
+QBOReviewSXXGZEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/34127/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewSXXGZEngine.java
+END
+QBOReviewSXXGZBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/34127/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewSXXGZBean.java
+END
+ReviewStaffRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/34147/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/ReviewStaffRltBean.java
+END
+ReviewStaffRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/34191/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/ReviewStaffRltEngine.java
+END
+QBOReviewQDXXEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/34147/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewQDXXEngine.java
+END
+QBOReviewQDXXBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/37819/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewQDXXBean.java
+END
+ConvertRuleBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/38250/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/ConvertRuleBean.java
+END
+ConvertRuleEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/34183/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/ConvertRuleEngine.java
+END
+QBOReviewJSXXLPBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/34252/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewJSXXLPBean.java
+END
+QBOReviewJSXXLPEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/34147/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewJSXXLPEngine.java
+END
+ReviewDescInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/34150/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/ReviewDescInfoBean.java
+END
+ReviewDescInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/34191/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/ReviewDescInfoEngine.java
+END
+ReviewInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/34281/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/ReviewInfoBean.java
+END
+ReviewInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/34281/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/ReviewInfoEngine.java
+END
+QBOReviewCXXXBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/37719/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewCXXXBean.java
+END
+QBOReviewCXXXEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/34147/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewCXXXEngine.java
+END
+QBOReviewLPXXEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/34147/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewLPXXEngine.java
+END
+QBOReviewLPXXBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/34183/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewLPXXBean.java
+END
+QBOReviewPSBLEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/34147/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewPSBLEngine.java
+END
+QBOReviewPSBLBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/34183/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewPSBLBean.java
+END
+WareKindRltBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/34183/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/WareKindRltBean.java
+END
+WareKindRltEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/34183/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/WareKindRltEngine.java
+END
+QBOReviewWLJFGZEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/34127/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewWLJFGZEngine.java
+END
+QBOReviewWLJFGZBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/34252/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/QBOReviewWLJFGZBean.java
+END
+ConvertRuleDetailBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/34183/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/ConvertRuleDetailBean.java
+END
+ConvertRuleDetailEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/34183/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/review/bo/ConvertRuleDetailEngine.java
+END

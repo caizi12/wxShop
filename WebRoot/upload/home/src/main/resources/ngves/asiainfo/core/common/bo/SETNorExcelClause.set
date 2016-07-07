@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETNorExcelClause" BOName="ngves.asiainfo.core.common.bo.NorExcelClause" MainField="NOR_EXCEL_CLAUSE_ID" Title="ngves.asiainfo.core.common.bo.NorExcelClause" ActBOName="ngves.asiainfo.mgt.remind.bo.NorExcelClause" Package="ngves.asiainfo.core.common.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL</Name>
+        <BOAttrName>BAK_COL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL</ID>
+        <Title>备用</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NorExcelClause" Attr="BAK_COL" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NorExcelClause" Attr="BAK_COL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title>备用</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NorExcelClause" Attr="BAK_COL2" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NorExcelClause" Attr="BAK_COL2" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CLAUSE_NAME</Name>
+        <BOAttrName>CLAUSE_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CLAUSE_NAME</ID>
+        <Title>参数名称</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NorExcelClause" Attr="CLAUSE_NAME" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NorExcelClause" Attr="CLAUSE_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CLAUSE_VALUE</Name>
+        <BOAttrName>CLAUSE_VALUE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CLAUSE_VALUE</ID>
+        <Title>参数值</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NorExcelClause" Attr="CLAUSE_VALUE" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NorExcelClause" Attr="CLAUSE_VALUE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CLAUSE_VIEW_NAME</Name>
+        <BOAttrName>CLAUSE_VIEW_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CLAUSE_VIEW_NAME</ID>
+        <Title>显示名称</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NorExcelClause" Attr="CLAUSE_VIEW_NAME" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NorExcelClause" Attr="CLAUSE_VIEW_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>EXCEL_TASK_ID</Name>
+        <BOAttrName>EXCEL_TASK_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>EXCEL_TASK_ID</ID>
+        <Title>有yyyyMMdd +12序列号组成</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NorExcelClause" Attr="EXCEL_TASK_ID" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NorExcelClause" Attr="EXCEL_TASK_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>NOR_EXCEL_CLAUSE_ID</Name>
+        <BOAttrName>NOR_EXCEL_CLAUSE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>NOR_EXCEL_CLAUSE_ID</ID>
+        <Title>主键</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NorExcelClause" Attr="NOR_EXCEL_CLAUSE_ID" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NorExcelClause" Attr="NOR_EXCEL_CLAUSE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SORT_ID</Name>
+        <BOAttrName>SORT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SORT_ID</ID>
+        <Title>排序号</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="3" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="ngves.asiainfo.mgt.remind.bo.NorExcelClause" Attr="SORT_ID" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NorExcelClause" Attr="SORT_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CLAUSE_METHOD</Name>
+        <BOAttrName>CLAUSE_METHOD</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CLAUSE_METHOD</ID>
+        <Title>业务bean的set方法名,如果任务数据源是接口,填写接口请求的方法</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NorExcelClause" Attr="CLAUSE_METHOD" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CLAUSE_TRANSFORM_VALUE</Name>
+        <BOAttrName>CLAUSE_TRANSFORM_VALUE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CLAUSE_TRANSFORM_VALUE</ID>
+        <Title>转换值，比如任务数据源是接口,需要填写接口的值</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.common.bo.NorExcelClause" Attr="CLAUSE_TRANSFORM_VALUE" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

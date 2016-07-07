@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETQBOLogisticRuleHouseInfo" BOName="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" MainField="WAREHOUSE_ID" Title="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" ActBOName="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" Package="ngves.asiainfo.core.ware.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ADMIN_MOBILE_PHONE</Name>
+        <BOAttrName>ADMIN_MOBILE_PHONE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ADMIN_MOBILE_PHONE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="30" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" Attr="ADMIN_MOBILE_PHONE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ADMIN_NAME</Name>
+        <BOAttrName>ADMIN_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ADMIN_NAME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" Attr="ADMIN_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ADMIN_TEL</Name>
+        <BOAttrName>ADMIN_TEL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ADMIN_TEL</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="30" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" Attr="ADMIN_TEL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_SETTLE_UNIT</Name>
+        <BOAttrName>IS_SETTLE_UNIT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_SETTLE_UNIT</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" Attr="IS_SETTLE_UNIT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MONTH_FEE</Name>
+        <BOAttrName>MONTH_FEE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MONTH_FEE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" Attr="MONTH_FEE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PACKAGE_FEE</Name>
+        <BOAttrName>PACKAGE_FEE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PACKAGE_FEE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" Attr="PACKAGE_FEE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>POST_CODE</Name>
+        <BOAttrName>POST_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>POST_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="6" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" Attr="POST_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WAREHOUSE_ADDR</Name>
+        <BOAttrName>WAREHOUSE_ADDR</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WAREHOUSE_ADDR</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1024" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" Attr="WAREHOUSE_ADDR" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WAREHOUSE_CODE</Name>
+        <BOAttrName>WAREHOUSE_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WAREHOUSE_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" Attr="WAREHOUSE_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WAREHOUSE_ID</Name>
+        <BOAttrName>WAREHOUSE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WAREHOUSE_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" Attr="WAREHOUSE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WAREHOUSE_NAME</Name>
+        <BOAttrName>WAREHOUSE_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WAREHOUSE_NAME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" Attr="WAREHOUSE_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WAREHOUSE_STATE</Name>
+        <BOAttrName>WAREHOUSE_STATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WAREHOUSE_STATE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" Attr="WAREHOUSE_STATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WAREHOUSE_TYPE</Name>
+        <BOAttrName>WAREHOUSE_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WAREHOUSE_TYPE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="50" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" Attr="WAREHOUSE_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>RULE_ID</Name>
+        <BOAttrName>RULE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>RULE_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOLogisticRuleHouseInfo" Attr="RULE_ID" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

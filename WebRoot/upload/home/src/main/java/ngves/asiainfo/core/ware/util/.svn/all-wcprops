@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/jf/app/!svn/ver/38424/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/util
+END
+PermissionWareViewUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/38089/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/util/PermissionWareViewUtil.java
+END
+WareStatusUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/30642/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/util/WareStatusUtil.java
+END
+PermissionInfoUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/37948/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/util/PermissionInfoUtil.java
+END
+WareStatusAccessMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/27894/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/util/WareStatusAccessMap.java
+END
+IntegralUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/38424/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/util/IntegralUtil.java
+END
+WareRecommandTypeUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/22312/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/util/WareRecommandTypeUtil.java
+END
+WareCommonUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/38211/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/util/WareCommonUtil.java
+END
+WareConvertRuleUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/38376/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/util/WareConvertRuleUtil.java
+END
+WareStatusTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/28058/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/util/WareStatusTask.java
+END
+PermissionInfoCacheUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/20795/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/util/PermissionInfoCacheUtil.java
+END
+WareWeekRankCacheUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/36282/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/util/WareWeekRankCacheUtil.java
+END
+RollAwardInfoQueryCacheUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/36282/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/util/RollAwardInfoQueryCacheUtil.java
+END
+SynDataToHpUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/37948/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/util/SynDataToHpUtil.java
+END
+WareStatusManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/20203/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/ware/util/WareStatusManager.java
+END

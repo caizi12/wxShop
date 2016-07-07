@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETSmsFormworkContent" BOName="ngves.asiainfo.core.smsformwork.bo.SmsFormworkContent" MainField="CONTENT_ID" Title="ngves.asiainfo.core.smsformwork.bo.SmsFormworkContent" ActBOName="ngves.asiainfo.core.smsformwork.bo.SmsFormworkContent" Package="ngves.asiainfo.core.smsformwork.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CONTENT_ID</Name>
+        <BOAttrName>CONTENT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CONTENT_ID</ID>
+        <Title>短信模板内容标识</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkContent" Attr="CONTENT_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CONTENT_INFO</Name>
+        <BOAttrName>CONTENT_INFO</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CONTENT_INFO</ID>
+        <Title>短信模板内容</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkContent" Attr="CONTENT_INFO" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CONTENT_NAME</Name>
+        <BOAttrName>CONTENT_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CONTENT_NAME</ID>
+        <Title>短信模板内容标题</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkContent" Attr="CONTENT_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_STOPPED</Name>
+        <BOAttrName>IS_STOPPED</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_STOPPED</ID>
+        <Title>是否停用；1，是，停用；2，否</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkContent" Attr="IS_STOPPED" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPER</Name>
+        <BOAttrName>OPER</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPER</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkContent" Attr="OPER" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPERATE_TIME</Name>
+        <BOAttrName>OPERATE_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPERATE_TIME</ID>
+        <Title>操作时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkContent" Attr="OPERATE_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPERATOR_CODE</Name>
+        <BOAttrName>OPERATOR_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPERATOR_CODE</ID>
+        <Title>操作人</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormworkContent" Attr="OPERATOR_CODE" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

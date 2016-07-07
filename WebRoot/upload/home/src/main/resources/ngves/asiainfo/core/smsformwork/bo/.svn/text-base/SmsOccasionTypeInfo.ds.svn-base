@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIDataSrc DisType="SelectBox" NeedCache="N">
+    <Name>SmsOccasionTypeInfo</Name>
+    <Package>ngves.asiainfo.core.smsformwork.bo</Package>
+    <DataSet SetType="BODATA">
+        <BOName>ngves.asiainfo.core.smsformwork.bo.SmsOccasionTypeInfo</BOName>
+        <ValueAttr>OCCASION_TYPE_ID</ValueAttr>
+        <TextAttr>OCCASION_TYPE_NAME</TextAttr>
+    </DataSet>
+</UIDataSrc>

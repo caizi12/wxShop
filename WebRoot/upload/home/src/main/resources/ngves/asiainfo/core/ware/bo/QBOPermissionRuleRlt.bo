@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOPermissionRuleRlt" mainattr="WARE_BIND_RULE_RLT_ID">
+        <mapingenty type="query">select a.*,b.ware_code from permission_rule_rlt a,ware_info b where a.ware_id=b.ware_id</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_BIND_RULE_RLT_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_BIND_RULE_RLT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PERMISSION_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">PERMISSION_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACTION_START_TIME" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">ACTION_START_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACTION_END_TIME" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">ACTION_END_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BIND_STATUS" maxlength="1" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">BIND_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

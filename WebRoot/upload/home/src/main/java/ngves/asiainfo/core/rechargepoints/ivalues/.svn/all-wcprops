@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/jf/app/!svn/ver/35467/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rechargepoints/ivalues
+END
+IBusiRechargeTaskAuditValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/jf/app/!svn/ver/35342/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rechargepoints/ivalues/IBusiRechargeTaskAuditValue.java
+END
+IRechargeFileValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/35342/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rechargepoints/ivalues/IRechargeFileValue.java
+END
+IRechargePointsTaskValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jf/app/!svn/ver/35341/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rechargepoints/ivalues/IRechargePointsTaskValue.java
+END
+IQBORechargeFileValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jf/app/!svn/ver/35467/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rechargepoints/ivalues/IQBORechargeFileValue.java
+END
+IBusiRechargeFileValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jf/app/!svn/ver/35342/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rechargepoints/ivalues/IBusiRechargeFileValue.java
+END
+IBusiRechargePointsTaskValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/jf/app/!svn/ver/35341/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/rechargepoints/ivalues/IBusiRechargePointsTaskValue.java
+END

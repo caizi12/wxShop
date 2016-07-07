@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBORechargeFile" mainattr="RECHARGE_TASK_ID">
+        <mapingenty type="query">select rpt.recharge_task_id,
+       rpt.task_name,
+       rf.recharge_file_name,
+       rf.recharge_file_nickname,
+       rf.is_send_sms,
+       rf.sms_message,
+       rf.is_deleted
+  from recharge_file rf, recharge_points_task rpt
+ where rf.recharge_task_id = rpt.recharge_task_id</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="RECHARGE_TASK_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RECHARGE_TASK_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TASK_NAME" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">TASK_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RECHARGE_FILE_NAME" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RECHARGE_FILE_NAME</mapingcol>
+            </attr>
+             <attr floatlength="0" name="RECHARGE_FILE_NICKNAME" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RECHARGE_FILE_NICKNAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_SEND_SMS" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">IS_SEND_SMS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SMS_MESSAGE" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SMS_MESSAGE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_DELETED" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">IS_DELETED</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

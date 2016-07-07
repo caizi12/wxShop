@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOWareWeekTop" mainattr="WARE_BRAND_ID">
+        <mapingenty type="query">select ware_brand_id, max(ware_ids) ware_ids, is_parent
+  from (select ware_brand_id,
+               wm_concat(ware_id) over(partition by ware_brand_id order by exchange_count desc) ware_ids,
+               0 is_parent
+          from (select wdr.ware_brand_id,
+                       wdr.ware_id,
+                       sum(wdr.exchange_count) exchange_count,
+                       row_number() over(partition by wdr.ware_brand_id order by sum(wdr.exchange_count) desc, wdr.ware_id) tk
+                  from ware_day_rank    wdr,
+                       ware_info_portal wip,
+                       ware_desc_info   wdi
+                 where wdr.ware_id = wip.ware_id
+                   and wip.ware_id = wdi.ware_id
+                   and wdi.desc_define_id = 999999999999988
+                   and wdi.ware_desc_value = '0'
+                   and wip.ware_status = 1
+                   and wip.ware_type = 0
+                   and wip.is_html_channel = '1'
+                   and trunc(wdr.exchange_day) between trunc(sysdate - 7) and
+                       trunc(sysdate - 1)
+                   and wdr.exchange_channel = '8'
+                 group by wdr.ware_brand_id, wdr.ware_id)
+         where tk &lt;= 5)
+ group by ware_brand_id, is_parent
+ 
+union all
+
+select ware_brand_id, max(ware_ids) ware_ids, is_parent
+  from (select ware_brand_id,
+               wm_concat(p_ware_id || ':' || ware_id) over(partition by ware_brand_id order by exchange_count desc) ware_ids,
+               1 is_parent
+          from (select wdr.ware_brand_id,
+                       rlt.p_ware_id,
+                       wdr.ware_id,
+                       sum(wdr.exchange_count) exchange_count,
+                       row_number() over(partition by wdr.ware_brand_id, rlt.p_ware_id order by sum(wdr.exchange_count) desc, wdr.ware_id) tk
+                  from ware_day_rank wdr,
+                       ware_info_portal wip,
+                       ware_pc_rlt rlt,
+                       (select p_ware_id, ware_brand_id
+                          from (select wdr.ware_brand_id,
+                                       rlt.p_ware_id,
+                                       row_number() over(partition by wdr.ware_brand_id order by sum(wdr.exchange_count) desc, rlt.p_ware_id) pk
+                                  from ware_day_rank    wdr,
+                                       ware_info_portal wip,
+                                       ware_pc_rlt      rlt
+                                 where wdr.ware_id = wip.ware_id
+                                   and wdr.ware_id = rlt.c_ware_id
+                                   and wip.ware_status = 1
+                                   and wip.ware_type = 1
+                                   and wip.is_html_channel = '1'
+                                   and trunc(wdr.exchange_day) between
+                                       trunc(sysdate - 7) and
+                                       trunc(sysdate - 1)
+                                   and wdr.exchange_channel = '8'
+                                 group by wdr.ware_brand_id, rlt.p_ware_id)
+                         where pk &lt;= 5) p
+                 where wdr.ware_id = wip.ware_id
+                   and wdr.ware_id = rlt.c_ware_id
+                   and rlt.p_ware_id = p.p_ware_id
+                   and wdr.ware_brand_id = p.ware_brand_id
+                   and wip.ware_status = 1
+                   and wip.ware_type = 1
+                   and wip.is_html_channel = '1'
+                   and trunc(wdr.exchange_day) between trunc(sysdate - 7) and
+                       trunc(sysdate - 1)
+                   and wdr.exchange_channel = '8'
+                 group by wdr.ware_brand_id, rlt.p_ware_id, wdr.ware_id
+                 order by wdr.ware_brand_id, exchange_count desc)
+         where tk = 1)
+ group by ware_brand_id, is_parent
+</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_BRAND_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_BRAND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_IDS" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_IDS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_PARENT" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">IS_PARENT</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

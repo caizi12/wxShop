@@ -1,0 +1,223 @@
+p {
+	word-spacing:0.125em;
+	hyphenate:auto;
+	hyphenate-lines:3;
+	margin-top:1em;
+}
+
+/* 
+table 
+---------------------------------------------------------------------*/
+
+.inputTable{
+	width:98%;
+	border:#99BBE8 solid 0px;
+	height:100%;
+	vertical-align:baseline;
+	background:#E1E9FC;
+	font-size:12px;
+	font-weight:100;
+	margin:2px 2px;
+}
+
+.inputTable th{
+	background:#F9FBFD;
+	height:32px;
+	text-align:right;
+	font-weight:normal;
+	vertical-align:middle;
+	padding-right:2px;
+}
+
+.inputTable td{
+	background:#ffffff;
+	height:32px;
+	vertical-align:middle;
+	padding-left:2px;
+}  
+.requireField{
+  color:red;
+}
+
+
+/* Forms
+---------------------------------------------------------------------*/
+
+form {
+	overflow:auto;
+}
+input, select {
+    vertical-align:middle;
+}
+button {
+	cursor:pointer;
+}
+input:focus,textarea:focus,select:focus {
+	outline-width:0; /* No outline border for Safary */
+}
+/*input[type="text"],input[type="password"],input[type="search"],input[type="file"]*/
+.formText{
+    border-color:#C4C4C4 #E9E9E9 #E9E9E9 #C4C4C4;
+	border-style:solid;
+	border-width:1px;
+	padding:2px 0px;
+	color:#777;
+}
+textarea{
+	border-color:#C4C4C4 #E9E9E9 #E9E9E9 #C4C4C4;
+	border-style:solid;
+	border-width:1px;
+	padding:2px 0px;
+	color:#777;
+}
+textarea {
+	line-height:18px;
+	overflow:auto;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+textarea.small {
+	height:5.5em;
+}
+textarea.medium {
+	height:10em;
+}
+textarea.large {
+	height:20em;
+}
+input.half,select.half,textarea.half {
+	width:50%;
+}
+input.full,select.full,textarea.full {
+	width:97%;
+}
+input.title {
+	font-size:20px;
+}
+input[type="submit"],input[type="reset"],input[type="button"] {
+	margin-bottom:0;
+}
+input:focus,textarea:focus {
+	-moz-box-shadow:0 1px 1px rgba(196,196,196,0.5);
+	-webkit-box-shadow:0 1px 1px rgba(196,196,196,0.5);
+	box-shadow:0 1px 1px rgba(196,196,196,0.5);
+	-webkit-focus-ring-color:none;
+	border-color:#99BBE8;
+	background-color:#FFF8EF;
+}
+input:hover,textarea:hover {
+	background-color:#FFFFF0;
+	border-color:#99BBE8;
+}
+fieldset {
+	border:0 none;
+	border-top:1px solid #ddd;
+	margin:10px 0;
+	padding:10px 0;
+	position:relative;
+}
+legend {
+	background:#fff;
+	color:#93BB3A;
+	font-weight:bold;
+	padding:0 6px 0 0;
+}
+/*label {
+	text-transform:uppercase;
+	font-weight:bold;
+}*/
+fieldset small {
+	color:#999;
+	font-size:11px;
+	display: block;
+}
+big,.big {
+	font-size:120% !important;
+	line-height:120%;
+}
+
+.btn {
+	display: inline-block;
+	padding: 5px 10px;
+	color: #777 !important;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Tahoma, Arial, sans-serif;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.9);
+	position: relative;
+	cursor: pointer;
+	border:1px solid #ccc !important;
+	background:#fff url("../img/btn-overlay.png") repeat-x !important;
+}
+
+.btn-green {
+	color: #fff !important;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.25);
+	border:1px solid #749217 !important;
+	background-color: #6AB620 !important;
+}
+.btn-green:hover, .btn-green:focus, .btn-green:active {
+	-moz-box-shadow:0 0 5px rgba(116, 146, 23, 0.9);
+	-webkit-box-shadow: 0 0 5px rgba(116, 146, 23, 0.9);
+	box-shadow: 0 0 5px rgba(116, 146, 23, 0.9);
+	border:1px solid #749217 !important;
+}
+.wrapper, .wrapper-login {
+	margin:0 auto;
+	text-align:left;
+	width: 990px;
+	position:relative;
+}
+.wrapper-login {
+	width: 360px;
+}
+
+/*
+* form
+*
+*/
+.inputForm{
+	width:98%;
+	height:100%;
+	vertical-align:baseline;
+	font-size:12px;
+	font-weight:100;
+	margin:0;
+}
+
+.inputForm div{
+	height:32px;
+	vertical-align:middle;
+	padding-left:2px;
+} 
+
+.full {
+	width:100%;
+}
+.width1 {
+	width:98px;
+}
+.width2 {
+	width:234px;
+}
+.width3 {
+	width:360px;
+}
+.width4 {
+	width:486px;
+}
+.width5 {
+	width:612px;
+}
+.width6 {
+	width:738px;
+}
+.width7 {
+	width:864px;
+}
+.width8 {
+	width: 990px;
+}

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETConsumerCode" BOName="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" MainField="ORDER_ID" 
+  Title="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" ActBOName="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" 
+  Package="ngves.asiainfo.core.sendverifycode.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ORDER_ID</Name>
+        <BOAttrName>ORDER_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ORDER_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="ORDER_ID" />
+      </Field>
+       <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SUBORDER_ID</Name>
+        <BOAttrName>SUBORDER_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SUBORDER_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="SUBORDER_ID" />
+      </Field>
+       <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ORDER_NUM</Name>
+        <BOAttrName>ORDER_NUM</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ORDER_NUM</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="ORDER_NUM" />
+      </Field>
+       <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SUBORDER_NUM</Name>
+        <BOAttrName>SUBORDER_NUM</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SUBORDER_NUM</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="SUBORDER_NUM" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MOBILE</Name>
+        <BOAttrName>MOBILE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MOBILE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="32" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="MOBILE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ITEM_ID</Name>
+        <BOAttrName>ITEM_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ITEM_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="16" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="ITEM_ID" />
+      </Field>
+	
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ITEM_NAME</Name>
+        <BOAttrName>ITEM_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ITEM_NAME</ID>
+        <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="256" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="ITEM_NAME" />
+      </Field>
+	
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>VENDOR_NAME</Name>
+        <BOAttrName>VENDOR_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>VENDOR_NAME</ID>
+        <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="VENDOR_NAME" />
+      </Field>
+	
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CONSUMER_CODE</Name>
+        <BOAttrName>CONSUMER_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CONSUMER_CODE</ID>
+        <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="14" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="CONSUMER_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>VALIDATE_TIME</Name>
+        <BOAttrName>VALIDATE_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>VALIDATE_TIME</ID>
+        <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="14" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="VALIDATE_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>REMAIND_DAYS</Name>
+        <BOAttrName>REMAIND_DAYS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>REMAIND_DAYS</ID>
+        <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="9" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="REMAIND_DAYS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>STATUS</Name>
+        <BOAttrName>STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>STATUS</ID>
+        <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="STATUS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SEND_TIME</Name>
+        <BOAttrName>SEND_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SEND_TIME</ID>
+        <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="14" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="SEND_TIME" />
+      </Field>
+       <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SENDER</Name>
+        <BOAttrName>SENDER</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SENDER</ID>
+        <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="SENDER" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SEND_NUM</Name>
+        <BOAttrName>SEND_NUM</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SEND_NUM</ID>
+        <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="9" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="SEND_NUM" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CONSUME_OPERATOR</Name>
+        <BOAttrName>CONSUME_OPERATOR</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CONSUME_OPERATOR</ID>
+        <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="CONSUME_OPERATOR" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SHOP_CODE</Name>
+        <BOAttrName>SHOP_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SHOP_CODE</ID>
+        <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="SHOP_CODE" />
+      </Field>
+       <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CONSUME_OPTIME</Name>
+        <BOAttrName>CONSUME_OPTIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CONSUME_OPTIME</ID>
+        <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="14" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="CONSUME_OPTIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL</Name>
+        <BOAttrName>BAK_COL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL</ID>
+        <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="512" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="BAK_COL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK_COL2</Name>
+        <BOAttrName>BAK_COL2</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK_COL2</ID>
+        <Title/>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="512" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.sendverifycode.bo.ConsumerCode" Attr="BAK_COL2" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

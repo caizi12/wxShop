@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QACAPTCHA" mainattr="ID">
+        <mapingenty type="table">QA_CAPTCHA</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="QUESTION" maxlength="50" datatype="String" type="COL" remark="验证码问题">
+                <mapingcol datatype="VARCHAR2">QUESTION</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ANSWER" maxlength="10" datatype="String" type="COL" remark="答案">
+                <mapingcol datatype="VARCHAR2">ANSWER</mapingcol>
+            </attr>
+            <attr floatlength="0" name="VALID_FLAG" maxlength="2" datatype="String" type="COL" remark="是否生效">
+                <mapingcol datatype="VARCHAR2">VALID_FLAG</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

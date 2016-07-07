@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="WareConvertRule" mainattr="RULE_ID">
+        <mapingenty type="table">WARE_CONVERT_RULE</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="BIND_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">BIND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RULE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RULE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="VALID_FLAG" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">VALID_FLAG</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UPDATE_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">UPDATE_DATE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="AwardLevelMessage" mainattr="AWARD_MESSAGE_ID">
+        <mapingenty type="table">AWARD_LEVEL_MESSAGE</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="AWARD_MESSAGE_ID" maxlength="15" datatype="Long" type="PK" remark="主键ID">
+                <mapingcol datatype="NUMBER">AWARD_MESSAGE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="AWARD_ID" maxlength="15" datatype="Long" type="COL" remark="抽奖活动ID">
+                <mapingcol datatype="NUMBER">AWARD_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="AWARD_LEVEL_ID" maxlength="15" datatype="Long" type="COL" remark="活动档次ID">
+                <mapingcol datatype="NUMBER">AWARD_LEVEL_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL" remark="礼品CODE">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STATUS" maxlength="2" datatype="String" type="COL" remark="状态">
+                <mapingcol datatype="VARCHAR2">STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MESSAGE" maxlength="200" datatype="String" type="COL" remark="提示语">
+                <mapingcol datatype="VARCHAR2">MESSAGE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETSmsOccasion" BOName="ngves.asiainfo.core.smsformwork.bo.SmsOccasionInfo" MainField="OCCASION_ID" Title="ngves.asiainfo.core.smsformwork.bo.SmsOccasionInfo" ActBOName="ngves.asiainfo.core.smsformwork.bo.SmsOccasionInfo" Package="ngves.asiainfo.core.smsformwork.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>END_TIME</Name>
+        <BOAttrName>END_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>END_TIME</ID>
+        <Title>结束时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsOccasionInfo" Attr="END_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OCCASION_ID</Name>
+        <BOAttrName>OCCASION_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OCCASION_ID</ID>
+        <Title>时间标示</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsOccasionInfo" Attr="OCCASION_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OCCASION_NAME</Name>
+        <BOAttrName>OCCASION_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OCCASION_NAME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsOccasionInfo" Attr="OCCASION_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OCCASION_TYPE_ID</Name>
+        <BOAttrName>OCCASION_TYPE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OCCASION_TYPE_ID</ID>
+        <Title>时机类型标示</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.core.smsformwork.bo.SmsOccasionTypeInfo" hasNull="false" />
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsOccasionInfo" Attr="OCCASION_TYPE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPER</Name>
+        <BOAttrName>OPER</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPER</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsOccasionInfo" Attr="OPER" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPERATE_TIME</Name>
+        <BOAttrName>OPERATE_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPERATE_TIME</ID>
+        <Title>操作时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsOccasionInfo" Attr="OPERATE_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPERATOR_CODE</Name>
+        <BOAttrName>OPERATOR_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPERATOR_CODE</ID>
+        <Title>操作人</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsOccasionInfo" Attr="OPERATOR_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ORDER_STATE</Name>
+        <BOAttrName>ORDER_STATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ORDER_STATE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="3" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0">String</IDDataType>
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.core.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="131224" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsOccasionInfo" Attr="ORDER_STATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>START_TIME</Name>
+        <BOAttrName>START_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>START_TIME</ID>
+        <Title>开始生效时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsOccasionInfo" Attr="START_TIME" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

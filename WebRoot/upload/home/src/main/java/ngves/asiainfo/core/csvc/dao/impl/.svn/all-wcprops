@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/dao/impl
+END
+BusiAllegeRhandleAcceptDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/dao/impl/BusiAllegeRhandleAcceptDAOImpl.java
+END
+BusiInterMsgDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/dao/impl/BusiInterMsgDAOImpl.java
+END
+BusiAllegeCommentDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/dao/impl/BusiAllegeCommentDAOImpl.java
+END
+BusiAllegeHastenAcceptDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/dao/impl/BusiAllegeHastenAcceptDAOImpl.java
+END
+BusiAllegeAssignAcceptDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/dao/impl/BusiAllegeAssignAcceptDAOImpl.java
+END
+BusiAllegeHandlingAcceptDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/dao/impl/BusiAllegeHandlingAcceptDAOImpl.java
+END
+BusiAllegeReplySendDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/dao/impl/BusiAllegeReplySendDAOImpl.java
+END
+BusiCustomCommunionDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/dao/impl/BusiCustomCommunionDAOImpl.java
+END
+BusiAllegeRejectSendDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/dao/impl/BusiAllegeRejectSendDAOImpl.java
+END
+CrmAllegeInfoDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/dao/impl/CrmAllegeInfoDAOImpl.java
+END
+CsvcSendDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/csvc/dao/impl/CsvcSendDAOImpl.java
+END

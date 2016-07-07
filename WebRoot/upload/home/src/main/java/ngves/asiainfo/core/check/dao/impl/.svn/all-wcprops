@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/jf/app/!svn/ver/15657/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/dao/impl
+END
+PartnerCheckFileDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/14992/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/dao/impl/PartnerCheckFileDAOImpl.java
+END
+CheckWareOnOrOffLineDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jf/app/!svn/ver/14944/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/dao/impl/CheckWareOnOrOffLineDAOImpl.java
+END
+AllGiftInfoDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/15657/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/dao/impl/AllGiftInfoDAOImpl.java
+END
+ExamineFileDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/14987/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/dao/impl/ExamineFileDAOImpl.java
+END
+ExamineWareOffLineDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/15130/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/dao/impl/ExamineWareOffLineDAOImpl.java
+END

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETPartnerOnOffLineHis" BOName="ngves.asiainfo.core.common.bo.PartnerOnOffLineHis" MainField="HIS_ID" Title="ngves.asiainfo.core.common.bo.PartnerOnOffLineHis" ActBOName="ngves.asiainfo.core.common.bo.PartnerOnOffLineHis" Package="ngves.asiainfo.core.common.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>HIS_ID</Name>
+        <BOAttrName>HIS_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>HIS_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.PartnerOnOffLineHis" Attr="HIS_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ONOFF_LINE</Name>
+        <BOAttrName>ONOFF_LINE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ONOFF_LINE</ID>
+        <Title>1 上线 2 下线</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+	<ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="41" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="Long" LSPType="Const" />
+        </ListDataSource>
+        <ActBO Name="ngves.asiainfo.core.common.bo.PartnerOnOffLineHis" Attr="ONOFF_LINE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPER_DATE</Name>
+        <BOAttrName>OPER_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPER_DATE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.PartnerOnOffLineHis" Attr="OPER_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARTNER_CODE</Name>
+        <BOAttrName>PARTNER_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARTNER_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="40" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.PartnerOnOffLineHis" Attr="PARTNER_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARTNER_ID</Name>
+        <BOAttrName>PARTNER_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARTNER_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.PartnerOnOffLineHis" Attr="PARTNER_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARTNER_NAME</Name>
+        <BOAttrName>PARTNER_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARTNER_NAME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="1000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.PartnerOnOffLineHis" Attr="PARTNER_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARTNER_TYPE_ID</Name>
+        <BOAttrName>PARTNER_TYPE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARTNER_TYPE_ID</ID>
+        <Title>para_type_id=6</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+	<ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.partner.bo.PartnerType" hasNull="false" /> 
+        <ActBO Name="ngves.asiainfo.core.common.bo.PartnerOnOffLineHis" Attr="PARTNER_TYPE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SETTLE_CODE</Name>
+        <BOAttrName>SETTLE_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SETTLE_CODE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="10" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.common.bo.PartnerOnOffLineHis" Attr="SETTLE_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>STAFF_ID</Name>
+        <BOAttrName>STAFF_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>STAFF_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="12" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+	<ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.StaffList" hasNull="false" />
+        <ActBO Name="ngves.asiainfo.core.common.bo.PartnerOnOffLineHis" Attr="STAFF_ID" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

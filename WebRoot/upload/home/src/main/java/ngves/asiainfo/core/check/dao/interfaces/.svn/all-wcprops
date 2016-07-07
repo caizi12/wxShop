@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/jf/app/!svn/ver/15528/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/dao/interfaces
+END
+IExamineFileDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/15249/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/dao/interfaces/IExamineFileDAO.java
+END
+IExamineWareOffLineDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jf/app/!svn/ver/15130/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/dao/interfaces/IExamineWareOffLineDAO.java
+END
+IPartnerCheckFileDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/14992/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/dao/interfaces/IPartnerCheckFileDAO.java
+END
+ICheckWareOnOrOffLineDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jf/app/!svn/ver/14944/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/dao/interfaces/ICheckWareOnOrOffLineDAO.java
+END
+IAllGiftInfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/15528/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/dao/interfaces/IAllGiftInfoDAO.java
+END

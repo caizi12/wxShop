@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/jf/app/!svn/ver/16407/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/exception
+END
+MgtTuanInterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/16407/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/exception/MgtTuanInterException.java
+END
+MgtException.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/15743/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/exception/MgtException.java
+END
+MgtTuanException.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/15699/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/tuan/exception/MgtTuanException.java
+END

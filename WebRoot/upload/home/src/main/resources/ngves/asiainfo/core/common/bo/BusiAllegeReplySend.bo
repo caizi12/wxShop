@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="BusiAllegeReplySend" mainattr="BUSI_ID">
+        <mapingenty type="table">BUSI_ALLEGE_REPLY_SEND</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="BUSI_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">BUSI_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CREATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ATTACHNAMES" maxlength="3000" datatype="String" type="COL" remark="以;分割多个文件">
+                <mapingcol datatype="VARCHAR2">ATTACHNAMES</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RECORDFILES" maxlength="3000" datatype="String" type="COL" remark="以;号分割多个文件名称">
+                <mapingcol datatype="VARCHAR2">RECORDFILES</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INDICTSEQ" maxlength="23" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">INDICTSEQ</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SATISFACTION" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SATISFACTION</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INDICTRSLT" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">INDICTRSLT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SUBSLEVEL" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SUBSLEVEL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SUBSBRAND" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SUBSBRAND</mapingcol>
+            </attr>
+            <attr floatlength="0" name="HANDLINGDEPT" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">HANDLINGDEPT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="HANDLINGSTAFF" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">HANDLINGSTAFF</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STAFFCONTACTPHONE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">STAFFCONTACTPHONE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="REPLYTIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">REPLYTIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DUTYREASON" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DUTYREASON</mapingcol>
+            </attr>
+            <attr floatlength="0" name="APP_VERSION" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">APP_VERSION</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DUTYCAUSEGRADE" maxlength="10" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DUTYCAUSEGRADE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

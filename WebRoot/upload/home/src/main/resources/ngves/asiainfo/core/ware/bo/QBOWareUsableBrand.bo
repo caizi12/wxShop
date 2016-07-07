@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOWareUsableBrand" mainattr="WARE_BRAND_NAME">
+        <mapingenty type="query">select b.ware_brand_name, b.ware_brand_id, a.valid_date
+  from partner_ware_brand_info a, ware_brand_info b, partner_info c
+ where a.ware_brand_id = b.ware_brand_id
+   and c.partner_id = a.partner_id
+   and a.valid_date &gt; sysdate
+   and brand_state = '1'</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_BRAND_NAME" maxlength="40" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_BRAND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_BRAND_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_BRAND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="VALID_DATE" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">VALID_DATE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

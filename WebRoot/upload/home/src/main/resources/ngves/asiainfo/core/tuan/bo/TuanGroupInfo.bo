@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="TuanGroupInfo" mainattr="TUAN_GROUP_ID">
+        <mapingenty type="table">TUAN_GROUP_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="TUAN_GROUP_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">TUAN_GROUP_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="GROUP_CODE" maxlength="2" datatype="String" type="COL" remark="00-今日
+01-下期
+02-回顾">
+                <mapingcol datatype="VARCHAR2">GROUP_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="GROUP_NAME" maxlength="200" datatype="String" type="COL" remark="分组名称">
+                <mapingcol datatype="VARCHAR2">GROUP_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACTIVITY_COUNT" maxlength="8" datatype="Long" type="COL" remark="团购活动数">
+                <mapingcol datatype="NUMBER">ACTIVITY_COUNT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_INDEX_DISPLAY" maxlength="1" datatype="String" type="COL" remark="是否首页显示：1-Y ，0-N">
+                <mapingcol datatype="CHAR">IS_INDEX_DISPLAY</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+	    <attr floatlength="0" name="GROUP_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">GROUP_TYPE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

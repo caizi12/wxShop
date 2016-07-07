@@ -1,0 +1,80 @@
+10
+
+dir
+42357
+http://10.12.1.215:8888/jf/app/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/smsformwork
+http://10.12.1.215:8888/jf/app
+
+
+
+2014-12-30T07:10:12.917132Z
+36717
+wengmin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+abdf0944-044d-4b92-9e3d-1725dda64f20
+
+bo
+dir
+
+model
+dir
+
+service
+dir
+
+dao
+dir
+
+SmsFormworkConstant.java
+file
+
+
+
+
+2015-06-17T03:59:11.381327Z
+fa0caee097364b3b23db90b09a154871
+2013-12-26T02:11:49.502479Z
+32126
+fansr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3225
+
+ivalues
+dir
+
+util
+dir
+

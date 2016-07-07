@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="UserAgentAdapter" mainattr="UA_CODE">
+        <mapingenty type="table">USER_AGENT_ADAPTER</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="UA_CODE" maxlength="100" datatype="String" type="PK" remark="UA编码，包含在请求头里的User-Agent中">
+                <mapingcol datatype="VARCHAR2">UA_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BRAND_NAME" maxlength="30" datatype="String" type="COL" remark="品牌">
+                <mapingcol datatype="VARCHAR2">BRAND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MODEL_NAME" maxlength="30" datatype="String" type="COL" remark="手机型号">
+                <mapingcol datatype="VARCHAR2">MODEL_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FORWARD_URL" maxlength="100" datatype="String" type="COL" remark="跳转地址">
+                <mapingcol datatype="VARCHAR2">FORWARD_URL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RESOLUTION_WIDTH" maxlength="20" datatype="Long" type="COL" remark="分辨率宽">
+                <mapingcol datatype="NUMBER">RESOLUTION_WIDTH</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RESOLUTION_HEIGHT" maxlength="20" datatype="Long" type="COL" remark="分辨率高">
+                <mapingcol datatype="NUMBER">RESOLUTION_HEIGHT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SCREEN_WIDTH" maxlength="20" datatype="Long" type="COL" remark="屏宽">
+                <mapingcol datatype="NUMBER">SCREEN_WIDTH</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SCREEN_HEIGHT" maxlength="20" datatype="Long" type="COL" remark="屏高">
+                <mapingcol datatype="NUMBER">SCREEN_HEIGHT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MATCH_TYPE" maxlength="2" datatype="String" type="COL" remark="匹配规则:1包含2开始于3结束于">
+                <mapingcol datatype="VARCHAR2">MATCH_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ROWS_NUM" maxlength="20" datatype="Long" type="COL" remark="行数">
+                <mapingcol datatype="NUMBER">ROWS_NUM</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COLUMNS_NUM" maxlength="20" datatype="Long" type="COL" remark="列数">
+                <mapingcol datatype="NUMBER">COLUMNS_NUM</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WAP_SUPPORT" maxlength="2" datatype="String" type="COL" remark="支持WAP版本">
+                <mapingcol datatype="VARCHAR2">WAP_SUPPORT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PRIORITY" maxlength="20" datatype="Long" type="COL" remark="排序">
+                <mapingcol datatype="NUMBER">PRIORITY</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="插入时间">
+                <mapingcol datatype="TIMESTAMP(6)">CREATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="UPDATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="更新时间">
+                <mapingcol datatype="TIMESTAMP(6)">UPDATE_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WAP_VERSION" maxlength="2" datatype="String" type="COL" remark="WAP版本">
+                <mapingcol datatype="VARCHAR2">WAP_VERSION</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

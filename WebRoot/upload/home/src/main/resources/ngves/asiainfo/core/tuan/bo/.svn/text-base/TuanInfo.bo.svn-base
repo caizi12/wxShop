@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="TuanInfo" mainattr="TUAN_ID">
+        <mapingenty type="table">TUAN_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="TUAN_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">TUAN_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NAME" maxlength="600" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TITLE_DESC" maxlength="2600" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">TITLE_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STATUS" maxlength="2" datatype="String" type="COL" remark="">
+                <mapingcol datatype="VARCHAR2">STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_VIEW" maxlength="2" datatype="String" type="COL" remark="">
+                <mapingcol datatype="VARCHAR2">IS_VIEW</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_ALL_PROV" maxlength="2" datatype="String" type="COL" remark="">
+                <mapingcol datatype="VARCHAR2">IS_ALL_PROV</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CREATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PUBLISH_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">PUBLISH_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="START_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">START_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="END_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">END_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ONE_MAX_COUNT" maxlength="8" datatype="Long" type="COL" remark="">
+                <mapingcol datatype="NUMBER">ONE_MAX_COUNT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MAX_COUNT" maxlength="8" datatype="Long" type="COL" remark="">
+                <mapingcol datatype="NUMBER">MAX_COUNT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MIN_COUNT" maxlength="6" datatype="Long" type="COL" remark="">
+                <mapingcol datatype="NUMBER">MIN_COUNT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_ORDER_MULTI" maxlength="2" datatype="String" type="COL" remark="">
+                <mapingcol datatype="VARCHAR2">IS_ORDER_MULTI</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MAIN_PIC" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">MAIN_PIC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="URL" maxlength="300" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">URL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RECORD_STAFF" maxlength="40" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RECORD_STAFF</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PUBLISH_STAFF" maxlength="40" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PUBLISH_STAFF</mapingcol>
+            </attr>
+            <attr floatlength="0" name="APP_VERSION" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">APP_VERSION</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TUAN_SORT" maxlength="8" datatype="Long" type="COL" remark="">
+                <mapingcol datatype="NUMBER">TUAN_SORT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TOP_FLAG" maxlength="2" datatype="Long" type="COL" remark="">
+                <mapingcol datatype="NUMBER">TOP_FLAG</mapingcol>
+            </attr>
+             <attr floatlength="0" name="PAY_TYPE" maxlength="8" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PAY_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PAY_TIME" maxlength="5" datatype="Long" type="COL" remark="">
+                <mapingcol datatype="NUMBER">PAY_TIME</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="NOtPayOrder" mainattr="ORDER_SEQ">
+        <mapingenty type="query">   SELECT 
+   '' OPERA,
+   '' ORDER_SEQ,
+   '' PACKAGE_NUM,
+   '' MOB_NUM,
+   '' BUSI_MOB_NUM,
+   '' USER_LOCAL_PROVINCE,
+   '' PAY_POINT,
+   '' PAY_CASH,
+   '' PAY_TYPE,
+   '' PAY_STATUS,
+   '' ORD_OPR_TIME,
+   '' USER_BRAND,
+   '' ORG_ID,
+   '' WARE,
+   '' WARE_TYPE
+   FROM dual</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="OPERA" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">OPERA</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORDER_SEQ" maxlength="0" datatype="String" type="PK">
+                <mapingcol datatype="CHAR">ORDER_SEQ</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PACKAGE_NUM" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">PACKAGE_NUM</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MOB_NUM" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">MOB_NUM</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_MOB_NUM" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">BUSI_MOB_NUM</mapingcol>
+            </attr>
+            <attr floatlength="0" name="USER_LOCAL_PROVINCE" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">USER_LOCAL_PROVINCE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PAY_POINT" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">PAY_POINT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PAY_CASH" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">PAY_CASH</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PAY_TYPE" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">PAY_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PAY_STATUS" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">PAY_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORD_OPR_TIME" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">ORD_OPR_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="USER_BRAND" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">USER_BRAND</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORG_ID" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">ORG_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">WARE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_TYPE" maxlength="0" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">WARE_TYPE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

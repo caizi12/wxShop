@@ -1,0 +1,22 @@
+html,body{
+    margin:0;
+    padding:0;
+    border:0;
+    width:100%;
+    overflow-x: hidden;
+    background:url('../img/main_bg.gif') repeat-x top;
+    font-size;12px;
+}    
+
+.page_title{
+	font-weight:900;
+	font-size:13px;
+    width:100%;
+    width:101.2% !important;
+    border-bottom:1px solid #c1d1d5;
+    color:#717475;
+    height:28px;
+    line-height:28px;
+    padding-left:10px;
+    margin-bottom:4px;
+}

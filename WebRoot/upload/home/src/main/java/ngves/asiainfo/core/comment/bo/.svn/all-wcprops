@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/comment/bo
+END
+CommentInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/comment/bo/CommentInfoBean.java
+END
+CommentInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/20375/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/comment/bo/CommentInfoEngine.java
+END
+FilterWordsInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/comment/bo/FilterWordsInfoBean.java
+END
+FilterWordsInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/comment/bo/FilterWordsInfoEngine.java
+END

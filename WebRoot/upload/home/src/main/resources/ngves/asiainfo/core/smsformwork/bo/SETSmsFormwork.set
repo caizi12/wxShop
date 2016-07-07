@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETSmsFormwork" BOName="ngves.asiainfo.core.smsformwork.bo.SmsFormwork" MainField="FORMWORK_ID" Title="ngves.asiainfo.core.smsformwork.bo.SmsFormwork" ActBOName="ngves.asiainfo.core.smsformwork.bo.SmsFormwork" Package="ngves.asiainfo.core.smsformwork.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FORMWORK_ID</Name>
+        <BOAttrName>FORMWORK_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FORMWORK_ID</ID>
+        <Title>模板标识</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormwork" Attr="FORMWORK_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FORMWORK_NAME</Name>
+        <BOAttrName>FORMWORK_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FORMWORK_NAME</ID>
+        <Title>模板名称</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormwork" Attr="FORMWORK_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FORMWORK_STATE</Name>
+        <BOAttrName>FORMWORK_STATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FORMWORK_STATE</ID>
+        <Title>模板状态</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0">String</IDDataType>
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.core.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="2013120416" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+        <DefaultValue />
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormwork" Attr="FORMWORK_STATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>FORMWORK_TYPE</Name>
+        <BOAttrName>FORMWORK_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>FORMWORK_TYPE</ID>
+        <Title>模板类型</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormwork" Attr="FORMWORK_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_STOPPED</Name>
+        <BOAttrName>IS_STOPPED</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_STOPPED</ID>
+        <Title>是否停用</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormwork" Attr="IS_STOPPED" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPER</Name>
+        <BOAttrName>OPER</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPER</ID>
+        <Title>操作列</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormwork" Attr="OPER" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPERATE_TIME</Name>
+        <BOAttrName>OPERATE_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPERATE_TIME</ID>
+        <Title>操作时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormwork" Attr="OPERATE_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPERATOR_CODE</Name>
+        <BOAttrName>OPERATOR_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPERATOR_CODE</ID>
+        <Title>操作人</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormwork" Attr="OPERATOR_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SEND_PROVINCE</Name>
+        <BOAttrName>SEND_PROVINCE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SEND_PROVINCE</ID>
+        <Title>发送省份</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.smsformwork.bo.SmsFormwork" Attr="SEND_PROVINCE" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

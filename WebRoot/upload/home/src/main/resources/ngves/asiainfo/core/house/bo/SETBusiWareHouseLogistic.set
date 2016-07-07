@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETBusiWareHouseLogistic" BOName="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" MainField="BUSI_WAREHOUSE_LOGISTIC_RLT_ID" Title="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" ActBOName="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Package="ngves.asiainfo.core.house.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>LOGISTIC_RLT_BEG_TIME</Name>
+        <BOAttrName>LOGISTIC_RLT_BEG_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>LOGISTIC_RLT_BEG_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="LOGISTIC_RLT_BEG_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>LOGISTIC_RLT_END_TIME</Name>
+        <BOAttrName>LOGISTIC_RLT_END_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>LOGISTIC_RLT_END_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="LOGISTIC_RLT_END_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARTNER_ID</Name>
+        <BOAttrName>PARTNER_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARTNER_ID</ID>
+        <Title>合作商id</Title>
+        <Authority>U</Authority>
+        <EditType>DBListBox</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.PartnerList" hasNull="false">
+          <ListParameter LSPName="partnerType" LSPValue="2" LSPType="Const" />
+        </ListDataSource>
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="PARTNER_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PROVINCE_CODE</Name>
+        <BOAttrName>PROVINCE_CODE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PROVINCE_CODE</ID>
+        <Title>省份编码</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.ProvinceList" hasNull="false" />
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="PROVINCE_CODE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PROVINCE_RLT_BEG_TIME</Name>
+        <BOAttrName>PROVINCE_RLT_BEG_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PROVINCE_RLT_BEG_TIME</ID>
+        <Title>省份关系开始时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="PROVINCE_RLT_BEG_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PROVINCE_RLT_END_TIME</Name>
+        <BOAttrName>PROVINCE_RLT_END_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PROVINCE_RLT_END_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="20" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="PROVINCE_RLT_END_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>RLT_STATE</Name>
+        <BOAttrName>RLT_STATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>RLT_STATE</ID>
+        <Title>关系状态</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="1006" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="RLT_STATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WAREHOUSE_ID</Name>
+        <BOAttrName>WAREHOUSE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WAREHOUSE_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="WAREHOUSE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WAREHOUSE_LOGISTIC_RLT_ID</Name>
+        <BOAttrName>WAREHOUSE_LOGISTIC_RLT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WAREHOUSE_LOGISTIC_RLT_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="WAREHOUSE_LOGISTIC_RLT_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ALL_PERCENT</Name>
+        <BOAttrName>ALL_PERCENT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ALL_PERCENT</ID>
+        <Title></Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="3" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="ALL_PERCENT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>NOTE</Name>
+        <BOAttrName>NOTE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>NOTE</ID>
+        <Title>备注</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="NOTE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PARTNER_STATE</Name>
+        <BOAttrName>PARTNER_STATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PARTNER_STATE</ID>
+        <Title>合作商状态</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="18" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="PARTNER_STATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BUSI_ID</Name>
+        <BOAttrName>BUSI_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BUSI_ID</ID>
+        <Title>流水ID</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="BUSI_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BUSI_STATUS</Name>
+        <BOAttrName>BUSI_STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BUSI_STATUS</ID>
+        <Title>流水状态</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="900000000000007" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="BUSI_STATUS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPERATOR</Name>
+        <BOAttrName>OPERATOR</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPERATOR</ID>
+        <Title>操作人</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="OPERATOR" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SYN_TIME</Name>
+        <BOAttrName>SYN_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SYN_TIME</ID>
+        <Title>时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="100" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.house.bo.BusiWareHouseLogisticRlt" Attr="SYN_TIME" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

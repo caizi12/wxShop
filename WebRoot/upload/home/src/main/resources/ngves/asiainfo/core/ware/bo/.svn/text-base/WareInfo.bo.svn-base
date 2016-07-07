@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="WareInfo" mainattr="WARE_ID">
+        <mapingenty type="table">WARE_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_BRAND_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_BRAND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NOTE" maxlength="1024" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NOTE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CREATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_STATUS" maxlength="2" datatype="String" type="COL" remark="0-未上线
+1-上线
+2-人工下线
+3-自动下线(缺货)
+4-预上线
+5-预下线
+6-预下线转自动下线">
+                <mapingcol datatype="VARCHAR2">WARE_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STATUS_CAUSE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">STATUS_CAUSE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PRE_OC_DATE" maxlength="20" datatype="DateTime" type="COL" remark="目前不用">
+                <mapingcol datatype="DATE">PRE_OC_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPEN_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">OPEN_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SHOP_PRICE" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SHOP_PRICE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MARKET_PRICE" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">MARKET_PRICE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COUNT_VALUE" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">COUNT_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DELIVER_TYPE" maxlength="2" datatype="String" type="COL" remark="不同的礼品配送方式是不同的
+00:实物配送
+01:虚拟无物流
+02:礼品商自配送
+03:无配送
+最终有哪些配送方式不同配送方式的流程是啥样的 待定
+">
+                <mapingcol datatype="VARCHAR2">DELIVER_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_STORAGE_TYPE" maxlength="2" datatype="String" type="COL" remark="00:存放于大区仓库
+01:存放于中心仓库
+02:存放于虚拟仓库
+03:无库存
+">
+                <mapingcol datatype="VARCHAR2">WARE_STORAGE_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LAST_UPDATE_STAFF_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">LAST_UPDATE_STAFF_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COUNT_TYPE" maxlength="2" datatype="String" type="COL" remark="0:应收结算
+1:消费后结算
+
+不用">
+                <mapingcol datatype="VARCHAR2">COUNT_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LAST_UPDATE_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">LAST_UPDATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROVINCE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROVINCE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="AMENDS_FEE" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">AMENDS_FEE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WAREHOUSE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WAREHOUSE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="FUNC_DESC" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">FUNC_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">PARTNER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CLOSE_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CLOSE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_WARE_BRAND_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">PARTNER_WARE_BRAND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="KEYWORDS" maxlength="800" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">KEYWORDS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALIAS" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALIAS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RICH_FUNC_DESC" maxlength="5" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RICH_FUNC_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="APP_VERSION" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">APP_VERSION</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_TYPE" maxlength="2" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_TYPE</mapingcol>
+            </attr>
+            
+            <attr floatlength="0" name="WARE_INTEGRAL_VALUE" maxlength="8" datatype="Long" type="COL" remark="礼品统一积分值">
+                <mapingcol datatype="NUMBER">WARE_INTEGRAL_VALUE</mapingcol>
+   			</attr>
+   			
+   			<attr floatlength="0" name="PACKING_LIST" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PACKING_LIST</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SAFE_GUARD" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SAFE_GUARD</mapingcol>
+            </attr>
+             <attr floatlength="0" name="TAXTYPE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">TAXTYPE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TAXRATE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">TAXRATE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MAPPING_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">MAPPING_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PAY_INTEGRAL" maxlength="8" datatype="Long" type="COL" >
+                <mapingcol datatype="NUMBER">PAY_INTEGRAL</mapingcol>
+   			</attr>
+   			<attr floatlength="0" name="PAY_CASH" maxlength="8" datatype="Long" type="COL" >
+                <mapingcol datatype="NUMBER">PAY_CASH</mapingcol>
+   			</attr>
+   			<attr floatlength="0" name="PAY_TYPE" maxlength="8" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PAY_TYPE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

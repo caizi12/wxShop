@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="RecommCategoryInfo" mainattr="CATEGORY_ID">
+        <mapingenty type="table">RECOMM_CATEGORY_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="CATEGORY_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">CATEGORY_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CATEGORY_NAME" maxlength="400" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CATEGORY_NAME</mapingcol>
+            </attr>
+             <attr floatlength="0" name="FLOOR_ID" maxlength="15" datatype="Long" type="COL" remark="楼层标识">
+                <mapingcol datatype="NUMBER">FLOOR_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CATEGORY_STATUS" maxlength="1" datatype="String" type="COL" remark="1是有效，0是无效，默认是1">
+                <mapingcol datatype="VARCHAR2">CATEGORY_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CATEGORY_TYPE" maxlength="2" datatype="Long" type="COL" remark="默认是0">
+                <mapingcol datatype="NUMBER">CATEGORY_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CATEGORY_LEVEL" maxlength="5" datatype="Long" type="COL" remark="首页推荐类型是0,其他推荐类型对应类别级别,大类级别是2，大类推荐对应的推荐级别就是2，默认是0">
+                <mapingcol datatype="NUMBER">CATEGORY_LEVEL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SORT_ID" maxlength="5" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SORT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CATEGORY_MORE" maxlength="600" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CATEGORY_MORE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_SORT_TYPE" maxlength="2" datatype="String" type="COL" remark="01:按照礼品上线时间降序排列;02:按照绑定礼品的排序号升序排列;">
+                <mapingcol datatype="VARCHAR2">WARE_SORT_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_SPELL" maxlength="1" datatype="String" type="COL" remark="1:按照轮换显示;0:不按照轮换显示">
+                <mapingcol datatype="VARCHAR2">IS_SPELL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SPELL_START_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">SPELL_START_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SPELL_INTERNAL_LENGTH" maxlength="5" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SPELL_INTERNAL_LENGTH</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

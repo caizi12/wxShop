@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOCheckWareOnOrOffLine" mainattr="WARE_CODE">
+        <mapingenty type="query">select wi.ware_code ware_code,
+       wi.ware_name ware_name,
+       pi.partner_code partner_code,
+       pi.partner_name partner_name,
+       wi.count_value / 100 count_value,
+       wi.market_price / 100 market_price,
+       wf.f_name f_name,
+       wki.kind_name wki_kind_name,
+       kp.big_kind_name kp_big_kind_name,
+       wk.kind_name wk_kind_name,
+       exd.wamount wamount,
+       exd.wamount * wi.count_value / 100  wamount_count_value,
+       decode(a.allege_count,null,0,a.allege_count) allege_count,
+       decode(a.allege_count,null,0,a.allege_count)/exd.wamount allege_count_rate,
+       wi.ware_status ware_status,
+       wi.status_cause status_cause
+  from ngves3.ware_info           wi,
+       ngves3.partner_info        pi,
+       ngves3.ware_kind_parent    kp,
+       ngves3.ware_kind           wk,
+       ngves3.ware_kind_rlt       wkr,
+       ngves3.ware_first_kind     wf,
+       ngves3.ware_kind_info      wki,
+       ngves3.ware_first_kind_rlt wfkr,       
+       (select wed.ware_id ware_id, sum(wed.exchange_count) wamount
+          from ngves3.ware_exchange_day wed
+         where trunc(wed.exchange_day) &gt;=
+               to_date( :startTime , 'yyyy-MM-dd')
+           and trunc(wed.exchange_day) &lt;=
+               to_date( :endTime , 'yyyy-MM-dd')
+         group by wed.ware_id) exd,
+       (select count(ai.allege_id) allege_count, ai.ware_id
+          from ngves3.allege_info ai
+         where trunc(ai.accept_date) &gt;= to_date( :startTime , 'yyyy-MM-dd')
+           and trunc(ai.accept_date) &lt;= to_date( :endTime , 'yyyy-MM-dd')
+           and ai.ware_id is not null
+           and ai.allege_resp_type='02'
+           and ai.allege_parent_kind = '999999999999999'
+         group by ai.ware_id) a
+ where wi.partner_id = pi.partner_id
+   and kp.ware_first_kind_id = wf.ware_first_kind_id
+   and wi.ware_id = wkr.ware_id
+   and wkr.ware_kind_id = wk.ware_kind_id
+   and wkr.is_default_kind = '1'
+   and wk.ware_kind_parent_id = kp.ware_kind_parent_id
+   and kp.ware_kind_parent_id = wfkr.ware_kind_parent_id
+   and wfkr.ware_first_kind_id = wki.kind_id
+   and wi.ware_id not in (select w.ware_id
+                            from ngves3.ware_info w
+                           where w.ware_status = '2'
+                             and w.status_cause = '2')
+   and wi.ware_id = a.ware_id(+)
+   and wi.ware_id = exd.ware_id
+   and wf.f_code = '00'
+ order by wi.count_value
+</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_CODE" maxlength="40" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COUNT_VALUE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">COUNT_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MARKET_PRICE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">MARKET_PRICE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="F_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">F_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WKI_KIND_NAME" maxlength="400" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WKI_KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="KP_BIG_KIND_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">KP_BIG_KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WK_KIND_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WK_KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WAMOUNT" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WAMOUNT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WAMOUNT_COUNT_VALUE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WAMOUNT_COUNT_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_COUNT" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ALLEGE_COUNT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_COUNT_RATE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ALLEGE_COUNT_RATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_STATUS" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STATUS_CAUSE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">STATUS_CAUSE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

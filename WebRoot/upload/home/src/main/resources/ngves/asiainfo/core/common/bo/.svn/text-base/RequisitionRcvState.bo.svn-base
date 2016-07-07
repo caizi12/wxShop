@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="RequisitionRcvState" mainattr="REQUISITION_RCV_ID">
+        <mapingenty type="table">REQUISITION_RCV_STATE</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="REQUISITION_RCV_ID" maxlength="12" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">REQUISITION_RCV_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="REQUISITION_ID" maxlength="10" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">REQUISITION_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RCV_STAFF_ID" maxlength="12" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RCV_STAFF_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="REQUISITION_STATUS" maxlength="2" datatype="String" type="COL" remark="0未阅读,1已阅读,2已回复">
+                <mapingcol datatype="VARCHAR2">REQUISITION_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BROWSE_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">BROWSE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ANSWER_CONTENT" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ANSWER_CONTENT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ANSWER_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">ANSWER_DATE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

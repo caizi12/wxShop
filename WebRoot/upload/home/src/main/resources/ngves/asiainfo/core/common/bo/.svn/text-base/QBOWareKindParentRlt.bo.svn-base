@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOWareKindParentRlt" mainattr="WARE_KIND_PARENT_ID">
+        <mapingenty type="query">select wkp.big_kind_code,
+       wkp.big_kind_name,
+       wkp.big_kind_state,
+       wkp.sort_id,
+       wfkr.ware_first_kind_rlt_id,
+       wfkr.ware_first_kind_id,
+       wfkr.ware_kind_parent_id,
+       wfkr.is_index_nav_view,
+       wfkr.sort_id show_short_id,
+       wfkr.show_channel_mid
+  from ware_kind_parent wkp, ware_first_kind_rlt wfkr
+ where wkp.ware_kind_parent_id = wfkr.ware_kind_parent_id</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_KIND_PARENT_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_KIND_PARENT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BIG_KIND_CODE" maxlength="6" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BIG_KIND_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BIG_KIND_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BIG_KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BIG_KIND_STATE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BIG_KIND_STATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_FIRST_KIND_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_FIRST_KIND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SORT_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SORT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_INDEX_NAV_VIEW" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">IS_INDEX_NAV_VIEW</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SHOW_SHORT_ID" maxlength="5" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">SHOW_SHORT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SHOW_CHANNEL_MID" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SHOW_CHANNEL_MID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_FIRST_KIND_RLT_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_FIRST_KIND_RLT_ID</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

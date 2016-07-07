@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETQBORechargeFile" BOName="ngves.asiainfo.core.rechargepoints.bo.QBORechargeFile" MainField="RECHARGE_TASK_ID" Title="ngves.asiainfo.core.rechargepoints.bo.QBORechargeFile" ActBOName="ngves.asiainfo.core.rechargepoints.bo.QBORechargeFile" Package="ngves.asiainfo.core.rechargepoints.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>IS_SEND_SMS</Name>
+        <BOAttrName>IS_SEND_SMS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>IS_SEND_SMS</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rechargepoints.bo.QBORechargeFile" Attr="IS_SEND_SMS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>RECHARGE_FILE_NAME</Name>
+        <BOAttrName>RECHARGE_FILE_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>RECHARGE_FILE_NAME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rechargepoints.bo.QBORechargeFile" Attr="RECHARGE_FILE_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>RECHARGE_FILE_NICKNAME</Name>
+        <BOAttrName>RECHARGE_FILE_NICKNAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>RECHARGE_FILE_NICKNAME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rechargepoints.bo.QBORechargeFile" Attr="RECHARGE_FILE_NICKNAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>RECHARGE_TASK_ID</Name>
+        <BOAttrName>RECHARGE_TASK_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>RECHARGE_TASK_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rechargepoints.bo.QBORechargeFile" Attr="RECHARGE_TASK_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>SMS_MESSAGE</Name>
+        <BOAttrName>SMS_MESSAGE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>SMS_MESSAGE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="2000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rechargepoints.bo.QBORechargeFile" Attr="SMS_MESSAGE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>TASK_NAME</Name>
+        <BOAttrName>TASK_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>TASK_NAME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.rechargepoints.bo.QBORechargeFile" Attr="TASK_NAME" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

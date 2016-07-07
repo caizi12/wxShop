@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service-config default-ejb-context="boss20" default-web-context="boss20">
+<!--
+      <p name="java.naming.factory.initial" value="weblogic.jndi.WLInitialContextFactory"/>
+      <p name="java.naming.provider.url" value="t3://localhost:7001"/>
+
+      <p name="java.naming.factory.initial" value="com.inprise.j2ee.jndi.CtxFactory"/>
+      <p name="java.naming.provider.url" value="corbaloc::10.9.220.175:29000,:10.9.220.176:29000/NameService"/>
+
+-->
+
+<ejb-context id="boss20" name="BOSS20 EJB服务器">
+  <item use="true">
+      <p name="java.naming.factory.initial" value="com.inprise.j2ee.jndi.CtxFactory"/>
+      <p name="java.naming.provider.url" value="corbaloc::localhost:29000/NameService"/>
+  </item>
+</ejb-context>
+<web-context id ="boss20" name="BOSS20 WEB服务器">
+  <item server="http://localhost:8085/" use="true"/>
+</web-context>
+
+<web-context id ="uwfe" name="UWFE工作流WEB服务器">
+  <item server="http://10.9.220.175:9080" use="true" />
+  <item server="http://10.9.220.176:9080" use="true"/>
+</web-context>
+
+<module file="service/appframe-pojo.service" use="true"/>
+<module file="service/attach.service" use="true"/>
+<module file="service/secframe-pojo.service" use="true"/>
+</service-config>
+

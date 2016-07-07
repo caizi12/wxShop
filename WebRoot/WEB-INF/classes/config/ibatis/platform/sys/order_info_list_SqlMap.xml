@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap namespace="order_info_list" >
+  <resultMap id="orderInfoListResult" class="cn.frame.platform.entitys.OrderInfoList" >
+    <result column="ORDER_ID" property="orderId" jdbcType="VARCHAR" />
+    <result column="ORDER_LIST_ID" property="orderListId" jdbcType="VARCHAR" />
+    <result column="MEMBER_ID" property="memberId" jdbcType="VARCHAR" />
+    <result column="PRODUCT_ID" property="productId" jdbcType="VARCHAR" />
+    <result column="PRODUCT_NUM" property="productNum" jdbcType="INTEGER" />
+    <result column="PRODUCT_PRICE" property="productPrice" jdbcType="DOUBLE" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="DATETIME" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="DATETIME" />
+    <result column="REMARK" property="remark" jdbcType="VARCHAR" />
+    
+    <result column="PRODUCT_NAME" property="productName" jdbcType="VARCHAR" />
+    <result column="PRODUCT_IMG" property="productImg" jdbcType="VARCHAR" />
+ 
+  </resultMap>
+  <select id="getOrderInfoList" resultMap="orderInfoListResult" parameterClass="cn.frame.platform.entitys.OrderInfoList" >
+    select ORDER_ID, ORDER_LIST_ID, MEMBER_ID, PRODUCT_ID, PRODUCT_NUM, PRODUCT_PRICE, CREATE_TIME,
+      UPDATE_TIME, REMARK
+    from order_info_list
+    where 1=1
+   <isNotEmpty prepend="and" property="orderId">
+		  ORDER_ID=#orderId#
+	</isNotEmpty>
+    <isNotEmpty prepend="and" property="memberId">
+		  MEMBER_ID=#memberId#
+	</isNotEmpty>
+  </select>
+  
+  <select id="queryOrderInfoList" resultMap="orderInfoListResult" parameterClass="java.util.Map" >
+    select ORDER_ID, ORDER_LIST_ID, MEMBER_ID, PRODUCT_ID, PRODUCT_NUM, PRODUCT_PRICE, CREATE_TIME,
+      UPDATE_TIME, REMARK
+    from order_info_list
+     where 1=1 
+    <isNotEmpty prepend="and" property="orderId">
+		  ORDER_ID=#orderId#
+	</isNotEmpty>
+	<isNotEmpty prepend="and" property="memberId">
+		  MEMBER_ID=#memberId#
+	</isNotEmpty>
+  </select>
+  
+  <delete id="deleteOrderInfoList" parameterClass="cn.frame.platform.entitys.OrderInfoList" >
+    delete from order_info_list
+    where ORDER_ID = #orderId:VARCHAR#
+  </delete>
+ 
+  <insert id="insertOrderInfoList" parameterClass="cn.frame.platform.entitys.OrderInfoList" >
+    insert into order_info_list (ORDER_ID, ORDER_LIST_ID, MEMBER_ID, PRODUCT_ID, PRODUCT_NUM,
+      PRODUCT_PRICE, CREATE_TIME, UPDATE_TIME, REMARK)
+    values (#orderId:VARCHAR#, #orderListId:VARCHAR#, #memberId:VARCHAR#, #productId:VARCHAR#,
+      #productNum:INTEGER#, #productPrice:DOUBLE#, #createTime:TIMESTAMP#, #updateTime:TIMESTAMP#,
+      #remark:VARCHAR#)
+  </insert>
+  <update id="updateOrderInfoList" parameterClass="cn.frame.platform.entitys.OrderInfoList" >
+    update order_info_list
+    set ORDER_LIST_ID = #orderListId:VARCHAR#,
+      MEMBER_ID = #memberId:VARCHAR#,
+      PRODUCT_ID = #productId:VARCHAR#,
+      PRODUCT_NUM = #productNum:INTEGER#,
+      PRODUCT_PRICE = #productPrice:DOUBLE#,
+      CREATE_TIME = #createTime:TIMESTAMP#,
+      UPDATE_TIME = #updateTime:TIMESTAMP#,
+      REMARK = #remark:VARCHAR#
+    where ORDER_ID = #orderId:VARCHAR#
+  </update>
+   
+   
+    <select id="queryMemberOrderInfoList" resultMap="orderInfoListResult" parameterClass="java.util.Map" >
+    select oi.ORDER_ID, oi.ORDER_LIST_ID,oi.MEMBER_ID, oi.PRODUCT_ID, oi.PRODUCT_NUM, oi.PRODUCT_PRICE, oi.CREATE_TIME,oi.update_time,
+       oi.REMARK,pi.product_name,pi.product_img
+    from order_info_list oi,product_info pi
+   where oi.product_id=pi.product_id
+    <isNotEmpty prepend="and" property="orderId">
+		  oi.ORDER_ID=#orderId#
+	</isNotEmpty>
+	 <isNotEmpty prepend="and" property="memberId">
+		  oi.MEMBER_ID=#memberId#
+	</isNotEmpty>
+  </select>
+  
+</sqlMap>

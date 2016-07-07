@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="CrmAllegeInfo" mainattr="INDICTSEQ">
+        <mapingenty type="table">CRM_ALLEGE_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="INDICTSEQ" maxlength="23" datatype="String" type="PK">
+                <mapingcol datatype="VARCHAR2">INDICTSEQ</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CREATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INDICT_STATUS" maxlength="2" datatype="String" type="COL" remark="01  未派发  02  已派发   03 已回复  04  已归档">
+                <mapingcol datatype="VARCHAR2">INDICT_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ATTACHNAMES" maxlength="3000" datatype="String" type="COL" remark="以;分割多个文件">
+                <mapingcol datatype="VARCHAR2">ATTACHNAMES</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RECORDFILES" maxlength="3000" datatype="String" type="COL" remark="以;号分割多个文件名称">
+                <mapingcol datatype="VARCHAR2">RECORDFILES</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CONTACTID" maxlength="27" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CONTACTID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CONTACTCHANNEL" maxlength="10" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CONTACTCHANNEL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ORIGINTIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">ORIGINTIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CONTACTCONTENT" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CONTACTCONTENT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SRID" maxlength="26" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SRID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MSISDN" maxlength="11" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">MSISDN</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SUBSNAME" maxlength="64" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SUBSNAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SVCCITY" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SVCCITY</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SUBSLEVEL" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SUBSLEVEL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SUBSBRAND" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SUBSBRAND</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CALLERNO" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CALLERNO</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CALLEDNO" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">CALLEDNO</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SVCTYPEID" maxlength="128" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SVCTYPEID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="URGENTID" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">URGENTID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="HOMEPROV" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">HOMEPROV</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TPROV" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">TPROV</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACCEPTTIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">ACCEPTTIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DEADTIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">DEADTIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACCEPTSTAFF" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ACCEPTSTAFF</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TITLE" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">TITLE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SERVICECONTENT" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SERVICECONTENT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PRETREATMENT" maxlength="2000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PRETREATMENT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROCESSTYPE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROCESSTYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SERVICENAME" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SERVICENAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="APP_VERSION" maxlength="8" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">APP_VERSION</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL3" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL3</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

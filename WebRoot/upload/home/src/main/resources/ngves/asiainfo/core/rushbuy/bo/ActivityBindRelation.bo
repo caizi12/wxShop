@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="ActivityBindRelation" mainattr="ACTIVITY_RELATION_ID">
+        <mapingenty type="table">ACTIVITY_BIND_RELATION</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="ACTIVITY_RELATION_ID" maxlength="15" datatype="Long" type="PK" remark="活动礼品绑定关系唯一标识">
+                <mapingcol datatype="NUMBER">ACTIVITY_RELATION_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACTIVITY_ID" maxlength="15" datatype="Long" type="COL" remark="活动标识">
+                <mapingcol datatype="NUMBER">ACTIVITY_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_ID" maxlength="15" datatype="Long" type="COL" remark="礼品标识">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="GRANT_MAX_AMOUNT" maxlength="10" datatype="Long" type="COL" remark="允许兑换最大数量">
+                <mapingcol datatype="NUMBER">GRANT_MAX_AMOUNT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BIND_TIME" maxlength="20" datatype="DateTime" type="COL" remark="绑定时间">
+                <mapingcol datatype="DATE">BIND_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SORT" maxlength="15" datatype="Long" type="COL" remark="礼品顺序">
+                <mapingcol datatype="NUMBER">SORT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BASE_MAX_AMOUNT" maxlength="10" datatype="Long" type="COL" remark="最大数">
+                <mapingcol datatype="NUMBER">BASE_MAX_AMOUNT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ONE_MAX_AMOUNT" maxlength="8" datatype="Long" type="COL" remark="">
+                <mapingcol datatype="NUMBER">ONE_MAX_AMOUNT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_PAY_TYPE" maxlength="8" datatype="String" type="COL" remark="支付方式">
+                <mapingcol datatype="NUMBER">WARE_PAY_TYPE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

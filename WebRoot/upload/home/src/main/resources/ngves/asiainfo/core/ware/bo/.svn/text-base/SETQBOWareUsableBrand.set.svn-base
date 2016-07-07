@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETQBOWareUsableBrand" BOName="ngves.asiainfo.core.ware.bo.QBOWareUsableBrand" MainField="WARE_BRAND_NAME" Title="ngves.asiainfo.core.ware.bo.QBOWareUsableBrand" ActBOName="ngves.asiainfo.core.ware.bo.QBOWareUsableBrand" Package="ngves.asiainfo.core.ware.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>VALID_DATE</Name>
+        <BOAttrName>VALID_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>VALID_DATE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="7" Decimal="0">DateTime</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOWareUsableBrand" Attr="VALID_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_BRAND_ID</Name>
+        <BOAttrName>WARE_BRAND_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_BRAND_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="22" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOWareUsableBrand" Attr="WARE_BRAND_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_BRAND_NAME</Name>
+        <BOAttrName>WARE_BRAND_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_BRAND_NAME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="40" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.QBOWareUsableBrand" Attr="WARE_BRAND_NAME" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

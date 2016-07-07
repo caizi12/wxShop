@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="WareExchangeRuleRlt" mainattr="WARE_BIND_RULE_RLT_ID">
+        <mapingenty type="table">WARE_EXCHANGE_RULE_RLT</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_BIND_RULE_RLT_ID" maxlength="20" datatype="String" type="PK">
+                <mapingcol datatype="VARCHAR2">WARE_BIND_RULE_RLT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_ID" maxlength="20" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_LIMITRLUE_ID" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_LIMITRLUE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RELATION_ID" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RELATION_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EFFECT_STARTTIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">EFFECT_STARTTIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EFFECT_ENDTIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">EFFECT_ENDTIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_EFFECT" maxlength="1" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">IS_EFFECT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_BIND" maxlength="1" datatype="String" type="COL">
+                <mapingcol datatype="CHAR">IS_BIND</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

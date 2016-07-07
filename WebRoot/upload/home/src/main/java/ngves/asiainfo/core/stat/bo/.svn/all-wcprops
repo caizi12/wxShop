@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/jf/app/!svn/ver/38267/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/stat/bo
+END
+QBOAllegeDetailQRYBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/36905/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/stat/bo/QBOAllegeDetailQRYBean.java
+END
+QBOAllegeDetailQRYEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/27143/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/stat/bo/QBOAllegeDetailQRYEngine.java
+END
+QBOStatJfWareStarLevelBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/38267/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/stat/bo/QBOStatJfWareStarLevelBean.java
+END
+QBOStatJfWareStarLevelEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/38267/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/stat/bo/QBOStatJfWareStarLevelEngine.java
+END
+TradeMessageTypeInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/stat/bo/TradeMessageTypeInfoBean.java
+END
+TradeMessageTypeInfoEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/stat/bo/TradeMessageTypeInfoEngine.java
+END

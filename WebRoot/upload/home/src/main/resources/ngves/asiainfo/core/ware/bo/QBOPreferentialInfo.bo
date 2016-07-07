@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOPreferentialInfo" mainattr="IS_EXCHANGE_PERMISSION">
+        <mapingenty type="query">select wi.is_exchange_permission, 
+       wi.is_allow_donation,
+       wi.ware_id,
+       wi.ware_code,
+       pi.ware_gme_value,
+       prr.permission_id
+  from ware_info_portal wi, permission_info pi, permission_rule_rlt prr
+ where wi.ware_id= :WARE_ID
+   and wi.ware_id = prr.ware_id
+   and prr.permission_id = pi.permission_id
+   and wi.ware_status = '1'
+   and prr.bind_status = '1'
+   and sysdate between prr.action_start_time and prr.action_end_time
+ order by wi.ware_code</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="IS_EXCHANGE_PERMISSION" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">IS_EXCHANGE_PERMISSION</mapingcol>
+            </attr>
+            <attr floatlength="0" name="IS_ALLOW_DONATION" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">IS_ALLOW_DONATION</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_GME_VALUE" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_GME_VALUE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PERMISSION_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">PERMISSION_ID</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

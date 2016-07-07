@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/jf/app/!svn/ver/15528/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/service/impl
+END
+ExamineFileSrvImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/14995/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/service/impl/ExamineFileSrvImpl.java
+END
+ExamineWareOffLineSrvImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jf/app/!svn/ver/15134/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/service/impl/ExamineWareOffLineSrvImpl.java
+END
+PartnerCheckFileSrvImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jf/app/!svn/ver/14992/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/service/impl/PartnerCheckFileSrvImpl.java
+END
+CheckWareOnOrOffLineSrvImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jf/app/!svn/ver/14913/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/service/impl/CheckWareOnOrOffLineSrvImpl.java
+END
+AllGiftInfoSrvImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/15528/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/check/service/impl/AllGiftInfoSrvImpl.java
+END

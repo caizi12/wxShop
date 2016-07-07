@@ -1,0 +1,473 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/jf/app/!svn/ver/39202/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo
+END
+SmsLogInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SmsLogInfo.bo
+END
+SETBusiInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETBusiInfo.set
+END
+QACAPTCHA.bo
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/QACAPTCHA.bo
+END
+ExpOrderWareInOut.bo
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33934/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/ExpOrderWareInOut.bo
+END
+SendPriceInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SendPriceInfo.bo
+END
+SetBusiCustomCommunion.set
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SetBusiCustomCommunion.set
+END
+SETBusiAllegeRejectSend.set
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETBusiAllegeRejectSend.set
+END
+SETExpOrderWareInOut.set
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETExpOrderWareInOut.set
+END
+SETBusiAllegeRhandleAccept.set
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETBusiAllegeRhandleAccept.set
+END
+BusiInfoDetail.bo
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/BusiInfoDetail.bo
+END
+BusiAllegeAssignAccept.bo
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/34273/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/BusiAllegeAssignAccept.bo
+END
+QBOWareKindParentRlt.bo
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/QBOWareKindParentRlt.bo
+END
+SetBusiAllegeComment.set
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SetBusiAllegeComment.set
+END
+CrmAllegeInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/CrmAllegeInfo.bo
+END
+SETBusiAllegeHandlingAccept.set
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETBusiAllegeHandlingAccept.set
+END
+CityAreaCodeInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/37191/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/CityAreaCodeInfo.bo
+END
+SaleObjInterestInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SaleObjInterestInfo.bo
+END
+SETQBOWareKindParentRlt.set
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETQBOWareKindParentRlt.set
+END
+SaleSendInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SaleSendInfo.bo
+END
+BusiInterMsg.bo
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/BusiInterMsg.bo
+END
+SETNormalOrderExcel.set
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETNormalOrderExcel.set
+END
+NorExcelClause.bo
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/NorExcelClause.bo
+END
+QBORecommCategoryWareInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jf/app/!svn/ver/37896/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/QBORecommCategoryWareInfo.bo
+END
+WareKindInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/WareKindInfo.bo
+END
+BusiSettlePublishInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/BusiSettlePublishInfo.bo
+END
+UpdateNotifyInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/UpdateNotifyInfo.bo
+END
+RecommCategoryInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/39201/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/RecommCategoryInfo.bo
+END
+BusiAllegeHastenAccept.bo
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/BusiAllegeHastenAccept.bo
+END
+BusiAllegeComment.bo
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/BusiAllegeComment.bo
+END
+SaleInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SaleInfo.bo
+END
+SETSaleInfoData.set
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETSaleInfoData.set
+END
+BusiAllegeHandlingAccept.bo
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/BusiAllegeHandlingAccept.bo
+END
+AllegeInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/AllegeInfo.bo
+END
+NormalOrderExcel.bo
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/NormalOrderExcel.bo
+END
+StorageWarehouseRlt.bo
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/StorageWarehouseRlt.bo
+END
+UserBase.bo
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/UserBase.bo
+END
+PartnerOnOffLineHis.bo
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/PartnerOnOffLineHis.bo
+END
+RecommCategoryWareRlt.bo
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/RecommCategoryWareRlt.bo
+END
+BusiCustomCommunion.bo
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/34045/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/BusiCustomCommunion.bo
+END
+SysParaData.ds
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SysParaData.ds
+END
+ExcelTask.bo
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/ExcelTask.bo
+END
+SysBusiLockInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SysBusiLockInfo.bo
+END
+RequisitionInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/RequisitionInfo.bo
+END
+RequisitionRcvState.bo
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/34145/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/RequisitionRcvState.bo
+END
+UserBookDetailInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/UserBookDetailInfo.bo
+END
+SysUserInterest.bo
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SysUserInterest.bo
+END
+SETSendPriceInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETSendPriceInfo.set
+END
+TempBusiInterMsg.bo
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/TempBusiInterMsg.bo
+END
+BusiAllegeReplySend.bo
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/BusiAllegeReplySend.bo
+END
+QBOAllegeAssignQueryInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/QBOAllegeAssignQueryInfo.bo
+END
+SETBusiAllegeHastenAccept.set
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETBusiAllegeHastenAccept.set
+END
+SETBusiAllegeReplySend.set
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/37646/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETBusiAllegeReplySend.set
+END
+SETUserBookInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETUserBookInfo.set
+END
+SaleEmailOpen.bo
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SaleEmailOpen.bo
+END
+UserInterestRlt.bo
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/UserInterestRlt.bo
+END
+SETCityAreaCodeInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/37253/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETCityAreaCodeInfo.set
+END
+BaseInfoSyn.bo
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/BaseInfoSyn.bo
+END
+SETNorExcelClause.set
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETNorExcelClause.set
+END
+BusiAllegeRejectSend.bo
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/BusiAllegeRejectSend.bo
+END
+WareParentKind.ds
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/WareParentKind.ds
+END
+SETUserInterestRlt.set
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETUserInterestRlt.set
+END
+SETPartnerOnOffLineHis.set
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETPartnerOnOffLineHis.set
+END
+WareKindInfo.ds
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/WareKindInfo.ds
+END
+SETWareKindInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETWareKindInfo.set
+END
+SETExcelTask.set
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/19806/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETExcelTask.set
+END
+BusiAllegeRHandleAccept.bo
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/BusiAllegeRHandleAccept.bo
+END
+WareFirstKindRlt.bo
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/WareFirstKindRlt.bo
+END
+SETRecommCategoryInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jf/app/!svn/ver/39202/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETRecommCategoryInfo.set
+END
+UserOrderSuccess.bo
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/UserOrderSuccess.bo
+END
+SETWareFirstKindRlt.set
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETWareFirstKindRlt.set
+END
+UserBookInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/UserBookInfo.bo
+END
+SETSaleInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETSaleInfo.set
+END
+InformationKindInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/InformationKindInfo.bo
+END
+SETBusiInfoDetail.set
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETBusiInfoDetail.set
+END
+SETBusiAllegeAssignAccept.set
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/13226/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SETBusiAllegeAssignAccept.set
+END
+SysParaData.bo
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/SysParaData.bo
+END
+BusiInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/BusiInfo.bo
+END
+ActivityGroup.ds
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/common/bo/ActivityGroup.ds
+END

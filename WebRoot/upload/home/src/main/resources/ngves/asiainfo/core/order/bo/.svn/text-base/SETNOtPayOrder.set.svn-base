@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETNOtPayOrder" BOName="ngves.asiainfo.core.order.bo.NOtPayOrder" MainField="ORDER_SEQ" Title="ngves.asiainfo.core.order.bo.NOtPayOrder" ActBOName="ngves.asiainfo.core.order.bo.NOtPayOrder" Package="ngves.asiainfo.core.order.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BUSI_MOB_NUM</Name>
+        <BOAttrName>BUSI_MOB_NUM</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BUSI_MOB_NUM</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.order.bo.NOtPayOrder" Attr="BUSI_MOB_NUM" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>MOB_NUM</Name>
+        <BOAttrName>MOB_NUM</BOAttrName>
+        <BODisplayAttrName />
+        <ID>MOB_NUM</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.order.bo.NOtPayOrder" Attr="MOB_NUM" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ORDER_SEQ</Name>
+        <BOAttrName>ORDER_SEQ</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ORDER_SEQ</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.order.bo.NOtPayOrder" Attr="ORDER_SEQ" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ORD_OPR_TIME</Name>
+        <BOAttrName>ORD_OPR_TIME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ORD_OPR_TIME</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.order.bo.NOtPayOrder" Attr="ORD_OPR_TIME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>ORG_ID</Name>
+        <BOAttrName>ORG_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>ORG_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.order.bo.NOtPayOrder" Attr="ORG_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PACKAGE_NUM</Name>
+        <BOAttrName>PACKAGE_NUM</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PACKAGE_NUM</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.order.bo.NOtPayOrder" Attr="PACKAGE_NUM" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PAY_CASH</Name>
+        <BOAttrName>PAY_CASH</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PAY_CASH</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.order.bo.NOtPayOrder" Attr="PAY_CASH" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PAY_POINT</Name>
+        <BOAttrName>PAY_POINT</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PAY_POINT</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.order.bo.NOtPayOrder" Attr="PAY_POINT" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PAY_STATUS</Name>
+        <BOAttrName>PAY_STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PAY_STATUS</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.order.bo.NOtPayOrder" Attr="PAY_STATUS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>PAY_TYPE</Name>
+        <BOAttrName>PAY_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>PAY_TYPE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.order.bo.NOtPayOrder" Attr="PAY_TYPE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>USER_BRAND</Name>
+        <BOAttrName>USER_BRAND</BOAttrName>
+        <BODisplayAttrName />
+        <ID>USER_BRAND</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ListDataSource isDynamic="N" type="0" LSName="ngves.asiainfo.mgt.common.bo.SysParaData" hasNull="false">
+          <ListParameter LSPName="paraTypeId" LSPValue="13" LSPType="Const" />
+          <ListParameter LSPName="paraCodeType" LSPValue="String" LSPType="Const" />
+        </ListDataSource>
+        <ActBO Name="ngves.asiainfo.core.order.bo.NOtPayOrder" Attr="USER_BRAND" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>USER_LOCAL_PROVINCE</Name>
+        <BOAttrName>USER_LOCAL_PROVINCE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>USER_LOCAL_PROVINCE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.order.bo.NOtPayOrder" Attr="USER_LOCAL_PROVINCE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>OPERA</Name>
+        <BOAttrName>OPERA</BOAttrName>
+        <BODisplayAttrName />
+        <ID>OPERA</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.order.bo.NOtPayOrder" Attr="OPERA" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE</Name>
+        <BOAttrName>WARE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.order.bo.NOtPayOrder" Attr="WARE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_TYPE</Name>
+        <BOAttrName>WARE_TYPE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_TYPE</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="0" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.order.bo.NOtPayOrder" Attr="WARE_TYPE" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>

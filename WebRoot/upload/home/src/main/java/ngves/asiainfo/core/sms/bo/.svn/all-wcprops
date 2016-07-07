@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/bo
+END
+BusiSmsAuditBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/bo/BusiSmsAuditBean.java
+END
+BusiSmsAuditEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/bo/BusiSmsAuditEngine.java
+END
+SmsTemplateBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/bo/SmsTemplateBean.java
+END
+SmsTemplateEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/bo/SmsTemplateEngine.java
+END
+BusiSmsTemplateBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/bo/BusiSmsTemplateBean.java
+END
+BusiSmsTemplateEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/bo/BusiSmsTemplateEngine.java
+END
+SmsTaskBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/bo/SmsTaskBean.java
+END
+SmsTaskEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/bo/SmsTaskEngine.java
+END
+QBOSmsTaskAndTemplateBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jf/app/!svn/ver/33765/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/bo/QBOSmsTaskAndTemplateBean.java
+END
+QBOSmsTaskAndTemplateEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/30380/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/sms/bo/QBOSmsTaskAndTemplateEngine.java
+END

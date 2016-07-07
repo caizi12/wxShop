@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="BusiSettlePublishInfo" mainattr="SEQ_ID">
+        <mapingenty type="table">BUSI_SETTLE_PUBLISH_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="SEQ_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">SEQ_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SETTLEID" maxlength="20" datatype="String" type="COL" remark="结算唯一标识">
+                <mapingcol datatype="VARCHAR2">SETTLEID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SETTLEMONTH" maxlength="10" datatype="String" type="COL" remark="结算月份">
+                <mapingcol datatype="VARCHAR2">SETTLEMONTH</mapingcol>
+            </attr>
+            <attr floatlength="0" name="HPOPRID" maxlength="256" datatype="String" type="COL" remark="HP操作人帐号代码">
+                <mapingcol datatype="VARCHAR2">HPOPRID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="HPOPRTIME" maxlength="14" datatype="String" type="COL" remark="HP操作时间">
+                <mapingcol datatype="VARCHAR2">HPOPRTIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RFLAG" maxlength="2" datatype="String" type="COL" remark="处理结果标识。01-成功；02-帐期错误，非当月帐期；09-其它错误">
+                <mapingcol datatype="VARCHAR2">RFLAG</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RMSG" maxlength="256" datatype="String" type="COL" remark="处理结果详细信息">
+                <mapingcol datatype="VARCHAR2">RMSG</mapingcol>
+            </attr>
+            <attr floatlength="0" name="AIOPRID" maxlength="256" datatype="String" type="COL" remark="AI操作人帐号代码，默认填AI">
+                <mapingcol datatype="VARCHAR2">AIOPRID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="AIOPRTIME" maxlength="20" datatype="String" type="COL" remark="AI操作时间">
+                <mapingcol datatype="VARCHAR2">AIOPRTIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NOTE" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">NOTE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL2" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK_COL2</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

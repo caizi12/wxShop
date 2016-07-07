@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}
+html{overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+body,ul,dl,dd,dt,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,img,td,div,input{margin:0;padding:0;}
+ul,ol,li{list-style-type:none}
+li{vertical-align:0}
+h1,h2,h3,h4,h5,h6{ font-weight:normal}
+a{outline-style:none;color:#999;text-decoration:none}
+a:hover{color:999; text-decoration:none}
+body{ background-color:#FFFFFF;}
+body,input,select,textarea{ font-size:14px; font-family: "Microsoft Yahei";outline:none;}
+object,embed,video{	max-width:100%; border:none;margin-top:3px;}
+img{max-width:100%; border:none;margin-top:0px;}
+/* initial */
+.clearfix:after { visibility:hidden; display:block; font-size:0; content:""; clear:both; height:0;}
+.clearfix{ *zoom:1;}
+.clear{ clear:both;}
+.fl{ float:left; display:inline;}
+.fr{ float:right; display:inline;}
+
+
+
+
+/*价格*/
+.price{font-size:12px;color:#5f5f5f;}
+.price i{color:#f21111;font-style:normal;font-family:Arial;}
+
+/* check/radio */
+.radio{margin-right:10px;}
+.radio input,.check input{ display:none;}
+.radio font{display:inline-block;cursor:pointer;width:13px;height:13px;background:url(../default/images/colicon8.png) no-repeat;background-size:13px 13px;}
+.radio font.active{background:url(../default/images/colicon7.png) no-repeat;background-size:13px 13px;}
+
+/*我的收藏*/
+.myCollect{min-width:320px;max-width:640px;margin:0 auto;background:#f6f6f6;}
+.myCollect .ligCon{padding-top:5px;border-top:1px #ccc solid;}
+.myCollect .ligCon  li{margin:2%;background: #fff;width:46%;float:left;padding-bottom:10px;position:relative;}
+.myCollect .ligCon  li img{width:100%;}
+.myCollect .ligCon  li div{color:#666;font-size:14px;height: 22px;padding-left:5px;overflow: hidden;max-width:100%;}
+.myCollect .ligCon  li div span{color:#ff3300;font-family: Arial;}
+.myCollect .ligCon  li div del{color:#a9a9a9;}
+.myCollect .ligCon  li div i{text-align:center;line-height:15px;background:#e40077;display:inline-block;color:#fff;font-size:9px;border-radius:2px;font-style:normal;padding:0 3px;margin:2px 5px 0 0;}
+.myCollect .ligCon  li .radio{position:absolute;top:0px;left:-5px;}
+.myCollect .delete{background:#f2f1f1 url(../images/borBg.png) left top repeat-x;height:60px;position:fixed;bottom: 0;min-width:320px;max-width:640px;width:100%;}
+.myCollect .delete div{width:140px;margin:0 auto;margin-top:15px;}
+.myCollect .delete a{width:140px;line-height:35px;height:35px;color:#ff3300;font-size: 15px;text-align:center;border-radius:3px;display:inline-block;background:#f5f5f5;border:1px #ef3636 solid;}
+
+/*我的收藏-空时*/
+.NomyCollect{min-width:320px;max-width:640px;margin:0 auto;border-top:1px #ccc solid;}
+.NomyCollect .NoMain{margin-top:60px;}
+.NomyCollect .NoMain .Img{width:104px;margin:0 auto;}
+.NomyCollect .NoMain .Img img{width:104px;height:104px;}
+.NomyCollect .NoMain .Txt{width:141px;margin:0 auto;margin-top:50px;}
+.NomyCollect .NoMain .Txt p{font-size:12px;color:#999;line-height:18px;}
+.NomyCollect .NoMain .go{padding-top:40px;width:154px;height:32px;margin:0 auto;}
+.NomyCollect .NoMain .go a{width:154px;line-height:32px;background:#ef3636;text-align:center;color:#fff;font-size:15px;display:inline-block;border-radius:3px;}
+
+/*浏览历史*/
+.browsHistory{min-width:320px;max-width:640px;margin:0 auto;border-top:1px #ccc solid;}
+.browsHistory .his_list{padding:0 12px;border-bottom:1px #ccc solid;}
+.browsHistory .his_list li{padding:8px 0;border-bottom:1px #e0dfdf solid;}
+.browsHistory .his_list li .img{width: 60px;height:60px;margin:5px 10px 10px 0;float:left;}
+.browsHistory .his_list li h2{line-height:18px;font-size:14px;color:#333;padding-top:15px;}
+.browsHistory .his_list li p{line-height:18px;font-size:12px;color:#999;padding-top:10px;}
+.browsHistory .his_list li p b{color:#ef3636;font-size:16px;}
+.browsHistory .his_list li p del{padding-left:10px;}
+.browsHistory .his_list li p i{text-align:center;line-height:15px;background:#e40077;display:inline-block;color:#fff;font-size:9px;border-radius:2px;font-style:normal;padding:0 3px;margin:0px 5px 0 15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

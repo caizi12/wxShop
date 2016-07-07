@@ -1,0 +1,827 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<module id="ngves.asiainfo.core" name="服务定义" ejb-deploy="boss20" action-deploy="boss20" webservice-deploy="ws">
+   
+  <service id="saleEmailOpenDAO" interface="ngves.asiainfo.core.information.dao.interfaces.ISaleEmailOpenDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.information.dao.impl.SaleEmailOpenDAOImpl"></impl-define>
+  </service>
+  	
+  <service id="rushBuyDao" interface="ngves.asiainfo.core.rushbuy.dao.interfaces.IRushBuyDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.rushbuy.dao.impl.RushBuyDAOImpl"></impl-define>
+  </service>
+  
+  <service id="rushWareDetailDao" interface="ngves.asiainfo.core.rushbuy.dao.interfaces.IRushWareDetailDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.rushbuy.dao.impl.RushWareDetailDAOImpl"></impl-define>
+  </service>
+
+  <service id="activityLimitGroupDAO" interface="ngves.asiainfo.core.rushbuy.dao.interfaces.IActivityLimitGroupDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.rushbuy.dao.impl.ActivityLimitGroupDAOImpl"></impl-define>
+  </service>
+  
+  <service id="clobInfoDAO" interface="ngves.asiainfo.core.common.dao.interfaces.IClobInfoDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.common.dao.impl.ClobInfoDAOImpl"></impl-define>
+ </service>
+  
+  <!--一级客服DAO配置start -->
+  <service id="busiCustomCommunionDAO" interface="ngves.asiainfo.core.csvc.dao.interfaces.IBusiCustomCommunionDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.csvc.dao.impl.BusiCustomCommunionDAOImpl"></impl-define>
+  </service>
+  
+  <service id="busiAllegeCommentDAO" interface="ngves.asiainfo.core.csvc.dao.interfaces.IBusiAllegeCommentDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.csvc.dao.impl.BusiAllegeCommentDAOImpl"></impl-define>
+  </service>
+
+  <service id="busiInterMsgDAO" interface="ngves.asiainfo.core.csvc.dao.interfaces.IBusiInterMsgDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.csvc.dao.impl.BusiInterMsgDAOImpl"></impl-define>
+  </service>
+
+  <service id="busiAllegeAssignAcceptDAO" interface="ngves.asiainfo.core.csvc.dao.interfaces.IBusiAllegeAssignAcceptDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.csvc.dao.impl.BusiAllegeAssignAcceptDAOImpl"></impl-define>
+  </service>
+
+  <service id="busiAllegeRejectSendDAO" interface="ngves.asiainfo.core.csvc.dao.interfaces.IBusiAllegeRejectSendDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.csvc.dao.impl.BusiAllegeRejectSendDAOImpl"></impl-define>
+  </service>
+
+  <service id="busiAllegeRHandleAcceptDao" interface="ngves.asiainfo.core.csvc.dao.interfaces.IBusiAllegeRhandleAcceptDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.csvc.dao.impl.BusiAllegeRhandleAcceptDAOImpl"></impl-define>
+  </service>
+
+  <service id="csvcSendDao" interface="ngves.asiainfo.core.csvc.dao.interfaces.ICsvcSendDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.csvc.dao.impl.CsvcSendDAOImpl"></impl-define>
+  </service>
+  
+  <service id="busiAllegeHandlingAcceptDAO" interface="ngves.asiainfo.core.csvc.dao.interfaces.IBusiAllegeHandlingAcceptDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.csvc.dao.impl.BusiAllegeHandlingAcceptDAOImpl"></impl-define>
+  </service>
+    
+  <service id="busiAllegeHastenAcceptDAO" interface="ngves.asiainfo.core.csvc.dao.interfaces.IBusiAllegeHastenAcceptDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.csvc.dao.impl.BusiAllegeHastenAcceptDAOImpl"></impl-define>
+  </service>
+  
+  <service id="busiAllegeReplySendDAO" interface="ngves.asiainfo.core.csvc.dao.interfaces.IBusiAllegeReplySendDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.csvc.dao.impl.BusiAllegeReplySendDAOImpl"></impl-define>
+  </service>
+
+  <service id="CrmAllegeSendService" interface="ngves.asiainfo.core.csvc.service.interfaces.ICrmAllegeSendSrv" listen="true">
+    <interface-define/>
+    <property name="busiCustomCommunionDao" value="busiCustomCommunionDao" ref="ngves.asiainfo.core.busiCustomCommunionDAO"></property>
+    <property name="busiAllegeReplySendDao" value="busiAllegeReplySendDao" ref="ngves.asiainfo.core.busiAllegeReplySendDAO"></property>
+    <property name="busiAllegeRejectSendDao" value="busiAllegeRejectSendDao" ref="ngves.asiainfo.core.busiAllegeRejectSendDAO"></property>
+    <property name="busiAllegeCommentDao" value="busiAllegeCommentDao" ref="ngves.asiainfo.core.busiAllegeCommentDAO"></property>
+    <property name="busiAllegeAssignAcceptDao" value="busiAllegeAssignAcceptDao" ref="ngves.asiainfo.core.busiAllegeAssignAcceptDAO"></property>
+    <property name="csvcSendDao" value="csvcSendDao" ref="ngves.asiainfo.core.csvcSendDao"></property>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.csvc.service.impl.CrmAllegeSendSrvImpl"></impl-define>
+  </service>
+  
+  <!--一级客服DAO配置end -->
+
+  <service id="interMsgBusiSrv" interface="ngves.asiainfo.core.csvc.service.interfaces.IInterMsgBusiSrv" listen="true">
+    <interface-define/>
+    <property name="busiInterMsgDAO" value="IBusiInterMsgDAO" ref="ngves.asiainfo.core.busiInterMsgDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.csvc.service.impl.InterMsgBusiSrvImpl"></impl-define>
+  </service>
+  
+  
+  <service id="rushBuySrv" interface="ngves.asiainfo.core.rushbuy.service.interfaces.IRushBuySrv" listen="true">
+    <interface-define/>
+    <property name="rushBuyDAO" value="IRushBuyDAO" ref="ngves.asiainfo.core.rushBuyDao"></property>
+    <property name="clobInfoDAO" value="clobInfoDAO" ref="ngves.asiainfo.core.clobInfoDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.rushbuy.service.impl.RushBuySrvImpl"></impl-define>
+  </service>
+  
+  <service id="rushWareDetailSrv" interface="ngves.asiainfo.core.rushbuy.service.interfaces.IRushWareDetailSrv" listen="true">
+    <interface-define/>
+    <property name="rushWareDetailDAO" value="rushWareDetailDAO" ref="ngves.asiainfo.core.rushWareDetailDao"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.rushbuy.service.impl.RushWareDetailSrvImpl"></impl-define>
+  </service>
+
+  <service id="activityLimitGroupSrv" interface="ngves.asiainfo.core.rushbuy.service.interfaces.IActivityLimitGroupSrv" listen="true">
+    <interface-define/>
+    <property name="activityLimitGroupDAO" value="rushWareDetailDAO" ref="ngves.asiainfo.core.activityLimitGroupDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.rushbuy.service.impl.ActivityLimitGroupSrvImpl"></impl-define>
+  </service>
+  <!--导航标签-->
+  <service id="NavigationInfoDAO" interface="ngves.asiainfo.core.system.dao.interfaces.INavigationInfoDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.system.dao.impl.NavigationInfoDAOImpl"></impl-define>
+  </service>
+  
+   <service id="NavigationInfoSrv" name="NavigationInfoSrv" interface="ngves.asiainfo.core.system.service.interfaces.INavigationInfoSrv" listen="true">
+    <interface-define/>
+    <property name="navigationInfoDAO" value="navigationInfoDAO" ref="ngves.asiainfo.core.NavigationInfoDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.system.service.impl.NavigationInfoSrvImpl"></impl-define>
+  </service>
+  
+  <!--首页META-->
+  <service id="MetaInfoDAO" interface="ngves.asiainfo.core.system.dao.interfaces.IMetaInfoDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.system.dao.impl.MetaInfoDAOImpl"></impl-define>
+  </service>
+  
+  <service id="MetaInfoSrv" name="MetaInfoSrv" interface="ngves.asiainfo.core.system.service.interfaces.IMetaInfoSrv" listen="true">
+    <interface-define/>
+    <property name="MetaInfoDAO" value="navigationInfoDAO" ref="ngves.asiainfo.core.MetaInfoDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.system.service.impl.MetaInfoSrvImpl"></impl-define>
+  </service>
+  <!--凤凰手机报积分兑换-->
+    <service id="wareInfoDAO" interface="ngves.asiainfo.core.ware.dao.interfaces.IWareInfoDAO" listen="true">
+        <interface-define/>
+        <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.ware.dao.impl.WareInfoDAOImpl"></impl-define>
+    </service>
+   <service id="wareDetailDAO" interface="ngves.asiainfo.core.ware.dao.interfaces.IWareDetailDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.ware.dao.impl.WareDetailDAOImpl"></impl-define>
+   </service>
+ 
+  <service id="wareInfoSrv" interface="ngves.asiainfo.core.ware.service.interfaces.IWareInfoSrv" listen="true">
+    <interface-define/>
+    <property name="wareInfoDAO" value="wareInfoDAO" ref="ngves.asiainfo.core.wareInfoDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.service.impl.WareInfoSrvImpl"></impl-define>
+  </service>
+  <service id="wareDetailSrv" interface="ngves.asiainfo.core.ware.service.interfaces.IWareDetailSrv" listen="true">
+    <interface-define/>
+    <property name="wareDetailDAO" value="wareDetailDAO" ref="ngves.asiainfo.core.wareDetailDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.ware.service.impl.WareDetailSrvImpl"></impl-define>
+  </service>
+    <!--凤凰手机报-礼品属性信息-->
+   <service id="wareDescInfoDAO" interface="ngves.asiainfo.core.ware.dao.interfaces.IWareDescInfoDAO" listen="true">
+        <interface-define/>
+        <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.ware.dao.impl.WareDescInfoDAOImpl"></impl-define>
+    </service>
+   <service id="wareDescInfoSrv" interface="ngves.asiainfo.core.ware.service.interfaces.IWareDescInfoSrv" listen="true">
+     <interface-define/>
+     <property name="wareDescInfoDAO" value="wareDescInfoDAO" ref="ngves.asiainfo.core.wareDescInfoDAO"></property>
+     <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.ware.service.impl.WareDescInfoSrvImpl"></impl-define>
+   </service>
+
+   <!--状态置灰-->
+   <service id="ShowControlService" interface="ngves.asiainfo.core.system.service.interfaces.IShowControlSrv" listen="true">
+    <interface-define/>
+    <property name="controlDao" value="controlDao" ref="ngves.asiainfo.core.controlDao"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.system.service.impl.ShowControlSrvImpl"></impl-define>
+  </service> 
+  <!--状态置灰dao-->
+  <service id="controlDao" interface="ngves.asiainfo.core.system.dao.interfaces.IShowControlDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.system.dao.impl.ShowControlDAOImpl"></impl-define>
+  </service>
+  <!--UserAgent-DAO-->
+  <service id="userAgentDAO" interface="ngves.asiainfo.core.ua.dao.interfaces.IUserAgentDAO" listen="true">
+        <interface-define/>
+        <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ua.dao.impl.UserAgentDAOImpl"></impl-define>
+    </service>
+    <!--UserAgent-Srv-->
+   <service id="userAgentSrv" interface="ngves.asiainfo.core.ua.service.interfaces.IUserAgentSrv" listen="true">
+     <interface-define/>
+     <property name="userAgentDAO" value="userAgentDAO" ref="ngves.asiainfo.core.userAgentDAO"></property>
+     <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ua.service.impl.UserAgentSrvImpl"></impl-define>
+   </service>
+	<!--礼品下线考核-->
+	<service id="CheckWareOnOrOffLineDAO" interface="ngves.asiainfo.core.check.dao.interfaces.ICheckWareOnOrOffLineDAO" listen="true">
+	    <interface-define/>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.check.dao.impl.CheckWareOnOrOffLineDAOImpl"></impl-define>
+	</service>
+	<service id="CheckWareOnOrOffLineSrv" name="CheckWareOnOrOffLineSrv" interface="ngves.asiainfo.core.check.service.interfaces.ICheckWareOnOrOffLineSrv" listen="true">
+	    <interface-define/>
+	     <property name="checkOnOrOffLineDAO" value="checkOnOrOffLineDAO" ref="ngves.asiainfo.core.CheckWareOnOrOffLineDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.check.service.impl.CheckWareOnOrOffLineSrvImpl"></impl-define>
+	</service> 
+
+    <!--礼品考核下线定时处理机制-->
+    <service id="examineWareOffLineDAO" interface="ngves.asiainfo.core.check.dao.interfaces.IExamineWareOffLineDAO" listen="true">
+	    <interface-define/>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.check.dao.impl.ExamineWareOffLineDAOImpl"></impl-define>
+	</service>
+	<service id="examineWareOffLineSrv" name="examineWareOffLineSrv" interface="ngves.asiainfo.core.check.service.interfaces.IExamineWareOffLineSrv" listen="true">
+	    <interface-define/>
+	     <property name="examineWareOffLineDAO" value="examineWareOffLineDAO" ref="ngves.asiainfo.core.examineWareOffLineDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.check.service.impl.ExamineWareOffLineSrvImpl"></impl-define>
+	</service>
+	<!--考核文件管理 -->
+	<service id="ExamineFileService" name="ExamineFileService" interface="ngves.asiainfo.core.check.service.interfaces.IExamineFileSrv" listen="true">
+   	 	<interface-define/>
+    	<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.check.service.impl.ExamineFileSrvImpl"></impl-define>
+	</service> 
+	<service id="ExamineFileDAO" interface="ngves.asiainfo.core.check.dao.interfaces.IExamineFileDAO" listen="true">
+    	<interface-define/>
+    	<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.check.dao.impl.ExamineFileDAOImpl"></impl-define>
+	</service>
+    <service id="RequisitionInfoDAO" interface="ngves.asiainfo.core.system.dao.interfaces.IRequisitionInfoDAO" listen="true">
+        <interface-define/>
+        <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.system.dao.impl.RequisitionInfoDAOImpl"></impl-define>
+    </service>
+    <service id="RequisitionRcvStateDAO" interface="ngves.asiainfo.core.system.dao.interfaces.IRequisitionRcvStateDAO" listen="true">
+        <interface-define/>
+        <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.system.dao.impl.RequisitionRcvStateDAOImpl"></impl-define>
+    </service>
+    
+    <service id="PartnerCheckFileService" name="PartnerCheckFileService" interface="ngves.asiainfo.core.check.service.interfaces.IPartnerCheckFileSrv" listen="true">
+   	 	<interface-define/>
+    	<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.check.service.impl.PartnerCheckFileSrvImpl"></impl-define>
+	</service> 
+	<service id="PartnerCheckFileDAO" interface="ngves.asiainfo.core.check.dao.interfaces.IPartnerCheckFileDAO" listen="true">
+    	<interface-define/>
+    	<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.check.dao.impl.PartnerCheckFileDAOImpl"></impl-define>
+	</service>
+
+    <!--礼品考核下线 导出Excel 2011-06-29-->
+    <service id="allGiftInfoDAO" interface="ngves.asiainfo.core.check.dao.interfaces.IAllGiftInfoDAO" listen="true">
+	    <interface-define/>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.check.dao.impl.AllGiftInfoDAOImpl"></impl-define>
+	</service>
+	<service id="allGiftInfoSrv" name="allGiftInfoSrv" interface="ngves.asiainfo.core.check.service.interfaces.IAllGiftInfoSrv" listen="true">
+	    <interface-define/>
+	     <property name="allGiftInfoDAO" value="allGiftInfoDAO" ref="ngves.asiainfo.core.allGiftInfoDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.check.service.impl.AllGiftInfoSrvImpl"></impl-define>
+	</service>
+	
+	 <!-- 团购信息管理  2011-7-13 -->
+    <service id="tuanInfoDAO" interface="ngves.asiainfo.core.tuan.dao.interfaces.ITuanInfoDAO" listen="true">
+	    <interface-define/>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.dao.impl.TuanInfoDAOImpl"></impl-define>
+	</service>
+	<service id="TuanInfoService" name="TuanInfoService" interface="ngves.asiainfo.core.tuan.service.interfaces.ITuanInfoSrv" listen="true">
+	    <interface-define/>
+	     <property name="tuanInfoDAO" value="tuanInfoDAO" ref="ngves.asiainfo.core.tuanInfoDAO"></property>
+	     <!--added by liuyq 团购中省份信息的处理-->
+	     <property name="tuanProvinceDAO" value="tuanProvinceDAO" ref="ngves.asiainfo.core.tuanProvinceDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.service.impl.TuanInfoSrvImpl"></impl-define>
+	</service>
+	
+	<!--团购省份信息处理 ,并将该DAO注入到团购信息服务类TuanInfoService中  2011-07-15   by liuyq-->
+	  <service id="tuanProvinceDAO" interface="ngves.asiainfo.core.tuan.dao.interfaces.ITuanProvinceDAO" listen="true">
+	    <interface-define/>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.dao.impl.TuanProvinceDAOImpl"></impl-define>
+	</service>
+
+    <!--团购关联礼品表 服务和dao-->
+    <service id="tuanWareRLTSrv" name="tuanWareRLTSrv" interface="ngves.asiainfo.core.tuan.service.interfaces.ITuanWareRLTSrv" listen="true">
+	    <interface-define/>
+	     <property name="tuanWareRLTDAO" value="tuanWareRLTDAO" ref="ngves.asiainfo.core.tuanWareRLTDAO"></property>
+	     <property name="tuanInfoDAO" value="tuanInfoDAO" ref="ngves.asiainfo.core.tuanInfoDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.service.impl.TuanWareRLTSrvImpl"></impl-define>
+	</service>
+
+	  <service id="tuanWareRLTDAO" interface="ngves.asiainfo.core.tuan.dao.interfaces.ITuanWareRLTDAO" listen="true">
+	    <interface-define/>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.dao.impl.TuanWareRLTDAOImpl"></impl-define>
+	</service>
+
+    <service id="tuanUserLogSrv" name="tuanWareRLTSrv" interface="ngves.asiainfo.core.tuan.service.interfaces.ITuanUserLogSrv" listen="true">
+	    <interface-define/>
+	     <property name="tuanUserLogDAO" value="tuanUserLogDAO" ref="ngves.asiainfo.core.tuanUserLogDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.service.impl.TuanUserLogSrvImpl"></impl-define>
+	</service>
+
+	  <service id="tuanUserLogDAO" interface="ngves.asiainfo.core.tuan.dao.interfaces.ITuanUserLogDAO" listen="true">
+	    <interface-define/>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.dao.impl.TuanUserLogDAOImpl"></impl-define>
+	</service>
+    <!--取得品牌的service-->
+    <service id="preOrderInfoDAO" interface="ngves.asiainfo.core.tuan.dao.interfaces.IPreOrderInfoDAO" listen="true">
+	    <interface-define/>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.dao.impl.PreOrderInfoDAOImpl"></impl-define>
+	</service>
+    <service id="preOrderInfoSrv" name="wareIntegralInfoSrv" interface="ngves.asiainfo.core.tuan.service.interfaces.IPreOrderInfoSrv" listen="true">
+	<interface-define/>
+	     <property name="preOrderInfoDAO" value="preOrderInfoDAO" ref="ngves.asiainfo.core.preOrderInfoDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.service.impl.PreOrderInfoSrvImpl"></impl-define>
+	</service>
+	<!--记录日志的service-->
+	 <service id="BusiInfoDAO" interface="ngves.asiainfo.core.common.dao.interfaces.IBusiInfoDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.common.dao.impl.BusiInfoDAOImpl"></impl-define>
+  </service>
+  <service id="BusiInfoService" name="BusiInfoService" interface="ngves.asiainfo.core.common.service.interfaces.IBusiInfoSrv" listen="true">
+    <interface-define/>
+    <property name="busiInfoDAO" value="IBusiInfoDAO" ref="ngves.asiainfo.core.BusiInfoDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.common.service.impl.BusiInfoSrvImpl"></impl-define>
+  </service>
+  
+  <service id="BusiInfoDetailDAO" interface="ngves.asiainfo.core.common.dao.interfaces.IBusiInfoDetailDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.common.dao.impl.BusiInfoDetailDAOImpl"></impl-define>
+  </service>
+  <service id="BusiInfoDetailService" name="BusiInfoDetailService" interface="ngves.asiainfo.core.common.service.interfaces.IBusiInfoDetailSrv" listen="true">
+    <interface-define/>
+    <property name="busiInfoDetailDAO" value="busiInfoDetailDAO" ref="ngves.asiainfo.core.BusiInfoDetailDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.common.service.impl.BusiInfoDetailSrvImpl"></impl-define>
+  </service>
+  
+  	
+	<!--订单详细取得对应的字段值的service-->
+    <service id="busiParaDataDAO" interface="ngves.asiainfo.core.system.dao.interfaces.IBusiParaDataDAO" listen="true">
+	    <interface-define/>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.system.dao.impl.BusiParaDataDAOImpl"></impl-define>
+	</service>
+    <service id="busiParaDataSrv" name="wareIntegralInfoSrv" interface="ngves.asiainfo.core.system.service.interfaces.IBusiParaDataSrv" listen="true">
+	<interface-define/>
+	     <property name="busiParaDataDAO" value="busiParaDataDAO" ref="ngves.asiainfo.core.busiParaDataDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.system.service.impl.BusiParaDataSrvImpl"></impl-define>
+	</service>
+	
+	<!--积分捐赠活动基本信息表-->
+	<service id="DonatedActivityDAO" interface="ngves.asiainfo.core.donated.dao.interfaces.IDonatedActivityDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.donated.dao.impl.DonatedActivityDAOImpl"></impl-define>
+  	</service>
+  	
+  	<!--积分捐赠活动服务-->
+  	<service id="DonatedActivityService" name="DonatedActivityService" interface="ngves.asiainfo.core.donated.service.interfaces.IDonatedActivitySrv" listen="true">
+	    <interface-define/>
+	    <property name="donatedActivityDAO" value="donatedActivityDAO" ref="ngves.asiainfo.core.DonatedActivityDAO"></property>
+	    <property name="clobInfoDAO" value="clobInfoDAO" ref="ngves.asiainfo.core.clobInfoDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.donated.service.impl.DonatedActivitySrvImpl"></impl-define>
+  	</service>
+  	<!-- 积分捐赠对象服务-->
+  	<service id="DonatedObjectService" name="DonatedObjectService" interface="ngves.asiainfo.core.donated.service.interfaces.IDonatedObjectSrv" listen="true">
+	    <interface-define/>
+	    <property name="donatedObjectDAO" value="donatedObjectDAO" ref="ngves.asiainfo.core.DonatedObjectDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.donated.service.impl.DonatedObjectSrvImpl"></impl-define>
+  	</service>
+  	<!-- 积分捐赠礼品与对象和礼品与活动的关系服务-->
+  	<service id="DonatedWareService" name="DonatedObjectService" interface="ngves.asiainfo.core.donated.service.interfaces.IDonatedWareSrv" listen="true">
+	    <interface-define/>
+	    <property name="donatedActivityDAO" value="donatedActivityDAO" ref="ngves.asiainfo.core.DonatedActivityDAO"></property>
+	   	<property name="donatedObjectDAO" value="donatedObjectDAO" ref="ngves.asiainfo.core.DonatedObjectDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.donated.service.impl.DonatedWareSrvImpl"></impl-define>
+  	</service>
+  	<!--积分捐赠对象基本信息表-->
+	<service id="DonatedObjectDAO" interface="ngves.asiainfo.core.donated.dao.interfaces.IDonatedObjectDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.donated.dao.impl.DonatedObjectDAOImpl"></impl-define>
+  	</service>
+  	<!--WAP商城网关管理-->
+  	<service id="gatewayDAO" interface="ngves.asiainfo.core.gateway.dao.interfaces.IGatewayDAO" listen="true">
+        <interface-define/>
+        <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.gateway.dao.impl.GatewayDAOImpl"></impl-define>
+    </service>
+   <service id="gatewaySrv" interface="ngves.asiainfo.core.gateway.service.interfaces.IGatewaySrv" listen="true">
+     <interface-define/>
+     <property name="gatewayDAO" value="gatewayDAO" ref="ngves.asiainfo.core.gatewayDAO"></property>
+     <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.gateway.service.impl.GatewaySrvImpl"></impl-define>
+   </service>
+   
+   	<!--首页品牌推荐-->
+  	<service id="BrandCategoryInfoDAO" interface="ngves.asiainfo.core.ware.dao.interfaces.IBrandCategoryInfoDAO" listen="true">
+        <interface-define/>
+        <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.dao.impl.BrandCategoryInfoDAOImpl"></impl-define>
+    </service>
+   <service id="BrandCategoryInfoService" interface="ngves.asiainfo.core.ware.service.interfaces.IBrandCategoryInfoSrv" listen="true">
+     <interface-define/>
+     <property name="BrandCategoryInfoDAO" value="BrandCategoryInfoDAO" ref="ngves.asiainfo.core.BrandCategoryInfoDAO"></property>
+     <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.service.impl.BrandCategoryInfoSrvImpl"></impl-define>
+   </service>
+  	
+  	<!--父子礼品的服务信息-->
+  	<service id="WarePCInfoDAO" interface="ngves.asiainfo.core.ware.dao.interfaces.IWarePCInfoDAO" listen="true">
+        <interface-define/>
+        <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.dao.impl.WarePCInfoDAOImpl"></impl-define>
+    </service>
+    <service id="WarePCInfoService" interface="ngves.asiainfo.core.ware.service.interfaces.IWarePCInfoSrv" listen="true">
+     <interface-define/>
+     <property name="WarePCInfoDAO" value="WarePCInfoDAO" ref="ngves.asiainfo.core.WarePCInfoDAO"></property>
+     <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.service.impl.WarePCInfoSrvImpl"></impl-define>
+   </service>
+   
+   <!--国家大剧院服务信息-->
+  	<service id="theatreInfoDAO" interface="ngves.asiainfo.core.theatre.dao.interfaces.ITheatreInfoDAO" listen="true">
+        <interface-define/>
+        <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.theatre.dao.impl.TheatreInfoDAOImpl"></impl-define>
+    </service>
+    <service id="theatreInfoService" interface="ngves.asiainfo.core.theatre.service.interfaces.ITheatreInfoSrv" listen="true">
+     <interface-define/>
+     <property name="theatreInfoDAO" value="theatreInfoDAO" ref="ngves.asiainfo.core.theatreInfoDAO"></property>
+     <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.theatre.service.impl.TheatreInfoSrvImpl"></impl-define>
+   </service>
+    
+    
+    <!--礼品上下线状态服务定义-->
+    <service id="WareStatusDAO" interface="ngves.asiainfo.core.ware.dao.interfaces.IWareStatusDAO" listen="true">
+        <interface-define/>
+        <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.dao.impl.WareStatusDAOImpl"></impl-define>
+    </service>
+    <service id="WareStatusSrv" interface="ngves.asiainfo.core.ware.service.interfaces.IWareStatusSrv" listen="true">
+     	<interface-define/>
+     	<property name="WareStatusDAO" value="WareStatusDAO" ref="ngves.asiainfo.core.WareStatusDAO"></property>
+     	<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.service.impl.WareStatusSrvImpl"></impl-define>
+   </service>
+    
+    
+    <!--积分后台业务锁定义-->
+    <service id="SysBusiLockInfoDAO" interface="ngves.asiainfo.core.common.dao.interfaces.ISysBusiLockInfoDAO" listen="true">
+        <interface-define/>
+        <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.common.dao.impl.SysBusiLockInfoDAOImpl"></impl-define>
+    </service>
+    <service id="SysBusiLockInfoSrv" interface="ngves.asiainfo.core.common.service.interfaces.ISysBusiLockInfoSrv" listen="true">
+     	<interface-define/>
+     	<property name="SysBusiLockInfoDAO" value="SysBusiLockInfoDAO" ref="ngves.asiainfo.core.SysBusiLockInfoDAO"></property>
+     	<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.common.service.impl.SysBusiLockInfoSrvImpl"></impl-define>
+   </service>
+   
+   <!--积分后台管理同步消息的服务定义-->
+   
+    <service id="BaseInfoSynDAO" interface="ngves.asiainfo.core.common.dao.interfaces.IBaseInfoSynDAO" listen="true">
+        <interface-define/>
+        <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.common.dao.impl.BaseInfoSynDAOImpl"></impl-define>
+    </service>
+    <service id="BaseSynSrv" interface="ngves.asiainfo.core.common.service.interfaces.IBaseInfoSynSrv" listen="true">
+     	<interface-define/>
+     	<property name="BaseInfoSynDAO" value="BaseInfoSynDAO" ref="ngves.asiainfo.core.BaseInfoSynDAO"></property>
+     	<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.common.service.impl.BaseInfoSynSrvImpl"></impl-define>
+   </service>
+   
+   <!--团购分类是否显示-->
+  <service id="categoryShowControlDAO" interface="ngves.asiainfo.core.tuan.dao.interfaces.ICategoryShowControlDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.dao.impl.CategoryShowControlDAOImpl"></impl-define>
+  </service>
+  <service id="CategoryShowControlService" interface="ngves.asiainfo.core.tuan.service.interfaces.ICategoryShowControlSrv" listen="true">
+    <interface-define/>
+    <property name="categoryShowControlDAO" value="categoryShowControlDAO" ref="ngves.asiainfo.core.categoryShowControlDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.service.impl.CategoryShowControlSrvImpl"></impl-define>
+  </service>
+  
+   <!--团购分组维护-->
+  <service id="tuanGroupInfoDAO" interface="ngves.asiainfo.core.tuan.dao.interfaces.ITuanGroupInfoDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.dao.impl.TuanGroupInfoDAOImpl"></impl-define>
+  </service>
+  <service id="TuanGroupInfoService" interface="ngves.asiainfo.core.tuan.service.interfaces.ITuanGroupInfoSrv" listen="true">
+    <interface-define/>
+    <property name="tuanGroupInfoDAO" value="tuanGroupInfoDAO" ref="ngves.asiainfo.core.tuanGroupInfoDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.service.impl.TuanGroupInfoSrvImpl"></impl-define>
+  </service>  
+  
+   <service id="tuanWareDataDAO" interface="ngves.asiainfo.core.tuan.dao.interfaces.ITuanWareDataDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.dao.impl.TuanWareDataDAOImpl"></impl-define>
+  </service>
+  <service id="tuanRankSrv" interface="ngves.asiainfo.core.tuan.service.interfaces.ITuanWareDataSrv" listen="true">
+    <interface-define/>
+      <property name="tuanWareDataDAO" value="tuanWareDataDAO" ref="ngves.asiainfo.core.tuanWareDataDAO"></property>
+      <property name="tuanCycleInfoDAO" value="tuanCycleInfoDAO" ref="ngves.asiainfo.core.tuanCycleInfoDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.service.impl.TuanWareDataSrvImpl"></impl-define>
+  </service>
+<!--礼品监控服务Start-->
+  <service id="wareMonitorDAO" interface="ngves.asiainfo.core.ware.dao.interfaces.IWareMonitorDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.dao.impl.WareMonitorDAOImpl"></impl-define>
+  </service>
+  <service id="wareMonitorSrv" interface="ngves.asiainfo.core.ware.service.interfaces.IWareMonitorSrv" listen="true">
+    <interface-define/>
+      <property name="wareMonitorDAO" value="wareMonitorDAO" ref="ngves.asiainfo.core.wareMonitorDAO"></property>
+      <property name="wareInfoDAO" value="wareInfoDAO" ref="ngves.asiainfo.core.wareInfoDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.service.impl.WareMonitorSrvImpl"></impl-define>
+  </service>
+<!--礼品监控服务End-->
+   <!--二维码订单文件下载-->
+   <service id="barCodeFileDAO" interface="ngves.asiainfo.core.order.dao.interfaces.IBarCodeFileDownLoadDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.order.dao.impl.BarCodeFileDownLoadDAOImpl"></impl-define>
+  </service>
+   <service id="BarCodeFileDownLoadSrv" interface="ngves.asiainfo.core.order.service.interfaces.IBarCodeFileDownLoadSrv" listen="true">
+    <interface-define/>
+      <property name="barCodeFileDAO" value="barCodeFileDAO" ref="ngves.asiainfo.core.barCodeFileDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.order.service.impl.BarCodeFileDownLoadSrvImpl"></impl-define>
+  </service>  
+  
+  
+  
+  <service id="BusiSmsDAO" name="短信审核流水DAO" interface="ngves.asiainfo.core.sms.dao.interfaces.IBusiSmsDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.sms.dao.impl.BusiSmsDAOImpl"></impl-define>
+  </service>
+  <service id="SmsTaskDAO" name="短信任务DAO" interface="ngves.asiainfo.core.sms.dao.interfaces.ISmsTaskDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.sms.dao.impl.SmsTaskDAOImpl"></impl-define>
+  </service>
+  <service id="SmsTemplateDAO" name="短信模板DAO" interface="ngves.asiainfo.core.sms.dao.interfaces.ISmsTemplateDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.sms.dao.impl.SmsTemplateDAOImpl"></impl-define>
+  </service>
+    
+   <service id="ISmsTemplateSrv" name="短信模板管理 Service" interface="ngves.asiainfo.core.sms.service.interfaces.ISmsTemplateSrv" listen="true">
+    <interface-define/>
+    <property name="smsTemplateDAO" value="SmsTemplateDAO" ref="ngves.asiainfo.core.SmsTemplateDAO"></property>
+    <property name="smsTaskDAO" value="SmsTaskDAO" ref="ngves.asiainfo.core.SmsTaskDAO"></property>
+    <property name="busiSmsDAO" value="BusiSmsDAO" ref="ngves.asiainfo.core.BusiSmsDAO"></property>
+    <property name="busiSmsTemplateDAO" value="BusiSmsTemplateDAO" ref="ngves.asiainfo.core.BusiSmsTemplateDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.sms.service.impl.SmsTemplateSrvImpl"></impl-define>
+  </service>
+  <service id="ISmsTaskSrv" name="短信任务管理 Service" interface="ngves.asiainfo.core.sms.service.interfaces.ISmsTaskSrv" listen="true">
+    <interface-define/>
+    <property name="smsTemplateDAO" value="SmsTemplateDAO" ref="ngves.asiainfo.core.SmsTemplateDAO"></property>
+    <property name="smsTaskDAO" value="SmsTaskDAO" ref="ngves.asiainfo.core.SmsTaskDAO"></property>
+    <property name="busiSmsDAO" value="BusiSmsDAO" ref="ngves.asiainfo.core.BusiSmsDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.sms.service.impl.SmsTaskSrvImpl"></impl-define>
+  </service>
+  
+ <service id="BusiSmsTemplateDAO" name="短信模板流水DAO" interface="ngves.asiainfo.core.sms.dao.interfaces.IBusiSmsTemplateDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.sms.dao.impl.BusiSmsTemplateDAOImpl"></impl-define>
+  </service>
+
+  <service id="BusiSmsTemplateSrv" name="短信模板流水服务" interface="ngves.asiainfo.core.sms.service.interfaces.IBusiSmsTemplateSrv" listen="true">
+    <interface-define/>
+    <property name="busiSmsTemplateDAO" value="BusiSmsTemplateDAO" ref="ngves.asiainfo.core.BusiSmsTemplateDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.sms.service.impl.BusiSmsTemplateSrvImpl">
+    </impl-define>
+  </service>
+
+  <!-- 增加团购轮转的方法 -->
+  <service id="tuanCycleInfoDAO" name="团购轮转DAO" interface="ngves.asiainfo.core.tuan.dao.interfaces.ITuanCycleInfoDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.dao.impl.TuanCycleInfoDAOImpl"></impl-define>
+  </service>
+  <service id="TuanCycleInfoService" name="TuanCycleInfoService" interface="ngves.asiainfo.core.tuan.service.interfaces.ITuanCycleInfoSrv" listen="true">
+	    <interface-define/>
+	     <!-- 团购轮转处理 -->
+	     <property name="tuanCycleInfoDAO" value="tuanCycleInfoDAO" ref="ngves.asiainfo.core.tuanCycleInfoDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.tuan.service.impl.ITuanCycleInfoSrvImpl"></impl-define>
+	</service>
+	 <!-- 超时订单审核 -->
+  <service id="overTimeOrderDAO" name="overTimeOrderDAO" interface="ngves.asiainfo.core.order.dao.interfaces.IOverTimeOrderDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.order.dao.impl.OverTimeOrderDAOImpl"></impl-define>
+  </service>
+  <service id="overTimeOrderService" name="overTimeOrderService" interface="ngves.asiainfo.core.order.service.interfaces.IOverTimeOrderSrv" listen="true">
+	    <interface-define/>
+	     <property name="overTimeOrderDAO" value="overTimeOrderDAO" ref="ngves.asiainfo.core.overTimeOrderDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.order.service.impl.OverTimeOrderSrvImpl"></impl-define>
+	</service>
+	 
+   <!--VIP贵宾厅 -->
+  <service id="vipHallTopicDAO" name="overTimeOrderDAO" interface="ngves.asiainfo.core.viphall.dao.interfaces.IVipHallTopicDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.viphall.dao.impl.VipHallTopicDAOImpl"></impl-define>
+  </service>
+  <service id="vipHallTopicSrv" name="vipHallTopicSrv" interface="ngves.asiainfo.core.viphall.service.interfaces.IVipHallTopicSrv" listen="true">
+	    <interface-define/>
+	     <property name="vipHallTopicDAO" value="vipHallTopicDAO" ref="ngves.asiainfo.core.vipHallTopicDAO"></property>
+	     <property name="clobInfoDAO" value="clobInfoDAO" ref="ngves.asiainfo.core.clobInfoDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.viphall.service.impl.VipHallTopicSrvImp"></impl-define>
+	</service>
+<!--礼品价格变更记录 -->
+<service id="warePriceChangeDAO" interface="ngves.asiainfo.core.pricechange.dao.interfaces.IWarePriceChangeDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.pricechange.dao.impl.WarePriceChangeDAOImpl"></impl-define>
+</service>
+<service id="warePriceChangeSrv" name="warePriceChangeSrv" interface="ngves.asiainfo.core.pricechange.service.interfaces.IWarePriceChangeSrv" listen="true">
+    <interface-define/>
+     <property name="warePriceChangeDAO" value="warePriceChangeDAO" ref="ngves.asiainfo.core.warePriceChangeDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.pricechange.service.impl.WarePriceChangeSrvImpl"></impl-define>
+</service>
+ <!--客诉详单 -->
+ <service id="StatAllegeInfoDAO" name="客服业务查询 DAO" interface="ngves.asiainfo.core.stat.dao.interfaces.IStatAllegeInfoDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.stat.dao.impl.StatAllegeInfoDAOImpl"></impl-define>
+  </service>
+  <service id="StatAllegeInfoService" name="客服业务查询  Service" interface="ngves.asiainfo.core.stat.service.interfaces.IStatAllegeInfoSrv" listen="true">
+    <interface-define/>
+    <property name="statAllegeInfoDAO" value="statAllegeInfoDAO" ref="ngves.asiainfo.core.StatAllegeInfoDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.stat.service.impl.StatAllegeInfoSrvImpl"></impl-define>
+  </service>
+	
+   <!--超时未完结订单批量更新 -->
+   <service id="orderBusiInfoDAO" interface="ngves.asiainfo.core.order.dao.interfaces.IOrderBusiInfoDAO" listen="true">
+   		<interface-define/>
+   		<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.order.dao.impl.OrderBusiInfoDAOImpl"></impl-define>
+   </service>
+   <service id="orderUnfinishedTaskDAO" interface="ngves.asiainfo.core.order.dao.interfaces.IOrderUnfinishedTaskDAO" listen="true">
+    	<interface-define/>
+    	<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.order.dao.impl.OrderUnfinishedTaskDAOImpl"></impl-define>
+   </service>
+   <service id="orderAuditBusiInfoDAO" interface="ngves.asiainfo.core.order.dao.interfaces.IOrderAuditBusiInfoDAO" listen="true">
+    	<interface-define/>
+    	<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.order.dao.impl.OrderAuditBusiInfoDAOImpl"></impl-define>
+  </service>
+  <service id="orderUnfininshedTaskSrv" name="orderUnfininshedTaskSrv" interface="ngves.asiainfo.core.order.service.interfaces.IOrderUnfinishedTaskSrv" listen="true">
+	    <interface-define/>
+	    <property name="orderBusiInfoDAO" value="orderBusiInfoDAO" ref="ngves.asiainfo.core.orderBusiInfoDAO"></property>
+	     <property name="orderUnfinishedTaskDAO" value="orderUnfinishedTaskDAO" ref="ngves.asiainfo.core.orderUnfinishedTaskDAO"></property>
+	     <property name="orderAuditBusiInfoDAO" value="orderAuditBusiInfoDAO" ref="ngves.asiainfo.core.orderAuditBusiInfoDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.order.service.impl.OrderUnfinishedTaskSrvImpl"></impl-define>
+  </service>
+  
+  <!--静态页手动刷新功能-->
+  <service id="pageRefreshShowInfoDAO" interface="ngves.asiainfo.core.system.dao.interfaces.IPageRefreshShowInfoDAO" listen="true">
+   		<interface-define/>
+   		<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.system.dao.impl.PageRefreshShowInfoDAOImpl"></impl-define>
+  </service>
+  <service id="StaticPageRefreshSrv" name="StaticPageRefreshSrv" interface="ngves.asiainfo.core.system.service.interfaces.IStaticPageRefreshSrv" listen="true">
+	    <interface-define/>
+	    <property name="pageRefreshShowInfoDAO" value="pageRefreshShowInfoDAO" ref="ngves.asiainfo.core.pageRefreshShowInfoDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.system.service.impl.StaticPageRefreshSrvImpl"></impl-define>
+  </service>
+  
+  <!--短信模板管理服务-->
+  <service id="smsFormworkDAO" interface="ngves.asiainfo.core.smsformwork.dao.interfaces.ISmsFormworkDAO" listen="true">
+   		<interface-define/>
+   		<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.smsformwork.dao.impl.SmsFormworkDAOImpl"></impl-define>
+  </service>
+  <service id="SmsFormworkService" name="SmsFormworkSrv" interface="ngves.asiainfo.core.smsformwork.service.interfaces.ISmsFormworkSrv" listen="true">
+	    <interface-define/>
+	    <property name="smsFormworkDAO" value="smsFormworkDAO" ref="ngves.asiainfo.core.smsFormworkDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.smsformwork.service.impl.SmsFormworkSrvImpl"></impl-define>
+  </service>
+  
+  <!--短信模板 发送时机管理-->
+  <service id="smsOccasionDAO" interface="ngves.asiainfo.core.smsformwork.dao.interfaces.ISmsOccasionDAO" listen="true">
+   		<interface-define/>
+   		<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.smsformwork.dao.impl.SmsOccasionDAOImpl"></impl-define>
+  </service>
+  <service id="SmsOccasionService" name="SmsOccasionService" interface="ngves.asiainfo.core.smsformwork.service.interfaces.ISmsOccasionSrv" listen="true">
+	    <interface-define/>
+	    <property name="smsOccasionDAO" value="smsOccasionDAO" ref="ngves.asiainfo.core.smsOccasionDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.smsformwork.service.impl.SmsOccasionSrvImpl"></impl-define>
+  </service>
+  
+  <!--短信模板 模板内容管理-->
+  <service id="smsTempContentDAO" interface="ngves.asiainfo.core.smsformwork.dao.interfaces.ISmsTempContentDAO" listen="true">
+   		<interface-define/>
+   		<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.smsformwork.dao.impl.SmsTempContentDAOImpl"></impl-define>
+  </service>
+  <service id="SmsTempContentService" name="SmsTempContentService" interface="ngves.asiainfo.core.smsformwork.service.interfaces.ISmsTempContentSrv" listen="true">
+	    <interface-define/>
+	    <property name="smsTempContentDAO" value="smsTempContentDAO" ref="ngves.asiainfo.core.smsTempContentDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.smsformwork.service.impl.SmsTempContentSrvImpl"></impl-define>
+  </service>
+  
+
+  <!--礼品所属短信模板列表-->
+  <service id="WareTempDAO" interface="ngves.asiainfo.core.smsformwork.dao.interfaces.IWareTempDAO" listen="true">
+   		<interface-define/>
+   		<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.smsformwork.dao.impl.WareTempDAOImpl"></impl-define>
+  </service>
+  <service id="WareTempService" name="WareTempService" interface="ngves.asiainfo.core.smsformwork.service.interfaces.IWareTempSrv" listen="true">
+	    <interface-define/>
+	    <property name="wareTempDAO" value="wareTempDAO" ref="ngves.asiainfo.core.WareTempDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.smsformwork.service.impl.WareTempSrvImpl"></impl-define>
+  </service>
+  
+  <!--活动配置短信模板列表-->
+  <service id="WareActionQryDAO" interface="ngves.asiainfo.core.smsformwork.dao.interfaces.IWareActionQryDAO" listen="true">
+   		<interface-define/>
+   		<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.smsformwork.dao.impl.WareActionQryDAOImpl"></impl-define>
+  </service>
+  <service id="WareActionQryService" name="WareActionQryService" interface="ngves.asiainfo.core.smsformwork.service.interfaces.IWareActionQrySrv" listen="true">
+	    <interface-define/>
+	    <property name="wareActionQryDAO" value="wareActionQryDAO" ref="ngves.asiainfo.core.WareActionQryDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.smsformwork.service.impl.WareActionQrySrvImpl"></impl-define>
+  </service>
+  
+  <service id="helpCenterInfoDAO" interface="ngves.asiainfo.core.helpcenter.dao.interfaces.IHelpCenterInfoDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.helpcenter.dao.impl.HelpCenterInfoDAOImpl"></impl-define>
+  </service>
+  
+   <!--帮助中心-Srv-->
+   <service id="helpCenterInfoSrv" interface="ngves.asiainfo.core.helpcenter.service.interfaces.IHelpCenterInfoSrv" listen="true">
+     <interface-define/>
+     <property name="helpCenterInfoDAO" value="helpCenterInfoDAO" ref="ngves.asiainfo.core.helpCenterInfoDAO"></property>
+     <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.helpcenter.service.impl.HelpCenterInfoSrvImpl"></impl-define>
+   </service>
+   
+   <service id="busiProcessSrv" interface="ngves.asiainfo.core.award.service.interfaces.IBusiProcessSrv" listen="true">
+     <interface-define/>
+
+     <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.award.service.impl.BusiProcessSrvImpl"></impl-define>
+   </service>
+   
+   <!--积分返赠-Srv-->
+  <service id="RechargePointsTaskService" name="WareTempService" interface="ngves.asiainfo.core.rechargepoints.service.interfaces.IRechargePointsTaskSrv" listen="true">
+	    <interface-define/>
+	    <property name="RechargePointsTaskDAO" value="wareTempDAO" ref="ngves.asiainfo.core.RechargePointsTaskDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.rechargepoints.service.impl.RechargePointsTaskSrvImpl"></impl-define>
+  </service>
+     <service id="RechargePointsTaskDAO" interface="ngves.asiainfo.core.rechargepoints.dao.interfaces.IRechargePointsTaskDAO" listen="true">
+   		<interface-define/>
+   		<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.rechargepoints.dao.impl.RechargePointsTaskDAOImpl"></impl-define>
+  </service>
+  
+  
+  <!--EJB信息查询-Srv-->
+  <service id="testEJBInfoDAO" interface="ngves.asiainfo.core.ware.dao.interfaces.ITestEJBInfoDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.ware.dao.impl.TestEJBInfoDAOImpl"></impl-define>
+  </service>
+
+  <service id="testEJBInfoSrv" interface="ngves.asiainfo.core.ware.service.interfaces.ITestEJBInfoSrv" listen="true">
+    <interface-define/>
+    <property name="testEJBInfoDAO" value="testEJBInfoDAO" ref="ngves.asiainfo.core.testEJBInfoDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.ware.service.impl.TestEJBInfoSrvImpl"></impl-define>
+  </service>
+  
+  <service id="paraPropDAO" interface="ngves.asiainfo.core.system.dao.interfaces.IParaPropDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.system.dao.impl.ParaPropDAOImpl"></impl-define>
+  </service>
+  <service id="ParaPropService" name="ParaPropService" interface="ngves.asiainfo.core.system.service.interfaces.IParaPropSrv" listen="true">
+    <interface-define/>
+    <property name="paraPropDAO" value="paraPropDAO" ref="ngves.asiainfo.core.paraPropDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.system.service.impl.ParaPropSrvImpl"></impl-define>
+  </service>
+  
+  <service id="RecommCategoryWareRltDAO" interface="ngves.asiainfo.core.common.dao.interfaces.IRecommCategoryWareRltDAO" listen="true">
+    <interface-define/>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.common.dao.impl.RecommCategoryWareRltDAOImpl"></impl-define>
+  </service>
+  <service id="RecommCategoryWareRltSrv" name="BusiInfoService" interface="ngves.asiainfo.core.common.service.interfaces.IRecommCategoryWareRltSrv" listen="true">
+    <interface-define/>
+    <property name="RecommCategoryWareRltDAO" value="RecommCategoryWareRltDAO" ref="ngves.asiainfo.core.RecommCategoryWareRltDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="abc" transaction-type="join" impl-class="ngves.asiainfo.core.common.service.impl.RecommCategoryWareRltSrvImpl"></impl-define>
+  </service>
+  
+  
+  <!--触屏版首页楼层推荐Srv-->
+  <service id="MobileFloorManageService" name="MobileFloorManageService" interface="ngves.asiainfo.core.mobile.service.interfaces.IMobileFloorManageSrv" listen="true">
+	    <interface-define/>
+	    <property name="MobileFloorManageDAO" value="MobileFloorManageDAO" ref="ngves.asiainfo.core.MobileFloorManageDAO"></property>
+	    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.mobile.service.impl.MobileFloorManageSrvImpl"></impl-define>
+  </service>
+  <service id="MobileFloorManageDAO" interface="ngves.asiainfo.core.mobile.dao.interfaces.IMobileFloorManageDAO" listen="true">
+   		<interface-define/>
+   		<impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.mobile.dao.impl.MobileFloorManageDAOImpl"></impl-define>
+  </service>
+  
+   <!--和优选   礼品图片同步服务-->
+   <service id="WarePicSynDAO" interface="ngves.asiainfo.core.ware.dao.interfaces.IWarePicSynDAO" listen="true">
+        <interface-define/>
+        <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.dao.impl.WarePicSynDAOImpl"></impl-define>
+    </service>
+    <service id="WarePicSynService" interface="ngves.asiainfo.core.ware.service.interfaces.IWarePicSynSrv" listen="true">
+     <interface-define/>
+     <property name="WarePicSynDAO" value="WarePicSynDAO" ref="ngves.asiainfo.core.WarePicSynDAO"></property>
+     <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.service.impl.WarePicSynSrvImpl"></impl-define>
+   </service>
+ 
+    <!--增加礼品兑换数量限制  城市区号信息服务-->
+   <service id="CityAreaCodeInfoDAO" interface="ngves.asiainfo.core.common.dao.interfaces.ICityAreaCodeInfoDAO" listen="true">
+        <interface-define/>
+        <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.common.dao.impl.CityAreaCodeInfoDAOImpl"></impl-define>
+    </service>
+    <service id="CityAreaCodeInfoService" interface="ngves.asiainfo.core.common.service.interfaces.ICityAreaCodeInfoSrv" listen="true">
+     <interface-define/>
+     <property name="CityAreaCodeInfoDAO" value="CityAreaCodeInfoDAO" ref="ngves.asiainfo.core.CityAreaCodeInfoDAO"></property>
+     <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.common.service.impl.CityAreaCodeInfoSrvImpl"></impl-define>
+   </service>
+   <service id="WareInfoPortalIntegralDAO" interface="ngves.asiainfo.core.ware.dao.interfaces.IWareInfoPortalIntegralDAO" listen="true">
+     <interface-define/>
+     <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.dao.impl.WareInfoPortalIntegralDAOImpl"></impl-define>
+   </service>
+   <service id="ActivityIntegralDAO" interface="ngves.asiainfo.core.ware.dao.interfaces.IActivityIntegralDAO" listen="true">
+     <interface-define/>
+     <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.dao.impl.ActivityIntegralDAOImpl"></impl-define>
+   </service>
+    <service id="BusiActivityIntegralDAO" interface="ngves.asiainfo.core.ware.dao.interfaces.IBusiActivityIntegralDAO" listen="true">
+     <interface-define/>
+     <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.dao.impl.BusiActivityIntegralDAOImpl"></impl-define>
+   </service>
+   <service id="WareIdFirstKindDAO" interface="ngves.asiainfo.core.ware.dao.interfaces.IWareIdFirstKindDAO" listen="true">
+     <interface-define/>
+     <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.dao.impl.WareIdFirstKindDAOImpl"></impl-define>
+   </service>
+   <service id="WareIdFirstKindSrv" interface="ngves.asiainfo.core.ware.service.interfaces.IWareIdFirstKindSrv" listen="true">
+    <interface-define/>
+    <property name="WareIdFirstKindDAO" value="WareIdFirstKindDAO" ref="ngves.asiainfo.core.WareIdFirstKindDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.ware.service.impl.WareIdFirstKindSrvImpl"></impl-define>
+  </service>
+  
+  <service id="NavbarInfoSrv" interface="ngves.asiainfo.core.floor.service.interfaces.INavbarInfoSrv" listen="true">
+    <interface-define/>
+    <property name="navbarInfoDAO" value="navbarInfoDAO" ref="ngves.asiainfo.core.NavbarInfoDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.floor.service.impl.NavbarInfoSrvImpl"></impl-define>
+  </service>
+   <service id="NavbarInfoDAO" interface="ngves.asiainfo.core.floor.dao.interfaces.INavbarInfoDAO" listen="true">
+     <interface-define/>
+     <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.floor.dao.impl.NavbarInfoDAOImpl"></impl-define>
+   </service>
+  
+  <service id="NavbarKindInfoSrv" interface="ngves.asiainfo.core.floor.service.interfaces.INavbarKindInfoSrv" listen="true">
+    <interface-define/>
+    <property name="navbarKindInfoDAO" value="navbarKindInfoDAO" ref="ngves.asiainfo.core.NavbarKindInfoDAO"></property>
+    <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.floor.service.impl.NavbarKindInfoSrvImpl"></impl-define>
+  </service>
+   <service id="NavbarKindInfoDAO" interface="ngves.asiainfo.core.floor.dao.interfaces.INavbarKindInfoDAO" listen="true">
+     <interface-define/>
+     <impl-define type="singleton" use="true" transaction-name="" transaction-type="join" impl-class="ngves.asiainfo.core.floor.dao.impl.NavbarKindInfoDAOImpl"></impl-define>
+   </service>
+   
+</module>

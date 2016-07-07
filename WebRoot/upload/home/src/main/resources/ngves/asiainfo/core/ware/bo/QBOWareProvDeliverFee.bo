@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOWareProvDeliverFee" mainattr="WARE_ID">
+        <mapingenty type="query">SELECT A.WARE_ID, WM_CONCAT(A.PROV_INTEGRAL_VALUE) PROV_INTEGRAL_VALUE
+  FROM (SELECT WIP.WARE_ID,
+               (L.PROVINCE_CODE || '=' || NVL(MAX(L.INTEGRAL_VALUE), 0)) PROV_INTEGRAL_VALUE
+          FROM WARE_INFO_PORTAL WIP, LOGISTIC_INTEGRAL_INFO L
+         WHERE WIP.WARE_STORAGE_TYPE = L.WAREHOUSE_TYPE
+           AND L.WAREHOUSE_PROVINCE_CODE = WIP.PROVINCE_CODE
+           AND WIP.WARE_STATUS = '1'
+           AND WIP.IS_SEARCH = '1'
+           AND WIP.WAREHOUSE_ID &lt;&gt; 0
+           AND WIP.WAREHOUSE_ID = L.WAREHOUSE_ID(+)
+         GROUP BY WIP.WARE_ID, L.PROVINCE_CODE
+        UNION ALL
+        SELECT WIP.WARE_ID,
+               (L.PROVINCE_CODE || '=' || NVL(MAX(L.INTEGRAL_VALUE), 0)) PROV_INTEGRAL_VALUE
+          FROM WARE_INFO_PORTAL WIP, LOGISTIC_INTEGRAL_INFO L
+         WHERE WIP.WARE_STORAGE_TYPE = L.WAREHOUSE_TYPE
+           AND L.WAREHOUSE_PROVINCE_CODE = WIP.PROVINCE_CODE
+           AND WIP.WARE_STATUS = '1'
+           AND WIP.IS_SEARCH = '1'
+           AND WIP.WAREHOUSE_ID = 0
+         GROUP BY WIP.WARE_ID, L.PROVINCE_CODE) A
+ GROUP BY A.WARE_ID</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="WARE_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROV_INTEGRAL_VALUE" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROV_INTEGRAL_VALUE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

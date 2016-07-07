@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="BusiWareHouseLogisticRlt" mainattr="BUSI_WAREHOUSE_LOGISTIC_RLT_ID">
+        <mapingenty type="table">BUSI_WAREHOUSE_LOGISTIC_RLT</mapingenty>
+        <datafilter />
+         <attrlist>
+             <attr floatlength="0" name="WAREHOUSE_LOGISTIC_RLT_ID" maxlength="15" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">WAREHOUSE_LOGISTIC_RLT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_ID" maxlength="15" datatype="Long"  type="COL">
+                <mapingcol datatype="NUMBER">BUSI_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BUSI_STATUS" maxlength="2" datatype="String"  type="COL">
+                <mapingcol datatype="VARCHAR2">BUSI_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROVINCE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROVINCE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WAREHOUSE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WAREHOUSE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROVINCE_RLT_BEG_TIME" maxlength="20" datatype="DateTime" type="COL" remark="省份关系开始时间">
+                <mapingcol datatype="DATE">PROVINCE_RLT_BEG_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROVINCE_RLT_END_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">PROVINCE_RLT_END_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LOGISTIC_RLT_BEG_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">LOGISTIC_RLT_BEG_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="LOGISTIC_RLT_END_TIME" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">LOGISTIC_RLT_END_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RLT_STATE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RLT_STATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">PARTNER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALL_PERCENT" maxlength="3" datatype="String" type="COL" remark="">
+                <mapingcol datatype="VARCHAR2">ALL_PERCENT</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_STATE" maxlength="2" datatype="String" type="COL" remark="合作商状态">
+                <mapingcol datatype="VARCHAR2">PARTNER_STATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="NOTE" maxlength="100" datatype="String" type="COL" remark="备注">
+                <mapingcol datatype="VARCHAR2">NOTE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OPERATOR" maxlength="30" datatype="String" type="COL" remark="操作人">
+                <mapingcol datatype="VARCHAR2">OPERATOR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SYN_TIME" maxlength="100" datatype="String" type="COL" remark="时间">
+                <mapingcol datatype="VARCHAR2">SYN_TIME</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,244 @@
+html,body{
+    margin:0;
+    padding:0;
+    border:0;
+    height:100%;
+    font-size:12px; 
+    overflow-x: hidden;
+}
+ul, li {
+    list-style: none outside none;
+}
+.login {
+	margin:0 auto;
+	text-align:left;
+	width: 636px;
+	height:306px;
+	position:relative;
+	background:url(../img/login.gif) no-repeat center;
+	font-size:12px;
+}
+.login-title{
+	margin:0 auto;
+	width: 610px;
+	height:20px;
+	font-size:18px;
+	padding-top:100px;
+	font-weight:bold;
+}
+.login-bg {
+	height:100%;
+	background:url(../img/login_bg.gif);
+}
+.div-center{
+	margin:0 auto;
+	text-align:center;
+}
+.font-red{
+	color:#ff0000;
+}
+#top {
+	float:left;
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+	height:70px;
+}
+.admin-header{
+	margin:0 auto;
+	padding:0;
+	text-align:left;
+	width: 100%;
+	height:67px;
+	background:url("../img/test.gif") repeat #E9F2F8  ;
+}
+
+#title {
+	color:#000;
+	font:bold 1.5em/22px 'Trebuchet MS',Trebuchet,Arial,sans-serif;
+	letter-spacing:-0.02em;
+	padding:10px 0 5px 6px;
+	text-shadow:1px 1px 3px #111;
+}
+#topnav {
+	color:#999;
+	padding:6px 10px 6px 10px;
+	margin:0;
+	position:absolute;
+	right:0;
+	top:0;
+	white-space:nowrap;
+	font-size:12px;
+	text-align:left;
+}
+#topnav span {
+	color:#444;
+}
+#topnav a {
+	color:#2A7AD2;
+	padding:0;
+	text-decoration:none;
+}
+#topnav a.high {
+	color:#FFC806;
+	text-decoration:none;
+}
+#topnav a:hover,
+#topnav a:focus,
+#topnav a:active {
+	color:#000;
+	text-decoration:none;
+}
+.pagetitle {
+	background-color:#266DBB;
+	border:0px solid #266DBB;
+	border-bottom:1px solid #2A7AD2;
+	float:left;
+	width:100%;
+	height:5px;
+	padding:0px;
+	margin:0;
+	font: 0px Arial;
+}
+
+.sf-menu{
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	font:12px sans-serif;
+	margin-left:180px;
+	border:0px solid #f00;
+}
+.sf-menu li {
+	margin:0;
+	float:left;
+	position:relative;
+	background:#444;
+	margin-right:2px;
+	text-align:center;
+}
+.sf-menu a {
+	font:12px sans-serif;
+	display:block;
+	color:#eee;
+	position: relative;
+	text-decoration:none;
+	margin:0;
+	padding:0;
+	padding:0.70em 1.3em;
+}
+.sf-menu a:hover {
+	font:12px sans-serif;
+	background:#555;
+	outline:0;
+	margin:0;
+	text-align:center;
+	padding:0.70em 1.3em;
+}
+.sf-menu li.current {
+	background: #266DBB;
+}
+
+.expandLeftMenu{
+	background:url("../img/hide.gif")  no-repeat scroll -6px center #e1edf5 ;
+	height:100%;
+	border-right:1px solid #94B7D3;
+	width:6px;
+	cursor: pointer;
+}
+.hideLeftMenu {
+    background: url("../img/hide.gif") no-repeat scroll -18px center #c9e0ef;
+    border-right: 1px solid #94B7D3;
+    width: 6x;
+    height:100%;
+    cursor: pointer;
+}
+
+#leftMenu{
+	background:url("../img/left_bg.gif") repeat-y ;
+	height:100%;
+}
+
+#leftMenu div div{
+	display:block;
+	font:bold 12px/28px sans-serif;
+	color:#555656;
+	height:28px;
+	line-height:28px;
+	text-align:left;
+	padding-left:10px;
+	width:150px;
+	margin:2px 0px 0px ;
+	background:url("../img/menu_title.png") repeat-x  left top ;
+	border:1px solid #99BBE8;
+	cursor: pointer;
+}
+*html #leftMenu div div{
+  width:160px;
+}
+#leftMenu div div span{
+	float:right;
+	height:28px;
+	width:13px;
+	border:0px solid #99BBE8;
+	cursor: pointer;
+}
+*html #leftMenu div div span{
+margin-top:-28px;
+}
+.opendown{
+background:url("../img/down.gif")  no-repeat center ;
+}
+.openup{
+background:url("../img/up.gif")  no-repeat center ;
+}
+
+#leftMenu ul {
+	width:160px;
+	padding-left:0px;
+	border:#99BBE8 solid 1px;
+	border-top:none;
+	margin:0;
+	margin-bottom:4px;
+	list-style:none;
+	height:auto;overflow: hidden;
+}
+
+
+#leftMenu ul li{
+	width:100%;
+	font:12px/29px sans-serif;
+	line-height:29px;
+	text-align:left;
+	padding-left:14px;
+	float:left;
+	border:#00f solid 0px;
+	margin:0;
+}
+
+.leftlibg{ 
+	background: repeat-x scroll left bottom  #e0e9f3;
+}
+
+#leftMenu ul li a{
+	font:12px/29px sans-serif;
+	color:#003D79;
+	text-decoration: none;
+}
+#leftMenu ul li a:focus,#leftMenu ul li a:hover{
+	font:12px/29px sans-serif;
+	color:#FF8040;
+	text-decoration: none;
+}
+
+.main_frame{
+	border:0;
+	margin:0;
+	margin-top:4px;
+	padding:0;
+}
+*html .main_frame{
+  margin-top:0;
+}

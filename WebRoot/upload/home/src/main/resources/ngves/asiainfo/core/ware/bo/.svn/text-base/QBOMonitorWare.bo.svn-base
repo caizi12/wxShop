@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOMonitorWare" mainattr="WARE_NAME">
+        <mapingenty type="query">select jbr.job_task_id,wi.ware_name, wi.ware_code,pi.partner_name,wk.kind_name,wi.ware_status from job_object_rlt jbr, ware_info wi,partner_info pi,ware_kind wk,ware_kind_rlt wkr where jbr.monitor_object_id = wi.ware_code and wi.partner_id=pi.partner_id and wi.ware_id=wkr.ware_id and wkr.ware_kind_id=wk.ware_kind_id</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="JOB_TASK_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">JOB_TASK_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="KIND_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_STATUS" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_STATUS</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/jf/app/!svn/ver/38307/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo
+END
+QBOPreOrdersInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/QBOPreOrdersInfo.bo
+END
+SETTuanProvince.set
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/SETTuanProvince.set
+END
+SETQBOTuanWareIntegral.set
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/38020/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/SETQBOTuanWareIntegral.set
+END
+QBOTodayCommend.bo
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/38202/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/QBOTodayCommend.bo
+END
+SETCategoryShowControl.set
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/SETCategoryShowControl.set
+END
+SETTuanInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/33894/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/SETTuanInfo.set
+END
+JfinterOrdersInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/JfinterOrdersInfo.bo
+END
+QBOTuanWareKind.bo
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/QBOTuanWareKind.bo
+END
+QBOTuanWareInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/38080/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/QBOTuanWareInfo.bo
+END
+SETQBOTuanWareKind.set
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/SETQBOTuanWareKind.set
+END
+TuanWareRLT.bo
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/37902/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/TuanWareRLT.bo
+END
+TuanUserLog.bo
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/TuanUserLog.bo
+END
+SETTuanCycleInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/SETTuanCycleInfo.set
+END
+SETQBOTuanOrder.set
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/SETQBOTuanOrder.set
+END
+TuanProvince.bo
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/TuanProvince.bo
+END
+QBOComingSoon.bo
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/38136/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/QBOComingSoon.bo
+END
+SETTuanWareRLT.set
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/32475/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/SETTuanWareRLT.set
+END
+SETTuanUserLog.set
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/SETTuanUserLog.set
+END
+CategoryShowControl.bo
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/CategoryShowControl.bo
+END
+DSTuanInfo.ds
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/DSTuanInfo.ds
+END
+QBOTuanWareData.bo
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jf/app/!svn/ver/38012/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/QBOTuanWareData.bo
+END
+TuanInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/TuanInfo.bo
+END
+TuanInfo.ds
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/TuanInfo.ds
+END
+SETQBOTuanWareData.set
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/SETQBOTuanWareData.set
+END
+DSTuanWareInfo.ds
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/DSTuanWareInfo.ds
+END
+TuanGroupInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/TuanGroupInfo.bo
+END
+TuanCycleInfo.bo
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/TuanCycleInfo.bo
+END
+QBOReview.bo
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/QBOReview.bo
+END
+QBOTuanOrder.bo
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/QBOTuanOrder.bo
+END
+SETTuanGroupInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/SETTuanGroupInfo.set
+END
+SETTuanWareInfo.set
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jf/app/!svn/ver/33887/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/SETTuanWareInfo.set
+END
+QBOTuanWareIntegral.bo
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jf/app/!svn/ver/38307/trunk/ngves/ngves_core/src/main/resources/ngves/asiainfo/core/tuan/bo/QBOTuanWareIntegral.bo
+END

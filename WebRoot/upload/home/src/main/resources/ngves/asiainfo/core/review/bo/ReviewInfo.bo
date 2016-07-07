@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="ReviewInfo" mainattr="REVIEW_ID">
+        <mapingenty type="table">REVIEW_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="REVIEW_ID" maxlength="22" datatype="Long" type="PK">
+                <mapingcol datatype="NUMBER">REVIEW_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="REVIEW_DESC_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">REVIEW_DESC_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EXCEL_NAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">EXCEL_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="REVIEW_MONTH" maxlength="7" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">REVIEW_MONTH</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREATE_DATE" maxlength="20" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">CREATE_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STATUS" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="REVIEW_PEOPLE" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">REVIEW_PEOPLE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="REVIEW_TMIE" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">REVIEW_TMIE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="REVIEW_OPINION" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">REVIEW_OPINION</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK1" maxlength="50" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BAK1</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+
+<sqlMap namespace="sysUser">
+	
+	<select id="getSysUser" parameterClass="cn.frame.platform.entitys.SysUser" resultClass="cn.frame.platform.entitys.SysUser">
+		SELECT
+			USER_ID userId,
+			USER_NAME userName,
+			PASSWORD,
+			REAL_NAME realName,
+			STATUS,
+			MOBILE_NO mobileNo,
+			PHONE_NO phoneNo,
+			EMAIL,
+			INVALID_DATE invalidDate,
+			LAST_LOGIN lastLogin,
+			UNLOCK_TIME unlockTime,
+			MAX_LOGIN_COUNT maxLoginCount,
+			ERR_LOGIN_COUNT errLoginCount,
+			LAST_IP lastIp,
+			ORG_ID orgId,
+			DEPT_ID deptId,
+			LANG,
+			REMARK
+			FROM sys_user
+		where 1=1	
+	   <isNotEmpty prepend="and" property="userId">
+			 USER_ID=#userId#
+		</isNotEmpty>
+		<isNotEmpty prepend="and" property="userName">
+			USER_NAME=#userName#
+		</isNotEmpty>
+		<isNotEmpty prepend="and" property="realName">
+			REAL_NAME like '%'||#realName#||'%'
+		</isNotEmpty>
+		<isNotEmpty prepend="and" property="status">
+			STATUS=#status#
+		</isNotEmpty>
+	</select>
+	
+	<select id="querySysUser" parameterClass="java.util.Map" resultClass="cn.frame.platform.entitys.SysUser">
+		SELECT
+			USER_ID userId,
+			USER_NAME userName,
+			PASSWORD,
+			REAL_NAME realName,
+			STATUS,
+			MOBILE_NO mobileNo,
+			PHONE_NO phoneNo,
+			EMAIL,
+			INVALID_DATE invalidDate,
+			LAST_LOGIN lastLogin,
+			UNLOCK_TIME unlockTime,
+			MAX_LOGIN_COUNT maxLoginCount,
+			ERR_LOGIN_COUNT errLoginCount,
+			LAST_IP lastIp,
+			ORG_ID orgId,
+			DEPT_ID deptId,
+			LANG,
+			REMARK
+		FROM sys_user
+		where 1=1	
+	   <isNotEmpty prepend="and" property="userId">
+			 USER_ID=#userId#
+		</isNotEmpty>
+		<isNotEmpty prepend="and" property="userName">
+			USER_NAME like '%$userName$%' 
+		</isNotEmpty>
+		<isNotEmpty prepend="and" property="realName">
+			REAL_NAME like '%$realName$%'
+		</isNotEmpty>
+		<isNotEmpty prepend="and" property="status">
+			STATUS=#status#
+		</isNotEmpty>
+		order by  USER_ID desc
+	</select>
+	
+	<insert id="addSysUser"  parameterClass="cn.frame.platform.entitys.SysUser">
+		INSERT INTO sys_user
+		(USER_ID, USER_NAME, PASSWORD, REAL_NAME, STATUS, MOBILE_NO, PHONE_NO,EMAIL, INVALID_DATE, 
+		 LAST_LOGIN, UNLOCK_TIME, MAX_LOGIN_COUNT, ERR_LOGIN_COUNT,LAST_IP, ORG_ID, DEPT_ID, LANG, REMARK) 
+        VALUES(#userId#, #userName#, #password#, #realName#, #status#, #mobileNo#, #phoneNo#,
+        #email#, #invalidDate#, #lastLogin#, #unlockTime#, $maxLoginCount$, $errLoginCount$, 
+        #lastIp#, #orgId#, #deptId#, #lang#, #remark#)
+	</insert>
+	
+	<update id="updateSysUser" parameterClass="cn.frame.platform.entitys.SysUser">
+     UPDATE sys_user 
+     SET  REAL_NAME=#realName#, STATUS=#status#, MOBILE_NO=#mobileNo#,
+     PHONE_NO=#phoneNo#, EMAIL=#email#, INVALID_DATE=#invalidDate#,
+     MAX_LOGIN_COUNT=$maxLoginCount$, ORG_ID=#orgId#, DEPT_ID=#deptId#, LANG=#lang#, REMARK=#remark#
+     WHERE USER_ID=#userId#
+	</update>
+	
+	<delete id="batchDelSysUser" parameterClass="java.lang.String">
+	   delete from sys_user where user_id=#userId#
+	</delete>
+	
+	<update id="changeSysUserPwd" parameterClass="cn.frame.platform.entitys.SysUser">
+     UPDATE sys_user 
+     SET  password=#password#
+     WHERE USER_NAME=#userName#
+	</update>
+</sqlMap>

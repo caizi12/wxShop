@@ -1,0 +1,17 @@
+K 10
+svn:ignore
+V 37
+.classpath
+.project
+target
+.settings
+
+K 13
+svn:mergeinfo
+V 442
+/branches/ngves/TRY-maven/ngves_core:6020-6044
+/branches/ngves/rb-4.0.12_20110426/ngves_core:13441
+/branches/ngves/rb-4.0.13_20110519/ngves_core:13635,13646,13649,13654,13674-13675,13679,13824
+/branches/ngves/rb-4.0.14_20110530/ngves_core:14103,14128,14142,14163,14186,14204,14209,14229,14232,14253,14260,14270,14608,14650,14659,14661
+/trunk/ngves/ngves_core:12396-12398,12408,12467-12468,12478,12482,12485,12491,12533,12538,12541,12549,12573
+END

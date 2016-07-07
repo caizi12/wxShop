@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMapConfig PUBLIC "-//iBATIS.com//DTD SQL Map Config 2.0//EN"
+    "http://www.ibatis.com/dtd/sql-map-config-2.dtd">
+
+<sqlMapConfig>
+	<sqlMap resource="config/ibatis/platform/platform-sqlmap.xml"/>
+
+	<sqlMap resource="config/ibatis/platform/sys/sys_user_SqlMap.xml"/>
+	<sqlMap resource="config/ibatis/platform/sys/sys_menu_SqlMap.xml"/>
+	<sqlMap resource="config/ibatis/platform/sys/sys_dict_SqlMap.xml"/>
+	<sqlMap resource="config/ibatis/platform/sys/member_info_SqlMap.xml"/>
+	<sqlMap resource="config/ibatis/platform/sys/product_info_SqlMap.xml"/>
+	<sqlMap resource="config/ibatis/platform/sys/product_attr_type_SqlMap.xml"/>
+	<sqlMap resource="config/ibatis/platform/sys/product_attr_info_SqlMap.xml"/>
+	<sqlMap resource="config/ibatis/platform/sys/member_address_SqlMap.xml"/>
+	<sqlMap resource="config/ibatis/platform/sys/order_info_SqlMap.xml"/>
+	<sqlMap resource="config/ibatis/platform/sys/shop_info_SqlMap.xml"/>
+	<sqlMap resource="config/ibatis/platform/sys/order_info_list_SqlMap.xml"/>
+	<sqlMap resource="config/ibatis/platform/sys/province_city_country_info_SqlMap.xml"/>
+	<sqlMap resource="config/ibatis/platform/sys/member_recomend_info_SqlMap.xml"/>
+</sqlMapConfig>

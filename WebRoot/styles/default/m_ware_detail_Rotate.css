@@ -1,0 +1,53 @@
+@charset "utf-8";
+/*轮播*/
+.swiper-container { width:100%;max-width:640px;min-width:320px;margin:0 auto;background:#fff;}
+.pagination { position: absolute; left: 0; text-align: center; bottom:5px; width: 100%; }
+.swiper-pagination-switch { display: inline-block; width: 8px; height: 8px; border-radius: 10px; background: #8a8f95;opacity:0.4; filter:alpha(opacity=40); margin: 0 0 0 8px; cursor: pointer; }
+.swiper-active-switch { background: #8fc31f; opacity:0.4; filter:alpha(opacity=40);}
+.swiper-slide { position: relative;width:100%;}
+.swiper-slide img {width:100%;}
+.swiper-slide a { display: block; position: absolute;width:100%;}
+.swiper-slide1 a { left: 65px; top: 170px;width:100%;}
+.swiper-slide2 a { left: 90px; top: 195px;width:100%;}
+.swiper-slide3 a { left: 90px; top: 195px;width:100%;} 
+
+
+@media only screen and (min-width: 480px) and (orientation:landscape) {
+.swiper-container {width:480px;height:480px;}
+.pagination { position: absolute; left: 0; text-align: center; bottom: 0; width: 100%; }
+.swiper-pagination-switch { display: inline-block; width: 8px; height: 8px; border-radius: 10px; background: #8a8f95;
+margin: 0 0 0 8px; cursor: pointer; }
+.swiper-active-switch { background: #8fc31f; }
+.swiper-slide { position: relative;width:100%;}
+.swiper-slide img {width:100%;}
+.swiper-slide a { display: block; position: absolute;width:100%;}
+.swiper-slide1 a { left: 65px; top: 170px;width:100%;}
+.swiper-slide2 a { left: 90px; top: 195px;width:100%;}
+.swiper-slide3 a { left: 90px; top: 195px;width:100%;} 		
+}
+
+@media only screen and (min-width: 768px) {
+.swiper-container {width:100%;height:640px;}
+.pagination { position: absolute; left: 0; text-align: center; bottom: 0; width: 100%; }
+.swiper-pagination-switch { display: inline-block; width: 8px; height: 8px; border-radius: 10px; background: #8a8f95;
+margin: 0 0 0 8px; cursor: pointer; }
+.swiper-active-switch { background: #8fc31f; }
+.swiper-slide { position: relative;width:100%;}
+.swiper-slide img {width:100%;}
+.swiper-slide a { display: block; position: absolute;width:100%;}
+.swiper-slide1 a { left: 65px; top: 170px;width:100%;}
+.swiper-slide2 a { left: 90px; top: 195px;width:100%;}
+.swiper-slide3 a { left: 90px; top: 195px;width:100%;} 		
+}
+
+
+
+
+
+
+
+
+
+
+
+

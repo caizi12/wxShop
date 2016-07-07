@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/jf/app/!svn/ver/36717/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/smsformwork/dao/impl
+END
+SmsFormworkDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/32267/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/smsformwork/dao/impl/SmsFormworkDAOImpl.java
+END
+SmsOccasionDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jf/app/!svn/ver/32198/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/smsformwork/dao/impl/SmsOccasionDAOImpl.java
+END
+SmsTempContentDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jf/app/!svn/ver/32255/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/smsformwork/dao/impl/SmsTempContentDAOImpl.java
+END
+WareTempDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jf/app/!svn/ver/36717/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/smsformwork/dao/impl/WareTempDAOImpl.java
+END
+WareActionQryDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jf/app/!svn/ver/32158/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/smsformwork/dao/impl/WareActionQryDAOImpl.java
+END

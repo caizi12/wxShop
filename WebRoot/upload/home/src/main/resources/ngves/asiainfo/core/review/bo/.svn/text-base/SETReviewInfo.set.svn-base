@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETReviewInfo" BOName="ngves.asiainfo.core.review.bo.ReviewInfo" MainField="BUSI_ID" 
+  Title="ngves.asiainfo.core.review.bo.ReviewInfo" 
+  ActBOName="ngves.asiainfo.core.review.bo.ReviewInfo" 
+  Package="ngves.asiainfo.core.review.bo">
+    <FieldList>
+    	<Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>REVIEW_ID</Name>
+        <BOAttrName>REVIEW_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>REVIEW_ID</ID>
+        <Title>复核ID</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.review.bo.ReviewInfo" Attr="REVIEW_ID" />
+      </Field>
+    	<Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>REVIEW_DESC_ID</Name>
+        <BOAttrName>REVIEW_DESC_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>REVIEW_DESC_ID</ID>
+        <Title>复核属性ID</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.review.bo.ReviewInfo" Attr="REVIEW_DESC_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>REVIEW_NAME</Name>
+        <BOAttrName>REVIEW_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>REVIEW_NAME</ID>
+        <Title>复核属性名称</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.review.bo.ReviewInfo" Attr="REVIEW_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>REVIEW_MONTH</Name>
+        <BOAttrName>REVIEW_MONTH</BOAttrName>
+        <BODisplayAttrName />
+        <ID>REVIEW_MONTH</ID>
+        <Title>复核月份</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.review.bo.ReviewInfo" Attr="REVIEW_MONTH" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>EXCEL_NAME</Name>
+        <BOAttrName>EXCEL_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>EXCEL_NAME</ID>
+        <Title>文件名称</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.review.bo.ReviewInfo" Attr="EXCEL_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>CREATE_DATE</Name>
+        <BOAttrName>CREATE_DATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>CREATE_DATE</ID>
+        <Title>生成时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.review.bo.ReviewInfo" Attr="CREATE_DATE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>STATUS</Name>
+        <BOAttrName>STATUS</BOAttrName>
+        <BODisplayAttrName />
+        <ID>STATUS</ID>
+        <Title>状态</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.review.bo.ReviewInfo" Attr="STATUS" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>REVIEW_PEOPLE</Name>
+        <BOAttrName>REVIEW_PEOPLE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>REVIEW_PEOPLE</ID>
+        <Title>复核人</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.review.bo.ReviewInfo" Attr="REVIEW_PEOPLE" />
+      </Field>
+	  <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>REVIEW_TMIE</Name>
+        <BOAttrName>REVIEW_TMIE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>REVIEW_TMIE</ID>
+        <Title>复核时间</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.review.bo.ReviewInfo" Attr="REVIEW_TMIE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>REVIEW_OPINION</Name>
+        <BOAttrName>REVIEW_OPINION</BOAttrName>
+        <BODisplayAttrName />
+        <ID>REVIEW_OPINION</ID>
+        <Title>复核意见</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.review.bo.ReviewInfo" Attr="REVIEW_OPINION" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAK1</Name>
+        <BOAttrName>BAK1</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAK1</ID>
+        <Title>备注</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="4000" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.review.bo.ReviewInfo" Attr="BAK1" />
+      </Field>
+
+  
+
+
+
+
+
+ 
+    </FieldList>
+  </FieldTypeSet>
+</ROOTINFO>

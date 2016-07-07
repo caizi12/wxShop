@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="RuleInfo" mainattr="ID">
+        <mapingenty type="table">RULE_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RULE_ID" maxlength="15" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RULE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TYPE_NAME" maxlength="2" datatype="String" type="COL" remark="规则类型
+00--礼品所属礼品小类
+01--礼品所属合作商
+02--特殊礼品设置">
+                <mapingcol datatype="VARCHAR2">TYPE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TYPE_CODE" maxlength="40" datatype="String" type="COL" remark="礼品类别编码
+">
+                <mapingcol datatype="VARCHAR2">TYPE_CODE</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="QBOAllegeDetailQRY" mainattr="CALLING_NUM">
+        <mapingenty type="query">select a.calling_num,
+               a.accept_date,
+               a.old_order_id,
+               a.old_suborder_id,
+               REPLACE(a.accept_desc, '"', '''') accept_desc,
+               REPLACE(a.deal_desc, '"', '''') deal_desc,
+               REPLACE(a.partner_deal, '"', '''') partner_deal,
+               e.province_name send_province,
+               a.accept_op_id,
+               d.para_name resp_partner_type_name,
+               m.partner_name resp_partner_name,
+               i.para_name allege_status_name,
+               decode(a.allege_parent_kind,
+                      '999999999999999',
+                      '投诉','咨询') allege_parent_kind_name,
+               b.allege_kind_name,
+               c.allege_level_name,
+               a.status_time,
+               a.relate_post_addr,
+               f.province_name,
+               g.para_name user_brand,
+               g.para_code user_brand_code,
+               h.para_name user_level,
+               a.allege_name,
+               a.allege_lx_method,
+               a.mobile_phone_no,
+               a.ware_name,
+               n.partner_name relate_gys_name,
+               p.partner_name relate_wls_name,
+               q.partner_name relate_ccs_name,
+               s.para_name exgback_resp,
+               decode(a.accept_type_id, '0', '通过10086','通过网站') accept_type_name,
+               decode(a.over_time, '0', '未超时','已超时') over_time_flag,
+               t.para_name exchg_channel_name,
+               x.f_name ware_first_kind,
+               a.com_type_id,
+               a.accept_com_type,
+               a.allege_parent_kind,
+               a.allege_kind_id,
+               a.allege_level_id,
+               x.ware_first_kind_id ware_first_kind_id,
+               a.allege_status,
+               a.province_code,
+               a.over_time,
+               a.resp_partner_type,
+               a.resp_partner_id,
+               a.exchg_channel,
+               a.resp_op_id,
+               a.allege_resp,
+               a.indictseq,
+               a.indict_status,
+               ind.para_name indict_status_name,
+               m1.partner_name allege_resp_name,
+               sta.staff_name accept_op_name,
+               sta1.staff_name resp_op_name,
+               x.ware_code,
+               x.ware_kind_id,
+               x.kind_name,
+               x.ware_kind_parent_id,
+               x.big_kind_name,
+	       x.ware_kind_info_id,
+               x.ware_kind_info_name
+          from allege_info a,
+               allege_kind b,
+               Allege_Level_Info c,
+               cm_province_info e,
+               cm_province_info f,
+               partner_info m,
+               partner_info m1,
+               sys_staff sta,
+               sys_staff sta1,
+               (select partner_id, partner_code, partner_name
+                  from partner_info
+                 where partner_type_id = '3') n,
+               (select partner_id, partner_code, partner_name
+                  from partner_info
+                 where partner_type_id = '2') p,
+               (select partner_id, partner_code, partner_name
+                  from partner_info
+                 where partner_type_id = '6') q,
+               (select para_code, para_name
+                  from sys_para_data
+                 where para_type_id = 6) d,
+               (select para_code, para_name
+                  from sys_para_data
+                 where para_type_id = 13) g,
+               (select para_code, para_name
+                  from sys_para_data
+                 where para_type_id = 37) h,
+               (select para_code, para_name
+                  from sys_para_data
+                 where para_type_id in ('2', '28')) i,
+               (select para_code, para_name
+                  from sys_para_data
+                 where para_type_id = 1050) t,
+               (select para_code, para_name
+                  from sys_para_data
+                 where para_type_id = 76) s,
+               (select para_code, para_name
+                  from sys_para_data
+                 where para_type_id = 4269) ind,
+               (select aa.ware_id,
+                       aa.ware_code,
+                       ee.ware_first_kind_id,
+                       ee.f_name,
+                       cc.ware_kind_id,
+                       cc.kind_name,
+                       dd.ware_kind_parent_id,
+                       dd.big_kind_name,
+		       wki.kind_id ware_kind_info_id,
+                       wki.kind_name ware_kind_info_name
+                  from ware_info        aa,
+                       ware_kind_rlt    bb,
+                       ware_kind        cc,
+                       ware_kind_parent dd,
+		       ware_first_kind_rlt wfkr,
+                       ware_kind_info      wki,
+                       ware_first_kind  ee
+                 where aa.ware_id = bb.ware_id
+                   and bb.ware_kind_id = cc.ware_kind_id
+                   and cc.ware_kind_parent_id = dd.ware_kind_parent_id
+                   and dd.ware_first_kind_id = ee.ware_first_kind_id
+
+		   and wfkr.ware_first_kind_id = wki.kind_id(+) 
+                   and dd.ware_kind_parent_id = wfkr.ware_kind_parent_id(+)
+
+                   and bb.is_default_kind = '1') x
+         where a.allege_kind_id = b.allege_kind_id(+)
+           and a.allege_level_id = c.allege_level_id(+)
+           and a.resp_partner_type = d.para_code(+)
+           and a.send_province = e.province_code(+)
+           and a.province_code = f.province_code(+)
+           and a.user_brand = g.para_code(+)
+           and a.user_level = h.para_code(+)
+           and a.allege_status = i.para_code(+)
+           and a.resp_partner_id = m.partner_id(+)
+           and a.relate_gys_id = n.partner_id(+)
+           and a.relate_wls_id = p.partner_id(+)
+           and a.relate_ccs_id = q.partner_id(+)
+           and a.exchg_channel = t.para_code(+)
+           and a.exgback_resp = s.para_code(+)
+           and a.indict_status = ind.para_code(+)
+           and a.allege_resp = m1.partner_id(+)
+           and a.accept_op_id = sta.staff_id(+)
+           and a.resp_op_id = sta1.staff_id(+)
+           and a.ware_id = x.ware_id(+)</mapingenty>
+        <datafilter />
+        <attrlist>
+	<attr floatlength="0" name="WARE_KIND_INFO_ID" maxlength="22" datatype="Long" type="COL">
+	    		<mapingcol datatype="NUMBER">WARE_KIND_INFO_ID</mapingcol>
+			</attr>
+			<attr floatlength="0" name="WARE_KIND_INFO_NAME" maxlength="400" datatype="String" type="COL">
+			    <mapingcol datatype="VARCHAR2">WARE_KIND_INFO_NAME</mapingcol>
+			</attr>
+            <attr floatlength="0" name="CALLING_NUM" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">CALLING_NUM</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACCEPT_DATE" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">ACCEPT_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OLD_ORDER_ID" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">OLD_ORDER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OLD_SUBORDER_ID" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">OLD_SUBORDER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACCEPT_DESC" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ACCEPT_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="DEAL_DESC" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">DEAL_DESC</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PARTNER_DEAL" maxlength="4000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PARTNER_DEAL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="SEND_PROVINCE" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">SEND_PROVINCE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACCEPT_OP_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">ACCEPT_OP_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RESP_PARTNER_TYPE_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RESP_PARTNER_TYPE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RESP_PARTNER_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RESP_PARTNER_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_STATUS_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_STATUS_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_PARENT_KIND_NAME" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_PARENT_KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_KIND_NAME" maxlength="40" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_LEVEL_NAME" maxlength="40" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_LEVEL_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="STATUS_TIME" maxlength="7" datatype="DateTime" type="COL">
+                <mapingcol datatype="DATE">STATUS_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RELATE_POST_ADDR" maxlength="500" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RELATE_POST_ADDR</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROVINCE_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROVINCE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="USER_BRAND" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">USER_BRAND</mapingcol>
+            </attr>
+            <attr floatlength="0" name="USER_BRAND_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">USER_BRAND_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="USER_LEVEL" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">USER_LEVEL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_NAME" maxlength="32" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_LX_METHOD" maxlength="32" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_LX_METHOD</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MOBILE_PHONE_NO" maxlength="15" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">MOBILE_PHONE_NO</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_NAME" maxlength="100" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RELATE_GYS_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RELATE_GYS_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RELATE_WLS_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RELATE_WLS_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RELATE_CCS_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RELATE_CCS_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EXGBACK_RESP" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">EXGBACK_RESP</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACCEPT_TYPE_NAME" maxlength="9" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ACCEPT_TYPE_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OVER_TIME_FLAG" maxlength="6" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">OVER_TIME_FLAG</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EXCHG_CHANNEL_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">EXCHG_CHANNEL_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_FIRST_KIND" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_FIRST_KIND</mapingcol>
+            </attr>
+            <attr floatlength="0" name="COM_TYPE_ID" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">COM_TYPE_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACCEPT_COM_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ACCEPT_COM_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_PARENT_KIND" maxlength="15" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_PARENT_KIND</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_KIND_ID" maxlength="17" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_KIND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_LEVEL_ID" maxlength="15" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_LEVEL_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_FIRST_KIND_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_FIRST_KIND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_STATUS" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="PROVINCE_CODE" maxlength="4" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">PROVINCE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="OVER_TIME" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">OVER_TIME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RESP_PARTNER_TYPE" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RESP_PARTNER_TYPE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RESP_PARTNER_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RESP_PARTNER_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="EXCHG_CHANNEL" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">EXCHG_CHANNEL</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RESP_OP_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">RESP_OP_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_RESP" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_RESP</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INDICTSEQ" maxlength="23" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">INDICTSEQ</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INDICT_STATUS" maxlength="2" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">INDICT_STATUS</mapingcol>
+            </attr>
+            <attr floatlength="0" name="INDICT_STATUS_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">INDICT_STATUS_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ALLEGE_RESP_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ALLEGE_RESP_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="ACCEPT_OP_NAME" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">ACCEPT_OP_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="RESP_OP_NAME" maxlength="200" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">RESP_OP_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_CODE" maxlength="20" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">WARE_CODE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_KIND_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_KIND_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="KIND_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">KIND_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="WARE_KIND_PARENT_ID" maxlength="22" datatype="Long" type="COL">
+                <mapingcol datatype="NUMBER">WARE_KIND_PARENT_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BIG_KIND_NAME" maxlength="1000" datatype="String" type="COL">
+                <mapingcol datatype="VARCHAR2">BIG_KIND_NAME</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

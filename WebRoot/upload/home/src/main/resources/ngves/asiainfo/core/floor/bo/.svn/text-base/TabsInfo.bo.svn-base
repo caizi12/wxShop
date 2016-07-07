@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+    <sysbo datasource="UserDataSource" name="TabsInfo" mainattr="TABS_ID" remark="页签信息">
+        <mapingenty type="table">TABS_INFO</mapingenty>
+        <datafilter />
+        <attrlist>
+            <attr floatlength="0" name="TABS_ID" maxlength="15" datatype="Long" type="PK" remark="页签标识">
+                <mapingcol datatype="NUMBER">TABS_ID</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TABS_NAME" maxlength="100" datatype="String" type="COL" remark="页签名称">
+                <mapingcol datatype="VARCHAR2">TABS_NAME</mapingcol>
+            </attr>
+            <attr floatlength="0" name="TABS_TEMPLATE" maxlength="20" datatype="String" type="COL" remark="页签模板">
+                <mapingcol datatype="VARCHAR2">TABS_TEMPLATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="CREAT_DATE" maxlength="20" datatype="DateTime" type="COL" remark="创建日期">
+                <mapingcol datatype="DATE">CREAT_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="MODITY_DATE" maxlength="20" datatype="DateTime" type="COL" remark="修改日期">
+                <mapingcol datatype="DATE">MODITY_DATE</mapingcol>
+            </attr>
+            <attr floatlength="0" name="BAK_COL1" maxlength="100" datatype="String" type="COL" remark="扩展字段">
+                <mapingcol datatype="VARCHAR2">BAK_COL1</mapingcol>
+            </attr>
+        </attrlist>
+        <relationlist />
+        <oplist />
+    </sysbo>
+</sysbolist>

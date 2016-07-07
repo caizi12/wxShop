@@ -1,0 +1,21 @@
+jdbc.driver=com.mysql.jdbc.Driver
+jdbc.url=jdbc\:mysql\://localhost\:3306/myframe?useUnicode\=true&characterEncoding\=UTF-8
+jdbc.username=root
+jdbc.password=123456
+pool.initialPoolSize=5
+pool.minPoolSize=3
+pool.maxPoolSize=50
+##一次增加的连接数
+pool.acquireIncrement=5
+##最大空闲时间，若600秒未使用将回收此连接
+pool.maxIdleTime=600
+##可以在连接池峰值时快速释放连接，相当代替了maxIdleTime，此值应比maxIdleTime小，设置在几分钟或者几秒
+pool.maxIdleTimeExcessConnections=120
+##获取连接超时时间，设为0则无限期等待
+pool.checkoutTimeout=3600
+##定义在从数据库获取新连接失败后重复尝试的次数。Default: 30
+pool.acquireRetryAttempts=30
+##每隔600秒检查此连接是否可用
+pool.idleConnectionTestPeriod=600
+##连接关闭时默认将所有未提交的操作回滚。Default: false 
+pool.autoCommitOnClose=true

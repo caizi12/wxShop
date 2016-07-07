@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETWarePCRlt" BOName="ngves.asiainfo.core.ware.bo.WarePCRlt" MainField="WARE_PC_RLT_ID" Title="ngves.asiainfo.core.ware.bo.WarePCRlt" ActBOName="ngves.asiainfo.core.ware.bo.WarePCRlt" Package="ngves.asiainfo.core.ware.bo">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>BAL_COL</Name>
+        <BOAttrName>BAL_COL</BOAttrName>
+        <BODisplayAttrName />
+        <ID>BAL_COL</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="200" Decimal="0">String</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WarePCRlt" Attr="BAL_COL" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>C_WARE_ID</Name>
+        <BOAttrName>C_WARE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>C_WARE_ID</ID>
+        <Title>子礼品ID</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WarePCRlt" Attr="C_WARE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>P_WARE_ID</Name>
+        <BOAttrName>P_WARE_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>P_WARE_ID</ID>
+        <Title>父礼品ID</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WarePCRlt" Attr="P_WARE_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>WARE_PC_RLT_ID</Name>
+        <BOAttrName>WARE_PC_RLT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>WARE_PC_RLT_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>Y</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WarePCRlt" Attr="WARE_PC_RLT_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>C_BUSI_ID</Name>
+        <BOAttrName>C_BUSI_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>C_BUSI_ID</ID>
+        <Title />
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="15" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <ActBO Name="ngves.asiainfo.core.ware.bo.WarePCRlt" Attr="C_BUSI_ID" />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>
