@@ -1,80 +1,0 @@
-10
-
-dir
-42357
-http://10.12.1.215:8888/jf/app/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/custom
-http://10.12.1.215:8888/jf/app
-
-
-
-2014-05-29T03:31:50.185840Z
-33765
-fansr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-abdf0944-044d-4b92-9e3d-1725dda64f20
-
-bo
-dir
-
-model
-dir
-
-service
-dir
-
-dao
-dir
-
-AllegeConstant.java
-file
-
-
-
-
-2015-06-17T04:00:26.402617Z
-abb989b99b9589cc530175b8e934fb94
-2013-05-11T08:48:18.962221Z
-27245
-cuihj
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6294
-
-ivalues
-dir
-
-util
-dir
-

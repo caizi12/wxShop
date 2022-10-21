@@ -1,83 +1,0 @@
-10
-
-dir
-42357
-http://10.12.1.215:8888/jf/app/trunk/ngves/ngves_core/src/main/java/ngves/asiainfo/core/donated
-http://10.12.1.215:8888/jf/app
-
-
-
-2014-05-29T03:31:50.185840Z
-33765
-fansr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-abdf0944-044d-4b92-9e3d-1725dda64f20
-
-bo
-dir
-
-model
-dir
-
-service
-dir
-
-dao
-dir
-
-ivalues
-dir
-
-DonatedConstant.java
-file
-
-
-
-
-2015-06-17T04:00:33.532025Z
-1a08e0ca6cce16796b6992a720476613
-2011-11-08T10:01:09.278965Z
-17447
-liuyq
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3064
-
-util
-dir
-
-exception
-dir
-
