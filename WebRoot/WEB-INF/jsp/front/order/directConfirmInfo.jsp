@@ -250,7 +250,7 @@ var productIds = "<%=productIds%>";
 var mobileNo = '';
 var path='<%=path%>';
 
-var confirmCodeUrl=path+"/portal/ngves.asiainfo.portal.order.web.UserOrderAction?action=sendConfirmCode";
+var confirmCodeUrl=path+"/portal/nb.lf.portal.order.web.UserOrderAction?action=sendConfirmCode";
 
 $(document).ready(function() {
 	$("#confirmButton").attr('disabled',false);

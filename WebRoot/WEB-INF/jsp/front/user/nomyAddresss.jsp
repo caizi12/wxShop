@@ -1,7 +1,7 @@
 <%@ page import="java.util.*" contentType="text/html; charset=utf-8"%>
 
-<%@page import="ngves.asiainfo.portal.user.model.SessionInfoValue"%>
-<%@page import="ngves.asiainfo.portal.common.util.SNAUtil"%><html>
+<%@page import="nb.lf.portal.user.model.SessionInfoValue"%>
+<%@page import="nb.lf.portal.common.util.SNAUtil"%><html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">

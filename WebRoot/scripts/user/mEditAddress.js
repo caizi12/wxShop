@@ -138,7 +138,7 @@ $(function(){
 		}
 		
 		
-	  var _postUrl = request.getContextPath()+"/portal/ngves.asiainfo.portal.user.web.UserAddressAction?action=modifyUserAddr";
+	  var _postUrl = request.getContextPath()+"/portal/nb.lf.portal.user.web.UserAddressAction?action=modifyUserAddr";
 	  $.post(
 			 _postUrl,
 			{sendProvinceCode:modifyProvinceCode,sendCityCode:modifyCityCode,

@@ -1,5 +1,5 @@
-<%@page import="ngves.asiainfo.portal.PortalConstant"%>
-<%@page import="ngves.asiainfo.CommnConstant"%><%
+<%@page import="nb.lf.portal.PortalConstant"%>
+<%@page import="nb.lf.CommnConstant"%><%
 out.println("<script type=\"text/javascript\">");
 out.println("var onloadStartTime = new Date();");
 out.println("</script>");

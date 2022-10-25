@@ -9,7 +9,7 @@ function addShoppingCart(path,wareId,wareName,wareImg,gValue,mValue,eValue,payTy
     wareAmount = wareAmount || 1;
 	 $.ajax({
 		    type:"POST",
-		    url:path + "/portal/ngves.asiainfo.portal.ware.web.WareDetailAction?is_test=N&action=addShoppingCart&t=" + (new Date().getTime().toString(36)),
+		    url:path + "/portal/nb.lf.portal.ware.web.WareDetailAction?is_test=N&action=addShoppingCart&t=" + (new Date().getTime().toString(36)),
 		    dataType:"json",
 		    data:"ware_id="+wareId+"&ware_name="+wareName+"&ware_img="+wareImg+"&g_value="+gValue+"&m_value="+mValue+"&e_value="+eValue+"&payType="+payType+"&curCash="+curCash+"&curIntegral="+curIntegral+"&ware_amount="+wareAmount,
 		    success:function(data){

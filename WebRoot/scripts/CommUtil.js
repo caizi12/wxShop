@@ -42,7 +42,7 @@ function g_GetSysDateTime()
      var _gNode = null;
      var xml= new ActiveXObject("Msxml.DOMDocument");
      xml.async = false;
-     var url=  _gModuleName+ "/potal/ngves.asiainfo.portal.tuan.web.TuanAction?action=getSysDateTime";
+     var url=  _gModuleName+ "/potal/nb.lf.portal.tuan.web.TuanAction?action=getSysDateTime";
      var b = xml.load(url);
      if(!b){
 	    alert("无法获取时间信息,请检查:\n当前用户是否已经失效.\n网络连接是否正常.\n数据库运行是否正常");

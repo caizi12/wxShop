@@ -142,7 +142,7 @@ function clearFromCookieOfNoType(wareIds,payTypes)   {
     $.ajax({
         type:"POST",
         dataType:"json",
-        url:path+"/portal/ngves.asiainfo.portal.order.web.ShoppingCartAction?action=deleteFromCookie",
+        url:path+"/portal/nb.lf.portal.order.web.ShoppingCartAction?action=deleteFromCookie",
         data:"ware_ids="+wareIds+"&delAllFlag="+delAllFlag+"&payTypes="+payTypes,
         success:function(data){
             if(data.msg == "success"){

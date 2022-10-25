@@ -1,8 +1,8 @@
-<%@page import="ngves.asiainfo.portal.common.util.SNAUtil"%>
-<%@page import="ngves.asiainfo.portal.common.util.CookieUtil"%>
+<%@page import="nb.lf.portal.common.util.SNAUtil"%>
+<%@page import="nb.lf.portal.common.util.CookieUtil"%>
 <%@ page language="java" pageEncoding="UTF-8"%>
-<%@page import="ngves.asiainfo.portal.PortalConstant"%>
-<%@page import="ngves.asiainfo.portal.order.OrderConstant"%>
+<%@page import="nb.lf.portal.PortalConstant"%>
+<%@page import="nb.lf.portal.order.OrderConstant"%>
 <%
 	Cookie uid_cookie = new Cookie(CookieUtil.COOKIE_UID, null);
 	uid_cookie.setMaxAge(0);

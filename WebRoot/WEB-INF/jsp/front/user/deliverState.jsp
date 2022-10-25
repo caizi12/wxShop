@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
-<%@ page import="ngves.asiainfo.portal.ware.WareParamConstant"%>
-<%@ page import="ngves.asiainfo.portal.user.UserConstant"%>
-<%@ page import="ngves.asiainfo.portal.user.model.DelivStatusInfo"%>
-<%@ page import="ngves.asiainfo.portal.PortalCodeConstant"%>
+<%@ page import="nb.lf.portal.ware.WareParamConstant"%>
+<%@ page import="nb.lf.portal.user.UserConstant"%>
+<%@ page import="nb.lf.portal.user.model.DelivStatusInfo"%>
+<%@ page import="nb.lf.portal.PortalCodeConstant"%>
 <%@ taglib uri="/WEB-INF/ngves-taglib.tld" prefix="ngves"%>
-<%@ page import="ngves.asiainfo.util.DateTimeUtil"%>
+<%@ page import="nb.lf.util.DateTimeUtil"%>
 
 <html>
 <head>

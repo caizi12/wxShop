@@ -1,5 +1,5 @@
 
-<%@page import="ngves.asiainfo.portal.tag.TagImage"%><%  response.setHeader("Pragma", "no-cache");
+<%@page import="nb.lf.portal.tag.TagImage"%><%  response.setHeader("Pragma", "no-cache");
 	response.setHeader("Cache-Control", "no-cache");
 	response.setDateHeader("Expires", 0);
 	response.setContentType("text/css");
@@ -21,8 +21,8 @@
 	out.println("/* xxx_check_page_state_flag_xxx */");
 %>
 <%@ page contentType="text/html; charset=utf-8"%>
-<%@ page import="ngves.asiainfo.portal.order.web.FetchStyleAction"%>
+<%@ page import="nb.lf.portal.order.web.FetchStyleAction"%>
 <%@ page import="com.ai.appframe2.service.ServiceFactory"%>
-<%@ page import="ngves.asiainfo.portal.styles.StyleConstant"%>
-<%@ page import="ngves.asiainfo.portal.styles.ivalues.IPagestyleInfoValue"%>
-<%@ page import="ngves.asiainfo.portal.tag.VersionTag"%>
+<%@ page import="nb.lf.portal.styles.StyleConstant"%>
+<%@ page import="nb.lf.portal.styles.ivalues.IPagestyleInfoValue"%>
+<%@ page import="nb.lf.portal.tag.VersionTag"%>

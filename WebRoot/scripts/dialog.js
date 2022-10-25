@@ -1,8 +1,5 @@
 /*
- * author 李小华
- * discription 该组件将dialog组件进行了封装，修改为适用于《积分商城》项目的alert组件
- * 感谢同事秦永利对该组件的美化
- * Copyright (c) 2006 Asiainfo
+ 
  */
 
 function tip(code,level){

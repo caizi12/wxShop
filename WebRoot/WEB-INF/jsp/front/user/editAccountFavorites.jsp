@@ -2,27 +2,27 @@
     pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<%@page import="ngves.asiainfo.portal.user.UserConstant"%>
-<%@page import="ngves.asiainfo.portal.user.model.SessionInfoValue"%>
-<%@page import="ngves.asiainfo.portal.common.util.SNAUtil" %>
-<%@page import="ngves.asiainfo.portal.common.PortalCmmnConstant"%>
+<%@page import="nb.lf.portal.user.UserConstant"%>
+<%@page import="nb.lf.portal.user.model.SessionInfoValue"%>
+<%@page import="nb.lf.portal.common.util.SNAUtil" %>
+<%@page import="nb.lf.portal.common.PortalCmmnConstant"%>
 <%@ taglib uri="/WEB-INF/pager-taglib.tld" prefix="pg"%>
 <%@taglib uri="/WEB-INF/ngves-taglib.tld" prefix="ngves"%>
-<%@page import="ngves.asiainfo.portal.order.OrderConstant"%>
-<%@page import="ngves.asiainfo.portal.PortalConstant"%>
-<%@page import="ngves.asiainfo.portal.common.domain.WareVO"%>
-<%@page import="ngves.asiainfo.portal.util.WareViewUtil"%>
-<%@page import="ngves.asiainfo.portal.common.util.UrlUtil"%>
-<%@page import="ngves.asiainfo.portal.common.util.WareShowUtil"%>
-<%@page import="ngves.asiainfo.portal.ware.WareParamConstant"%>
-<%@page import="ngves.asiainfo.portal.util.TuanView"%>
-<%@page import="ngves.asiainfo.portal.ware.ivalues.IQBOWareInfoPortalInfoValue"%>
-<%@page import="ngves.asiainfo.portal.common.util.PropertyReader"%>
-<%@page import="ngves.asiainfo.util.StringUtil"%>
-<%@page import="ngves.asiainfo.core.common.util.WareTypeCodeEnum"%>
-<%@page import="ngves.asiainfo.portal.PortalCodeConstant"%>
+<%@page import="nb.lf.portal.order.OrderConstant"%>
+<%@page import="nb.lf.portal.PortalConstant"%>
+<%@page import="nb.lf.portal.common.domain.WareVO"%>
+<%@page import="nb.lf.portal.util.WareViewUtil"%>
+<%@page import="nb.lf.portal.common.util.UrlUtil"%>
+<%@page import="nb.lf.portal.common.util.WareShowUtil"%>
+<%@page import="nb.lf.portal.ware.WareParamConstant"%>
+<%@page import="nb.lf.portal.util.TuanView"%>
+<%@page import="nb.lf.portal.ware.ivalues.IQBOWareInfoPortalInfoValue"%>
+<%@page import="nb.lf.portal.common.util.PropertyReader"%>
+<%@page import="nb.lf.util.StringUtil"%>
+<%@page import="nb.lf.core.common.util.WareTypeCodeEnum"%>
+<%@page import="nb.lf.portal.PortalCodeConstant"%>
 <%@page import="java.math.BigDecimal"%>
-<%@page import="ngves.asiainfo.core.CoreConstant"%><html xmlns="http://www.w3.org/1999/xhtml">
+<%@page import="nb.lf.core.CoreConstant"%><html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <%
       String path = request.getContextPath();
@@ -72,7 +72,7 @@
       String SHOW_USER_SHOP_ACTION = path + "/portal/order/web/ShoppingCartAction?action=showUserShopInfo";
       String accountAction = path + "/portal/user/web/UserAccountAction?action=";
       String msg = (String)request.getAttribute("msg");
-      String checkCurUserLoginAction = path + "/portal/ngves.asiainfo.portal.order.web.ShoppingCartAction?action=";
+      String checkCurUserLoginAction = path + "/portal/nb.lf.portal.order.web.ShoppingCartAction?action=";
 
 %>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
