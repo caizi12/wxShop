@@ -365,7 +365,7 @@ Spry.Widget.TabbedPanels.prototype.showPanel = function(elementOrIndex)
 	}else if(tpIndex == 1){
 		$("#moreRec").attr("href",tabPath + "/mzone.html");     
 	}else if(tpIndex == 2) {
-		// add by shenfl  添加神州行更多按钮显示操作 
+		
 		$("#moreRec").attr("href",tabPath + "/easyown.html");
 	}
 	

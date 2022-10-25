@@ -46,7 +46,7 @@ String accountAction = path + "/portal/user/web/UserAccountAction?action=";
 // 记录促销类礼品的条数
 int index = 0;
 
-//未登录取得所有的要清空的礼品的唯一标识  modified by shenfl at 2011-05-23
+
 if(shopInfoValues != null && 0 < shopInfoValues.length){
     for(IQBOUserShopInfoValue value : shopInfoValues){
        // 取得所有要清空的礼品ID JHC是否加支付方式
