@@ -13,7 +13,7 @@ import cn.frame.platform.common.base.DataGridModel;
 /**
  * 转换requestParameters到Map中,实现自动封装请求的参数
  * @date 2012-09-24 20:10:58
- * @author llliang
+ * @author lil
  *
  */
 public class RequestParmConvert {

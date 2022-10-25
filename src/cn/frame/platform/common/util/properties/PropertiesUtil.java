@@ -12,7 +12,7 @@ import org.apache.log4j.Logger;
  * 系统基础提示信息操作类
  * 
  * @date 2012-08-27 20:55:11
- * @author llliang
+ * @author lil
  * 
  */
 public class PropertiesUtil {

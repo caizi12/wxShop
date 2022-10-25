@@ -10,7 +10,7 @@ import org.codehaus.jackson.annotate.JsonProperty;
 /**
  * jquery  dataGrid模型类
  * @date 2012-09-24 20:20:29
- * @author llliang
+ * @author lil
  *
  */
 public class DataGridModel  implements java.io.Serializable {

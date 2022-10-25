@@ -22,7 +22,7 @@ import com.ibatis.sqlmap.engine.impl.SqlMapClientImpl;
  * 公共DAO操作类，代替ibatis的SqlMapClientDaoSupport，并整合jdbcTemplate
  * 
  * @date 2012-08-11 17:24:24
- * @author llliang
+ * @author lil
  * 
  */
 

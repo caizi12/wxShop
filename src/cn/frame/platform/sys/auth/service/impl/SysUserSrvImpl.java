@@ -20,7 +20,7 @@ import com.ibatis.sqlmap.client.SqlMapExecutor;
  * 系统用户管理
  * 
  * @date 2012-09-23 14:21:45
- * @author llliang
+ * @author lil
  * 
  */
 @Service("sysUserSrv")

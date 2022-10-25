@@ -44,7 +44,7 @@ public class SendSmsUtil {
 	            conn.setDoOutput(true);
 	            
 	        	smsContent=smsContent.replace("${smsCode}", smsCode);
-	            smsContent="account=cf_gsxd&password=liang123&mobile="+mobileNo+"&sign=北京广顺信达&content="+java.net.URLEncoder.encode(smsContent,"utf-8");
+	            smsContent="account=cf_gsxd&password=test123&mobile="+mobileNo+"&sign=北京广顺信达&content="+java.net.URLEncoder.encode(smsContent,"utf-8");
 	            logger.info("注册验证码发送内容："+smsContent+"\n：验证码："+smsCode);
 	            conn.setRequestProperty("Content-Length", "" + smsContent.length());
 	            OutputStreamWriter out = new OutputStreamWriter(conn.getOutputStream(), "UTF-8");

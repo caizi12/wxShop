@@ -9,7 +9,7 @@ import cn.frame.platform.entitys.SysUser;
  /**
   * 系统用户管理
   * @date 2012-08-23 20:59:00
-  * @author llliang
+  * @author lil
   *
   */
 public interface SysUserSrv {

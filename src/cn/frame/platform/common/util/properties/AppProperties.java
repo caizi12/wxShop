@@ -8,7 +8,7 @@ import java.util.Properties;
 /**
  * properties操作类
  * @date 2012-08-27 20:55:11
- * @author llliang
+ * @author lil
  *
  */
 public class AppProperties implements Serializable {

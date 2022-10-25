@@ -19,7 +19,7 @@ public class PayConstant {
 	public static final String mchID = "1260378401";
 	
 	//微信商户支付密钥
-	public static final String key = "liuliliang2015083011181300000000";
+	public static final String key = "liulitest2015083011181300000000";
 	
 	/**
 	 * 应用密钥

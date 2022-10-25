@@ -58,6 +58,6 @@ public class WeixinMD5 {
     }
 
     public static void main(String[] a){
-    	 System.out.print(WeixinMD5.MD5Encode("appid=wxdd01fa25bdf452da&body=净水机&mch_id=1260378401&nonce_str=2wtrybpstrdgiaqns353&notify_url=http://www.gssc51.com:8080/wxShop/pay/result.do&openid=oIG20t31hGL38TDmKlcmJCn7JjiU&out_trade_no=2015083013091000123&spbill_create_ip=10.12.3.4&total_fee=1&trade_type=JSAPI&key=liuliliang2015083011181300000000"));
+    	 System.out.print(WeixinMD5.MD5Encode("appid=wxdd01fa25bdf452da&body=净水机&mch_id=1260378401&nonce_str=2wtrybpstrdgiaqns353&notify_url=http://www.gssc51.com:8080/wxShop/pay/result.do&openid=oIG20t31hGL38TDmKlcmJCn7JjiU&out_trade_no=2015083013091000123&spbill_create_ip=10.12.3.4&total_fee=1&trade_type=JSAPI&key=liulitest2015083011181300000000"));
     }
 }

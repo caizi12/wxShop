@@ -3,7 +3,7 @@ package cn.frame.platform.common;
 /**
  * 系统常量类，主要用于存放系统基础常量信息
  * @date 2012-08-27 19:22:05
- * @author llliang
+ * @author lil
  *
  */
 public class ConstantPlatform {

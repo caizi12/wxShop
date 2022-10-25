@@ -8,7 +8,7 @@ import org.springframework.util.StringUtils;
 /**
  * 日期转换属性编辑器
  * @date 2012-11-27 15:49:39
- * @author llliang
+ * @author lil
  *
  */
 public class DateConvertEditor extends PropertyEditorSupport {

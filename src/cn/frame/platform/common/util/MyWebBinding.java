@@ -10,7 +10,7 @@ import org.springframework.web.context.request.WebRequest;
  * 字符串应为"2012-10-12、2012-10-12 12:20:20"等标准字符日期格式
  * 
  * @date 2012-11-27 15:50:42
- * @author llliang
+ * @author lil
  * 
  */
 public class MyWebBinding implements WebBindingInitializer {
